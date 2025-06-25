@@ -1,0 +1,153 @@
+books:
+  - year_asc: 2017
+    year_desc: -2017
+    title: Autumn
+    title_asc: 6
+    title_desc: -6
+    genre: Fiction
+    gender: female
+    first_name: Ali Smith
+    last_name: Smith
+    age_asc: 54.157426420260094
+    age_desc: -54.157426420260094
+    pages_asc: 264
+    pages_desc: -264
+    rating_asc: 3.7335997660590703
+    rating_desc: -3.7335997660590703
+    rating_count_asc: 10259
+    rating_count_desc: -10259
+    is_bestseller: true
+    is_not_bestseller: false
+    is_english: true
+    book:
+      id: "28446947"
+      translator: ""
+      author_ids:
+        - "68992"
+        - ""
+      author_names: Ali Smith
+      link: https://www.goodreads.com/book/show/28446947-autumn
+      editor: ""
+      publisher: Hamish Hamilton
+      publication_date: October 20, 2016
+      original_publication_date: N/A
+      pages: 899
+      rating:
+        count: 10259
+        sum: 38303
+      image_url: https://images.gr-assets.com/books/1456560519m/28446947.jpg
+      seller: {}
+      age_at_publication: 54.157426420260094
+  - year_asc: 2022
+    year_desc: -2022
+    title: The Furrows
+    title_asc: 11
+    title_desc: -11
+    genre: Fiction
+    gender: female
+    first_name: Namwali Serpell
+    last_name: Serpell
+    age_asc: 42.7378507871321
+    age_desc: -42.7378507871321
+    pages_asc: 288
+    pages_desc: -288
+    rating_asc: 3.2464139344262297
+    rating_desc: -3.2464139344262297
+    rating_count_asc: 3904
+    rating_count_desc: -3904
+    is_bestseller: false
+    is_not_bestseller: true
+    is_english: true
+    book:
+      id: "59900679"
+      translator: ""
+      author_ids:
+        - "6895960"
+        - ""
+      author_names: Namwali Serpell
+      link: https://www.goodreads.com/book/show/59900679-the-furrows
+      editor: ""
+      publisher: Hogarth
+      publication_date: N/A
+      original_publication_date: September 27, 2022
+      pages: 288
+      rating:
+        count: 3904
+        sum: 12674
+      image_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660591129l/59900679._SX98_.jpg
+      seller: {}
+      age_at_publication: 42.7378507871321
+  - year_asc: 2022
+    year_desc: -2022
+    title: Trust
+    title_asc: 5
+    title_desc: -5
+    genre: Fiction
+    gender: male
+    first_name: Hernan Diaz
+    last_name: Diaz
+    age_asc: 49.333333333333336
+    age_desc: -49.333333333333336
+    pages_asc: 416
+    pages_desc: -416
+    rating_asc: 3.8623961836776717
+    rating_desc: -3.8623961836776717
+    rating_count_asc: 58276
+    rating_count_desc: -58276
+    is_bestseller: false
+    is_not_bestseller: true
+    is_english: true
+    book:
+      id: "58210933"
+      translator: ""
+      author_ids:
+        - "392822"
+        - ""
+      author_names: Hernan Diaz
+      link: https://www.goodreads.com/book/show/58210933-trust
+      editor: ""
+      publisher: Riverhead Books
+      publication_date: N/A
+      original_publication_date: May 03, 2022
+      pages: 416
+      rating:
+        count: 58276
+        sum: 225085
+      image_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631246461l/58210933._SX98_.jpg
+      seller: {}
+      age_at_publication: 49.333333333333336
+  # ... weitere Bücher ...
+authors:
+  "1856113":
+    author_id: "1856113"
+    name: Karan Mahajan
+    image_url: https://images.gr-assets.com/authors/1438552833p5/1856113.jpg
+    link: https://www.goodreads.com/author/show/1856113.Karan_Mahajan
+    gender: male
+    birth_year: "1984"
+    birth_month: "4"
+    birth_day: "24"
+    death_year: ""
+    death_month: ""
+    death_day: ""
+    birth_date: 4/24/1984
+    death_date: N/A
+    birth_date_simple: April 24, 1984
+    death_date_simple: N/A
+  "3004686":
+    author_id: "3004686"
+    name: Ian McGuire
+    image_url: https://images.gr-assets.com/authors/1452604830p5/3004686.jpg
+    link: https://www.goodreads.com/author/show/3004686.Ian_McGuire
+    gender: male
+    birth_year: "1964"
+    birth_month: ""
+    birth_day: ""
+    death_year: ""
+    death_month: ""
+    death_day: ""
+    birth_date: 1/1/1964
+    death_date: N/A
+    birth_date_simple: 1964
+    death_date_simple: N/A
+  # ... weitere Autoren ...

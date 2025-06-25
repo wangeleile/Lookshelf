@@ -53,7 +53,7 @@
       <div class="columns is-multiline header">
         <div class="column is-12 logo">
           <div class="logo-text-wrapper">
-            <div class="logo-bb"><span class="logo-best">Wangeleiles</span> <span class="logo-book">Book</span></div>
+            <div class="logo-bb"><span class="logo-best">Wangeleiles</span> <span class="logo-book">Look</span></div>
             <div class="logo-shelf"><span class="shelf-text">She<span class="l-text"></span>f</span></div>
           </div>
         </div>
@@ -98,7 +98,9 @@
                 <select id="sort-0">
                   <option selected value="year_desc">Selected Year (New to Old)</option>
                   <option value="year_asc">Selected Year (Old to New)</option>
-<!--                   <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
+                  <option value="rating_asc">Rating (Low to High)</option>
+                  <option value="rating_desc">Rating (High to Low)</option>
+<!--              <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
                   <option value="genre">Fiction / Nonfiction</option>
                   <option value="gender">Female / Male (Author's Gender)</option>
                   <option value="is_not_bestseller">NYT Best Seller / Not Best Seller </option>
@@ -116,8 +118,6 @@
                   <option value="age_asc">Author's Age at Publication (Young to Old)</option>
                   <option value="age_desc">Author's Age at Publication (Old to Young)</option>
                   <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
-                  <option value="rating_asc">Rating (Low to High)</option>
-                  <option value="rating_desc">Rating (High to Low)</option>
                   <option value="rating_count_asc">Number of Ratings (Small to Large)</option>
                   <option value="rating_count_desc">Number of Ratings (Large to Small)</option>
  -->
@@ -134,26 +134,20 @@
                   <option value="year_asc">Selected Year (Old to New)</option>
                   <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
                   <option selected value="genre">Fiction / Nonfiction</option>
-                  <option value="gender">Female / Male (Author's Gender)</option>
+<!--                  <option value="gender">Female / Male (Author's Gender)</option>
                   <option value="is_not_bestseller">NYT Best Seller / Not Best Seller </option>
                   <option value="is_english">Translated / English</option>
-                  <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;</option>
-                  <option value="title">Book Title</option>
-                  <option value="title_asc">Length of Book Title (Short to Long)</option>
-                  <option value="title_desc">Length of Book Title (Long to Song)</option>
-                  <option value="first_name">Author's First Name</option>
-                  <option value="last_name">Author's Last Name</option>
-                  <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
-                  <option value="pages_asc">Number of Pages (Small to Large)</option>
-                  <option value="pages_desc">Number of Pages (Large to Small)</option>
-                  <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
-                  <option value="age_asc">Author's Age at Publication (Young to Old)</option>
-                  <option value="age_desc">Author's Age at Publication (Old to Young)</option>
+                  <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;</option> -->
+                    <!--
+                    <option value="title">Book Title</option>
+                    <option value="title_asc">Length of Book Title (Short to Long)</option>
+                    <option value="title_desc">Length of Book Title (Long to Song)</option>
+                    <option value="first_name">Author's First Name</
                   <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
                   <option value="rating_asc">Rating (Low to High)</option>
                   <option value="rating_desc">Rating (High to Low)</option>
                   <option value="rating_count_asc">Number of Ratings (Small to Large)</option>
-                  <option value="rating_count_desc">Number of Ratings (Large to Small)</option>
+                  <option value="rating_count_desc">Number of Ratings (Large to Small)</option> -->
                 </select>
               </span>
             </p>
@@ -279,7 +273,8 @@
   <script src="libs/lodash.min.js"></script>
   <script src="libs/d3.min.js"></script>
   <script src="libs/tippy.min.js"></script>
-  <script src="js/data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <!-- <script src="js/data.js"></script> -->
   <!-- <script src="js/data-old.js"></script> -->
   <!-- <script src="js/main-circle.js"></script> -->
   <script src="js/main.js"></script>

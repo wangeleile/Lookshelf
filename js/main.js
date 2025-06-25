@@ -86,12 +86,10 @@ function showModal(d, i, count, list, entered) {
   if (i < count - 1) {
     d3.select('.js-modal-next').on('click', () => { showModal(list[i + 1], i + 1, count, list, entered) });
   }
-
-  //show book elements
   d3.select('.js-d-genre').classed(`tag-${d.genre}`, true).classed(`tag-${d.genre === 'Fiction' ? 'Nonfiction' : 'Fiction'}`, false);
   d3.select('.js-modal-count').html(`${entered ? `Searched by <strong>${entered}</strong>, ` : ''}${i + 1}/${count}`);
-  d3.select('.js-book-image').attr('src', d.book.image_url).attr('alt', d.title);
-  d3.select('.js-d-title-link').attr('href', d.book.link);
+  d3.select('.js-book-image').attr('src', d.image_url).attr('alt', d.title);
+  d3.select('.js-d-title-link').attr('href', d.link || '#');
   let title = d.title.toUpperCase();
   let subtitle = 'N/A';
   const colon = d.title.indexOf(':');
@@ -99,86 +97,38 @@ function showModal(d, i, count, list, entered) {
     title = d.title.slice(0, colon).toUpperCase();
     subtitle = d.title.slice(colon + 2, d.title.length);
   }
-  let bestseller = 'N/A';
-  if (!_.isEmpty(d.book.seller)) {
-    let bs = '';
-    _.each(d.book.seller, (v, k) => {
-      const rank = _.max(v.map((d) => d.rank));
-      const dates = _.filter(v, (d) => d.rank === rank).map((d) => d.date).join('/');
-      const weeks = _.max(v.map((d) => d.weeks));
-      bs += `<li><i>#${rank}</i> in <i>${k}</i>: ${dates}${weeks > 1 ? ` (${weeks} weeks on the list)` : ''}</li>`;
-    })
-    bestseller = bs;
-  }
   const bookInfo = {
     title,
     subtitle,
-    author: d.book.author_names,
-    translator: d.book.translator || 'N/A',
-    editor: d.book.editor || 'N/A',
-    year: d.year_asc,
+    author: d.author,
+    year: d.year,
     genre: d.genre,
-    pages: d.book.pages,
-    publication_date: d.book.publication_date,
-    publisher: d.book.publisher,
-    bestseller: bestseller,
-    rating_avg: d.rating_asc.toFixed(2),
-    rating_count: d.rating_count_asc.toLocaleString(),
-    original_publication_date: d.book.original_publication_date
+    pages: d.pages,
+    publication_date: d.publication_date,
+    publisher: d.publisher,
+    bestseller: d.bestseller ? 'Yes' : 'No',
+    rating_avg: d.rating ? d.rating.toFixed(2) : 'N/A',
+    rating_count: d.rating_count ? d.rating_count.toLocaleString() : 'N/A',
   };
   _.each(bookInfo, (v, k) => {
     if (v) {
-      if (k === 'translator' || k === 'editor' || k === 'subtitle' || k === 'bestseller' || k === 'original_publication_date') {
+      if (k === 'subtitle') {
         d3.select(`.js-d-${k}-wrapper`).classed('is-hidden', v === 'N/A');
       }
       d3.select(`.js-d-${k}`).html(v);
     }
   });
-  //authors info
-  const wrapper = d3.select('#modal-authors').html('');
-  _.each(_.compact(d.book.author_ids), (id) => {
-    const author = data.authors[id];
-    const media = wrapper.append('div').attr('class', 'media media-author');
-    media.append('div')
-        .attr('class', 'media-left')
-      .append('figure')
-        .attr('class', 'image')
-      .append('img')
-        .attr('src', author.image_url)
-        .attr('alt', author.name);
-    media.append('div')
-        .attr('id', `author-info-${id}`)
-        .attr('class', 'media-content')
-      .append('p')
-        .attr('class', 'title is-5')
-        .html(`<span>${author.name}</span> <a target="_blank" href="${author.link}"><span class="modal-link"></span></a>`);
-    const authorInfo = d3.select(`#author-info-${id}`)
-      .append('div')
-        .attr('class', 'info-elm');
-    const age = d.age_asc === -10 ?
-      'Published after death' :
-      (d.age_asc > 0 ?
-        `${Math.floor(d.age_asc)} years old at original publication` :
-        'N/A');
-    if (age !== 'N/A') {
-      authorInfo.append('p').html(`<span class="info">${age}</span>`)
-    }
-    if (author.birth_date_simple !== 'N/A') {
-      authorInfo.append('p').html(`Born <span class="info">${author.birth_date_simple}</span>`)
-    }
-    if (author.death_date_simple !== 'N/A') {
-      authorInfo.append('p').html(`Died <span class="info">${author.death_date_simple}</span>`)
-    }
-  });
-  const authorsInfo = d.book.author_ids.map((id) => data.authors[id]);
+  d3.select('#modal-authors').html('');
 }
 
 function getShelfWidth() {
   return Math.max(document.getElementById('shelf').clientWidth, 700)
 }
-//put all javascript code in one function
-(() => {
-  const books = _.sortBy(data.books, ['year_desc', 'genre']);
+//put all javascript code in eine Funktion, die nach dem Laden von books.yaml aufgerufen wird
+function startApp(data) {
+  // Nur eine Sortieroption (Standard: Jahr absteigend)
+  let sortOption = 'year_desc';
+  const books = _.sortBy(data.books, [sortOption]);
 
   //add text in headline
   d3.select('#headline-count').text(books.length);
@@ -206,7 +156,7 @@ function getShelfWidth() {
   const g = d3.select('#shelf-svg').append('g');
 
   //dimensions for each book
-  const pages = books.map((d) => d.book.pages);
+  const pages = books.map((d) => d.pages);
   const pageRange = getRange(pages, 100);
   const ages = _.filter(books.map((d) => d.age_asc), (d) => d > 0);
   const ageRange = getRange(ages, 10);
@@ -215,8 +165,7 @@ function getShelfWidth() {
   const middleH = d3.scaleLinear().domain(ageRange).range([10, bookHRange[0]]); //age
 
   //put legend of first level (id) and 2nd level
-  const putLegend0 = (text, count, accW, accS, isInitial, gap) => {
-    //hide labels first after sorting option is changed
+  const putLegend = (text, count, accW, accS, isInitial, gap) => {
     let triangle = 5;
     let pX = accW;
     let pY = (accS - 1) * (storyH + storyGap);
@@ -240,35 +189,9 @@ function getShelfWidth() {
       .attr('y', storyGap - triangle - 2)
       .attr('class', 'legend-0-count')
       .attr('id', `legend-0-${count}`);
-    //triangle
     g.append('path')
       .attr('d', `M${pX - gap + 5} ${pY + storyGap - triangle * 2 - 2} l ${triangle * 1.2} ${triangle} l ${-triangle * 1.2} ${triangle} z`)
       .attr('class', `legend-arrow js-legends${isInitial ? '' : ' is-hidden'}`)
-  };
-  const putLegend1 = (text, count, accW, accS, isInitial, gap) => {
-    let pX = accW;
-    let pY = accS * (storyH + storyGap) - storyH;
-    let wrapper = g.append('g')
-      .attr('transform', `translate(${pX}, ${pY})`)
-      .attr('class', `js-legends${isInitial ? '' : ' is-hidden'}`);
-    wrapper.append('rect')
-      .attr('x', -gap + 0.5)
-      .attr('y', 0)
-      .attr('width', gap - 1)
-      .attr('height', storyH)
-      .attr('class', 'legend-1-bg');
-    wrapper.append('text')
-      .attr('x', -4)
-      .attr('y', 4)
-      .text(text)
-      .attr('transform', `rotate(90, -4, 4)`)
-      .attr('class', 'legend-1');
-    wrapper.append('text')
-      .attr('x', -4)
-      .attr('y', storyH)
-      .attr('dy', -4)
-      .attr('class', 'legend-1-count')
-      .attr('id', `legend-1-${count}`);
   };
 
   //sort options
@@ -279,38 +202,28 @@ function getShelfWidth() {
     //remove all legends first
     d3.selectAll('.js-legends').remove();
     d3.selectAll('.js-shelves').remove();
-    let prevVals = _.map(sortOptions, (o) => getDivider(sortedBooks[0], o));
+    let prevVal = getDivider(sortedBooks[0], sortOption);
     let edge = 10;
-    let gap0 = 40; //first level gap
-    let gap1 = 28; //second level gap
-    let accW = gap0; //accumulated width
-    let accS = 1; //accumultated number of strories
+    let gap = 40;
+    let accW = gap;
+    let accS = 1;
     let dimensions = [];
-    let counts = [0, 0]; //count of books in the current label
-    let isNewLabels = [true, true]; //check if the books are divided
-    let labelCounts = [0, 0]; //counts of each label, used for id
+    let count = 0;
+    let isNewLabel = true;
+    let labelCount = 0;
     _.each(sortedBooks, (d, i) => {
-      const w = bookW(d.book.pages); //book width
+      const w = bookW(d.pages); //book width
       const h = bookH(d.rating_asc); //book height
-      const dividers = sortOptions.map((o) => getDivider(d, o)); //get labels at the dividing postions
+      const divider = getDivider(d, sortOption); //get labels at the dividing postions
       //check with the previous vals, then decide to divide or not
-      if (dividers[0] !== prevVals[0]) {
-        accW += gap0;
-        isNewLabels[0] = true;
-      } else if (dividers[1] !== prevVals[1]){
-        accW += gap1;
-        isNewLabels[1] = true;
+      if (divider !== prevVal) {
+        accW += gap;
+        isNewLabel = true;
       }
       //check if the accmulated books' width is larger than the shelf width
       if (accW + w > divW) {
         accS++;
-        if (_.isEqual(prevVals, dividers)) {
-          accW = 0;
-        } else if (prevVals[0] !== dividers[0]) {
-          accW = gap0;
-        } else if (prevVals.length > 1 && prevVals[1] !== dividers[1]) {
-          accW = gap1;
-        }
+        accW = gap;
       }
       //add dmensions
       dimensions.push({
@@ -319,32 +232,23 @@ function getShelfWidth() {
         bookId: d.book.id //needed for d3 selection
       })
       //update prev vals
-      counts[0]++;
-      counts[1]++;
+      count++;
       //put the first level label
-      if (isNewLabels[0]) {
-        putLegend0(dividers[0], labelCounts[0], accW, accS, isInitial, gap0);
+      if (isNewLabel) {
+        putLegend(divider, labelCount, accW, accS, isInitial, gap);
         //update count for the previous values
-        d3.select(`#legend-0-${labelCounts[0] - 1}`).text(counts[0]);
-        counts[0] = 0;
-        labelCounts[0]++;
-      }
-      //put the second level only for two sorting options
-      if ((isNewLabels[0] || isNewLabels[1]) && sortOptions.length === 2) {
-        putLegend1(dividers[1], labelCounts[1], accW, accS, isInitial, gap1);
-        d3.select(`#legend-1-${labelCounts[1] - 1}`).text(counts[1]);
-        counts[1] = 0;
-        labelCounts[1]++;
+        d3.select(`#legend-0-${labelCount - 1}`).text(count);
+        count = 0;
+        labelCount++;
       }
       //update the last labels; count
       if (i === sortedBooks.length - 1) {
-        d3.select(`#legend-0-${labelCounts[0] - 1}`).text(counts[0] + 1);
-        d3.select(`#legend-1-${labelCounts[1] - 1}`).text(counts[1] + 1);
+        d3.select(`#legend-0-${labelCount - 1}`).text(count + 1);
       }
       //add width, update before the next iteration
       accW += (w + 0);
-      prevVals = dividers;
-      isNewLabels = [false, false];
+      prevVal = divider;
+      isNewLabel = false;
     });
 
     //set the wrapper height to fit
@@ -362,7 +266,7 @@ function getShelfWidth() {
   }
 
   function resizeShelf() {
-    const sortedBooks = _.sortBy(books, sortOptions);
+    const sortedBooks = _.sortBy(books, [sortOption]);
     const dimensions = getDimensions(sortedBooks, false);
     //disable the sorting options
     d3.selectAll('select').attr('disabled', 'disabled');
@@ -396,12 +300,13 @@ function getShelfWidth() {
     });
   }
 
-  //sort books
-  function sortBooks(option, id) {
-    //update global sort option and sort the original books
-    sortOptions[+id] = option;
+  // Sortierauswahl
+  document.getElementById('sort-0').addEventListener('change', (d) => {
+    sortOption = d.target.value;
     resizeShelf();
-  }
+  });
+  // Blende die zweite Sortieroption aus
+  d3.select('#option-1').classed('is-hidden', true);
 
   /**********
   //draw book
@@ -425,7 +330,7 @@ function getShelfWidth() {
         if (colon > -1) {
           title = `<strong>${d.title.slice(0, colon).toUpperCase()}</strong><br/>${d.title.slice(colon + 2, d.title.length)}`
         }
-        return `${title}<div><div class="author">by <strong>${d.book.author_names}</strong></div></div>`;
+        return `${title}<div><div class="author">by <strong>${d.author}</strong></div></div>`;
       })
       .attr('class', 'js-books')
       .attr('id', (d) => `book-${d.book.id}`)
@@ -459,7 +364,7 @@ function getShelfWidth() {
     .append('rect')
       .attr('x', 0)
       .attr('y', 0)
-      .attr('width', (d) => bookW(d.book.pages))
+      .attr('width', (d) => bookW(d.pages))
       .attr('height', (d) => bookH(d.rating_asc))
       .attr('rx', 1)
       .attr('ry', 1)
@@ -471,7 +376,7 @@ function getShelfWidth() {
       .append('rect')
       .attr('x', 0)
       .attr('y', bookH(d.rating_asc) - middleH(d.age_asc))
-      .attr('width', bookW(d.book.pages))
+      .attr('width', bookW(d.pages))
       .attr('height', middleH(d.age_asc))
       .attr('class', 'age-overlay')
   });
@@ -480,7 +385,7 @@ function getShelfWidth() {
     d3.select(`#book-${d.book.id}`)
       .append('polygon')
       .attr('points', starPoints(
-        bookW(d.book.pages) / 2,
+        bookW(d.pages) / 2,
         bookH(d.rating_asc) - bookWRange[0] * 1.2,
         9,
         bookWRange[0] * 0.50,
@@ -518,8 +423,8 @@ function getShelfWidth() {
       const entered = this.value.trim().toLowerCase();
       const filtered = _.filter(books, (d) => {
         return d.title.toLowerCase().indexOf(entered) > -1 ||
-          d.book.author_names.toLowerCase().indexOf(entered) > -1 ||
-          d.book.publisher.toLowerCase().indexOf(entered) > -1;
+          d.author.toLowerCase().indexOf(entered) > -1 ||
+          d.publisher.toLowerCase().indexOf(entered) > -1;
       });
       //show only books exists by the typed letters
       if (filtered.length > 0) {
@@ -531,8 +436,8 @@ function getShelfWidth() {
             titleFormatted = `${splitted[0].toUpperCase()}:${splitted[1]}`;
           }
           let title = getSearchedText(titleFormatted, entered);
-          let name = getSearchedText(d.book.author_names, entered);
-          let publisher = getSearchedText(d.book.publisher, entered);
+          let name = getSearchedText(d.author, entered);
+          let publisher = getSearchedText(d.publisher, entered);
           return `<li class="item js-search-list js-search-${i}" search-id="${i}" id="search-${i}">${title}<br/>by ${name}, ${publisher}</li>`
         });
         //add list to <ul>
@@ -607,28 +512,11 @@ function getShelfWidth() {
 
   //sort
   document.getElementById('sort-0').addEventListener('change', (d) => {
-    const option = d.target.value;
-    //hide second options for selected options
-    //options that comes with the second option
-    const withSecond = ['year_asc', 'year_desc', 'gender', 'genre', 'is_not_bestseller', 'is_english'];
-    let isHidden = false;
-    if (withSecond.indexOf(option) === -1) { //options without second
-      isHidden = true;
-      sortOptions = []; //empty sort options first
-    } else {
-      //set the second options back, when a withSecond option is selected
-      const second = document.getElementById('sort-1');
-      const secondSelected = second.options[second.options.selectedIndex];
-      secondSelected.selected = true;
-      sortOptions[1] = secondSelected.value;
-    }
-    //show hide the second option
-    d3.select('#option-1').classed('is-hidden', isHidden);
-    sortBooks(d.target.value, 0)
+    sortOption = d.target.value;
+    resizeShelf();
   });
-  document.getElementById('sort-1').addEventListener('change', (d) => {
-    sortBooks(d.target.value, 1)
-  });
+  // Blende die zweite Sortieroption aus
+  d3.select('#option-1').classed('is-hidden', true);
 
   //links
   d3.select('#links').on('click', () => {
@@ -647,4 +535,12 @@ function getShelfWidth() {
       resizeShelf();
     }
   }), 500);
-})();
+}
+
+// YAML laden und parsen, dann App starten
+fetch('data/books.yaml')
+  .then(response => response.text())
+  .then(yamlText => {
+    const data = jsyaml.load(yamlText);
+    startApp(data);
+  });

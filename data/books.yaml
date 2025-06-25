@@ -1,0 +1,44 @@
+books:
+  - id: "28446947"
+    title: Autumn
+    author: Ali Smith
+    genre: Fiction
+    gender: female
+    year: 2017
+    pages: 899
+    rating: 3.73
+    rating_count: 10259
+    publisher: Hamish Hamilton
+    publication_date: 2016-10-20
+    image_url: https://images.gr-assets.com/books/1456560519m/28446947.jpg
+    bestseller: true
+    language: English
+  - id: "59900679"
+    title: The Furrows
+    author: Namwali Serpell
+    genre: Fiction
+    gender: female
+    year: 2022
+    pages: 288
+    rating: 3.25
+    rating_count: 3904
+    publisher: Hogarth
+    publication_date: 2022-09-27
+    image_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660591129l/59900679._SX98_.jpg
+    bestseller: false
+    language: English
+  - id: "58210933"
+    title: Trust
+    author: Hernan Diaz
+    genre: Fiction
+    gender: male
+    year: 2022
+    pages: 416
+    rating: 3.86
+    rating_count: 58276
+    publisher: Riverhead Books
+    publication_date: 2022-05-03
+    image_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631246461l/58210933._SX98_.jpg
+    bestseller: false
+    language: English
+  # ... weitere Bücher nach diesem Schema ...
