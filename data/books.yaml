@@ -3,23 +3,27 @@ books:
     title: Autumn
     author: Ali Smith
     genre: Fiction
-    gender: female
     year: 2017
     pages: 899
     rating: 3.73
+    gender: male
     rating_count: 10259
     publisher: Hamish Hamilton
     publication_date: 2016-10-20
     image_url: https://images.gr-assets.com/books/1456560519m/28446947.jpg
     bestseller: true
     language: English
+    year_asc: 2016
+    year_desc: -2016
+    rating_asc: 3.8464139344262297
+    rating_desc: -3.8464139344262297            
   - id: "59900679"
     title: The Furrows
     author: Namwali Serpell
     genre: Fiction
-    gender: female
     year: 2022
     pages: 288
+    gender: male
     rating: 3.25
     rating_count: 3904
     publisher: Hogarth
@@ -27,12 +31,18 @@ books:
     image_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660591129l/59900679._SX98_.jpg
     bestseller: false
     language: English
+    year_asc: 2022
+    year_desc: -2022
+    rating_asc: 3.2464139344262297
+    rating_desc: -3.2464139344262297
+
   - id: "58210933"
+    gender: female
     title: Trust
     author: Hernan Diaz
     genre: Fiction
-    gender: male
     year: 2022
+    type: audiobook
     pages: 416
     rating: 3.86
     rating_count: 58276
@@ -41,4 +51,30 @@ books:
     image_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631246461l/58210933._SX98_.jpg
     bestseller: false
     language: English
-  # ... weitere Bücher nach diesem Schema ...
+    year_asc: 2022
+    year_desc: -2022
+    rating_asc: 3.8464139344262297
+    rating_desc: -3.8464139344262297
+
+  - id: "1680880091i"
+    title: Die Gefährten
+    author: J.R.R. Tolkien
+    genre: Fiction
+    year: 1989
+    type: book
+    pages: 576
+    rating: 4.33
+    rating_count: 0
+    publisher: Klett-Cotta
+    publication_date: 2023-09-18
+    image_url: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680880091i/15282.jpg
+    bestseller: false
+    language: German
+    year_asc: 1989
+    year_desc: -1989
+    rating_asc: 4.2464139344262297
+    rating_desc: -4.2464139344262297
+    desciption: Die Gefährten ist der erste Band von J.R.R. Tolkiens epischer Fantasy-Trilogie "Der Herr der Ringe". In diesem Buch beginnt die Reise des Hobbits Frodo Beutlin, der den mächtigen Ring zerstören muss, um Mittelerde vor der Dunkelheit zu bewahren. Zusammen mit einer Gruppe von Gefährten, darunter Aragorn, Legolas und Gimli, begibt sich Frodo auf eine gefährliche Mission durch das von Sauron bedrohte Land.
+    my_opinion: Ist halt der Klassiker und nicht mein erste Buch über Fantasy. Aber halt schon ein Werk, dass den Weg zu vielen Büchern bereitet hat.
+    my_rating: 4.5
+

@@ -125,16 +125,28 @@ function getShelfWidth() {
   return Math.max(document.getElementById('shelf').clientWidth, 700)
 }
 //put all javascript code in eine Funktion, die nach dem Laden von books.yaml aufgerufen wird
+// Hilfsfunktion für Sortierung
+function getSortParams(option) {
+  switch(option) {
+    case 'year_desc': return ['year', 'desc'];
+    case 'year_asc': return ['year', 'asc'];
+    case 'rating_desc': return ['rating', 'desc'];
+    case 'rating_asc': return ['rating', 'asc'];
+    default: return [option, 'asc'];
+  }
+}
+
 function startApp(data) {
   // Nur eine Sortieroption (Standard: Jahr absteigend)
   let sortOption = 'year_desc';
-  const books = _.sortBy(data.books, [sortOption]);
+  let [sortField, sortDir] = getSortParams(sortOption);
+  let books = _.orderBy(data.books, [sortField], [sortDir]);
 
   //add text in headline
   d3.select('#headline-count').text(books.length);
-  d3.select('#headline-year-start').text(books[books.length - 1].year_asc);
-  d3.select('#headline-year-end').text(books[0].year_asc);
-  d3.select('#generation-date').text(data.generation_date);
+  d3.select('#headline-year-start').text(_.minBy(books, 'year')?.year || '');
+  d3.select('#headline-year-end').text(_.maxBy(books, 'year')?.year || '');
+  d3.select('#generation-date').text(data.generation_date || '');
 
   //get wrapper width
   let divW = getShelfWidth();
@@ -155,7 +167,7 @@ function startApp(data) {
   const shelfG = d3.select('#shelf-svg').attr('width', divW).append('g');
   const g = d3.select('#shelf-svg').append('g');
 
-  //dimensions for each book
+  //dimensions für jedes Buch
   const pages = books.map((d) => d.pages);
   const pageRange = getRange(pages, 100);
   const ages = _.filter(books.map((d) => d.age_asc), (d) => d > 0);
@@ -195,7 +207,7 @@ function startApp(data) {
   };
 
   //sort options
-  let sortOptions = ['year_desc', 'genre'];
+  let sortOptions = ['year_desc', 'rating_desc', 'rating_asc', 'year_asc'];
 
   //get new positions for the books when option is changed & put legends
   function getDimensions(sortedBooks, isInitial) {
@@ -213,7 +225,7 @@ function startApp(data) {
     let labelCount = 0;
     _.each(sortedBooks, (d, i) => {
       const w = bookW(d.pages); //book width
-      const h = bookH(d.rating_asc); //book height
+      const h = bookH(d.rating); //book height
       const divider = getDivider(d, sortOption); //get labels at the dividing postions
       //check with the previous vals, then decide to divide or not
       if (divider !== prevVal) {
@@ -229,7 +241,7 @@ function startApp(data) {
       dimensions.push({
         x: accW,
         y: (storyH + storyGap) * accS - h,
-        bookId: d.book.id //needed for d3 selection
+        bookId: d.id //needed for d3 selection
       })
       //update prev vals
       count++;
@@ -266,8 +278,9 @@ function startApp(data) {
   }
 
   function resizeShelf() {
-    const sortedBooks = _.sortBy(books, [sortOption]);
-    const dimensions = getDimensions(sortedBooks, false);
+    [sortField, sortDir] = getSortParams(sortOption);
+    books = _.orderBy(data.books, [sortField], [sortDir]);
+    const dimensions = getDimensions(books, false);
     //disable the sorting options
     d3.selectAll('select').attr('disabled', 'disabled');
     //move books
@@ -295,7 +308,7 @@ function startApp(data) {
           });
       bg.on('click', () => {
         d3.select('#modal').classed('is-active', true);
-        showModal(sortedBooks[i], i, dimensions.length, sortedBooks);
+        showModal(books[i], i, dimensions.length, books);
       });
     });
   }
@@ -333,17 +346,17 @@ function startApp(data) {
         return `${title}<div><div class="author">by <strong>${d.author}</strong></div></div>`;
       })
       .attr('class', 'js-books')
-      .attr('id', (d) => `book-${d.book.id}`)
+      .attr('id', (d) => `book-${d.id}`)
       .attr('prev-y', (d, i) => dimensions[i].y)
       .on('mouseover', function(d) {
         if ('ontouchstart' in document) {
           return false;
         }
         //effect of book being picked up
-        d3.select(`#book-${d.book.id}`)
+        d3.select(`#book-${d.id}`)
           .attr('transform', getUpPos(d3.select(this), true));
         //tippy
-        tippy(`#book-${d.book.id}`, {
+        tippy(`#book-${d.id}`, {
           arrow: true,
           duration: 0,
           size: 'small',
@@ -354,7 +367,7 @@ function startApp(data) {
         if ('ontouchstart' in document) {
           return false;
         }
-        d3.select(`#book-${d.book.id}`)
+        d3.select(`#book-${d.id}`)
           .attr('transform', getUpPos(d3.select(this), false));
       })
       .on('click', (d, i) => {
@@ -365,37 +378,27 @@ function startApp(data) {
       .attr('x', 0)
       .attr('y', 0)
       .attr('width', (d) => bookW(d.pages))
-      .attr('height', (d) => bookH(d.rating_asc))
+      .attr('height', (d) => bookH(d.rating))
       .attr('rx', 1)
       .attr('ry', 1)
-      .attr('id', (d) => `book-rect-${d.book.id}`)
+      .attr('id', (d) => `book-rect-${d.id}`)
       .attr('class', (d) => `genre-${d.genre} book-${d.gender}`);
-  //draw age overay
-  _.each(_.filter(books, (d) => d.age_asc > 0), (d) => {
-    d3.select(`#book-${d.book.id}`)
-      .append('rect')
-      .attr('x', 0)
-      .attr('y', bookH(d.rating_asc) - middleH(d.age_asc))
-      .attr('width', bookW(d.pages))
-      .attr('height', middleH(d.age_asc))
-      .attr('class', 'age-overlay')
-  });
-  //mark bestseller
-  _.each(_.filter(books, (d) => d.is_bestseller), (d) => { //filter only best sellers
-    d3.select(`#book-${d.book.id}`)
+  //draw age overlay (optional, falls Feld vorhanden)
+  // Bestseller und Sprache korrekt behandeln
+  _.each(_.filter(books, (d) => d.bestseller), (d) => {
+    d3.select(`#book-${d.id}`)
       .append('polygon')
       .attr('points', starPoints(
         bookW(d.pages) / 2,
-        bookH(d.rating_asc) - bookWRange[0] * 1.2,
+        bookH(d.rating) - bookWRange[0] * 1.2,
         9,
         bookWRange[0] * 0.50,
         bookWRange[0] * 0.66
       ))
       .attr('class', 'bestseller')
   });
-  //show non-english books
-  _.each(_.filter(books, (d) => !d.is_english), (d) => { //filter non english books
-    d3.select(`#book-${d.book.id}`)
+  _.each(_.filter(books, (d) => d.language && d.language !== 'English'), (d) => {
+    d3.select(`#book-${d.id}`)
       .append('path')
       .attr('d', `M 0 0 h ${bookWRange[0]} l -${bookWRange[0]} ${bookWRange[0]} z`)
       .attr('class', 'translated')
