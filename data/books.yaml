@@ -46,6 +46,7 @@ books:
     year: 2022
     type: audiobook
     pages: 416
+    duration: 12h 34m
     rating: 3.86
     rating_count: 58276
     publisher: Riverhead Books
@@ -57,7 +58,16 @@ books:
     year_desc: -2022
     rating_asc: 3.8464139344262297
     rating_desc: -3.8464139344262297
-
+    Description: Trust ist ein komplexer Roman, der die Themen Identität, Wahrnehmung und die Konstruktion von Wahrheit untersucht. Der Autor spielt mit verschiedenen Erzählperspektiven und zeitlichen Ebenen, um eine vielschichtige Geschichte zu erzählen, die den Leser dazu anregt, über die Natur der Realität und die Art und Weise, wie Geschichten erzählt werden, nachzudenken.
+    Private_Notes:
+    My_Review:
+    date_added:
+    date_read:
+    bookshelf: to-read
+    Series:
+    Serie no:
+    Categories: YA Fiction
+    
   - id: "1680880091i"
     title: Die Gefährten
     author: J.R.R. Tolkien
