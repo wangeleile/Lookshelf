@@ -16,7 +16,9 @@ books:
     year_asc: 2016
     year_desc: -2016
     rating_asc: 3.8464139344262297
-    rating_desc: -3.8464139344262297            
+    rating_desc: -3.8464139344262297
+    bookshelves: to read
+               
   - id: "59900679"
     title: The Furrows
     author: Namwali Serpell
