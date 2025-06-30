@@ -140,12 +140,12 @@
   }
   drawTicks(legend, true);
   _.each(['Fiction', 'Nonfiction'], (genre, i) => {
-    const xPos = cX + (i === 0 ? dRange[1] / 2 + 10 : -dRange[1] / 2 - 10);
+    const xPos = cX + (i === 0 ? dRange[1] / 2 + 10: -dRange[1] / 2 - 10);
     legend.append('text')
       .attr('x', xPos)
       .attr('y', cY)
       .text(genre)
-      .attr('transform', `rotate(${i === 0 ? 90 : -90}, ${xPos}, ${cY})`)
+      .attr('transform', `rotate(${i === 0 ? 90: -90}, ${xPos}, ${cY})`)
       .attr('class', `genre-${genre}`);
   });
 
@@ -194,15 +194,15 @@
     const books = data.filter((d) => +d.year === year);
     _.each(books, (b) => {
       const a = angle(b.book.pages);
-      const dist = b.author.age_at_publication ? distance(b.author.age_at_publication) : dRange[0];
+      const dist = b.author.age_at_publication ? distance(b.author.age_at_publication): dRange[0];
       const cx = Math.sin(Math.PI * a / 180) * dist;
       const cy = Math.cos(Math.PI * a / 180) * dist;
       //fiction: clockwise, nonfiction: couter clockwise
       g.append('circle')
-        .attr('cx', cX + (b.genre === 'Fiction' ? cx : -cx))
+        .attr('cx', cX + (b.genre === 'Fiction' ? cx: -cx))
         .attr('cy', cY - cy)
         .attr('r', radius(b.book.rating))
-        .attr('class', `book book-${b.author.gender}${!_.isNull(b.book.best_seller) ? ' book-best' : ''}`)
+        .attr('class', `book book-${b.author.gender}${!_.isNull(b.book.best_seller) ? ' book-best': ''}`)
         .on('click', () => {
           console.log(b.author.name, b.author.age_at_publication, b.book.title, b.book.pages);
         });

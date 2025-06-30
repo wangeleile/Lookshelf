@@ -35,13 +35,13 @@ function getDivider(datum, option) {
   } else if (option === 'rating_asc' || option === 'rating_desc') {
     label = (Math.floor((Math.floor(Math.abs(val) * 10) * 2) / 10) / 2) + '+';
   } else if (option === 'rating_count_asc' || option === 'rating_count_desc') {
-    label = Math.abs(val) < 10000 ? '<10K' : (Math.floor(Math.abs(val) / 10000) * 10000 / 1000 + 'K+');
+    label = Math.abs(val) < 10000 ? '<10K': (Math.floor(Math.abs(val) / 10000) * 10000 / 1000 + 'K+');
   } else if (option === 'is_not_bestseller') {
-    label = !val ? 'NYT Best seller' : 'Not Best Seller';
+    label = !val ? 'NYT Best seller': 'Not Best Seller';
   } else if (option === 'is_english') {
     label = val ? 'English': 'Translated';
   } else if (option === 'title') {
-    label = _.isNaN(+val.charAt(0)) ? val.charAt(0) : '#';
+    label = _.isNaN(+val.charAt(0)) ? val.charAt(0): '#';
   } else if (option === 'title_desc' || option === 'title_asc') {
     label = (Math.floor(Math.abs(val) / 10) * 10).toLocaleString() + '+';
   }
@@ -53,7 +53,7 @@ function starPoints(cX, cY, arms, oR, iR) {
   let results = '';
   const angle = Math.PI / arms;
   for (let i = 0; i < 2 * arms; i++) {
-      var r = (i & 1) == 0 ? oR : iR;
+      var r = (i & 1) == 0 ? oR: iR;
       var currX = cX + Math.cos(i * angle) * r;
       var currY = cY + Math.sin(i * angle) * r;
       if (i == 0) {
@@ -82,12 +82,12 @@ function showModal(d, i, count, list, entered) {
   if (i > 0) {
     d3.select('.js-modal-prev').on('click', () => { showModal(list[i - 1], i - 1, count, list, entered) });
   }
-  d3.select('.js-modal-next').classed('is-hidden', (i < count - 1 ? false : true));
+  d3.select('.js-modal-next').classed('is-hidden', (i < count - 1 ? false: true));
   if (i < count - 1) {
     d3.select('.js-modal-next').on('click', () => { showModal(list[i + 1], i + 1, count, list, entered) });
   }
-  d3.select('.js-d-genre').classed(`tag-${d.genre}`, true).classed(`tag-${d.genre === 'Fiction' ? 'Nonfiction' : 'Fiction'}`, false);
-  d3.select('.js-modal-count').html(`${entered ? `Searched by <strong>${entered}</strong>, ` : ''}${i + 1}/${count}`);
+  d3.select('.js-d-genre').classed(`tag-${d.genre}`, true).classed(`tag-${d.genre === 'Fiction' ? 'Nonfiction': 'Fiction'}`, false);
+  d3.select('.js-modal-count').html(`${entered ? `Searched by <strong>${entered}</strong>, `: ''}${i + 1}/${count}`);
   d3.select('.js-book-image').attr('src', d.image_url).attr('alt', d.title);
   d3.select('.js-d-title-link').attr('href', d.link || '#');
   let title = d.title.toUpperCase();
@@ -106,9 +106,9 @@ function showModal(d, i, count, list, entered) {
     pages: d.pages,
     publication_date: d.publication_date,
     publisher: d.publisher,
-    bestseller: d.bestseller ? 'Yes' : 'No',
-    rating_avg: d.rating ? d.rating.toFixed(2) : 'N/A',
-    rating_count: d.rating_count ? d.rating_count.toLocaleString() : 'N/A',
+    bestseller: d.bestseller ? 'Yes': 'No',
+    rating_avg: d.rating ? d.rating.toFixed(2): 'N/A',
+    rating_count: d.rating_count ? d.rating_count.toLocaleString(): 'N/A',
   };
   _.each(bookInfo, (v, k) => {
     if (v) {
@@ -183,7 +183,7 @@ function startApp(data) {
     let pY = (accS - 1) * (storyH + storyGap);
     let wrapper = g.append('g')
       .attr('transform', `translate(${pX}, ${pY})`)
-      .attr('class', `js-legends${isInitial ? '' : ' is-hidden'}`)
+      .attr('class', `js-legends${isInitial ? '': ' is-hidden'}`)
     wrapper.append('rect')
       .attr('x', -gap + 5)
       .attr('y', storyGap)
@@ -203,7 +203,7 @@ function startApp(data) {
       .attr('id', `legend-0-${count}`);
     g.append('path')
       .attr('d', `M${pX - gap + 5} ${pY + storyGap - triangle * 2 - 2} l ${triangle * 1.2} ${triangle} l ${-triangle * 1.2} ${triangle} z`)
-      .attr('class', `legend-arrow js-legends${isInitial ? '' : ' is-hidden'}`)
+      .attr('class', `legend-arrow js-legends${isInitial ? '': ' is-hidden'}`)
   };
 
   //sort options
@@ -330,7 +330,7 @@ function startApp(data) {
     const currP = elm.attr('transform');
     const splitted = currP.split(', ');
     const currY = splitted[1].slice(0, splitted[1].length - 1);
-    return `${splitted[0]}, ${currY - (isUp ? 10 : -10)})`
+    return `${splitted[0]}, ${currY - (isUp ? 10: -10)})`
   }
   g.selectAll('.js-books')
     .data(books)
@@ -446,12 +446,12 @@ function startApp(data) {
         //add list to <ul>
         d3.selectAll('.js-search-elm').classed('is-hidden', false);
         d3.select('#search-result')
-          .html(`<li class="count" id="search-count"><i>${searched.length}</i> book${searched.length > 1 ? 's' : ''} found</a></li>${searched.join(' ')}`);
+          .html(`<li class="count" id="search-count"><i>${searched.length}</i> book${searched.length > 1 ? 's': ''} found</a></li>${searched.join(' ')}`);
         //height of the count line
         const countH = document.getElementById('search-count').clientHeight;
         //down arrow pressed
         if (d.keyCode === 40) {
-          selectedId = selectedId < searched.length - 1 ? selectedId + 1 : 0;
+          selectedId = selectedId < searched.length - 1 ? selectedId + 1: 0;
           //when getting back to the first item
           if (selectedId === 0) {
             document.getElementById('search-result').scrollTop = 0;
@@ -467,7 +467,7 @@ function startApp(data) {
           }
         //up arrow pressed
         } else if (d.keyCode === 38) {
-          selectedId = selectedId > 0 ? selectedId - 1 : searched.length - 1;
+          selectedId = selectedId > 0 ? selectedId - 1: searched.length - 1;
           const scrollT = document.getElementById('search-result').scrollTop;
           let prevH = 0;
           for (let i = 0; i <= selectedId; i++) {
@@ -541,7 +541,7 @@ function startApp(data) {
 }
 
 // YAML laden und parsen, dann App starten
-fetch('data/books.yaml')
+fetch('data/Meine_Buchliste.yaml')
   .then(response => response.text())
   .then(yamlText => {
     const data = jsyaml.load(yamlText);
