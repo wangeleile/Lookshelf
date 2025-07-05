@@ -37,9 +37,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Tränen sind immer das Ende
   author: Akif Pirincci
   My Rating: 0
@@ -80,9 +77,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Learning Python with Raspberry Pi
   author: Alex Bradbury
   My Rating: 2
@@ -124,9 +118,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: To Kill a Kingdom
   author: Alexandra Christo
   My Rating: 0
@@ -161,9 +152,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Nachtclan
   author: Alexey Pehov
   My Rating: 2
@@ -203,9 +191,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Gebannte
   author: Alexey Pehov
   My Rating: 2
@@ -247,9 +232,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Schattenwanderer
   author: Alexey Pehov
   My Rating: 3
@@ -287,9 +269,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Bird and the Sword
   author: Amy Harmon
   My Rating: 0
@@ -323,9 +302,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Fluch des Wüstenfeuers
   author: Andrea Bottlinger
   My Rating: 0
@@ -370,9 +346,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Herr aller Dinge
   author: Andreas Eschbach
   My Rating: 0
@@ -417,9 +390,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Eine Billion Dollar
   author: Andreas Eschbach
   My Rating: 3
@@ -465,9 +435,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: true
-  first_name: 'False'
-  last_name: 'False'
 - title: NSA - Nationales Sicherheits-Amt
   author: Andreas Eschbach
   My Rating: 0
@@ -507,9 +474,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Project Hail Mary
   author: Andy Weir
   My Rating: 4
@@ -564,9 +528,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: true
-  first_name: 'False'
-  last_name: 'False'
 - title: The Martian
   author: Andy Weir
   My Rating: 5
@@ -611,9 +572,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: true
-  first_name: 'False'
-  last_name: 'False'
 - title: Age of Iron
   author: Angus Watson
   My Rating: 2
@@ -655,9 +613,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Imperium
   author: Ann Leckie
   My Rating: 0
@@ -697,9 +652,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Masterharper of Pern
   author: Anne McCaffrey
   My Rating: 3
@@ -746,9 +698,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Dragonsong
   author: Anne McCaffrey
   My Rating: 4
@@ -784,9 +733,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Dragonsdawn
   author: Anne McCaffrey
   My Rating: 3
@@ -843,9 +789,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Drachentrommeln
   author: Anne McCaffrey
   My Rating: 4
@@ -891,9 +834,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Welt der Drachen
   author: Anne McCaffrey
   My Rating: 3
@@ -938,9 +878,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Lied des Blutes
   author: Anthony Ryan
   My Rating: 3
@@ -980,9 +917,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Wolfs Call
   author: Anthony Ryan
   My Rating: 3
@@ -1033,9 +967,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Herr des Turmes
   author: Anthony Ryan
   My Rating: 3
@@ -1076,9 +1007,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Waking Fire
   author: Anthony Ryan
   My Rating: 2
@@ -1132,9 +1060,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Königin der Flammen
   author: Anthony Ryan
   My Rating: 2
@@ -1180,9 +1105,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Little Prince
   author: Antoine de Saint-Exupery
   My Rating: 2
@@ -1217,9 +1139,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Hard to Be a God
   author: Arkady Strugatsky
   My Rating: 0
@@ -1258,9 +1177,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Romane schreiben und veröffentlichen für Dummies
   author: Axel Hollmann
   My Rating: 0
@@ -1301,9 +1217,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Tiny Habits The Small Changes That Change Everything
   author: B.J.  Fogg
   My Rating: 0
@@ -1350,9 +1263,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Ernährungskompass Das Fazit aller wissenschaftlichen Studien zum Thema
     Ernährung
   author: Bas Kast
@@ -1399,9 +1309,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: What If Its Us
   author: Becky Albertalli
   My Rating: 0
@@ -1455,9 +1362,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Galgen von Tyburn
   author: Ben Aaronovitch
   My Rating: 0
@@ -1498,9 +1402,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Fingerhut-Sommer Roman
   author: Ben Aaronovitch
   My Rating: 0
@@ -1541,9 +1442,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der böse Ort
   author: Ben Aaronovitch
   My Rating: 0
@@ -1588,9 +1486,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Ein Wispern unter Baker Street Roman
   author: Ben Aaronovitch
   My Rating: 3
@@ -1635,9 +1530,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Schwarzer Mond über Soho
   author: Ben Aaronovitch
   My Rating: 3
@@ -1680,9 +1572,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Oktobermann
   author: Ben Aaronovitch
   My Rating: 0
@@ -1722,9 +1611,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Flüsse von London
   author: Ben Aaronovitch
   My Rating: 3
@@ -1763,9 +1649,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Labyrinth von London
   author: Benedict Jacka
   My Rating: 0
@@ -1814,9 +1697,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Drachenjäger Die erste Reise ins Wolkenmeer
   author: Bernd Perplies
   My Rating: 0
@@ -1860,9 +1740,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Für die Krone
   author: Bernd Perplies
   My Rating: 2
@@ -1896,9 +1773,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der deutsche Science-Fiction-Film - Annäherungen an ein vernachlässigtes
     Genre
   author: Bernd Perplies
@@ -1933,9 +1807,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Eine kurze Geschichte von fast allem
   author: Bill Bryson
   My Rating: 4
@@ -1996,9 +1867,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Stürme des Zorns
   author: Brandon Sanderson
   My Rating: 4
@@ -2048,9 +1916,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Worte des Lichts
   author: Brandon Sanderson
   My Rating: 4
@@ -2098,9 +1963,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Weg von Königen
   author: Brandon Sanderson
   My Rating: 4
@@ -2169,9 +2031,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Oathbringer
   author: Brandon Sanderson
   My Rating: 3
@@ -2231,9 +2090,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Skyward
   author: Brandon Sanderson
   My Rating: 0
@@ -2283,9 +2139,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Final Empire
   author: Brandon Sanderson
   My Rating: 3
@@ -2348,9 +2201,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Rithmatist
   author: Brandon Sanderson
   My Rating: 3
@@ -2393,9 +2243,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Burning White
   author: Brent Weeks
   My Rating: 0
@@ -2446,9 +2293,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Am Rande der Schatten
   author: Brent Weeks
   My Rating: 3
@@ -2489,9 +2333,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Way of Shadows
   author: Brent Weeks
   My Rating: 3
@@ -2532,9 +2373,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Saga
   author: Brian K. Vaughan
   My Rating: 0
@@ -2576,9 +2414,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der weiße Drache
   author: Anne McCaffrey
   My Rating: 4
@@ -2622,9 +2457,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Drachentrommeln
   author: Anne McCaffrey
   My Rating: 3
@@ -2662,9 +2494,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Digital Minimalism Choosing a Focused Life in a Noisy World
   author: Cal Newport
   My Rating: 0
@@ -2716,9 +2545,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Roten Schriftrollen
   author: Cassandra Clare
   My Rating: 0
@@ -2760,9 +2586,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Unsterblichen
   author: Chloe  Benjamin
   My Rating: 0
@@ -2806,9 +2629,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Verlobten des Winters
   author: Christelle Dabos
   My Rating: 1
@@ -2851,9 +2671,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Silicon Germany Wie wir die digitale Transformation schaffen
   author: Christoph Keese
   My Rating: 1
@@ -2895,9 +2712,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Frostflamme
   author: Christopher Husberg
   My Rating: 2
@@ -2941,9 +2755,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Erbe der Macht
   author: Christopher Paolini
   My Rating: 2
@@ -2988,9 +2799,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Eragon
   author: Christopher Paolini
   My Rating: 3
@@ -3026,9 +2834,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Fight Club
   author: Chuck Palahniuk
   My Rating: 0
@@ -3068,9 +2873,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Furyborn
   author: Claire Legrand
   My Rating: 0
@@ -3128,9 +2930,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die vielen Leben des Harry August
   author: Claire North
   My Rating: 4
@@ -3173,9 +2972,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Da Vinci Code
   author: Dan Brown
   My Rating: 2
@@ -3219,9 +3015,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Dynastie der Maschinen Roman
   author: Daniel H. Wilson
   My Rating: 0
@@ -3269,9 +3062,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: DARKNET
   author: Daniel Suarez
   My Rating: 0
@@ -3316,9 +3106,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Daemon Die Welt ist nur ein Spiel
   author: Daniel Suarez
   My Rating: 0
@@ -3379,9 +3166,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Curse of Tenth Grave
   author: Darynda Jones
   My Rating: 0
@@ -3428,9 +3212,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Gefährten
   author: David Eddings
   My Rating: 4
@@ -3474,9 +3255,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: A day for damnation
   author: David Gerrold
   My Rating: 4
@@ -3510,9 +3288,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: A Matter for Men
   author: David Gerrold
   My Rating: 4
@@ -3549,9 +3324,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Outlander
   author: Diana Gabaldon
   My Rating: 0
@@ -3596,9 +3368,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Fauler Zauber
   author: Diana Wynne Jones
   My Rating: 0
@@ -3643,9 +3412,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Pulsarnacht
   author: Dietmar Dath
   My Rating: 0
@@ -3685,9 +3451,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Metro 2033
   author: Dmitry Glukhovsky
   My Rating: 4
@@ -3733,9 +3496,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Metro 2034
   author: Dmitry Glukhovsky
   My Rating: 2
@@ -3806,9 +3566,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Hitchhikers Guide to the Galaxy
   author: Douglas Adams
   My Rating: 4
@@ -3857,9 +3614,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Cat in the Hat
   author: Dr. Seuss
   My Rating: 0
@@ -3903,9 +3657,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Arctic Incident
   author: Eoin Colfer
   My Rating: 4
@@ -3944,9 +3695,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Night Circus
   author: Erin Morgenstern
   My Rating: 0
@@ -3994,9 +3742,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Old Man and the Sea
   author: Ernest Hemingway
   My Rating: 3
@@ -4034,9 +3779,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Great Gatsby
   author: F. Scott Fitzgerald
   My Rating: 3
@@ -4079,9 +3821,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Skinwalker Fluch des Blutes
   author: Faith Hunter
   My Rating: 0
@@ -4120,9 +3859,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Ace of Spades
   author: 'Faridah Ã€bÃ­ké-Ãx8DyÃ­mÃ­dé    '
   My Rating: 0
@@ -4172,9 +3908,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Dune
   author: Frank Herbert
   My Rating: 3
@@ -4241,9 +3974,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Swarm
   author: Frank Schätzing
   My Rating: 4
@@ -4286,9 +4016,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Tyrannei des Schmetterlings
   author: Frank Schätzing
   My Rating: 0
@@ -4333,9 +4060,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: A Game of Thrones
   author: George R.R. Martin
   My Rating: 2
@@ -4373,9 +4097,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: A Dance with Dragons
   author: George R.R. Martin
   My Rating: 3
@@ -4413,9 +4134,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Planetenwanderer
   author: George R.R. Martin
   My Rating: 0
@@ -4458,9 +4176,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Shape of Water
   author: Guillermo del Toro
   My Rating: 0
@@ -4534,9 +4249,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: We Hunt the Flame
   author: Hafsah Faizal
   My Rating: 0
@@ -4583,9 +4295,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Factfulness Ten Reasons Were Wrong About the World – and Why Things Are Better
     Than You Think
   author: Hans Rosling
@@ -4630,9 +4339,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Wer die Nachtigall stört
   author: Harper Lee
   My Rating: 0
@@ -4673,9 +4379,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Siddhartha
   author: Hermann Hesse
   My Rating: 0
@@ -4711,9 +4414,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Cruel Prince
   author: Holly Black
   My Rating: 0
@@ -4761,9 +4461,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Weg ins Labyrinth
   author: Holly Black
   My Rating: 1
@@ -4803,9 +4500,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Drachenmond
   author: Ian McDonald
   My Rating: 0
@@ -4845,9 +4539,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: S.- Das Schiff des Theseus
   author: J.J. Abrams
   My Rating: 3
@@ -4896,9 +4587,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Harry Potter and the Deathly Hallows
   author: J.K. Rowling
   My Rating: 3
@@ -4943,9 +4631,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Harry Potter and the Half-Blood Prince
   author: J.K. Rowling
   My Rating: 3
@@ -4979,9 +4664,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Harry Potter and the Prisoner of Azkaban
   author: J.K. Rowling
   My Rating: 3
@@ -5022,9 +4704,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Harry Potter and the Goblet of Fire
   author: J.K. Rowling
   My Rating: 2
@@ -5058,9 +4737,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Harry Potter and the Order of the Phoenix
   author: J.K. Rowling
   My Rating: 4
@@ -5098,9 +4774,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Harry Potter and the Sorcerers Stone
   author: J.K. Rowling
   My Rating: 3
@@ -5141,9 +4814,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Harry Potter and the Chamber of Secrets
   author: J.K. Rowling
   My Rating: 2
@@ -5187,9 +4857,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Phantastische Tierwesen und wo sie zu finden sind Das Originaldrehbuch
   author: J.K. Rowling
   My Rating: 0
@@ -5233,9 +4900,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Harry Potter and the Cursed Child Parts One and Two
   author: J.K. Rowling
   My Rating: 4
@@ -5272,9 +4936,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Rückkehr des Königs
   author: J.R.R. Tolkien
   My Rating: 4
@@ -5315,9 +4976,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die zwei Türme
   author: J.R.R. Tolkien
   My Rating: 4
@@ -5359,9 +5017,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Gefährten
   author: J.R.R. Tolkien
   My Rating: 4
@@ -5399,9 +5054,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Hobbit
   author: J.R.R. Tolkien
   My Rating: 3
@@ -5445,9 +5097,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Invincible
   author: Jack Campbell
   My Rating: 2
@@ -5491,9 +5140,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Victorious
   author: Jack Campbell
   My Rating: 3
@@ -5534,9 +5180,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Relentless
   author: Jack Campbell
   My Rating: 0
@@ -5581,9 +5224,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Dreadnaught
   author: Jack Campbell
   My Rating: 2
@@ -5628,9 +5268,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Valiant
   author: Jack Campbell
   My Rating: 2
@@ -5677,9 +5314,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Fearless
   author: Jack Campbell
   My Rating: 3
@@ -5724,9 +5358,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Courageous
   author: Jack Campbell
   My Rating: 3
@@ -5763,9 +5394,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Dauntless
   author: Jack Campbell
   My Rating: 2
@@ -5807,9 +5435,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Erbe der Seher
   author: James  Islington
   My Rating: 3
@@ -5850,9 +5475,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Atomic Habits An Easy & Proven Way to Build Good Habits & Break Bad Ones
   author: James Clear
   My Rating: 3
@@ -5909,9 +5531,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Stolz und Vorurteil
   author: Jane Austen
   My Rating: 0
@@ -5954,9 +5573,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Hüter der Schatten
   author: Janine Hofeditz
   My Rating: 2
@@ -5997,9 +5613,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Obesity Code Unlocking the Secrets of Weight Loss
   author: Jason Fung
   My Rating: 2
@@ -6046,9 +5659,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Long Way Down
   author: Jason Reynolds
   My Rating: 0
@@ -6117,9 +5727,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Eyre Affair
   author: Jasper Fforde
   My Rating: 0
@@ -6155,9 +5762,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Spiel
   author: Jay Kristoff
   My Rating: 3
@@ -6204,9 +5808,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Rache
   author: Jay Kristoff
   My Rating: 0
@@ -6250,9 +5851,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Prüfung
   author: Jay Kristoff
   My Rating: 4
@@ -6303,9 +5901,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Untergang der Könige
   author: Jenn Lyons
   My Rating: 0
@@ -6358,9 +5953,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Skin Game
   author: Jim Butcher
   My Rating: 3
@@ -6409,9 +6001,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Changes
   author: Jim Butcher
   My Rating: 3
@@ -6455,9 +6044,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Turn Coat
   author: Jim Butcher
   My Rating: 3
@@ -6501,9 +6087,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Small Favor
   author: Jim Butcher
   My Rating: 3
@@ -6547,9 +6130,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Dead Beat
   author: Jim Butcher
   My Rating: 3
@@ -6594,9 +6174,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Proven Guilty
   author: Jim Butcher
   My Rating: 3
@@ -6641,9 +6218,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: First Lords Fury
   author: Jim Butcher
   My Rating: 4
@@ -6686,9 +6260,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: White Night
   author: Jim Butcher
   My Rating: 4
@@ -6726,9 +6297,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Captains Fury
   author: Jim Butcher
   My Rating: 3
@@ -6772,9 +6340,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Princeps Fury
   author: Jim Butcher
   My Rating: 4
@@ -6816,9 +6381,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Cursors Fury
   author: Jim Butcher
   My Rating: 3
@@ -6856,9 +6418,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Blood Rites
   author: Jim Butcher
   My Rating: 3
@@ -6903,9 +6462,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Death Masks
   author: Jim Butcher
   My Rating: 4
@@ -6947,9 +6503,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Summer Knight
   author: Jim Butcher
   My Rating: 4
@@ -6996,9 +6549,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Academs Fury
   author: Jim Butcher
   My Rating: 3
@@ -7042,9 +6592,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Ghost Story
   author: Jim Butcher
   My Rating: 3
@@ -7083,9 +6630,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Windjäger
   author: Jim Butcher
   My Rating: 0
@@ -7126,9 +6670,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Grave Peril
   author: Jim Butcher
   My Rating: 3
@@ -7174,9 +6715,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Furies of Calderon
   author: Jim Butcher
   My Rating: 3
@@ -7227,9 +6765,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Welcome to the Jungle
   author: Jim Butcher
   My Rating: 3
@@ -7276,9 +6811,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Fool Moon
   author: Jim Butcher
   My Rating: 3
@@ -7321,9 +6853,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Sturmnacht
   author: Jim Butcher
   My Rating: 4
@@ -7361,9 +6890,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Shadowed Souls
   author: Jim Butcher
   My Rating: 2
@@ -7415,9 +6941,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Dragonharper A Crossroads Adventure in the world of Anne McCaffreys Pern
   author: Jody Lynn Nye
   My Rating: 4
@@ -7452,9 +6975,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Crown of Shadows
   author: Joe Hill
   My Rating: 0
@@ -7493,9 +7013,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: NOS4A2
   author: Joe Hill
   My Rating: 0
@@ -7548,9 +7065,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Mutter aller Stürme
   author: John Barnes
   My Rating: 0
@@ -7588,9 +7102,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Magus
   author: John Fowles
   My Rating: 0
@@ -7635,9 +7146,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Zeit der Schatten
   author: John Gwynne
   My Rating: 0
@@ -7681,9 +7189,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: A Prayer for Owen Meany
   author: John Irving
   My Rating: 4
@@ -7730,9 +7235,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The World According to Garp
   author: John Irving
   My Rating: 3
@@ -7774,9 +7276,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Hotel New Hampshire
   author: John Irving
   My Rating: 2
@@ -7814,9 +7313,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Life of the Mind
   author: John Scalzi
   My Rating: 0
@@ -7856,9 +7352,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Krieg der Klone
   author: John Scalzi
   My Rating: 4
@@ -7898,9 +7391,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Kollaps Das Imperium der Ströme
   author: John Scalzi
   My Rating: 1
@@ -7948,9 +7438,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The B-Team
   author: John Scalzi
   My Rating: 3
@@ -7993,9 +7480,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die letzte Kolonie
   author: John Scalzi
   My Rating: 3
@@ -8035,9 +7519,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die letzte Einheit
   author: John Scalzi
   My Rating: 3
@@ -8076,9 +7557,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Frontal
   author: John Scalzi
   My Rating: 0
@@ -8124,9 +7602,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Galaktische Mission
   author: John Scalzi
   My Rating: 3
@@ -8167,9 +7642,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Youre Not Fooling Anyone When You Take Your Laptop to a Coffee Shop Scalzi
     on Writing
   author: John Scalzi
@@ -8214,9 +7686,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Under My Hat Tales from the Cauldron
   author: Jonathan Strahan
   My Rating: 0
@@ -8266,9 +7735,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Lockwood & Co. - Das Grauenvolle Grab
   author: Jonathan Stroud
   My Rating: 4
@@ -8311,9 +7777,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Flammende Phantom
   author: Jonathan Stroud
   My Rating: 3
@@ -8355,9 +7818,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die raunende Maske
   author: Jonathan Stroud
   My Rating: 3
@@ -8402,9 +7862,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die seufzende Wendeltreppe
   author: Jonathan Stroud
   My Rating: 3
@@ -8454,9 +7911,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Dagger in the Desk
   author: Jonathan Stroud
   My Rating: 0
@@ -8496,9 +7950,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Initiate
   author: Joshua Anderle
   My Rating: 0
@@ -8546,9 +7997,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Unterleuten
   author: Juli Zeh
   My Rating: 0
@@ -8600,9 +8048,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Galdäa - Der Ungeschlagene Krieg
   author: Karsten Kruschel
   My Rating: 0
@@ -8651,9 +8096,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Bear and the Nightingale
   author: Katherine Arden
   My Rating: 0
@@ -8701,9 +8143,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Säulen der Erde
   author: Ken Follett
   My Rating: 3
@@ -8753,9 +8192,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Replay - Das zweite Spiel
   author: Ken Grimwood
   My Rating: 0
@@ -8796,9 +8232,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Schwarze Thron Die Schwestern / Die Königin Zwei Romane in einem Band
   author: Kendare Blake
   My Rating: 0
@@ -8851,9 +8284,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Trapped
   author: Kevin Hearne
   My Rating: 0
@@ -8897,9 +8327,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Tricked
   author: Kevin Hearne
   My Rating: 3
@@ -8943,9 +8370,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Hexed
   author: Kevin Hearne
   My Rating: 3
@@ -8982,9 +8406,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Gehämmert
   author: Kevin Hearne
   My Rating: 4
@@ -9032,9 +8453,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Hounded
   author: Kevin Hearne
   My Rating: 3
@@ -9086,9 +8504,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Spiel des Barden
   author: Kevin Hearne
   My Rating: 4
@@ -9134,9 +8549,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Aurora
   author: Kim Stanley Robinson
   My Rating: 0
@@ -9174,9 +8586,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Von Lust und Last literarischen Schreibens. Ein Blick in die Werkstatt deutscher
     Schriftsteller.
   author: Klaus Modick
@@ -9212,9 +8621,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Ukulele Strums
   author: Kurt Thomas
   My Rating: 0
@@ -9249,9 +8655,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Slaughterhouse-Five
   author: Kurt Vonnegut Jr.
   My Rating: 0
@@ -9286,9 +8689,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Monster Hunter Nemesis
   author: Larry Correia
   My Rating: 3
@@ -9339,9 +8739,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Monster Hunter Legion
   author: Larry Correia
   My Rating: 3
@@ -9383,9 +8780,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Monster Hunter Alpha
   author: Larry Correia
   My Rating: 3
@@ -9434,9 +8828,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Monster Hunter Vendetta
   author: Larry Correia
   My Rating: 2
@@ -9481,9 +8872,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Hard Magic
   author: Larry Correia
   My Rating: 0
@@ -9543,9 +8931,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Monster Hunter International
   author: Larry Correia
   My Rating: 3
@@ -9592,9 +8977,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Killing Floor
   author: Lee Child
   My Rating: 3
@@ -9637,9 +9019,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das neunte Haus
   author: Leigh Bardugo
   My Rating: 0
@@ -9692,9 +9071,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Your Story
   author: Leonard Balsera
   My Rating: 3
@@ -9739,9 +9115,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Giver
   author: Lois Lowry
   My Rating: 0
@@ -9778,9 +9151,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Barrayar Der Botschafter
   author: Lois McMaster Bujold
   My Rating: 2
@@ -9816,9 +9186,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Cordelias Ehre
   author: Lois McMaster Bujold
   My Rating: 2
@@ -9852,9 +9219,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Barrayar
   author: Lois McMaster Bujold
   My Rating: 2
@@ -9892,9 +9256,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Kadett
   author: Lois McMaster Bujold
   My Rating: 4
@@ -9928,9 +9289,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Scherben der Ehre
   author: Lois McMaster Bujold
   My Rating: 1
@@ -9969,9 +9327,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Holes
   author: Louis Sachar
   My Rating: 0
@@ -10019,9 +9374,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Circe
   author: Madeline Miller
   My Rating: 0
@@ -10079,9 +9431,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: QualityLand
   author: Marc-Uwe Kling
   My Rating: 3
@@ -10126,9 +9475,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Handmaids Tale
   author: Margaret Atwood
   My Rating: 0
@@ -10174,9 +9520,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Renegades
   author: Marissa Meyer
   My Rating: 0
@@ -10220,9 +9563,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Curious Incident of the Dog in the Night-Time
   author: Mark Haddon
   My Rating: 3
@@ -10265,9 +9605,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die verborgene Hand
   author: Mark Henwick
   My Rating: 0
@@ -10313,9 +9650,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Vernichtender Hass
   author: Markus Heitz
   My Rating: 3
@@ -10357,9 +9691,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Home Habitat, Range, Niche, Territory
   author: Martha Wells
   My Rating: 0
@@ -10397,9 +9728,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Göttertod
   author: Michael J. Sullivan
   My Rating: 3
@@ -10448,9 +9776,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Rose and the Thorn
   author: Michael J. Sullivan
   My Rating: 2
@@ -10496,9 +9821,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Death of Dulgath
   author: Michael J. Sullivan
   My Rating: 3
@@ -10542,9 +9864,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Age of Legend
   author: Michael J. Sullivan
   My Rating: 3
@@ -10586,9 +9905,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Crown Tower
   author: Michael J. Sullivan
   My Rating: 3
@@ -10631,9 +9947,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Zeitenfeuer
   author: Michael J. Sullivan
   My Rating: 3
@@ -10674,9 +9987,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Rebellion
   author: Michael J. Sullivan
   My Rating: 3
@@ -10730,9 +10040,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Pile of Bones
   author: Michael J. Sullivan
   My Rating: 0
@@ -10770,9 +10077,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Kings Property
   author: Morgan Howell
   My Rating: 0
@@ -10814,9 +10118,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The City We Became
   author: N.K. Jemisin
   My Rating: 0
@@ -10866,9 +10167,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Fettlogik überwinden
   author: Nadja  Hermann
   My Rating: 4
@@ -10917,9 +10215,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das kalte Reich des Silbers
   author: Naomi Novik
   My Rating: 2
@@ -10961,9 +10256,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Victory of Eagles
   author: Naomi Novik
   My Rating: 3
@@ -11014,9 +10306,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: His Majestys Dragon
   author: Naomi Novik
   My Rating: 3
@@ -11068,9 +10357,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: A Deadly Education
   author: Naomi Novik
   My Rating: 0
@@ -11120,9 +10406,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Blood of Tyrants
   author: Naomi Novik
   My Rating: 2
@@ -11168,9 +10451,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Empire of Ivory
   author: Naomi Novik
   My Rating: 3
@@ -11215,9 +10495,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Crucible of Gold
   author: Naomi Novik
   My Rating: 3
@@ -11272,9 +10549,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Black Powder War
   author: Naomi Novik
   My Rating: 2
@@ -11309,9 +10583,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Throne of Jade
   author: Naomi Novik
   My Rating: 3
@@ -11364,9 +10635,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Tongues of Serpents
   author: Naomi Novik
   My Rating: 2
@@ -11427,9 +10695,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Thunderhead
   author: Neal Shusterman
   My Rating: 3
@@ -11478,9 +10743,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Hüter des Todes
   author: Neal Shusterman
   My Rating: 3
@@ -11528,9 +10790,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Toll
   author: Neal Shusterman
   My Rating: 3
@@ -11568,9 +10827,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: American Gods
   author: Neil Gaiman
   My Rating: 2
@@ -11618,9 +10874,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Nordische Mythen und Sagen
   author: Neil Gaiman
   My Rating: 0
@@ -11661,9 +10914,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Phantastische Tierwesen und wo sie zu finden sind Harry Potter Hogwarts Schulbücher
   author: Newt Scamander
   My Rating: 0
@@ -11714,9 +10964,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Dear Martin
   author: Nic Stone
   My Rating: 0
@@ -11770,9 +11017,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die gelöschte Welt
   author: Nick Harkaway
   My Rating: 0
@@ -11809,9 +11053,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Year One
   author: Nora Roberts
   My Rating: 0
@@ -11851,9 +11092,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Unrast
   author: Olga Tokarczuk
   My Rating: 0
@@ -11900,9 +11138,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Enders Game - Das große Spiel
   author: Orson Scott Card
   My Rating: 3
@@ -11954,9 +11189,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Lost and Found
   author: Orson Scott Card
   My Rating: 0
@@ -12000,9 +11232,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Krabat. Schulausgabe.
   author: Otfried Preußler
   My Rating: 3
@@ -12042,9 +11271,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Spieler
   author: Paolo Bacigalupi
   My Rating: 0
@@ -12095,9 +11321,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Schiffsdiebe
   author: Paolo Bacigalupi
   My Rating: 0
@@ -12142,9 +11365,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Fire Touched
   author: Patricia Briggs
   My Rating: 0
@@ -12196,9 +11416,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Ruf des Mondes
   author: Patricia Briggs
   My Rating: 0
@@ -12237,9 +11454,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Wise Mans Fear
   author: Patrick Rothfuss
   My Rating: 3
@@ -12284,9 +11498,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Furcht des Weisen
   author: Patrick Rothfuss
   My Rating: 4
@@ -12329,9 +11540,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Name of the Wind
   author: Patrick Rothfuss
   My Rating: 4
@@ -12372,9 +11580,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Furcht des Weisen
   author: Patrick Rothfuss
   My Rating: 4
@@ -12416,9 +11621,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Doors of Stone
   author: Patrick Rothfuss
   My Rating: 0
@@ -12452,9 +11654,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Perfume The Story of a Murderer
   author: Patrick Süskind
   My Rating: 3
@@ -12503,9 +11702,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Alchemist
   author: Paulo Coelho
   My Rating: 3
@@ -12549,9 +11745,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Angst des Tormanns beim Elfmeter
   author: Peter Handke
   My Rating: 2
@@ -12593,9 +11786,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Desert Prince
   author: Peter V. Brett
   My Rating: 0
@@ -12631,9 +11821,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Lied der Dunkelheit
   author: Peter V. Brett
   My Rating: 4
@@ -12678,9 +11865,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Desert Spear
   author: Peter V. Brett
   My Rating: 3
@@ -12725,9 +11909,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Flammen der Dämmerung
   author: Peter V. Brett
   My Rating: 3
@@ -12768,9 +11949,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Feuer der Dämonen
   author: Peter V. Brett
   My Rating: 4
@@ -12816,9 +11994,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Thron der Finsternis
   author: Peter V. Brett
   My Rating: 3
@@ -12860,9 +12035,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Erbe des Kuriers
   author: Peter V. Brett
   My Rating: 4
@@ -12902,9 +12074,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Leuchten der Magie
   author: Peter V. Brett
   My Rating: 3
@@ -12948,9 +12117,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Agatha H. and the Siege of Mechanicsburg
   author: Phil Foglio
   My Rating: 0
@@ -12995,9 +12161,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: La Belle Sauvage
   author: Philip Pullman
   My Rating: 0
@@ -13040,9 +12203,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Red Rising
   author: Pierce Brown
   My Rating: 0
@@ -13087,9 +12247,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Schamanin
   author: R.F. Kuang
   My Rating: 0
@@ -13136,9 +12293,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Insel der besonderen Kinder
   author: Ransom Riggs
   My Rating: 2
@@ -13190,9 +12344,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Magician Apprentice
   author: Raymond E. Feist
   My Rating: 4
@@ -13228,9 +12379,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der König der purpurnen Stadt
   author: Rebecca Gable
   My Rating: 2
@@ -13270,9 +12418,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Immortal Life of Henrietta Lacks
   author: Rebecca Skloot
   My Rating: 0
@@ -13321,9 +12466,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der kleine Nick achtzehn prima Geschichten
   author: Rene Goscinny
   My Rating: 4
@@ -13358,9 +12500,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Wanderer
   author: Richard Schwartz
   My Rating: 3
@@ -13400,9 +12539,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Inquisitor von Askir
   author: Richard Schwartz
   My Rating: 2
@@ -13442,9 +12578,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Monsterjäger
   author: Richard Schwartz
   My Rating: 3
@@ -13485,9 +12618,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das blutige Land
   author: Richard Schwartz
   My Rating: 1
@@ -13530,9 +12660,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Starfarer-Verschwörung
   author: Richard Schwartz
   My Rating: 0
@@ -13574,9 +12701,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Kronrat
   author: Richard Schwartz
   My Rating: 3
@@ -13623,9 +12747,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Eule von Askir
   author: Richard Schwartz
   My Rating: 3
@@ -13668,9 +12789,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Eule von Askir
   author: Richard Schwartz
   My Rating: 1
@@ -13711,9 +12829,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Festung der Titanen
   author: Richard Schwartz
   My Rating: 3
@@ -13757,9 +12872,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Macht der Alten
   author: Richard Schwartz
   My Rating: 2
@@ -13801,9 +12913,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Erbe des Greifens
   author: Richard Schwartz
   My Rating: 3
@@ -13848,9 +12957,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Herr der Puppen
   author: Richard Schwartz
   My Rating: 3
@@ -13890,9 +12996,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die weiße Flamme
   author: Richard Schwartz
   My Rating: 3
@@ -13934,9 +13037,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Feuerinseln
   author: Richard Schwartz
   My Rating: 2
@@ -13976,9 +13076,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Auge der Wüste
   author: Richard Schwartz
   My Rating: 3
@@ -14019,9 +13116,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Rose von Illian
   author: Richard Schwartz
   My Rating: 1
@@ -14062,9 +13156,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Zweite Legion
   author: Richard Schwartz
   My Rating: 3
@@ -14103,9 +13194,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Erste Horn
   author: Richard Schwartz
   My Rating: 4
@@ -14146,9 +13234,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Krone von Lytar
   author: Richard Schwartz
   My Rating: 3
@@ -14195,9 +13280,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Drohende Schatten
   author: Robert Jordan
   My Rating: 3
@@ -14240,9 +13322,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Suche nach dem Auge der Welt
   author: Robert Jordan
   My Rating: 3
@@ -14284,9 +13363,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Anne McCaffrey A Life with Dragons
   author: Robin  Roberts
   My Rating: 4
@@ -14337,9 +13413,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Herrscher der drei Reiche
   author: Robin Hobb
   My Rating: 4
@@ -14384,9 +13457,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die vergessene Stadt
   author: Robin Hobb
   My Rating: 4
@@ -14421,9 +13491,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Stunde des Piraten
   author: Robin Hobb
   My Rating: 3
@@ -14465,9 +13532,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der blinde Krieger
   author: Robin Hobb
   My Rating: 4
@@ -14501,9 +13565,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Viviaces Erwachen
   author: Robin Hobb
   My Rating: 4
@@ -14545,9 +13606,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Ring der Händler. Viviaces Erwachen
   author: Robin Hobb
   My Rating: 4
@@ -14585,9 +13643,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Gabe der Könige
   author: Robin Hobb
   My Rating: 3
@@ -14627,9 +13682,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die sonderbare Buchhandlung des Mr. Penumbra
   author: Robin Sloan
   My Rating: 3
@@ -14677,9 +13729,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der tägliche Stoiker 366 nachdenkliche Betrachtungen über Weisheit, Beharrlichkeit
     und Lebensstil
   author: Ryan Holiday
@@ -14725,9 +13774,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Hindernis ist der Weg Mit der Philosophie der Stoiker zum Triumph
   author: Ryan Holiday
   My Rating: 0
@@ -14763,9 +13809,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Phoenix
   author: S.F. Said
   My Rating: 0
@@ -14806,9 +13849,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Herkunft
   author: SaÅ¡a StaniÅ¡iÄ‡
   My Rating: 0
@@ -14845,9 +13885,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Totengräbersohn
   author: Sam Feuerbach
   My Rating: 3
@@ -14890,9 +13927,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Totengräbersohn
   author: Sam Feuerbach
   My Rating: 3
@@ -14954,9 +13988,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Sanduhr
   author: Sam Feuerbach
   My Rating: 3
@@ -14997,9 +14028,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Myrnengöttin
   author: Sam Feuerbach
   My Rating: 3
@@ -15056,9 +14084,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Schwertmeister
   author: Sam Feuerbach
   My Rating: 3
@@ -15102,9 +14127,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Auftragsmörderin
   author: Sam Feuerbach
   My Rating: 4
@@ -15146,9 +14168,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Totengräbersohn
   author: Sam Feuerbach
   My Rating: 4
@@ -15207,9 +14226,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Magic for Liars
   author: Sarah Gailey
   My Rating: 0
@@ -15255,9 +14271,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: House of Earth and Blood
   author: Sarah J. Maas
   My Rating: 0
@@ -15308,9 +14321,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Eat & Run My Unlikely Journey to Ultramarathon Greatness
   author: Scott Jurek
   My Rating: 3
@@ -15345,9 +14355,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Lügen des Locke Lamora
   author: Scott Lynch
   My Rating: 4
@@ -15400,9 +14407,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Sturm über roten Wassern
   author: Scott Lynch
   My Rating: 3
@@ -15442,9 +14446,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Republik der Diebe
   author: Scott Lynch
   My Rating: 3
@@ -15483,9 +14484,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Broken Vow
   author: Scott Westerfeld
   My Rating: 0
@@ -15527,9 +14525,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Vom glücklichen Leben Eine Auswahl aus seinen Schriften
   author: Seneca
   My Rating: 2
@@ -15569,9 +14564,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Zauberlehrling voller Fehl und Adel
   author: Sergei Lukyanenko
   My Rating: 0
@@ -15612,9 +14604,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Verräterin
   author: Seth Dickinson
   My Rating: 0
@@ -15663,9 +14652,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Serpent & Dove
   author: Shelby Mahurin
   My Rating: 0
@@ -15712,9 +14698,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Kalte Asche
   author: Simon Beckett
   My Rating: 0
@@ -15759,9 +14742,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Chemistry of Death
   author: Simon Beckett
   My Rating: 3
@@ -15810,9 +14790,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Mythos The Greek Myths Retold
   author: Stephen Fry
   My Rating: 0
@@ -15857,9 +14834,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Es
   author: Stephen King
   My Rating: 4
@@ -15900,9 +14874,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Institut
   author: Stephen King
   My Rating: 0
@@ -15946,9 +14917,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Mr. Mercedes
   author: Stephen King
   My Rating: 0
@@ -15997,9 +14965,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Cujo
   author: Stephen King
   My Rating: 3
@@ -16040,9 +15005,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Buddhism Plain and Simple The Practice of Being Aware, Right Now, Every Day
   author: Steve Hagen
   My Rating: 4
@@ -16085,9 +15047,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Gärten des Mondes
   author: Steven Erikson
   My Rating: 0
@@ -16125,9 +15084,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Blood Follows
   author: Steven Erikson
   My Rating: 0
@@ -16182,9 +15138,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Girl with the Dragon Tattoo
   author: Stieg Larsson
   My Rating: 4
@@ -16228,9 +15181,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Jonathan Strange & Mr Norrell
   author: Susanna Clarke
   My Rating: 2
@@ -16274,9 +15224,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Hunger Games
   author: Suzanne Collins
   My Rating: 3
@@ -16311,9 +15258,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Erwählte
   author: Taran Matharu
   My Rating: 0
@@ -16350,9 +15294,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Empire of Sand
   author: Tasha Suri
   My Rating: 0
@@ -16396,9 +15337,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Gevatter Tod / Wachen! Wachen!
   author: Terry Pratchett
   My Rating: 3
@@ -16441,9 +15379,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Das Licht der Phantasie
   author: Terry Pratchett
   My Rating: 3
@@ -16482,9 +15417,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Farben der Magie
   author: Terry Pratchett
   My Rating: 3
@@ -16523,9 +15455,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der Zauberhut
   author: Terry Pratchett
   My Rating: 3
@@ -16564,9 +15493,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Going Postal
   author: Terry Pratchett
   My Rating: 0
@@ -16609,9 +15535,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Guards! Guards!
   author: Terry Pratchett
   My Rating: 0
@@ -16649,9 +15572,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Iron and Magic
   author: Terry Pratchett
   My Rating: 0
@@ -16702,9 +15622,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Night Watch
   author: Terry Pratchett
   My Rating: 0
@@ -16747,9 +15664,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Red Dragon
   author: Thomas  Harris
   My Rating: 3
@@ -16788,9 +15702,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Rubikon Triumph und Tragödie der Römischen Republik
   author: Tom Holland
   My Rating: 0
@@ -16832,9 +15743,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Children of Blood and Bone
   author: Tomi Adeyemi
   My Rating: 0
@@ -16896,9 +15804,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Ahren
   author: Torsten Weitze
   My Rating: 3
@@ -16946,9 +15851,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Heilerin
   author: Trudi Canavan
   My Rating: 3
@@ -16993,9 +15895,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Königin
   author: Trudi Canavan
   My Rating: 3
@@ -17037,9 +15936,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Die Hüterin
   author: Trudi Canavan
   My Rating: 3
@@ -17087,9 +15983,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Name of the Rose
   author: Umberto Eco
   My Rating: 4
@@ -17125,9 +16018,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Worlds of Exile and Illusion Rocannon”™s World, Planet of Exile, City of
     Illusions
   author: Ursula K. Le Guin
@@ -17192,9 +16082,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Steering the Craft Exercises and Discussions on Story Writing for the Lone
     Navigator or the Mutinous Crew
   author: Ursula K. Le Guin
@@ -17231,9 +16118,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: A Wizard of Earthsea
   author: Ursula K. Le Guin
   My Rating: 4
@@ -17269,9 +16153,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Rocannons Welt
   author: Ursula K. Le Guin
   My Rating: 2
@@ -17315,9 +16196,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Erebos
   author: Ursula Poznanski
   My Rating: 3
@@ -17372,9 +16250,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: A Gathering of Shadows
   author: V.E. Schwab
   My Rating: 0
@@ -17421,9 +16296,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: The Invisible Life of Addie LaRue
   author: V.E. Schwab
   My Rating: 0
@@ -17478,9 +16350,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Gallant
   author: V.E. Schwab
   My Rating: 0
@@ -17528,9 +16397,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Divergent
   author: Veronica Roth
   My Rating: 0
@@ -17580,9 +16446,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Realm Breaker
   author: Victoria Aveyard
   My Rating: 0
@@ -17639,9 +16502,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Der nasse Fisch
   author: Volker Kutscher
   My Rating: 0
@@ -17683,9 +16543,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Rumo & Die Wunder im Dunkeln
   author: Walter Moers
   My Rating: 2
@@ -17727,9 +16584,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Lord of the Flies
   author: William Golding
   My Rating: 3
@@ -17767,9 +16621,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Arbeit und Struktur
   author: Wolfgang Herrndorf
   My Rating: 0
@@ -17816,9 +16667,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Tschick
   author: Wolfgang Herrndorf
   My Rating: 3
@@ -17862,9 +16710,6 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'
 - title: Life of Pi
   author: Yann Martel
   My Rating: 0
@@ -17916,6 +16761,3 @@ books:
   tags: null
   narrator: ''
   rating_count: '45321'
-  myFav: false
-  first_name: 'False'
-  last_name: 'False'

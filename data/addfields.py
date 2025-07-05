@@ -19,6 +19,8 @@ with open(input_file, encoding="utf-8") as f:
     data = yaml.safe_load(f)
 
 for entry in data:
+    if not isinstance(entry, dict):
+        continue  # Überspringe Einträge, die keine dicts sind
     # Leere Felder auffüllen
     fill_empty_fields(entry)
     # year_asc und year_desc

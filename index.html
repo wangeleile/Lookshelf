@@ -100,7 +100,7 @@
                   <option value="year_asc">Selected Year (Old to New)</option>
                   <option value="rating_asc">Rating (Low to High)</option>
                   <option value="rating_desc">Rating (High to Low)</option>
-<!--              <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
+                  <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
                   <option value="genre">Fiction / Nonfiction</option>
                   <option value="gender">Female / Male (Author's Gender)</option>
                   <option value="is_not_bestseller">NYT Best Seller / Not Best Seller </option>
@@ -120,7 +120,7 @@
                   <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
                   <option value="rating_count_asc">Number of Ratings (Small to Large)</option>
                   <option value="rating_count_desc">Number of Ratings (Large to Small)</option>
- -->
+                  <option value="bookshelves">Bookshelves</option>
                 </select>
               </span>
             </p>
@@ -134,20 +134,21 @@
                   <option value="year_asc">Selected Year (Old to New)</option>
                   <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
                   <option selected value="genre">Fiction / Nonfiction</option>
-<!--                  <option value="gender">Female / Male (Author's Gender)</option>
+                  <option value="gender">Female / Male (Author's Gender)</option>
                   <option value="is_not_bestseller">NYT Best Seller / Not Best Seller </option>
                   <option value="is_english">Translated / English</option>
-                  <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;</option> -->
-                    <!--
-                    <option value="title">Book Title</option>
-                    <option value="title_asc">Length of Book Title (Short to Long)</option>
-                    <option value="title_desc">Length of Book Title (Long to Song)</option>
-                    <option value="first_name">Author's First Name</
+                  <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;</option>
+                  <option value="title">Book Title</option>
+                  <option value="title_asc">Length of Book Title (Short to Long)</option>
+                  <option value="title_desc">Length of Book Title (Long to Song)</option>
+                  <option value="first_name">Author's First Name</option>
+                  <option value="last_name">Author's Last Name</option>
                   <option disabled="disabled">&#x2500;&#x2500;&#x2500;&#x2500;</option>
                   <option value="rating_asc">Rating (Low to High)</option>
                   <option value="rating_desc">Rating (High to Low)</option>
                   <option value="rating_count_asc">Number of Ratings (Small to Large)</option>
-                  <option value="rating_count_desc">Number of Ratings (Large to Small)</option> -->
+                  <option value="rating_count_desc">Number of Ratings (Large to Small)</option>
+                  <option value="bookshelves">Bookshelves</option>
                 </select>
               </span>
             </p>
@@ -248,7 +249,12 @@
                 <span class="tag tag-year js-d-year"></span>
                 <span class="tag js-d-genre"></span>
                 <div class="info-elm">
-                  <p><span class="info js-d-pages"></span> pages</p>
+                  <p><b>Bookshelves:</b> <span class="js-d-bookshelves"></span></p>
+                  <p><b>Serie:</b> <span class="js-d-Serie"></span></p>
+                  <p><b>Pages:</b> <span class="js-d-pages"></span></p>
+                  <p><b>Duration:</b> <span class="js-d-duration"></span></p>
+                  <p><b>Book Type:</b> <span class="js-d-bookType"></span></p>
+                  <p><b>My Review:</b> <span class="js-d-My_Review"></span></p>
                   <p>Published <span class="info js-d-publication_date"></span> by <span class="info js-d-publisher"></span></p>
                   <p class="js-d-original_publication_date-wrapper is-hidden">First published <span class="info js-d-original_publication_date"></span></p>
                   <p>Rated <span class="info js-d-rating_avg"></span> by <span class="info js-d-rating_count"></span> Goodreads users</p>
@@ -258,7 +264,7 @@
             <div id="modal-authors" class="media media-authors"></div>
             <div class="media js-d-bestseller-wrapper is-hidden">
               <div class="media-content">
-                The New York Times best seller highest rank
+                My Favorites highest rank
                 <ul class="info modal-bestseller-list js-d-bestseller"></ul>
               </div>
             </div>
@@ -286,7 +292,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-102587410-1', 'auto');
+  ga('create', '', 'auto');
   ga('send', 'pageview');
 
 </script>

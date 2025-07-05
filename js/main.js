@@ -37,7 +37,7 @@ function getDivider(datum, option) {
   } else if (option === 'rating_count_asc' || option === 'rating_count_desc') {
     label = Math.abs(val) < 10000 ? '<10K': (Math.floor(Math.abs(val) / 10000) * 10000 / 1000 + 'K+');
   } else if (option === 'is_not_bestseller') {
-    label = !val ? 'NYT Best seller': 'Not Best Seller';
+    label = !val ? 'My Favorites': 'Not My Favorite';
   } else if (option === 'is_english') {
     label = val ? 'English': 'Translated';
   } else if (option === 'title') {
@@ -86,8 +86,8 @@ function showModal(d, i, count, list, entered) {
   if (i < count - 1) {
     d3.select('.js-modal-next').on('click', () => { showModal(list[i + 1], i + 1, count, list, entered) });
   }
-  d3.select('.js-d-genre').classed(`tag-${d.genre}`, true).classed(`tag-${d.genre === 'Fiction' ? 'Nonfiction': 'Fiction'}`, false);
-  d3.select('.js-modal-count').html(`${entered ? `Searched by <strong>${entered}</strong>, `: ''}${i + 1}/${count}`);
+  d3.select('.js-d-genre').classed(`tag-${d.genre}`, true).classed(`tag-${d.genre === 'Fiction' ? 'Nonfiction' : 'Fiction'}`, false);
+  d3.select('.js-modal-count').html(`${entered ? `Searched by <strong>${entered}</strong>, ` : ''}${i + 1}/${count}`);
   d3.select('.js-book-image').attr('src', d.image_url).attr('alt', d.title);
   d3.select('.js-d-title-link').attr('href', d.link || '#');
   let title = d.title.toUpperCase();
@@ -103,12 +103,17 @@ function showModal(d, i, count, list, entered) {
     author: d.author,
     year: d.year,
     genre: d.genre,
+    bookshelves: d.bookshelves,
+    Serie: d.Serie,
     pages: d.pages,
+    duration: d.duration,
+    bookType: d.bookType,
+    My_Review: d.My_Review,
     publication_date: d.publication_date,
     publisher: d.publisher,
-    bestseller: d.bestseller ? 'Yes': 'No',
-    rating_avg: d.rating ? d.rating.toFixed(2): 'N/A',
-    rating_count: d.rating_count ? d.rating_count.toLocaleString(): 'N/A',
+    bestseller: d.myFav ? 'Yes' : 'No',
+    rating_avg: d.rating ? d.rating.toFixed(2) : 'N/A',
+    rating_count: d.rating_count ? d.rating_count.toLocaleString() : 'N/A',
   };
   _.each(bookInfo, (v, k) => {
     if (v) {
@@ -132,6 +137,7 @@ function getSortParams(option) {
     case 'year_asc': return ['year', 'asc'];
     case 'rating_desc': return ['rating', 'desc'];
     case 'rating_asc': return ['rating', 'asc'];
+    case 'bookshelves': return ['bookshelves', 'asc'];
     default: return [option, 'asc'];
   }
 }
@@ -319,7 +325,7 @@ function startApp(data) {
     resizeShelf();
   });
   // Blende die zweite Sortieroption aus
-  d3.select('#option-1').classed('is-hidden', true);
+  d3.select('#option-1').classed('is-hidden', false);
 
   /**********
   //draw book
@@ -385,7 +391,7 @@ function startApp(data) {
       .attr('class', (d) => `genre-${d.genre} book-${d.gender}`);
   //draw age overlay (optional, falls Feld vorhanden)
   // Bestseller und Sprache korrekt behandeln
-  _.each(_.filter(books, (d) => d.bestseller), (d) => {
+  _.each(_.filter(books, (d) => d.myFav), (d) => {
     d3.select(`#book-${d.id}`)
       .append('polygon')
       .attr('points', starPoints(
