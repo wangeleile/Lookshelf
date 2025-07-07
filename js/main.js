@@ -37,7 +37,7 @@ function getDivider(datum, option) {
   } else if (option === 'rating_count_asc' || option === 'rating_count_desc') {
     label = Math.abs(val) < 10000 ? '<10K': (Math.floor(Math.abs(val) / 10000) * 10000 / 1000 + 'K+');
   } else if (option === 'is_not_bestseller') {
-    label = !val ? 'My Favorites': 'Not My Favorite';
+    label = !val ? 'NYT Best seller': 'Not Best Seller';
   } else if (option === 'is_english') {
     label = val ? 'English': 'Translated';
   } else if (option === 'title') {
@@ -111,7 +111,7 @@ function showModal(d, i, count, list, entered) {
     My_Review: d.My_Review,
     publication_date: d.publication_date,
     publisher: d.publisher,
-    bestseller: d.myFav ? 'Yes' : 'No',
+    bestseller: d.bestseller ? 'Yes' : 'No',
     rating_avg: d.rating ? d.rating.toFixed(2) : 'N/A',
     rating_count: d.rating_count ? d.rating_count.toLocaleString() : 'N/A',
   };
@@ -391,7 +391,7 @@ function startApp(data) {
       .attr('class', (d) => `genre-${d.genre} book-${d.gender}`);
   //draw age overlay (optional, falls Feld vorhanden)
   // Bestseller und Sprache korrekt behandeln
-  _.each(_.filter(books, (d) => d.myFav), (d) => {
+  _.each(_.filter(books, (d) => d.bestseller), (d) => {
     d3.select(`#book-${d.id}`)
       .append('polygon')
       .attr('points', starPoints(
@@ -403,7 +403,8 @@ function startApp(data) {
       ))
       .attr('class', 'bestseller')
   });
-  _.each(_.filter(books, (d) => d.language && d.language !== 'English'), (d) => {
+  // Markiere NUR Bücher im Bookshelf 'to-read' mit schwarzem Winkel
+  _.each(_.filter(books, (d) => typeof d.bookshelves === 'string' && d.bookshelves.trim().toLowerCase() === 'to-read'), (d) => {
     d3.select(`#book-${d.id}`)
       .append('path')
       .attr('d', `M 0 0 h ${bookWRange[0]} l -${bookWRange[0]} ${bookWRange[0]} z`)
