@@ -4,7 +4,7 @@ books:
   My Rating: 4
   rating: 3.95
   bookshelves: to-read
-  Serie: Sky and Sea
+  serie: Sky and Sea
   Serien Nr.: 1
   isbn: 9781250168450
   id: 34726469
@@ -46,7 +46,7 @@ books:
   My Rating: 0
   rating: 2.86
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: OCLC1392034894
   id: 17666457
@@ -90,7 +90,7 @@ books:
   My Rating: 2
   rating: 3.82
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781118717059
   id: 17805734
@@ -135,7 +135,7 @@ books:
   My Rating: 0
   rating: 3.76
   bookshelves: to-read
-  Serie: Hundred Kingdoms
+  serie: Hundred Kingdoms
   Serien Nr.: 1
   isbn: 9781250112682
   id: 34499221
@@ -173,7 +173,7 @@ books:
   My Rating: 2
   rating: 4.28
   bookshelves: read
-  Serie: Das Reich der blauen Flamme
+  serie: Das Reich der blauen Flamme
   Serien Nr.: 2
   isbn: 9783492705523
   id: 58189112
@@ -216,7 +216,7 @@ books:
   My Rating: 2
   rating: 4.07
   bookshelves: read
-  Serie: Das Reich der blauen Flamme
+  serie: Das Reich der blauen Flamme
   Serien Nr.: 1
   isbn: 9783492705516
   id: 56554377
@@ -261,7 +261,7 @@ books:
   My Rating: 3
   rating: 3.98
   bookshelves: read
-  Serie: Die Chroniken von Siala
+  serie: Die Chroniken von Siala
   Serien Nr.: 1
   isbn: 9783492701860
   id: 7713773
@@ -302,7 +302,7 @@ books:
   My Rating: 0
   rating: 4.19
   bookshelves: to-read
-  Serie: The Bird and the Sword Chronicles
+  serie: The Bird and the Sword Chronicles
   Serien Nr.: 1
   isbn: 9781533134134
   id: 29008738
@@ -339,7 +339,7 @@ books:
   My Rating: 0
   rating: 3.75
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783608960273
   id: 31675259
@@ -387,7 +387,7 @@ books:
   My Rating: 0
   rating: 4.15
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783785724293
   id: 11762245
@@ -435,7 +435,7 @@ books:
   My Rating: 3
   rating: 4.09
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783785720493
   id: 71381
@@ -484,7 +484,7 @@ books:
   My Rating: 0
   rating: 3.93
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783785726259
   id: 40493285
@@ -527,7 +527,7 @@ books:
   My Rating: 4
   rating: 4.52
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780593135204
   id: 54493401
@@ -585,7 +585,7 @@ books:
   My Rating: 5
   rating: 4.41
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780804139021
   id: 18007564
@@ -633,7 +633,7 @@ books:
   My Rating: 2
   rating: 3.86
   bookshelves: read
-  Serie: Iron Age
+  serie: Iron Age
   Serien Nr.: 1
   isbn: 9780356502618
   id: 22463760
@@ -678,7 +678,7 @@ books:
   My Rating: 0
   rating: 4.21
   bookshelves: to-read
-  Serie: Imperial Radch
+  serie: Imperial Radch
   Serien Nr.: 3
   isbn: 9783453317260
   id: 32810971
@@ -721,7 +721,7 @@ books:
   My Rating: 3
   rating: 4.25
   bookshelves: read
-  Serie: Pern
+  serie: Pern
   Serien Nr.: 14
   isbn: 9780552142748
   id: 24870
@@ -771,7 +771,7 @@ books:
   My Rating: 4
   rating: 4.25
   bookshelves: read
-  Serie: Pern
+  serie: Pern
   Serien Nr.: 1
   isbn: 9781416924999
   id: 28541
@@ -810,7 +810,7 @@ books:
   My Rating: 3
   rating: 4.22
   bookshelves: read
-  Serie: Pern
+  serie: Pern
   Serien Nr.: 9
   isbn: 9780893662134
   id: 465904
@@ -870,7 +870,7 @@ books:
   My Rating: 4
   rating: 4.1
   bookshelves: read
-  Serie: Pern
+  serie: Pern
   Serien Nr.: null
   isbn: 9783641210106
   id: 17985585
@@ -919,7 +919,7 @@ books:
   My Rating: 3
   rating: 4.09
   bookshelves: read
-  Serie: Pern
+  serie: Pern
   Serien Nr.: 1
   isbn: 9780345484260
   id: 61975
@@ -967,7 +967,7 @@ books:
   My Rating: 3
   rating: 4.42
   bookshelves: read
-  Serie: Rabenschatten
+  serie: Rabenschatten
   Serien Nr.: 1
   isbn: 9783608939255
   id: 23120002
@@ -1010,7 +1010,7 @@ books:
   My Rating: 3
   rating: 4.28
   bookshelves: read
-  Serie: Rabenklinge
+  serie: Rabenklinge
   Serien Nr.: 1
   isbn: 9780356511269
   id: 41021418
@@ -1064,7 +1064,7 @@ books:
   My Rating: 3
   rating: 4.17
   bookshelves: read
-  Serie: Rabenschatten
+  serie: Rabenschatten
   Serien Nr.: 2
   isbn: 9783837132328
   id: 29490414
@@ -1108,7 +1108,7 @@ books:
   My Rating: 2
   rating: 4.05
   bookshelves: read
-  Serie: The Draconis Memoria
+  serie: The Draconis Memoria
   Serien Nr.: 1
   isbn: 9780356506395
   id: 25972177
@@ -1165,7 +1165,7 @@ books:
   My Rating: 2
   rating: 3.7
   bookshelves: read
-  Serie: Rabenschatten
+  serie: Rabenschatten
   Serien Nr.: 3
   isbn: 9783608960198
   id: 30319750
@@ -1214,7 +1214,7 @@ books:
   My Rating: 2
   rating: 4.32
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 1853261580
   id: 157993
@@ -1252,7 +1252,7 @@ books:
   My Rating: 0
   rating: 4.15
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780816491216
   id: 759517
@@ -1294,7 +1294,7 @@ books:
   My Rating: 0
   rating: 4.47
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783527813353
   id: 44780254
@@ -1338,7 +1338,7 @@ books:
   My Rating: 0
   rating: 4.15
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780358003328
   id: 43261127
@@ -1389,7 +1389,7 @@ books:
   My Rating: 4
   rating: 4.49
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783641201074
   id: 38944698
@@ -1438,7 +1438,7 @@ books:
   My Rating: 0
   rating: 3.83
   bookshelves: to-read
-  Serie: What If Its Us
+  serie: What If Its Us
   Serien Nr.: 1
   isbn: 9780062795250
   id: 36341204
@@ -1495,7 +1495,7 @@ books:
   My Rating: 0
   rating: 4.22
   bookshelves: to-read
-  Serie: Peter Grant
+  serie: Peter Grant
   Serien Nr.: 6
   isbn: null
   id: 43375416
@@ -1539,7 +1539,7 @@ books:
   My Rating: 0
   rating: 4.2
   bookshelves: to-read
-  Serie: Peter Grant
+  serie: Peter Grant
   Serien Nr.: 5
   isbn: null
   id: 42197003
@@ -1583,7 +1583,7 @@ books:
   My Rating: 0
   rating: 4.17
   bookshelves: to-read
-  Serie: Peter Grant
+  serie: Peter Grant
   Serien Nr.: 4
   isbn: null
   id: 42196999
@@ -1631,7 +1631,7 @@ books:
   My Rating: 3
   rating: 4.15
   bookshelves: read
-  Serie: Peter Grant
+  serie: Peter Grant
   Serien Nr.: 3
   isbn: null
   id: 41842783
@@ -1679,7 +1679,7 @@ books:
   My Rating: 3
   rating: 4.09
   bookshelves: read
-  Serie: Peter Grant
+  serie: Peter Grant
   Serien Nr.: 2
   isbn: null
   id: 42193232
@@ -1725,7 +1725,7 @@ books:
   My Rating: 0
   rating: 4.01
   bookshelves: to-read
-  Serie: Peter Grant
+  serie: Peter Grant
   Serien Nr.: null
   isbn: 9783423436007
   id: 52911169
@@ -1768,7 +1768,7 @@ books:
   My Rating: 3
   rating: 3.87
   bookshelves: read
-  Serie: Peter Grant
+  serie: Peter Grant
   Serien Nr.: 1
   isbn: 9783423213417
   id: 11427927
@@ -1810,7 +1810,7 @@ books:
   My Rating: 0
   rating: 3.89
   bookshelves: to-read
-  Serie: Alex Verus
+  serie: Alex Verus
   Serien Nr.: 1
   isbn: 9783734161650
   id: 37803821
@@ -1862,7 +1862,7 @@ books:
   My Rating: 0
   rating: 3.81
   bookshelves: to-read
-  Serie: Die Reisen ins Wolkenmeer
+  serie: Die Reisen ins Wolkenmeer
   Serien Nr.: 1
   isbn: 9783596296712
   id: 33642434
@@ -1909,7 +1909,7 @@ books:
   My Rating: 2
   rating: 3.67
   bookshelves: read
-  Serie: Magierdämmerung
+  serie: Magierdämmerung
   Serien Nr.: 1
   isbn: 9783802582646
   id: 9269901
@@ -1947,7 +1947,7 @@ books:
   My Rating: 0
   rating: 0.0
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: null
   id: 3409176
@@ -1984,7 +1984,7 @@ books:
   My Rating: 4
   rating: 4.21
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783442460717
   id: 902624
@@ -2048,7 +2048,7 @@ books:
   My Rating: 4
   rating: 4.82
   bookshelves: read
-  Serie: Die Sturmlicht-Chroniken
+  serie: Die Sturmlicht-Chroniken
   Serien Nr.: 2.2
   isbn: 9783453267480
   id: 23361321
@@ -2101,7 +2101,7 @@ books:
   My Rating: 4
   rating: 4.71
   bookshelves: read
-  Serie: Die Sturmlicht-Chroniken
+  serie: Die Sturmlicht-Chroniken
   Serien Nr.: null
   isbn: 9783641071820
   id: 23796651
@@ -2152,7 +2152,7 @@ books:
   My Rating: 4
   rating: 4.63
   bookshelves: read
-  Serie: Die Sturmlicht-Chroniken
+  serie: Die Sturmlicht-Chroniken
   Serien Nr.: 1
   isbn: 9780575097360
   id: 9329354
@@ -2224,7 +2224,7 @@ books:
   My Rating: 3
   rating: 4.62
   bookshelves: read
-  Serie: Die Sturmlicht-Chroniken
+  serie: Die Sturmlicht-Chroniken
   Serien Nr.: 3
   isbn: 9780765326379
   id: 34002132
@@ -2287,7 +2287,7 @@ books:
   My Rating: 0
   rating: 4.49
   bookshelves: to-read
-  Serie: Skyward
+  serie: Skyward
   Serien Nr.: 1
   isbn: 9780399555770
   id: 39348113
@@ -2340,7 +2340,7 @@ books:
   My Rating: 3
   rating: 4.47
   bookshelves: read
-  Serie: Mistborn
+  serie: Mistborn
   Serien Nr.: 1
   isbn: 9780765311788
   id: 68428
@@ -2406,7 +2406,7 @@ books:
   My Rating: 3
   rating: 4.25
   bookshelves: read
-  Serie: Rithmatist
+  serie: Rithmatist
   Serien Nr.: 1
   isbn: 9780765320322
   id: 10137823
@@ -2452,7 +2452,7 @@ books:
   My Rating: 0
   rating: 4.27
   bookshelves: to-read
-  Serie: Lightbringer
+  serie: Lightbringer
   Serien Nr.: 5
   isbn: 9780316251303
   id: 30169100
@@ -2506,7 +2506,7 @@ books:
   My Rating: 3
   rating: 4.25
   bookshelves: read
-  Serie: Night Angel
+  serie: Night Angel
   Serien Nr.: 2
   isbn: 9783442266296
   id: 7305379
@@ -2550,7 +2550,7 @@ books:
   My Rating: 3
   rating: 4.15
   bookshelves: read
-  Serie: Night Angel
+  serie: Night Angel
   Serien Nr.: 1
   isbn: 9780316033671
   id: 3227063
@@ -2594,7 +2594,7 @@ books:
   My Rating: 0
   rating: 4.17
   bookshelves: to-read
-  Serie: Saga
+  serie: Saga
   Serien Nr.: 1
   isbn: 9781607066019
   id: 15704307
@@ -2639,7 +2639,7 @@ books:
   My Rating: 4
   rating: 4.53
   bookshelves: read
-  Serie: Pern
+  serie: Pern
   Serien Nr.: null
   isbn: 9783453308442
   id: 1103140
@@ -2686,7 +2686,7 @@ books:
   My Rating: 3
   rating: 4.45
   bookshelves: read
-  Serie: Pern
+  serie: Pern
   Serien Nr.: null
   isbn: 9783453309326
   id: 673252
@@ -2727,7 +2727,7 @@ books:
   My Rating: 0
   rating: 4.06
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780241341155
   id: 40672036
@@ -2782,7 +2782,7 @@ books:
   My Rating: 0
   rating: 4.12
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: 1
   isbn: 9783641251017
   id: 48644168
@@ -2827,7 +2827,7 @@ books:
   My Rating: 0
   rating: 3.71
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: null
   id: 41216210
@@ -2874,7 +2874,7 @@ books:
   My Rating: 1
   rating: 4.05
   bookshelves: read
-  Serie: Die Spiegelreisenden
+  serie: Die Spiegelreisenden
   Serien Nr.: 1
   isbn: 9783458177920
   id: 42653408
@@ -2920,7 +2920,7 @@ books:
   My Rating: 1
   rating: 3.98
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783641195830
   id: 32176506
@@ -2965,7 +2965,7 @@ books:
   My Rating: 2
   rating: 3.74
   bookshelves: read
-  Serie: Die Chroniken der Sphaera
+  serie: Die Chroniken der Sphaera
   Serien Nr.: 1
   isbn: 9783426519202
   id: 31365481
@@ -3012,7 +3012,7 @@ books:
   My Rating: 2
   rating: 4.13
   bookshelves: read
-  Serie: Eragon
+  serie: Eragon
   Serien Nr.: 4
   isbn: 9783570138168
   id: 10238591
@@ -3060,7 +3060,7 @@ books:
   My Rating: 3
   rating: 3.94
   bookshelves: read
-  Serie: The Inheritance Cycle
+  serie: The Inheritance Cycle
   Serien Nr.: 1
   isbn: 9780375826696
   id: 113436
@@ -3099,7 +3099,7 @@ books:
   My Rating: 0
   rating: 4.19
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780393355949
   id: 36236124
@@ -3142,7 +3142,7 @@ books:
   My Rating: 0
   rating: 3.8
   bookshelves: to-read
-  Serie: Empirium
+  serie: Empirium
   Serien Nr.: 1
   isbn: 9781492656623
   id: 34323570
@@ -3203,7 +3203,7 @@ books:
   My Rating: 4
   rating: 4.03
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783431039306
   id: 25429478
@@ -3249,7 +3249,7 @@ books:
   My Rating: 2
   rating: 3.91
   bookshelves: read
-  Serie: Robert Langdon
+  serie: Robert Langdon
   Serien Nr.: 2
   isbn: 9781409091158
   id: 968
@@ -3296,7 +3296,7 @@ books:
   My Rating: 0
   rating: 3.66
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: null
   id: 43768160
@@ -3347,7 +3347,7 @@ books:
   My Rating: 0
   rating: 4.27
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783499252440
   id: 10238767
@@ -3395,7 +3395,7 @@ books:
   My Rating: 0
   rating: 4.16
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783499256431
   id: 11390535
@@ -3459,7 +3459,7 @@ books:
   My Rating: 0
   rating: 4.38
   bookshelves: to-read
-  Serie: Charley Davidson
+  serie: Charley Davidson
   Serien Nr.: 10
   isbn: 9781250078193
   id: 26114340
@@ -3509,7 +3509,7 @@ books:
   My Rating: 4
   rating: 4.16
   bookshelves: read
-  Serie: Belgariad Saga
+  serie: Belgariad Saga
   Serien Nr.: 1
   isbn: 9783641226558
   id: 36588689
@@ -3556,7 +3556,7 @@ books:
   My Rating: 4
   rating: 4.09
   bookshelves: read
-  Serie: Chtorr
+  serie: Chtorr
   Serien Nr.: 2
   isbn: 9780671492588
   id: 3833550
@@ -3593,7 +3593,7 @@ books:
   My Rating: 4
   rating: 4.06
   bookshelves: read
-  Serie: Chtorr
+  serie: Chtorr
   Serien Nr.: 1
   isbn: 9780553277821
   id: 821439
@@ -3633,7 +3633,7 @@ books:
   My Rating: 0
   rating: 4.26
   bookshelves: to-read
-  Serie: Outlander
+  serie: Outlander
   Serien Nr.: 1
   isbn: 9780440242949
   id: 10964
@@ -3681,7 +3681,7 @@ books:
   My Rating: 0
   rating: 4.11
   bookshelves: to-read
-  Serie: Derkholm
+  serie: Derkholm
   Serien Nr.: 1
   isbn: 9783426522905
   id: 40208446
@@ -3729,7 +3729,7 @@ books:
   My Rating: 0
   rating: 3.62
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783453314061
   id: 16281524
@@ -3772,7 +3772,7 @@ books:
   My Rating: 4
   rating: 4.01
   bookshelves: read
-  Serie: Metro
+  serie: Metro
   Serien Nr.: 1
   isbn: 9781481845700
   id: 17274667
@@ -3821,7 +3821,7 @@ books:
   My Rating: 2
   rating: 3.5
   bookshelves: read
-  Serie: Metro
+  serie: Metro
   Serien Nr.: 2
   isbn: 9783453533011
   id: 6667916
@@ -3895,7 +3895,7 @@ books:
   My Rating: 4
   rating: 4.23
   bookshelves: read
-  Serie: The Hitchhikers Guide to the Galaxy
+  serie: The Hitchhikers Guide to the Galaxy
   Serien Nr.: 1
   isbn: 9780330513081
   id: 386162
@@ -3947,7 +3947,7 @@ books:
   My Rating: 0
   rating: 4.18
   bookshelves: to-read
-  Serie: The Cat in the Hat
+  serie: The Cat in the Hat
   Serien Nr.: 1
   isbn: 9780394800011
   id: 233093
@@ -3994,7 +3994,7 @@ books:
   My Rating: 4
   rating: 3.96
   bookshelves: read
-  Serie: Artemis Fowl
+  serie: Artemis Fowl
   Serien Nr.: 2
   isbn: 9781423132196
   id: 114955
@@ -4036,7 +4036,7 @@ books:
   My Rating: 0
   rating: 4.02
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780385534635
   id: 9361589
@@ -4087,7 +4087,7 @@ books:
   My Rating: 3
   rating: 3.8
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780684830490
   id: 2165
@@ -4128,7 +4128,7 @@ books:
   My Rating: 3
   rating: 3.93
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780743246392
   id: 4671
@@ -4174,7 +4174,7 @@ books:
   My Rating: 0
   rating: 4.16
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783802587184
   id: 19061929
@@ -4216,7 +4216,7 @@ books:
   My Rating: 0
   rating: 4.2
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781250800817
   id: 55518780
@@ -4269,7 +4269,7 @@ books:
   My Rating: 3
   rating: 4.26
   bookshelves: read
-  Serie: Dune
+  serie: Dune
   Serien Nr.: 1
   isbn: 9780340839935
   id: 234225
@@ -4339,7 +4339,7 @@ books:
   My Rating: 4
   rating: 4.09
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780060813260
   id: 68146
@@ -4385,7 +4385,7 @@ books:
   My Rating: 0
   rating: 3.33
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783462050844
   id: 37834183
@@ -4433,7 +4433,7 @@ books:
   My Rating: 2
   rating: 4.44
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780553588484
   id: 13496
@@ -4474,7 +4474,7 @@ books:
   My Rating: 3
   rating: 4.33
   bookshelves: read
-  Serie: A Song of Ice and Fire
+  serie: A Song of Ice and Fire
   Serien Nr.: 5
   isbn: 9780007482917
   id: 10664113
@@ -4515,7 +4515,7 @@ books:
   My Rating: 0
   rating: 4.11
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783453314948
   id: 18003691
@@ -4561,7 +4561,7 @@ books:
   My Rating: 0
   rating: 3.89
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781250165343
   id: 36521316
@@ -4638,7 +4638,7 @@ books:
   My Rating: 0
   rating: 3.91
   bookshelves: to-read
-  Serie: Sands of Arawiya
+  serie: Sands of Arawiya
   Serien Nr.: 1
   isbn: 9780374311544
   id: 36492488
@@ -4689,7 +4689,7 @@ books:
   My Rating: 0
   rating: 4.36
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781473637467
   id: 34890015
@@ -4736,7 +4736,7 @@ books:
   My Rating: 0
   rating: 4.26
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783499142819
   id: 1141402
@@ -4780,7 +4780,7 @@ books:
   My Rating: 0
   rating: 4.06
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: EAN8596547022329
   id: 52036
@@ -4819,7 +4819,7 @@ books:
   My Rating: 0
   rating: 4.07
   bookshelves: to-read
-  Serie: The Folk of the Air
+  serie: The Folk of the Air
   Serien Nr.: 1
   isbn: 9780316310284
   id: 26032825
@@ -4870,7 +4870,7 @@ books:
   My Rating: 1
   rating: 3.96
   bookshelves: read
-  Serie: Magisterium
+  serie: Magisterium
   Serien Nr.: 1
   isbn: 9783846600047
   id: 23254108
@@ -4913,7 +4913,7 @@ books:
   My Rating: 0
   rating: 3.93
   bookshelves: to-read
-  Serie: Luna
+  serie: Luna
   Serien Nr.: 3
   isbn: 9783453317970
   id: 44012031
@@ -4956,7 +4956,7 @@ books:
   My Rating: 3
   rating: 3.87
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783462047264
   id: 25823197
@@ -5008,7 +5008,7 @@ books:
   My Rating: 3
   rating: 4.62
   bookshelves: read
-  Serie: Harry Potter
+  serie: Harry Potter
   Serien Nr.: 7
   isbn: 9781781100264
   id: 136251
@@ -5056,7 +5056,7 @@ books:
   My Rating: 3
   rating: 4.58
   bookshelves: read
-  Serie: Harry Potter
+  serie: Harry Potter
   Serien Nr.: 6
   isbn: 1338878972
   id: 1
@@ -5093,7 +5093,7 @@ books:
   My Rating: 3
   rating: 4.58
   bookshelves: read
-  Serie: Harry Potter
+  serie: Harry Potter
   Serien Nr.: 3
   isbn: 9780439655484
   id: 5
@@ -5137,7 +5137,7 @@ books:
   My Rating: 2
   rating: 4.56
   bookshelves: read
-  Serie: Harry Potter
+  serie: Harry Potter
   Serien Nr.: 4
   isbn: 439139597
   id: 6
@@ -5174,7 +5174,7 @@ books:
   My Rating: 4
   rating: 4.5
   bookshelves: read
-  Serie: Harry Potter
+  serie: Harry Potter
   Serien Nr.: 5
   isbn: 9783551555557
   id: 2
@@ -5215,7 +5215,7 @@ books:
   My Rating: 3
   rating: 4.47
   bookshelves: read
-  Serie: Harry Potter
+  serie: Harry Potter
   Serien Nr.: 1
   isbn: 152664665X
   id: 3
@@ -5259,7 +5259,7 @@ books:
   My Rating: 2
   rating: 4.43
   bookshelves: read
-  Serie: Harry Potter
+  serie: Harry Potter
   Serien Nr.: 2
   isbn: 9781781100509
   id: 15881
@@ -5306,7 +5306,7 @@ books:
   My Rating: 0
   rating: 4.18
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783551556943
   id: 33013296
@@ -5353,7 +5353,7 @@ books:
   My Rating: 4
   rating: 3.5
   bookshelves: read
-  Serie: Harry Potter
+  serie: Harry Potter
   Serien Nr.: 8
   isbn: 1338216678
   id: 29056083
@@ -5393,7 +5393,7 @@ books:
   My Rating: 4
   rating: 4.56
   bookshelves: read
-  Serie: Der Herr der Ringe
+  serie: Der Herr der Ringe
   Serien Nr.: 3
   isbn: 9783129082003
   id: 3124800
@@ -5437,7 +5437,7 @@ books:
   My Rating: 4
   rating: 4.48
   bookshelves: read
-  Serie: Der Herr der Ringe
+  serie: Der Herr der Ringe
   Serien Nr.: 2
   isbn: 9783129081907
   id: 17034856
@@ -5482,7 +5482,7 @@ books:
   My Rating: 4
   rating: 4.39
   bookshelves: read
-  Serie: Der Herr der Ringe
+  serie: Der Herr der Ringe
   Serien Nr.: 1
   isbn: null
   id: 17034242
@@ -5523,7 +5523,7 @@ books:
   My Rating: 3
   rating: 4.28
   bookshelves: read
-  Serie: Der Herr der Ringe
+  serie: Der Herr der Ringe
   Serien Nr.: 0
   isbn: 345339681
   id: 5907
@@ -5570,7 +5570,7 @@ books:
   My Rating: 2
   rating: 4.12
   bookshelves: read
-  Serie: The Lost Fleet
+  serie: The Lost Fleet
   Serien Nr.: 2
   isbn: 9781937007454
   id: 12398719
@@ -5617,7 +5617,7 @@ books:
   My Rating: 3
   rating: 4.1
   bookshelves: read
-  Serie: The Lost Fleet
+  serie: The Lost Fleet
   Serien Nr.: 6
   isbn: 9780441018697
   id: 7200884
@@ -5661,7 +5661,7 @@ books:
   My Rating: 0
   rating: 4.09
   bookshelves: to-read
-  Serie: The Lost Fleet
+  serie: The Lost Fleet
   Serien Nr.: 5
   isbn: 9780441017089
   id: 5292173
@@ -5709,7 +5709,7 @@ books:
   My Rating: 2
   rating: 4.05
   bookshelves: read
-  Serie: The Lost Fleet
+  serie: The Lost Fleet
   Serien Nr.: 1
   isbn: 9780441020379
   id: 9676849
@@ -5757,7 +5757,7 @@ books:
   My Rating: 2
   rating: 4.0
   bookshelves: read
-  Serie: The Lost Fleet
+  serie: The Lost Fleet
   Serien Nr.: 4
   isbn: 9780441016198
   id: 2341319
@@ -5807,7 +5807,7 @@ books:
   My Rating: 3
   rating: 3.99
   bookshelves: read
-  Serie: The Lost Fleet
+  serie: The Lost Fleet
   Serien Nr.: 2
   isbn: 9780441014767
   id: 96594
@@ -5855,7 +5855,7 @@ books:
   My Rating: 3
   rating: 3.99
   bookshelves: read
-  Serie: The Lost Fleet
+  serie: The Lost Fleet
   Serien Nr.: 3
   isbn: 9780441015672
   id: 1372055
@@ -5895,7 +5895,7 @@ books:
   My Rating: 2
   rating: 3.96
   bookshelves: read
-  Serie: The Lost Fleet
+  serie: The Lost Fleet
   Serien Nr.: 1
   isbn: 9780441014187
   id: 112292
@@ -5940,7 +5940,7 @@ books:
   My Rating: 3
   rating: 4.14
   bookshelves: read
-  Serie: The Licanius Trilogy
+  serie: The Licanius Trilogy
   Serien Nr.: 1
   isbn: 9783426520956
   id: 33303580
@@ -5984,7 +5984,7 @@ books:
   My Rating: 3
   rating: 4.37
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781473537804
   id: 40121378
@@ -6044,7 +6044,7 @@ books:
   My Rating: 0
   rating: 4.28
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781484803530
   id: 22241804
@@ -6090,7 +6090,7 @@ books:
   My Rating: 2
   rating: 3.7
   bookshelves: read
-  Serie: Die Fengard Chroniken
+  serie: Die Fengard Chroniken
   Serien Nr.: 1
   isbn: null
   id: 30634480
@@ -6134,7 +6134,7 @@ books:
   My Rating: 2
   rating: 4.38
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781771641258
   id: 24945404
@@ -6184,7 +6184,7 @@ books:
   My Rating: 0
   rating: 4.26
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781481438254
   id: 22552026
@@ -6256,7 +6256,7 @@ books:
   My Rating: 0
   rating: 3.88
   bookshelves: to-read
-  Serie: Thursday Next
+  serie: Thursday Next
   Serien Nr.: 1
   isbn: 9780142001806
   id: 27003
@@ -6295,7 +6295,7 @@ books:
   My Rating: 3
   rating: 4.47
   bookshelves: read
-  Serie: Nevernight
+  serie: Nevernight
   Serien Nr.: 2
   isbn: 9783104902920
   id: 39888377
@@ -6345,7 +6345,7 @@ books:
   My Rating: 0
   rating: 4.3
   bookshelves: to-read
-  Serie: Nevernight
+  serie: Nevernight
   Serien Nr.: 3
   isbn: 9783596703586
   id: 45358780
@@ -6392,7 +6392,7 @@ books:
   My Rating: 4
   rating: 4.23
   bookshelves: read
-  Serie: Nevernight
+  serie: Nevernight
   Serien Nr.: 1
   isbn: 9783839815823
   id: 36127666
@@ -6446,7 +6446,7 @@ books:
   My Rating: 0
   rating: 3.84
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: 1
   isbn: 9783608191752
   id: 51859965
@@ -6502,7 +6502,7 @@ books:
   My Rating: 3
   rating: 4.56
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 15
   isbn: 9780451464392
   id: 19486421
@@ -6554,7 +6554,7 @@ books:
   My Rating: 3
   rating: 4.5
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 12
   isbn: 9780451463173
   id: 6585201
@@ -6601,7 +6601,7 @@ books:
   My Rating: 3
   rating: 4.44
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 11
   isbn: 9780451462565
   id: 3475161
@@ -6648,7 +6648,7 @@ books:
   My Rating: 3
   rating: 4.43
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 10
   isbn: 9780451461896
   id: 927979
@@ -6695,7 +6695,7 @@ books:
   My Rating: 3
   rating: 4.41
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 7
   isbn: 9780451460912
   id: 17683
@@ -6743,7 +6743,7 @@ books:
   My Rating: 3
   rating: 4.39
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 8
   isbn: 9780451461032
   id: 91474
@@ -6791,7 +6791,7 @@ books:
   My Rating: 4
   rating: 4.39
   bookshelves: read
-  Serie: Codex Alera
+  serie: Codex Alera
   Serien Nr.: 6
   isbn: 9780441017690
   id: 6316821
@@ -6837,7 +6837,7 @@ books:
   My Rating: 4
   rating: 4.38
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 9
   isbn: 9780451461407
   id: 91475
@@ -6878,7 +6878,7 @@ books:
   My Rating: 3
   rating: 4.37
   bookshelves: read
-  Serie: Codex Alera
+  serie: Codex Alera
   Serien Nr.: 4
   isbn: 9780441015276
   id: 346087
@@ -6925,7 +6925,7 @@ books:
   My Rating: 4
   rating: 4.37
   bookshelves: read
-  Serie: Codex Alera
+  serie: Codex Alera
   Serien Nr.: 5
   isbn: 9780441016389
   id: 2903736
@@ -6970,7 +6970,7 @@ books:
   My Rating: 3
   rating: 4.36
   bookshelves: read
-  Serie: Codex Alera
+  serie: Codex Alera
   Serien Nr.: 3
   isbn: 9780441014347
   id: 29394
@@ -7011,7 +7011,7 @@ books:
   My Rating: 3
   rating: 4.3
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 6
   isbn: 9780451459879
   id: 99383
@@ -7059,7 +7059,7 @@ books:
   My Rating: 4
   rating: 4.29
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 5
   isbn: 9780451459404
   id: 91479
@@ -7104,7 +7104,7 @@ books:
   My Rating: 4
   rating: 4.27
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 4
   isbn: 9780451458926
   id: 91478
@@ -7154,7 +7154,7 @@ books:
   My Rating: 3
   rating: 4.26
   bookshelves: read
-  Serie: Codex Alera
+  serie: Codex Alera
   Serien Nr.: 2
   isbn: 9780441013401
   id: 133664
@@ -7201,7 +7201,7 @@ books:
   My Rating: 3
   rating: 4.25
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 13
   isbn: 9780451463791
   id: 8058301
@@ -7243,7 +7243,7 @@ books:
   My Rating: 0
   rating: 4.18
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783641158934
   id: 25573350
@@ -7287,7 +7287,7 @@ books:
   My Rating: 3
   rating: 4.14
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 3
   isbn: 9780451458445
   id: 91476
@@ -7336,7 +7336,7 @@ books:
   My Rating: 3
   rating: 4.13
   bookshelves: read
-  Serie: Codex Alera
+  serie: Codex Alera
   Serien Nr.: 1
   isbn: 9780441012688
   id: 29396
@@ -7390,7 +7390,7 @@ books:
   My Rating: 3
   rating: 4.1
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780345507464
   id: 2637138
@@ -7440,7 +7440,7 @@ books:
   My Rating: 3
   rating: 3.99
   bookshelves: read
-  Serie: The Dresden Files
+  serie: The Dresden Files
   Serien Nr.: 2
   isbn: 9780451458124
   id: 91477
@@ -7486,7 +7486,7 @@ books:
   My Rating: 4
   rating: 3.98
   bookshelves: read
-  Serie: Die dunklen Fälle des Harry Dresden
+  serie: Die dunklen Fälle des Harry Dresden
   Serien Nr.: 1
   isbn: 9783426632871
   id: 2534142
@@ -7527,7 +7527,7 @@ books:
   My Rating: 2
   rating: 3.79
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780451474995
   id: 28941103
@@ -7582,7 +7582,7 @@ books:
   My Rating: 4
   rating: 4.48
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780812564044
   id: 238965
@@ -7620,7 +7620,7 @@ books:
   My Rating: 0
   rating: 4.39
   bookshelves: to-read
-  Serie: Lockwood & Co.
+  serie: Lockwood & Co.
   Serien Nr.: 3
   isbn: 9781600106958
   id: 7202841
@@ -7662,7 +7662,7 @@ books:
   My Rating: 0
   rating: 4.08
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780062200570
   id: 15729539
@@ -7718,7 +7718,7 @@ books:
   My Rating: 0
   rating: 3.73
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783453109063
   id: 32828924
@@ -7759,7 +7759,7 @@ books:
   My Rating: 0
   rating: 4.05
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780316296199
   id: 16286
@@ -7807,7 +7807,7 @@ books:
   My Rating: 0
   rating: 4.3
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: 1
   isbn: 9783734161940
   id: 50078553
@@ -7854,7 +7854,7 @@ books:
   My Rating: 4
   rating: 4.24
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780552135399
   id: 4473
@@ -7904,7 +7904,7 @@ books:
   My Rating: 3
   rating: 4.1
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780345915597
   id: 7069
@@ -7949,7 +7949,7 @@ books:
   My Rating: 2
   rating: 3.92
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783257211948
   id: 11771
@@ -7990,7 +7990,7 @@ books:
   My Rating: 0
   rating: 4.27
   bookshelves: to-read
-  Serie: The End of All Things
+  serie: The End of All Things
   Serien Nr.: 1
   isbn: 9780765384836
   id: 25349319
@@ -8033,7 +8033,7 @@ books:
   My Rating: 4
   rating: 4.23
   bookshelves: read
-  Serie: Krieg der Klone
+  serie: Krieg der Klone
   Serien Nr.: 1
   isbn: 9783453522671
   id: 2638123
@@ -8076,7 +8076,7 @@ books:
   My Rating: 1
   rating: 4.11
   bookshelves: read
-  Serie: The Interdependency
+  serie: The Interdependency
   Serien Nr.: 1
   isbn: 9783596299669
   id: 35490154
@@ -8127,7 +8127,7 @@ books:
   My Rating: 3
   rating: 4.09
   bookshelves: read
-  Serie: The Human Division
+  serie: The Human Division
   Serien Nr.: 1
   isbn: 9781466830516
   id: 16180352
@@ -8173,7 +8173,7 @@ books:
   My Rating: 3
   rating: 4.09
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: null
   id: 10870957
@@ -8216,7 +8216,7 @@ books:
   My Rating: 3
   rating: 4.08
   bookshelves: read
-  Serie: Krieg der Klone
+  serie: Krieg der Klone
   Serien Nr.: 5
   isbn: 9783453315167
   id: 22740565
@@ -8258,7 +8258,7 @@ books:
   My Rating: 0
   rating: 4.0
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783104905495
   id: 42198792
@@ -8307,7 +8307,7 @@ books:
   My Rating: 3
   rating: 3.99
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: null
   id: 31348123
@@ -8352,7 +8352,7 @@ books:
   My Rating: 0
   rating: 3.68
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781596060630
   id: 88070
@@ -8399,7 +8399,7 @@ books:
   My Rating: 0
   rating: 3.9
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780375868306
   id: 13262782
@@ -8452,7 +8452,7 @@ books:
   My Rating: 4
   rating: 4.61
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783570312919
   id: 51836105
@@ -8498,7 +8498,7 @@ books:
   My Rating: 3
   rating: 4.52
   bookshelves: read
-  Serie: Lockwood & Co.
+  serie: Lockwood & Co.
   Serien Nr.: 4
   isbn: 9783570159644
   id: 30177228
@@ -8543,7 +8543,7 @@ books:
   My Rating: 3
   rating: 4.37
   bookshelves: read
-  Serie: Lockwood & Co.
+  serie: Lockwood & Co.
   Serien Nr.: 3
   isbn: 9783570159637
   id: 25375672
@@ -8591,7 +8591,7 @@ books:
   My Rating: 3
   rating: 4.24
   bookshelves: read
-  Serie: Lockwood & Co.
+  serie: Lockwood & Co.
   Serien Nr.: 1
   isbn: 9783570156179
   id: 17855293
@@ -8644,7 +8644,7 @@ books:
   My Rating: 0
   rating: 3.96
   bookshelves: to-read
-  Serie: Lockwood & Co.
+  serie: Lockwood & Co.
   Serien Nr.: 1.5
   isbn: 9781448196944
   id: 23606648
@@ -8687,7 +8687,7 @@ books:
   My Rating: 0
   rating: 4.29
   bookshelves: to-read
-  Serie: Animus
+  serie: Animus
   Serien Nr.: 1
   isbn: null
   id: 41815341
@@ -8738,7 +8738,7 @@ books:
   My Rating: 0
   rating: 4.17
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783630874876
   id: 28112365
@@ -8793,7 +8793,7 @@ books:
   My Rating: 0
   rating: 4.11
   bookshelves: to-read
-  Serie: VILM
+  serie: VILM
   Serien Nr.: 3
   isbn: 9783938065723
   id: 12193569
@@ -8845,7 +8845,7 @@ books:
   My Rating: 0
   rating: 4.1
   bookshelves: to-read
-  Serie: The Winternight Trilogy
+  serie: The Winternight Trilogy
   Serien Nr.: 1
   isbn: 9781101885932
   id: 25489134
@@ -8896,7 +8896,7 @@ books:
   My Rating: 3
   rating: 4.33
   bookshelves: read
-  Serie: Kingsbridge
+  serie: Kingsbridge
   Serien Nr.: 1
   isbn: 9781101442197
   id: 5043
@@ -8949,7 +8949,7 @@ books:
   My Rating: 0
   rating: 4.15
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783453520103
   id: 1805537
@@ -8993,7 +8993,7 @@ books:
   My Rating: 0
   rating: 3.82
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783734161872
   id: 43554718
@@ -9049,7 +9049,7 @@ books:
   My Rating: 0
   rating: 4.27
   bookshelves: to-read
-  Serie: The Iron Druid Chronicles
+  serie: The Iron Druid Chronicles
   Serien Nr.: 5
   isbn: 9780345533647
   id: 13536649
@@ -9096,7 +9096,7 @@ books:
   My Rating: 3
   rating: 4.25
   bookshelves: read
-  Serie: The Iron Druid Chronicles
+  serie: The Iron Druid Chronicles
   Serien Nr.: 4
   isbn: 9780345533623
   id: 12700306
@@ -9143,7 +9143,7 @@ books:
   My Rating: 3
   rating: 4.22
   bookshelves: read
-  Serie: The Iron Druid Chronicles
+  serie: The Iron Druid Chronicles
   Serien Nr.: 2
   isbn: 9780345522498
   id: 9595650
@@ -9183,7 +9183,7 @@ books:
   My Rating: 4
   rating: 4.21
   bookshelves: read
-  Serie: Die Chronik des eisernen Druiden
+  serie: Die Chronik des eisernen Druiden
   Serien Nr.: 3
   isbn: 9783608939330
   id: 24662202
@@ -9234,7 +9234,7 @@ books:
   My Rating: 3
   rating: 4.09
   bookshelves: read
-  Serie: The Iron Druid Chronicles
+  serie: The Iron Druid Chronicles
   Serien Nr.: 1
   isbn: 9780345522474
   id: 9533378
@@ -9289,7 +9289,7 @@ books:
   My Rating: 4
   rating: 4.06
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783426451793
   id: 45837836
@@ -9338,7 +9338,7 @@ books:
   My Rating: 0
   rating: 3.76
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783453317246
   id: 32065466
@@ -9380,7 +9380,7 @@ books:
   My Rating: 2
   rating: 3.0
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783821808888
   id: 6761812
@@ -9418,7 +9418,7 @@ books:
   My Rating: 0
   rating: 0.0
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: null
   id: 26009736
@@ -9456,7 +9456,7 @@ books:
   My Rating: 0
   rating: 4.09
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780385333849
   id: 4981
@@ -9494,7 +9494,7 @@ books:
   My Rating: 3
   rating: 4.38
   bookshelves: read
-  Serie: Monster Hunter International
+  serie: Monster Hunter International
   Serien Nr.: 5
   isbn: 9781476736556
   id: 18775169
@@ -9548,7 +9548,7 @@ books:
   My Rating: 3
   rating: 4.32
   bookshelves: read
-  Serie: Monster Hunter International
+  serie: Monster Hunter International
   Serien Nr.: 4
   isbn: 9781451637960
   id: 13051355
@@ -9593,7 +9593,7 @@ books:
   My Rating: 3
   rating: 4.29
   bookshelves: read
-  Serie: Monster Hunter International
+  serie: Monster Hunter International
   Serien Nr.: 3
   isbn: 9781439134580
   id: 9785225
@@ -9645,7 +9645,7 @@ books:
   My Rating: 2
   rating: 4.26
   bookshelves: read
-  Serie: Monster Hunter International
+  serie: Monster Hunter International
   Serien Nr.: 2
   isbn: 9781439133910
   id: 7683254
@@ -9693,7 +9693,7 @@ books:
   My Rating: 0
   rating: 4.14
   bookshelves: to-read
-  Serie: Grimnoir Chronicles
+  serie: Grimnoir Chronicles
   Serien Nr.: 1
   isbn: 9781439134344
   id: 8643407
@@ -9756,7 +9756,7 @@ books:
   My Rating: 3
   rating: 4.06
   bookshelves: read
-  Serie: Monster Hunter International
+  serie: Monster Hunter International
   Serien Nr.: 1
   isbn: 9780741444561
   id: 2570856
@@ -9806,7 +9806,7 @@ books:
   My Rating: 3
   rating: 4.07
   bookshelves: read
-  Serie: Jack Reacher
+  serie: Jack Reacher
   Serien Nr.: 1
   isbn: 9780515141429
   id: 78129
@@ -9852,7 +9852,7 @@ books:
   My Rating: 0
   rating: 4.04
   bookshelves: to-read
-  Serie: Alex Stern
+  serie: Alex Stern
   Serien Nr.: 1
   isbn: 9783426227176
   id: 48706085
@@ -9908,7 +9908,7 @@ books:
   My Rating: 3
   rating: 4.25
   bookshelves: read
-  Serie: The Dresden Files Roleplaying Game
+  serie: The Dresden Files Roleplaying Game
   Serien Nr.: 1
   isbn: 9780977153473
   id: 8029973
@@ -9956,7 +9956,7 @@ books:
   My Rating: 0
   rating: 4.12
   bookshelves: to-read
-  Serie: The Giver
+  serie: The Giver
   Serien Nr.: 1
   isbn: 9780385732550
   id: 3636
@@ -9996,7 +9996,7 @@ books:
   My Rating: 2
   rating: 4.52
   bookshelves: read
-  Serie: Vorkosigan Saga
+  serie: Vorkosigan Saga
   Serien Nr.: null
   isbn: 9783453521278
   id: 3006201
@@ -10035,7 +10035,7 @@ books:
   My Rating: 2
   rating: 4.33
   bookshelves: read
-  Serie: Vorkosigan Saga
+  serie: Vorkosigan Saga
   Serien Nr.: null
   isbn: 9783453520011
   id: 2180460
@@ -10072,7 +10072,7 @@ books:
   My Rating: 2
   rating: 4.29
   bookshelves: read
-  Serie: Vorkosigan Saga
+  serie: Vorkosigan Saga
   Serien Nr.: 7
   isbn: 9780743468411
   id: 61905
@@ -10113,7 +10113,7 @@ books:
   My Rating: 4
   rating: 4.27
   bookshelves: read
-  Serie: Vorkosigan Saga
+  serie: Vorkosigan Saga
   Serien Nr.: null
   isbn: 9783453149076
   id: 61907
@@ -10150,7 +10150,7 @@ books:
   My Rating: 1
   rating: 4.08
   bookshelves: read
-  Serie: Vorkosigan Saga
+  serie: Vorkosigan Saga
   Serien Nr.: 1
   isbn: 9783453128101
   id: 15831078
@@ -10192,7 +10192,7 @@ books:
   My Rating: 0
   rating: 3.99
   bookshelves: to-read
-  Serie: Holes
+  serie: Holes
   Serien Nr.: 1
   isbn: 9780439244190
   id: 38709
@@ -10243,7 +10243,7 @@ books:
   My Rating: 0
   rating: 4.24
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780316556347
   id: 35959740
@@ -10304,7 +10304,7 @@ books:
   My Rating: 3
   rating: 4.12
   bookshelves: read
-  Serie: QualityLand
+  serie: QualityLand
   Serien Nr.: 1
   isbn: 9783550050237
   id: 36216607
@@ -10352,7 +10352,7 @@ books:
   My Rating: 0
   rating: 4.13
   bookshelves: to-read
-  Serie: The Handmaids Tale
+  serie: The Handmaids Tale
   Serien Nr.: 1
   isbn: 038549081X
   id: 38447
@@ -10401,7 +10401,7 @@ books:
   My Rating: 0
   rating: 4.14
   bookshelves: to-read
-  Serie: Renegades
+  serie: Renegades
   Serien Nr.: 1
   isbn: 9781250044662
   id: 28421168
@@ -10448,7 +10448,7 @@ books:
   My Rating: 3
   rating: 3.89
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781400032716
   id: 1618
@@ -10494,7 +10494,7 @@ books:
   My Rating: 0
   rating: 4.04
   bookshelves: to-read
-  Serie: Bite Back
+  serie: Bite Back
   Serien Nr.: 1
   isbn: 9780957374683
   id: 23810033
@@ -10543,7 +10543,7 @@ books:
   My Rating: 3
   rating: 4.04
   bookshelves: read
-  Serie: Die Legenden der Albae
+  serie: Die Legenden der Albae
   Serien Nr.: 2
   isbn: 9783492701976
   id: 11428870
@@ -10588,7 +10588,7 @@ books:
   My Rating: 0
   rating: 4.09
   bookshelves: to-read
-  Serie: The Murderbot Diaries
+  serie: The Murderbot Diaries
   Serien Nr.: 4.5
   isbn: 9781250838865
   id: 57623348
@@ -10629,7 +10629,7 @@ books:
   My Rating: 3
   rating: 4.42
   bookshelves: read
-  Serie: The First Empire
+  serie: The First Empire
   Serien Nr.: 3
   isbn: 9783426520352
   id: 49533694
@@ -10681,7 +10681,7 @@ books:
   My Rating: 2
   rating: 4.4
   bookshelves: read
-  Serie: The Riyria Chronicles
+  serie: The Riyria Chronicles
   Serien Nr.: 2
   isbn: 9780356502281
   id: 17163514
@@ -10730,7 +10730,7 @@ books:
   My Rating: 3
   rating: 4.38
   bookshelves: read
-  Serie: The Riyria Chronicles
+  serie: The Riyria Chronicles
   Serien Nr.: 3
   isbn: 9781943363001
   id: 24683898
@@ -10777,7 +10777,7 @@ books:
   My Rating: 3
   rating: 4.35
   bookshelves: read
-  Serie: The Legends of the First Empire
+  serie: The Legends of the First Empire
   Serien Nr.: 4
   isbn: 9781944145293
   id: 42592353
@@ -10822,7 +10822,7 @@ books:
   My Rating: 3
   rating: 4.33
   bookshelves: read
-  Serie: The Riyria Chronicles
+  serie: The Riyria Chronicles
   Serien Nr.: 1
   isbn: 9780316243711
   id: 16043804
@@ -10868,7 +10868,7 @@ books:
   My Rating: 3
   rating: 4.29
   bookshelves: read
-  Serie: The First Empire
+  serie: The First Empire
   Serien Nr.: 2
   isbn: 9783426520345
   id: 35015460
@@ -10912,7 +10912,7 @@ books:
   My Rating: 3
   rating: 4.23
   bookshelves: read
-  Serie: The First Empire
+  serie: The First Empire
   Serien Nr.: 1
   isbn: 9783426441794
   id: 36256244
@@ -10969,7 +10969,7 @@ books:
   My Rating: 0
   rating: 3.78
   bookshelves: to-read
-  Serie: The Legends of the First Empire
+  serie: The Legends of the First Empire
   Serien Nr.: 0.5
   isbn: null
   id: 51914250
@@ -11010,7 +11010,7 @@ books:
   My Rating: 0
   rating: 3.71
   bookshelves: to-read
-  Serie: Queen of the Orcs
+  serie: Queen of the Orcs
   Serien Nr.: 1
   isbn: 9780345496508
   id: 1778693
@@ -11055,7 +11055,7 @@ books:
   My Rating: 0
   rating: 3.89
   bookshelves: to-read
-  Serie: Great Cities
+  serie: Great Cities
   Serien Nr.: 1
   isbn: 9780316509848
   id: 43521693
@@ -11108,7 +11108,7 @@ books:
   My Rating: 4
   rating: 4.15
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 3548376517
   id: 25466761
@@ -11160,7 +11160,7 @@ books:
   My Rating: 2
   rating: 4.21
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783641235604
   id: 42599001
@@ -11205,7 +11205,7 @@ books:
   My Rating: 3
   rating: 4.07
   bookshelves: read
-  Serie: Temeraire
+  serie: Temeraire
   Serien Nr.: 5
   isbn: 9780007256754
   id: 891593
@@ -11259,7 +11259,7 @@ books:
   My Rating: 3
   rating: 4.06
   bookshelves: read
-  Serie: Temeraire
+  serie: Temeraire
   Serien Nr.: 1
   isbn: 9780345481283
   id: 28876
@@ -11314,7 +11314,7 @@ books:
   My Rating: 0
   rating: 3.99
   bookshelves: to-read
-  Serie: The Scholomance
+  serie: The Scholomance
   Serien Nr.: 1
   isbn: 9780593128480
   id: 50548197
@@ -11367,7 +11367,7 @@ books:
   My Rating: 2
   rating: 3.99
   bookshelves: read
-  Serie: Temeraire
+  serie: Temeraire
   Serien Nr.: 8
   isbn: 9780345522894
   id: 16156292
@@ -11416,7 +11416,7 @@ books:
   My Rating: 3
   rating: 3.98
   bookshelves: read
-  Serie: Temeraire
+  serie: Temeraire
   Serien Nr.: 4
   isbn: 9780345496874
   id: 129510
@@ -11464,7 +11464,7 @@ books:
   My Rating: 3
   rating: 3.97
   bookshelves: read
-  Serie: Temeraire
+  serie: Temeraire
   Serien Nr.: 7
   isbn: 9780345522863
   id: 12069434
@@ -11522,7 +11522,7 @@ books:
   My Rating: 2
   rating: 3.9
   bookshelves: read
-  Serie: Temeraire
+  serie: Temeraire
   Serien Nr.: 3
   isbn: 9780345481306
   id: 91989
@@ -11560,7 +11560,7 @@ books:
   My Rating: 3
   rating: 3.89
   bookshelves: read
-  Serie: Temeraire
+  serie: Temeraire
   Serien Nr.: 2
   isbn: 9780345481290
   id: 14069
@@ -11616,7 +11616,7 @@ books:
   My Rating: 2
   rating: 3.75
   bookshelves: read
-  Serie: Temeraire
+  serie: Temeraire
   Serien Nr.: 6
   isbn: 9780345496898
   id: 7038489
@@ -11680,7 +11680,7 @@ books:
   My Rating: 3
   rating: 4.41
   bookshelves: read
-  Serie: Scythe
+  serie: Scythe
   Serien Nr.: 2
   isbn: 9781442472457
   id: 33555224
@@ -11732,7 +11732,7 @@ books:
   My Rating: 3
   rating: 4.33
   bookshelves: read
-  Serie: Scythe
+  serie: Scythe
   Serien Nr.: 1
   isbn: 9783737355063
   id: 35075612
@@ -11783,7 +11783,7 @@ books:
   My Rating: 3
   rating: 4.2
   bookshelves: read
-  Serie: Scythe
+  serie: Scythe
   Serien Nr.: 3
   isbn: 9781481497060
   id: 43822024
@@ -11824,7 +11824,7 @@ books:
   My Rating: 2
   rating: 4.11
   bookshelves: read
-  Serie: American Gods
+  serie: American Gods
   Serien Nr.: 1
   isbn: 9780755379927
   id: 4407
@@ -11875,7 +11875,7 @@ books:
   My Rating: 0
   rating: 4.1
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: null
   id: 34318177
@@ -11919,7 +11919,7 @@ books:
   My Rating: 0
   rating: 3.96
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: null
   id: 34671630
@@ -11973,7 +11973,7 @@ books:
   My Rating: 0
   rating: 4.35
   bookshelves: to-read
-  Serie: Dear Martin
+  serie: Dear Martin
   Serien Nr.: 1
   isbn: 9781471175572
   id: 24974996
@@ -12030,7 +12030,7 @@ books:
   My Rating: 0
   rating: 4.1
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783492267045
   id: 7549949
@@ -12070,7 +12070,7 @@ books:
   My Rating: 0
   rating: 4.05
   bookshelves: to-read
-  Serie: Chronicles of The One
+  serie: Chronicles of The One
   Serien Nr.: 1
   isbn: 9781250122957
   id: 34311452
@@ -12113,7 +12113,7 @@ books:
   My Rating: 0
   rating: 3.76
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783311150169
   id: 20261876
@@ -12163,7 +12163,7 @@ books:
   My Rating: 3
   rating: 4.31
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783862016457
   id: 22851350
@@ -12218,7 +12218,7 @@ books:
   My Rating: 0
   rating: 4.06
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781982613419
   id: 44144248
@@ -12265,7 +12265,7 @@ books:
   My Rating: 3
   rating: 3.93
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783522144100
   id: 472626
@@ -12308,7 +12308,7 @@ books:
   My Rating: 0
   rating: 4.04
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783942396363
   id: 19375197
@@ -12362,7 +12362,7 @@ books:
   My Rating: 0
   rating: 3.75
   bookshelves: to-read
-  Serie: Ship Breaker
+  serie: Ship Breaker
   Serien Nr.: 1
   isbn: 9783453529199
   id: 13607623
@@ -12410,7 +12410,7 @@ books:
   My Rating: 0
   rating: 4.38
   bookshelves: to-read
-  Serie: Mercy Thompson
+  serie: Mercy Thompson
   Serien Nr.: 9
   isbn: 9780425256763
   id: 25776210
@@ -12465,7 +12465,7 @@ books:
   My Rating: 0
   rating: 4.15
   bookshelves: to-read
-  Serie: Mercy Thompson
+  serie: Mercy Thompson
   Serien Nr.: 1
   isbn: 9783453523739
   id: 2950809
@@ -12507,7 +12507,7 @@ books:
   My Rating: 3
   rating: 4.55
   bookshelves: read
-  Serie: Die Königsmörder-Chronik
+  serie: Die Königsmörder-Chronik
   Serien Nr.: 2
   isbn: 9780756404734
   id: 1215032
@@ -12555,7 +12555,7 @@ books:
   My Rating: 4
   rating: 4.53
   bookshelves: read
-  Serie: Die Königsmörder-Chronik
+  serie: Die Königsmörder-Chronik
   Serien Nr.: 2.1
   isbn: 9783608938166
   id: 11420997
@@ -12601,7 +12601,7 @@ books:
   My Rating: 4
   rating: 4.52
   bookshelves: read
-  Serie: Die Königsmörder-Chronik
+  serie: Die Königsmörder-Chronik
   Serien Nr.: 1
   isbn: 9780756404079
   id: 186074
@@ -12645,7 +12645,7 @@ books:
   My Rating: 4
   rating: 4.5
   bookshelves: read
-  Serie: Die Königsmörder-Chronik
+  serie: Die Königsmörder-Chronik
   Serien Nr.: 2.2
   isbn: 9783608939262
   id: 11420998
@@ -12690,7 +12690,7 @@ books:
   My Rating: 0
   rating: 3.56
   bookshelves: to-read
-  Serie: Die Königsmörder-Chronik
+  serie: Die Königsmörder-Chronik
   Serien Nr.: 3
   isbn: 9780575081444
   id: 21032488
@@ -12727,7 +12727,7 @@ books:
   My Rating: 3
   rating: 4.03
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780140120837
   id: 343
@@ -12779,7 +12779,7 @@ books:
   My Rating: 3
   rating: 3.9
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780061122415
   id: 865
@@ -12826,7 +12826,7 @@ books:
   My Rating: 2
   rating: 3.18
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783937793146
   id: 1739740
@@ -12871,7 +12871,7 @@ books:
   My Rating: 0
   rating: 4.26
   bookshelves: to-read
-  Serie: Nightfall Saga
+  serie: Nightfall Saga
   Serien Nr.: 1
   isbn: 9781984817082
   id: 55188449
@@ -12910,7 +12910,7 @@ books:
   My Rating: 4
   rating: 4.25
   bookshelves: read
-  Serie: The Demon Cycle
+  serie: The Demon Cycle
   Serien Nr.: 1
   isbn: 9783453524767
   id: 6474092
@@ -12958,7 +12958,7 @@ books:
   My Rating: 3
   rating: 4.21
   bookshelves: read
-  Serie: The Demon Cycle
+  serie: The Demon Cycle
   Serien Nr.: 2
   isbn: 9780345503817
   id: 6736971
@@ -13006,7 +13006,7 @@ books:
   My Rating: 3
   rating: 4.21
   bookshelves: read
-  Serie: The Demon Cycle
+  serie: The Demon Cycle
   Serien Nr.: null
   isbn: 9783641076795
   id: 18945810
@@ -13050,7 +13050,7 @@ books:
   My Rating: 4
   rating: 4.2
   bookshelves: read
-  Serie: The Demon Cycle
+  serie: The Demon Cycle
   Serien Nr.: null
   isbn: 9783453320536
   id: 52530174
@@ -13099,7 +13099,7 @@ books:
   My Rating: 3
   rating: 4.13
   bookshelves: read
-  Serie: The Demon Cycle
+  serie: The Demon Cycle
   Serien Nr.: 4
   isbn: null
   id: 26218219
@@ -13144,7 +13144,7 @@ books:
   My Rating: 4
   rating: 4.04
   bookshelves: read
-  Serie: The Demon Cycle
+  serie: The Demon Cycle
   Serien Nr.: null
   isbn: 9783641168179
   id: 25332373
@@ -13187,7 +13187,7 @@ books:
   My Rating: 3
   rating: 3.97
   bookshelves: read
-  Serie: The Demon Cycle
+  serie: The Demon Cycle
   Serien Nr.: 5
   isbn: 9783453315747
   id: 35154954
@@ -13234,7 +13234,7 @@ books:
   My Rating: 0
   rating: 4.54
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: 4
   isbn: 9781949102284
   id: 44420030
@@ -13282,7 +13282,7 @@ books:
   My Rating: 0
   rating: 4.15
   bookshelves: to-read
-  Serie: The Book of Dust
+  serie: The Book of Dust
   Serien Nr.: 1
   isbn: 9780375815300
   id: 34128219
@@ -13328,7 +13328,7 @@ books:
   My Rating: 0
   rating: 4.26
   bookshelves: to-read
-  Serie: Red Rising Trilogy
+  serie: Red Rising Trilogy
   Serien Nr.: 1
   isbn: 9783453269576
   id: 22747110
@@ -13376,7 +13376,7 @@ books:
   My Rating: 0
   rating: 4.17
   bookshelves: to-read
-  Serie: Im Zeichen der Mohnblume
+  serie: Im Zeichen der Mohnblume
   Serien Nr.: 1
   isbn: 9783734162220
   id: 44775156
@@ -13426,7 +13426,7 @@ books:
   My Rating: 2
   rating: 3.92
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783426411957
   id: 13497841
@@ -13481,7 +13481,7 @@ books:
   My Rating: 4
   rating: 4.45
   bookshelves: read
-  Serie: Magician
+  serie: Magician
   Serien Nr.: 1
   isbn: 9780785127222
   id: 43915
@@ -13520,7 +13520,7 @@ books:
   My Rating: 2
   rating: 4.4
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783404152186
   id: 1030905
@@ -13563,7 +13563,7 @@ books:
   My Rating: 0
   rating: 4.11
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781400052172
   id: 6493208
@@ -13615,7 +13615,7 @@ books:
   My Rating: 4
   rating: 4.59
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783257250510
   id: 7351521
@@ -13653,7 +13653,7 @@ books:
   My Rating: 3
   rating: 4.49
   bookshelves: read
-  Serie: Die Götterkriege
+  serie: Die Götterkriege
   Serien Nr.: 7
   isbn: 9783492269209
   id: 22823604
@@ -13696,7 +13696,7 @@ books:
   My Rating: 2
   rating: 4.49
   bookshelves: read
-  Serie: Die Götterkriege
+  serie: Die Götterkriege
   Serien Nr.: 5
   isbn: 9783492269667
   id: 17997849
@@ -13739,7 +13739,7 @@ books:
   My Rating: 3
   rating: 4.49
   bookshelves: read
-  Serie: Die Eisraben-Chroniken
+  serie: Die Eisraben-Chroniken
   Serien Nr.: 2
   isbn: null
   id: 44148177
@@ -13783,7 +13783,7 @@ books:
   My Rating: 1
   rating: 4.48
   bookshelves: read
-  Serie: Die Götterkriege
+  serie: Die Götterkriege
   Serien Nr.: 3
   isbn: 9783492268301
   id: 15751990
@@ -13829,7 +13829,7 @@ books:
   My Rating: 0
   rating: 4.45
   bookshelves: to-read
-  Serie: Die Sax-Chroniken
+  serie: Die Sax-Chroniken
   Serien Nr.: 1
   isbn: 9783492994385
   id: 53042128
@@ -13874,7 +13874,7 @@ books:
   My Rating: 3
   rating: 4.45
   bookshelves: read
-  Serie: Das Geheimnis von Askir
+  serie: Das Geheimnis von Askir
   Serien Nr.: 7
   isbn: 9783492267229
   id: 7750692
@@ -13924,7 +13924,7 @@ books:
   My Rating: 3
   rating: 4.43
   bookshelves: read
-  Serie: Das Geheimnis von Askir
+  serie: Das Geheimnis von Askir
   Serien Nr.: 6
   isbn: 9783492975063
   id: 32855119
@@ -13970,7 +13970,7 @@ books:
   My Rating: 1
   rating: 4.43
   bookshelves: read
-  Serie: Das Geheimnis von Askir
+  serie: Das Geheimnis von Askir
   Serien Nr.: 5.5
   isbn: 9783492266741
   id: 6422308
@@ -14014,7 +14014,7 @@ books:
   My Rating: 3
   rating: 4.41
   bookshelves: read
-  Serie: Die Götterkriege
+  serie: Die Götterkriege
   Serien Nr.: 4
   isbn: 9783492268844
   id: 17617934
@@ -14061,7 +14061,7 @@ books:
   My Rating: 2
   rating: 4.39
   bookshelves: read
-  Serie: Die Götterkriege
+  serie: Die Götterkriege
   Serien Nr.: 6
   isbn: 9783492269193
   id: 19460766
@@ -14106,7 +14106,7 @@ books:
   My Rating: 3
   rating: 4.39
   bookshelves: read
-  Serie: Die Lytar-Chronik
+  serie: Die Lytar-Chronik
   Serien Nr.: 2
   isbn: 9783492973724
   id: 30211601
@@ -14154,7 +14154,7 @@ books:
   My Rating: 3
   rating: 4.38
   bookshelves: read
-  Serie: Das Geheimnis von Askir
+  serie: Das Geheimnis von Askir
   Serien Nr.: 4
   isbn: 9783492266666
   id: 2754910
@@ -14197,7 +14197,7 @@ books:
   My Rating: 3
   rating: 4.37
   bookshelves: read
-  Serie: Die Götterkriege
+  serie: Die Götterkriege
   Serien Nr.: 2
   isbn: 9783492268295
   id: 11372276
@@ -14242,7 +14242,7 @@ books:
   My Rating: 2
   rating: 4.36
   bookshelves: read
-  Serie: Das Geheimnis von Askir
+  serie: Das Geheimnis von Askir
   Serien Nr.: 5
   isbn: 9783492266758
   id: 6583385
@@ -14285,7 +14285,7 @@ books:
   My Rating: 3
   rating: 4.36
   bookshelves: read
-  Serie: Das Geheimnis von Askir
+  serie: Das Geheimnis von Askir
   Serien Nr.: 3
   isbn: 9783492266321
   id: 3279109
@@ -14329,7 +14329,7 @@ books:
   My Rating: 1
   rating: 4.34
   bookshelves: read
-  Serie: Die Götterkriege
+  serie: Die Götterkriege
   Serien Nr.: 1
   isbn: 9783492267571
   id: 8506799
@@ -14373,7 +14373,7 @@ books:
   My Rating: 3
   rating: 4.31
   bookshelves: read
-  Serie: Das Geheimnis von Askir
+  serie: Das Geheimnis von Askir
   Serien Nr.: 2
   isbn: 9783492266291
   id: 3279101
@@ -14415,7 +14415,7 @@ books:
   My Rating: 4
   rating: 4.14
   bookshelves: read
-  Serie: Das Geheimnis von Askir
+  serie: Das Geheimnis von Askir
   Serien Nr.: 1
   isbn: 9783492266062
   id: 1887018
@@ -14459,7 +14459,7 @@ books:
   My Rating: 3
   rating: 3.84
   bookshelves: read
-  Serie: Die Lytar-Chronik
+  serie: Die Lytar-Chronik
   Serien Nr.: 1
   isbn: 9783492280518
   id: 28007520
@@ -14509,7 +14509,7 @@ books:
   My Rating: 3
   rating: 4.27
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 3898975231
   id: 15361033
@@ -14555,7 +14555,7 @@ books:
   My Rating: 3
   rating: 4.19
   bookshelves: read
-  Serie: Das Rad der Zeit
+  serie: Das Rad der Zeit
   Serien Nr.: 1
   isbn: 9783492959322
   id: 18931703
@@ -14600,7 +14600,7 @@ books:
   My Rating: 4
   rating: 4.43
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781578069989
   id: 1599109
@@ -14654,7 +14654,7 @@ books:
   My Rating: 4
   rating: 4.49
   bookshelves: read
-  Serie: Die Zauberschiffe
+  serie: Die Zauberschiffe
   Serien Nr.: 6
   isbn: 9783641253875
   id: 35119275
@@ -14702,7 +14702,7 @@ books:
   My Rating: 4
   rating: 4.46
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: 5
   isbn: 9783946349792
   id: 46195924
@@ -14740,7 +14740,7 @@ books:
   My Rating: 3
   rating: 4.36
   bookshelves: read
-  Serie: Die Zauberschiffe
+  serie: Die Zauberschiffe
   Serien Nr.: 4
   isbn: null
   id: 35055853
@@ -14785,7 +14785,7 @@ books:
   My Rating: 4
   rating: 4.33
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783946349761
   id: 45888377
@@ -14822,7 +14822,7 @@ books:
   My Rating: 4
   rating: 4.26
   bookshelves: read
-  Serie: Die Zauberschiffe
+  serie: Die Zauberschiffe
   Serien Nr.: 2
   isbn: null
   id: 33804964
@@ -14867,7 +14867,7 @@ books:
   My Rating: 4
   rating: 4.2
   bookshelves: read
-  Serie: Die Zauberschiffe
+  serie: Die Zauberschiffe
   Serien Nr.: 1
   isbn: null
   id: 17235112
@@ -14908,7 +14908,7 @@ books:
   My Rating: 3
   rating: 4.18
   bookshelves: read
-  Serie: Die Chronik der Weitseher
+  serie: Die Chronik der Weitseher
   Serien Nr.: 1
   isbn: null
   id: 35015413
@@ -14951,7 +14951,7 @@ books:
   My Rating: 3
   rating: 3.73
   bookshelves: read
-  Serie: Mr. Penumbras 24-Hour Bookstore
+  serie: Mr. Penumbras 24-Hour Bookstore
   Serien Nr.: 1
   isbn: 9783896674807
   id: 18962395
@@ -15003,7 +15003,7 @@ books:
   My Rating: 4
   rating: 4.36
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783960920717
   id: 34627056
@@ -15051,7 +15051,7 @@ books:
   My Rating: 0
   rating: 4.15
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 3451600145
   id: 36000366
@@ -15090,7 +15090,7 @@ books:
   My Rating: 0
   rating: 4.33
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780385618144
   id: 17612917
@@ -15134,7 +15134,7 @@ books:
   My Rating: 0
   rating: 4.18
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783630874739
   id: 44429051
@@ -15174,7 +15174,7 @@ books:
   My Rating: 3
   rating: 4.48
   bookshelves: read
-  Serie: Der Totengräbersohn
+  serie: Der Totengräbersohn
   Serien Nr.: 3
   isbn: 1984186280
   id: 38191259
@@ -15220,7 +15220,7 @@ books:
   My Rating: 3
   rating: 4.45
   bookshelves: read
-  Serie: Der Totengräbersohn
+  serie: Der Totengräbersohn
   Serien Nr.: 2
   isbn: null
   id: 35440993
@@ -15285,7 +15285,7 @@ books:
   My Rating: 3
   rating: 4.36
   bookshelves: read
-  Serie: Die Krosann-Saga - Lehrjahre
+  serie: Die Krosann-Saga - Lehrjahre
   Serien Nr.: 3
   isbn: null
   id: 23449510
@@ -15329,7 +15329,7 @@ books:
   My Rating: 3
   rating: 4.35
   bookshelves: read
-  Serie: Die Krosann-Saga - Königsweg
+  serie: Die Krosann-Saga - Königsweg
   Serien Nr.: 1
   isbn: null
   id: 25374390
@@ -15346,8 +15346,7 @@ books:
   PublishedDate: null
   PageCount: null
   Categories: null
-  Description: '''''''''''''''Die große Fantasy-Saga geht weiter (4/6) Die Auftragsmörderin
-    sehnt sich zurück nach Freiheit und Unabhängigkeit. Doch die Schatten der Vergangenheit,
+  Description: "Die große Fantasy-Saga geht weiter (4/6) Die Auftragsmörderin sehnt sich zurück nach Freiheit und Unabhängigkeit. Doch die Schatten der Vergangenheit,
     die Begegnungen der Gegenwart und die Aufgaben der Zukunft sind tödlicher denn
     je. Nicht nur ein alter Feind, ein kleines Mädchen und ein ganzes Volk zehren
     an ihren Kräften … Auf Burg Felsbach findet Karek keine Ruhe. Der König kämpft
@@ -15364,12 +15363,7 @@ books:
     Finalist)Buch 3Buch 4 (Bild-Bestseller)Die Gaukler-ChronikenPrequell-Kurzgeschichte
     Das Schwert und das PferdDer Dieb und der Söldner (Skoutz Award 2020; Bild-Bestseller)Die
     Hure und der SöldnerDie Hexe und der SöldnerDie Alchemisten Saga in drei BändenDer
-    Meister der Elixiere (#1 Audible)Der König der Elixiere (#1 Audible)Der Hüter
-    der ElixiereSchattenstaub (zus. mit Mira Valentin und Greg Walters)Schattenstaub
-    – Die Prüfung (#1 Amazon Bestseller, #1 Audible)Schattenstaub – Die SucheSchattenstaub
-    – Die WandlungMinen der Macht Saga (zus. mit Bernhard Hennen, Mira Valentin, Greg
-    Walters, Torsten Weitze)Der UnheilerDer FormbrecherDer GrauzornThriller-Serien
-    zusammen mit ThariotEchtzeiT (3 Bände)Instabil (5 Bände)'''''''''''''''
+    Meister der Elixiere (#1 Audible)Der König der Elixiere (#1 Audible)"
   image_url: null
   bookType: Audiobook
   duration: null
@@ -15389,7 +15383,7 @@ books:
   My Rating: 3
   rating: 4.34
   bookshelves: read
-  Serie: Die Krosann-Saga - Lehrjahre
+  serie: Die Krosann-Saga - Lehrjahre
   Serien Nr.: 2
   isbn: null
   id: 22838012
@@ -15436,7 +15430,7 @@ books:
   My Rating: 4
   rating: 4.26
   bookshelves: read
-  Serie: Die Krosann-Saga - Lehrjahre
+  serie: Die Krosann-Saga - Lehrjahre
   Serien Nr.: 1
   isbn: 9781499355130
   id: 22837999
@@ -15481,7 +15475,7 @@ books:
   My Rating: 4
   rating: 4.2
   bookshelves: read
-  Serie: Der Totengräbersohn
+  serie: Der Totengräbersohn
   Serien Nr.: 1
   isbn: 3947515006
   id: 34630305
@@ -15543,7 +15537,7 @@ books:
   My Rating: 0
   rating: 3.63
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9781250174604
   id: 41555947
@@ -15592,7 +15586,7 @@ books:
   My Rating: 0
   rating: 4.48
   bookshelves: to-read
-  Serie: Crescent City
+  serie: Crescent City
   Serien Nr.: 1
   isbn: 9781635574043
   id: 44778083
@@ -15646,7 +15640,7 @@ books:
   My Rating: 3
   rating: 4.02
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780547569659
   id: 13202092
@@ -15684,7 +15678,7 @@ books:
   My Rating: 4
   rating: 4.3
   bookshelves: read
-  Serie: Gentleman Bastard
+  serie: Gentleman Bastard
   Serien Nr.: 1
   isbn: 9783453530911
   id: 2923472
@@ -15740,7 +15734,7 @@ books:
   My Rating: 3
   rating: 4.24
   bookshelves: read
-  Serie: Gentleman Bastard
+  serie: Gentleman Bastard
   Serien Nr.: 2
   isbn: 9783453531130
   id: 4279554
@@ -15783,7 +15777,7 @@ books:
   My Rating: 3
   rating: 4.22
   bookshelves: read
-  Serie: Gentleman Bastard
+  serie: Gentleman Bastard
   Serien Nr.: 3
   isbn: 9783453531949
   id: 17824944
@@ -15825,7 +15819,7 @@ books:
   My Rating: 0
   rating: 3.83
   bookshelves: to-read
-  Serie: Spill Zone
+  serie: Spill Zone
   Serien Nr.: 2
   isbn: 9781626721500
   id: 36276327
@@ -15870,7 +15864,7 @@ books:
   My Rating: 2
   rating: 3.85
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783520005151
   id: 46117230
@@ -15913,7 +15907,7 @@ books:
   My Rating: 0
   rating: 3.76
   bookshelves: to-read
-  Serie: Trix Solier
+  serie: Trix Solier
   Serien Nr.: 1
   isbn: 9783407810748
   id: 8479967
@@ -15957,7 +15951,7 @@ books:
   My Rating: 0
   rating: 4.06
   bookshelves: to-read
-  Serie: Das Imperium der Masken
+  serie: Das Imperium der Masken
   Serien Nr.: 1
   isbn: 9783104902067
   id: 35132289
@@ -16009,7 +16003,7 @@ books:
   My Rating: 0
   rating: 4.01
   bookshelves: to-read
-  Serie: Serpent & Dove
+  serie: Serpent & Dove
   Serien Nr.: 1
   isbn: 9782378760618
   id: 40024139
@@ -16059,7 +16053,7 @@ books:
   My Rating: 0
   rating: 4.17
   bookshelves: to-read
-  Serie: David Hunter
+  serie: David Hunter
   Serien Nr.: 2
   isbn: 9783499241956
   id: 3209061
@@ -16107,7 +16101,7 @@ books:
   My Rating: 3
   rating: 4.15
   bookshelves: read
-  Serie: David Hunter
+  serie: David Hunter
   Serien Nr.: 1
   isbn: 9780385340045
   id: 46465
@@ -16159,7 +16153,7 @@ books:
   My Rating: 0
   rating: 4.26
   bookshelves: to-read
-  Serie: Stephen Frys Great Mythology
+  serie: Stephen Frys Great Mythology
   Serien Nr.: 1
   isbn: 9780718188726
   id: 35074096
@@ -16207,7 +16201,7 @@ books:
   My Rating: 4
   rating: 4.25
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783453022539
   id: 2760772
@@ -16251,7 +16245,7 @@ books:
   My Rating: 0
   rating: 4.2
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783453272378
   id: 45013523
@@ -16298,7 +16292,7 @@ books:
   My Rating: 0
   rating: 4.0
   bookshelves: to-read
-  Serie: Bill Hodges Trilogy
+  serie: Bill Hodges Trilogy
   Serien Nr.: 1
   isbn: 9781476754451
   id: 18775247
@@ -16350,7 +16344,7 @@ books:
   My Rating: 3
   rating: 3.77
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783404130351
   id: 12680
@@ -16394,7 +16388,7 @@ books:
   My Rating: 4
   rating: 4.04
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780767903325
   id: 776
@@ -16440,7 +16434,7 @@ books:
   My Rating: 0
   rating: 3.92
   bookshelves: to-read
-  Serie: Das Spiel der Götter
+  serie: Das Spiel der Götter
   Serien Nr.: 1
   isbn: 9783442249329
   id: 541868
@@ -16481,7 +16475,7 @@ books:
   My Rating: 0
   rating: 3.83
   bookshelves: to-read
-  Serie: The Tales of Bauchelain and Korbal Broach
+  serie: The Tales of Bauchelain and Korbal Broach
   Serien Nr.: 1
   isbn: 9781597800044
   id: 55400
@@ -16539,7 +16533,7 @@ books:
   My Rating: 4
   rating: 4.16
   bookshelves: read
-  Serie: Millennium
+  serie: Millennium
   Serien Nr.: 1
   isbn: 9780670069019
   id: 2429135
@@ -16586,7 +16580,7 @@ books:
   My Rating: 2
   rating: 3.85
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: null
   id: 14201
@@ -16633,7 +16627,7 @@ books:
   My Rating: 3
   rating: 4.33
   bookshelves: read
-  Serie: The Hunger Games
+  serie: The Hunger Games
   Serien Nr.: 1
   isbn: 9780439023481
   id: 2767052
@@ -16671,7 +16665,7 @@ books:
   My Rating: 0
   rating: 4.12
   bookshelves: to-read
-  Serie: Dämonenakademie
+  serie: Dämonenakademie
   Serien Nr.: 1
   isbn: 9783641153731
   id: 32467398
@@ -16711,7 +16705,7 @@ books:
   My Rating: 0
   rating: 3.82
   bookshelves: to-read
-  Serie: The Books of Ambha
+  serie: The Books of Ambha
   Serien Nr.: 1
   isbn: null
   id: 39714124
@@ -16758,7 +16752,7 @@ books:
   My Rating: 3
   rating: 4.34
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783453168794
   id: 1502813
@@ -16804,7 +16798,7 @@ books:
   My Rating: 3
   rating: 4.0
   bookshelves: read
-  Serie: Scheibenwelt
+  serie: Scheibenwelt
   Serien Nr.: 2
   isbn: 9783492285018
   id: 1502761
@@ -16846,7 +16840,7 @@ books:
   My Rating: 3
   rating: 4.0
   bookshelves: read
-  Serie: Scheibenwelt
+  serie: Scheibenwelt
   Serien Nr.: 1
   isbn: 9783492285100
   id: 1237017
@@ -16888,7 +16882,7 @@ books:
   My Rating: 3
   rating: 3.91
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: 5
   isbn: 9783492285179
   id: 1502769
@@ -16930,7 +16924,7 @@ books:
   My Rating: 0
   rating: null
   bookshelves: to-read
-  Serie: Discworld
+  serie: Discworld
   Serien Nr.: 33
   isbn: 0
   id: 64222
@@ -16976,7 +16970,7 @@ books:
   My Rating: 0
   rating: null
   bookshelves: to-read
-  Serie: Discworld
+  serie: Discworld
   Serien Nr.: 8
   isbn: 0
   id: 64216
@@ -17017,7 +17011,7 @@ books:
   My Rating: 0
   rating: null
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 0
   id: 35126152
@@ -17071,7 +17065,7 @@ books:
   My Rating: 0
   rating: null
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 0
   id: 47989
@@ -17117,7 +17111,7 @@ books:
   My Rating: 3
   rating: 4.05
   bookshelves: read
-  Serie: Hannibal Lecter
+  serie: Hannibal Lecter
   Serien Nr.: 1
   isbn: null
   id: 28877
@@ -17159,7 +17153,7 @@ books:
   My Rating: 0
   rating: 4.21
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783608108187
   id: 26182929
@@ -17204,7 +17198,7 @@ books:
   My Rating: 0
   rating: 4.11
   bookshelves: to-read
-  Serie: Legacy of OrÃ¯sha
+  serie: Legacy of OrÃ¯sha
   Serien Nr.: 1
   isbn: 9781250170972
   id: 34728667
@@ -17269,7 +17263,7 @@ books:
   My Rating: 3
   rating: 4.38
   bookshelves: read
-  Serie: The 13th Paladin
+  serie: The 13th Paladin
   Serien Nr.: 1
   isbn: 1790804418
   id: 43228888
@@ -17320,7 +17314,7 @@ books:
   My Rating: 3
   rating: 4.04
   bookshelves: read
-  Serie: Sonea
+  serie: Sonea
   Serien Nr.: 2
   isbn: 9783764530426
   id: 10117050
@@ -17368,7 +17362,7 @@ books:
   My Rating: 3
   rating: 4.03
   bookshelves: read
-  Serie: Sonea
+  serie: Sonea
   Serien Nr.: 3
   isbn: 9783764530433
   id: 16058396
@@ -17413,7 +17407,7 @@ books:
   My Rating: 3
   rating: 3.93
   bookshelves: read
-  Serie: Sonea
+  serie: Sonea
   Serien Nr.: 1
   isbn: 9783442377251
   id: 10238585
@@ -17464,7 +17458,7 @@ books:
   My Rating: 4
   rating: 4.13
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780156001311
   id: 119073
@@ -17504,7 +17498,7 @@ books:
   My Rating: 0
   rating: 4.24
   bookshelves: to-read
-  Serie: Hainish Cycle
+  serie: Hainish Cycle
   Serien Nr.: 1-3
   isbn: 9780312862114
   id: 67999
@@ -17572,7 +17566,7 @@ books:
   My Rating: 0
   rating: 4.21
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780933377462
   id: 68024
@@ -17611,7 +17605,7 @@ books:
   My Rating: 4
   rating: 4.01
   bookshelves: read
-  Serie: Erdsee Zyklus
+  serie: Erdsee Zyklus
   Serien Nr.: 1
   isbn: 9780553383041
   id: 13642
@@ -17650,7 +17644,7 @@ books:
   My Rating: 2
   rating: 3.78
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783453304734
   id: 7520886
@@ -17697,7 +17691,7 @@ books:
   My Rating: 3
   rating: 4.09
   bookshelves: read
-  Serie: Erebos
+  serie: Erebos
   Serien Nr.: 1
   isbn: 9783785569573
   id: 7748743
@@ -17755,7 +17749,7 @@ books:
   My Rating: 0
   rating: 4.23
   bookshelves: to-read
-  Serie: Shades of Magic
+  serie: Shades of Magic
   Serien Nr.: 2
   isbn: 9780765376473
   id: 20764879
@@ -17805,7 +17799,7 @@ books:
   My Rating: 0
   rating: 4.2
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780765387561
   id: 50623864
@@ -17863,7 +17857,7 @@ books:
   My Rating: 0
   rating: 3.74
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780062835772
   id: 58064046
@@ -17914,7 +17908,7 @@ books:
   My Rating: 0
   rating: 4.15
   bookshelves: to-read
-  Serie: Divergent
+  serie: Divergent
   Serien Nr.: 1
   isbn: 9780062024039
   id: 13335037
@@ -17967,7 +17961,7 @@ books:
   My Rating: 0
   rating: 3.62
   bookshelves: to-read
-  Serie: Realm Breaker
+  serie: Realm Breaker
   Serien Nr.: 1
   isbn: 9780062872623
   id: 57965663
@@ -18027,7 +18021,7 @@ books:
   My Rating: 0
   rating: 3.75
   bookshelves: to-read
-  Serie: Gereon Rath
+  serie: Gereon Rath
   Serien Nr.: 1
   isbn: 9783462039320
   id: 4603896
@@ -18072,7 +18066,7 @@ books:
   My Rating: 2
   rating: 4.5
   bookshelves: read
-  Serie: Zamonien
+  serie: Zamonien
   Serien Nr.: 3
   isbn: 9783492241779
   id: 1491119
@@ -18117,7 +18111,7 @@ books:
   My Rating: 3
   rating: 3.69
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780140283334
   id: 7624
@@ -18158,7 +18152,7 @@ books:
   My Rating: 0
   rating: 4.58
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783644117419
   id: 19219646
@@ -18208,7 +18202,7 @@ books:
   My Rating: 3
   rating: 3.59
   bookshelves: read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9783871347108
   id: 9397145
@@ -18255,7 +18249,7 @@ books:
   My Rating: 0
   rating: 3.93
   bookshelves: to-read
-  Serie: null
+  serie: null
   Serien Nr.: null
   isbn: 9780770430078
   id: 4214

@@ -14,6 +14,13 @@ function getDivider(datum, option) {
     label = -val;
   } else if (option === 'first_name' || option === 'last_name') {
     label = val.charAt(0);
+  } else if (option === 'serie') {
+    // Gruppiere nach Serie: Buchstabe oder Serienname
+    if (!val || val === 'null' || val === null) {
+      label = 'No Series';
+    } else {
+      label = val;
+    }
   } else if (option === 'age_asc') {
     if (val > 0) {
       label = (Math.floor(Math.abs(val) / 10) * 10) + '+';
@@ -138,6 +145,7 @@ function getSortParams(option) {
     case 'rating_desc': return ['rating', 'desc'];
     case 'rating_asc': return ['rating', 'asc'];
     case 'bookshelves': return ['bookshelves', 'asc'];
+    case 'serie': return ['Serie', 'asc']; // NEU: Sortierung nach Serie
     default: return [option, 'asc'];
   }
 }
@@ -229,6 +237,12 @@ function startApp(data) {
     let count = 0;
     let isNewLabel = true;
     let labelCount = 0;
+    let seriesCount = {};
+    sortedBooks.forEach((d) => {
+      if (d.Serie && d.Serie !== 'null') {
+        seriesCount[d.Serie] = (seriesCount[d.Serie] || 0) + 1;
+      }
+    });
     _.each(sortedBooks, (d, i) => {
       const w = bookW(d.pages); //book width
       const h = bookH(d.rating); //book height
@@ -253,7 +267,12 @@ function startApp(data) {
       count++;
       //put the first level label
       if (isNewLabel) {
-        putLegend(divider, labelCount, accW, accS, isInitial, gap);
+        // Für Serie: Wenn mehr als 2 Bände, zeige Seriennamen und Anzahl
+        if (sortOption === 'serie' && d.Serie && d.Serie !== 'null' && seriesCount[d.Serie] > 2 && isNewLabel) {
+          putLegend(`${d.Serie} (${seriesCount[d.Serie]})`, labelCount, accW, accS, isInitial, gap);
+        } else if (isNewLabel) {
+          putLegend(divider, labelCount, accW, accS, isInitial, gap);
+        }
         //update count for the previous values
         d3.select(`#legend-0-${labelCount - 1}`).text(count);
         count = 0;
