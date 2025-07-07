@@ -40,6 +40,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#1C170F'
 - title: Tränen sind immer das Ende
   author: Akif Pirincci
   My Rating: 0
@@ -83,6 +84,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Learning Python with Raspberry Pi
   author: Alex Bradbury
   My Rating: 2
@@ -127,6 +129,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#768F9D'
 - title: To Kill a Kingdom
   author: Alexandra Christo
   My Rating: 0
@@ -164,6 +167,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#1B2F39'
 - title: Der Nachtclan
   author: Alexey Pehov
   My Rating: 2
@@ -206,6 +210,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#565B5E'
 - title: Der Gebannte
   author: Alexey Pehov
   My Rating: 2
@@ -250,6 +255,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#6D4C45'
 - title: Schattenwanderer
   author: Alexey Pehov
   My Rating: 3
@@ -290,6 +296,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Bird and the Sword
   author: Amy Harmon
   My Rating: 0
@@ -326,6 +333,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#421612'
 - title: Der Fluch des Wüstenfeuers
   author: Andrea Bottlinger
   My Rating: 0
@@ -373,6 +381,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Herr aller Dinge
   author: Andreas Eschbach
   My Rating: 0
@@ -420,6 +429,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#A1A0A1'
 - title: Eine Billion Dollar
   author: Andreas Eschbach
   My Rating: 3
@@ -468,6 +478,7 @@ books:
   myFav: true
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: NSA - Nationales Sicherheits-Amt
   author: Andreas Eschbach
   My Rating: 0
@@ -510,6 +521,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#B16D5A'
 - title: Project Hail Mary
   author: Andy Weir
   My Rating: 4
@@ -567,6 +579,7 @@ books:
   myFav: true
   first_name: 'False'
   last_name: 'False'
+  book_color: '#4E4734'
 - title: The Martian
   author: Andy Weir
   My Rating: 5
@@ -614,6 +627,7 @@ books:
   myFav: true
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Age of Iron
   author: Angus Watson
   My Rating: 2
@@ -658,6 +672,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das Imperium
   author: Ann Leckie
   My Rating: 0
@@ -700,6 +715,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Masterharper of Pern
   author: Anne McCaffrey
   My Rating: 3
@@ -749,6 +765,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Dragonsong
   author: Anne McCaffrey
   My Rating: 4
@@ -787,6 +804,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#768A9C'
 - title: Dragonsdawn
   author: Anne McCaffrey
   My Rating: 3
@@ -846,6 +864,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#5B3646'
 - title: Drachentrommeln
   author: Anne McCaffrey
   My Rating: 4
@@ -894,6 +913,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#3F3631'
 - title: Die Welt der Drachen
   author: Anne McCaffrey
   My Rating: 3
@@ -941,6 +961,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das Lied des Blutes
   author: Anthony Ryan
   My Rating: 3
@@ -970,7 +991,7 @@ books:
     gebracht worden, wo er zum Krieger ausgebildet wurde. Nun sind die Namen, die
     er sich im Kampf verdient hat, über alle Grenzen hin bekannt Schwert des Königs,
     Dunkelklinge, Rabenschatten und am gefürchtetsten Hoffnungstöter.
-  image_url: https://books.google.com/books/content?id=lQI-BAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api
+  image_url: https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png
   bookType: Audiobook
   duration: null
   genre: Fiction
@@ -983,6 +1004,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#686D64'
 - title: The Wolfs Call
   author: Anthony Ryan
   My Rating: 3
@@ -1036,6 +1058,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#606761'
 - title: Der Herr des Turmes
   author: Anthony Ryan
   My Rating: 3
@@ -1079,6 +1102,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Waking Fire
   author: Anthony Ryan
   My Rating: 2
@@ -1135,6 +1159,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Königin der Flammen
   author: Anthony Ryan
   My Rating: 2
@@ -1183,6 +1208,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Little Prince
   author: Antoine de Saint-Exupery
   My Rating: 2
@@ -1220,6 +1246,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#7C7480'
 - title: Hard to Be a God
   author: Arkady Strugatsky
   My Rating: 0
@@ -1261,6 +1288,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#5F3F22'
 - title: Romane schreiben und veröffentlichen für Dummies
   author: Axel Hollmann
   My Rating: 0
@@ -1304,6 +1332,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#828B61'
 - title: Tiny Habits The Small Changes That Change Everything
   author: B.J.  Fogg
   My Rating: 0
@@ -1353,6 +1382,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der Ernährungskompass Das Fazit aller wissenschaftlichen Studien zum Thema
     Ernährung
   author: Bas Kast
@@ -1402,6 +1432,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#C8B56A'
 - title: What If Its Us
   author: Becky Albertalli
   My Rating: 0
@@ -1458,6 +1489,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#81BBC3'
 - title: Der Galgen von Tyburn
   author: Ben Aaronovitch
   My Rating: 0
@@ -1501,6 +1533,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Fingerhut-Sommer Roman
   author: Ben Aaronovitch
   My Rating: 0
@@ -1544,6 +1577,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der böse Ort
   author: Ben Aaronovitch
   My Rating: 0
@@ -1591,6 +1625,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Ein Wispern unter Baker Street Roman
   author: Ben Aaronovitch
   My Rating: 3
@@ -1638,6 +1673,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Schwarzer Mond über Soho
   author: Ben Aaronovitch
   My Rating: 3
@@ -1683,6 +1719,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der Oktobermann
   author: Ben Aaronovitch
   My Rating: 0
@@ -1725,6 +1762,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#C08F6A'
 - title: Die Flüsse von London
   author: Ben Aaronovitch
   My Rating: 3
@@ -1766,6 +1804,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das Labyrinth von London
   author: Benedict Jacka
   My Rating: 0
@@ -1817,6 +1856,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#6E547C'
 - title: Der Drachenjäger Die erste Reise ins Wolkenmeer
   author: Bernd Perplies
   My Rating: 0
@@ -1863,6 +1903,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Für die Krone
   author: Bernd Perplies
   My Rating: 2
@@ -1899,6 +1940,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der deutsche Science-Fiction-Film - Annäherungen an ein vernachlässigtes
     Genre
   author: Bernd Perplies
@@ -1936,6 +1978,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Eine kurze Geschichte von fast allem
   author: Bill Bryson
   My Rating: 4
@@ -1999,6 +2042,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Stürme des Zorns
   author: Brandon Sanderson
   My Rating: 4
@@ -2051,6 +2095,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Worte des Lichts
   author: Brandon Sanderson
   My Rating: 4
@@ -2101,6 +2146,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#79887E'
 - title: Der Weg von Königen
   author: Brandon Sanderson
   My Rating: 4
@@ -2172,6 +2218,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#8E737A'
 - title: Oathbringer
   author: Brandon Sanderson
   My Rating: 3
@@ -2234,6 +2281,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#7C6F5B'
 - title: Skyward
   author: Brandon Sanderson
   My Rating: 0
@@ -2286,6 +2334,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#4F6265'
 - title: The Final Empire
   author: Brandon Sanderson
   My Rating: 3
@@ -2351,6 +2400,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#855B58'
 - title: The Rithmatist
   author: Brandon Sanderson
   My Rating: 3
@@ -2396,6 +2446,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Burning White
   author: Brent Weeks
   My Rating: 0
@@ -2449,6 +2500,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#462F31'
 - title: Am Rande der Schatten
   author: Brent Weeks
   My Rating: 3
@@ -2492,6 +2544,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#B59FA2'
 - title: The Way of Shadows
   author: Brent Weeks
   My Rating: 3
@@ -2535,6 +2588,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Saga
   author: Brian K. Vaughan
   My Rating: 0
@@ -2579,6 +2633,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#8D8579'
 - title: Der weiße Drache
   author: Anne McCaffrey
   My Rating: 4
@@ -2625,6 +2680,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Drachentrommeln
   author: Anne McCaffrey
   My Rating: 3
@@ -2665,6 +2721,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Digital Minimalism Choosing a Focused Life in a Noisy World
   author: Cal Newport
   My Rating: 0
@@ -2719,6 +2776,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#DAEAF4'
 - title: Die Roten Schriftrollen
   author: Cassandra Clare
   My Rating: 0
@@ -2763,6 +2821,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#6F6661'
 - title: Die Unsterblichen
   author: Chloe  Benjamin
   My Rating: 0
@@ -2809,6 +2868,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Verlobten des Winters
   author: Christelle Dabos
   My Rating: 1
@@ -2854,6 +2914,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#709BC0'
 - title: Silicon Germany Wie wir die digitale Transformation schaffen
   author: Christoph Keese
   My Rating: 1
@@ -2898,6 +2959,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#EDD9D5'
 - title: Frostflamme
   author: Christopher Husberg
   My Rating: 2
@@ -2944,6 +3006,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das Erbe der Macht
   author: Christopher Paolini
   My Rating: 2
@@ -2991,6 +3054,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Eragon
   author: Christopher Paolini
   My Rating: 3
@@ -3029,6 +3093,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#686762'
 - title: Fight Club
   author: Chuck Palahniuk
   My Rating: 0
@@ -3071,6 +3136,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#755C56'
 - title: Furyborn
   author: Claire Legrand
   My Rating: 0
@@ -3131,6 +3197,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#28211C'
 - title: Die vielen Leben des Harry August
   author: Claire North
   My Rating: 4
@@ -3176,6 +3243,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Da Vinci Code
   author: Dan Brown
   My Rating: 2
@@ -3222,6 +3290,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#937B68'
 - title: Die Dynastie der Maschinen Roman
   author: Daniel H. Wilson
   My Rating: 0
@@ -3272,6 +3341,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: DARKNET
   author: Daniel Suarez
   My Rating: 0
@@ -3319,6 +3389,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#2C4940'
 - title: Daemon Die Welt ist nur ein Spiel
   author: Daniel Suarez
   My Rating: 0
@@ -3382,6 +3453,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#58361F'
 - title: The Curse of Tenth Grave
   author: Darynda Jones
   My Rating: 0
@@ -3431,6 +3503,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Gefährten
   author: David Eddings
   My Rating: 4
@@ -3477,6 +3550,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#979FA5'
 - title: A day for damnation
   author: David Gerrold
   My Rating: 4
@@ -3513,6 +3587,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#F5F5F5'
 - title: A Matter for Men
   author: David Gerrold
   My Rating: 4
@@ -3552,6 +3627,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Outlander
   author: Diana Gabaldon
   My Rating: 0
@@ -3599,6 +3675,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#297F99'
 - title: Fauler Zauber
   author: Diana Wynne Jones
   My Rating: 0
@@ -3646,6 +3723,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Pulsarnacht
   author: Dietmar Dath
   My Rating: 0
@@ -3688,6 +3766,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#4D5169'
 - title: Metro 2033
   author: Dmitry Glukhovsky
   My Rating: 4
@@ -3736,6 +3815,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#382016'
 - title: Metro 2034
   author: Dmitry Glukhovsky
   My Rating: 2
@@ -3809,6 +3889,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Hitchhikers Guide to the Galaxy
   author: Douglas Adams
   My Rating: 4
@@ -3860,6 +3941,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#AF2C38'
 - title: The Cat in the Hat
   author: Dr. Seuss
   My Rating: 0
@@ -3906,6 +3988,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#C8C8C8'
 - title: The Arctic Incident
   author: Eoin Colfer
   My Rating: 4
@@ -3947,6 +4030,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#90A7B8'
 - title: The Night Circus
   author: Erin Morgenstern
   My Rating: 0
@@ -3997,6 +4081,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Old Man and the Sea
   author: Ernest Hemingway
   My Rating: 3
@@ -4037,6 +4122,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#8D8E78'
 - title: The Great Gatsby
   author: F. Scott Fitzgerald
   My Rating: 3
@@ -4082,6 +4168,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#555F7B'
 - title: Skinwalker Fluch des Blutes
   author: Faith Hunter
   My Rating: 0
@@ -4123,6 +4210,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#3E261E'
 - title: Ace of Spades
   author: 'Faridah Ã€bÃ­ké-Ãx8DyÃ­mÃ­dé    '
   My Rating: 0
@@ -4175,6 +4263,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#A57070'
 - title: Dune
   author: Frank Herbert
   My Rating: 3
@@ -4244,6 +4333,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#6D491C'
 - title: The Swarm
   author: Frank Schätzing
   My Rating: 4
@@ -4289,6 +4379,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#3E858F'
 - title: Die Tyrannei des Schmetterlings
   author: Frank Schätzing
   My Rating: 0
@@ -4336,6 +4427,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#513C38'
 - title: A Game of Thrones
   author: George R.R. Martin
   My Rating: 2
@@ -4376,6 +4468,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: A Dance with Dragons
   author: George R.R. Martin
   My Rating: 3
@@ -4416,6 +4509,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#37342D'
 - title: Planetenwanderer
   author: George R.R. Martin
   My Rating: 0
@@ -4461,6 +4555,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#763731'
 - title: The Shape of Water
   author: Guillermo del Toro
   My Rating: 0
@@ -4537,6 +4632,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#2F5456'
 - title: We Hunt the Flame
   author: Hafsah Faizal
   My Rating: 0
@@ -4586,6 +4682,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Factfulness Ten Reasons Were Wrong About the World – and Why Things Are Better
     Than You Think
   author: Hans Rosling
@@ -4633,6 +4730,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Wer die Nachtigall stört
   author: Harper Lee
   My Rating: 0
@@ -4676,6 +4774,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#7E7B6E'
 - title: Siddhartha
   author: Hermann Hesse
   My Rating: 0
@@ -4714,6 +4813,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#857664'
 - title: The Cruel Prince
   author: Holly Black
   My Rating: 0
@@ -4764,6 +4864,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#D3CDC2'
 - title: Der Weg ins Labyrinth
   author: Holly Black
   My Rating: 1
@@ -4806,6 +4907,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Drachenmond
   author: Ian McDonald
   My Rating: 0
@@ -4848,6 +4950,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#404A51'
 - title: S.- Das Schiff des Theseus
   author: J.J. Abrams
   My Rating: 3
@@ -4899,6 +5002,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Harry Potter and the Deathly Hallows
   author: J.K. Rowling
   My Rating: 3
@@ -4946,6 +5050,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#515555'
 - title: Harry Potter and the Half-Blood Prince
   author: J.K. Rowling
   My Rating: 3
@@ -4982,6 +5087,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Harry Potter and the Prisoner of Azkaban
   author: J.K. Rowling
   My Rating: 3
@@ -5025,6 +5131,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#917978'
 - title: Harry Potter and the Goblet of Fire
   author: J.K. Rowling
   My Rating: 2
@@ -5061,6 +5168,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#786446'
 - title: Harry Potter and the Order of the Phoenix
   author: J.K. Rowling
   My Rating: 4
@@ -5101,6 +5209,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#786D56'
 - title: Harry Potter and the Sorcerers Stone
   author: J.K. Rowling
   My Rating: 3
@@ -5144,6 +5253,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#A9656C'
 - title: Harry Potter and the Chamber of Secrets
   author: J.K. Rowling
   My Rating: 2
@@ -5190,6 +5300,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#59778C'
 - title: Phantastische Tierwesen und wo sie zu finden sind Das Originaldrehbuch
   author: J.K. Rowling
   My Rating: 0
@@ -5236,6 +5347,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Harry Potter and the Cursed Child Parts One and Two
   author: J.K. Rowling
   My Rating: 4
@@ -5275,6 +5387,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#C0A256'
 - title: Die Rückkehr des Königs
   author: J.R.R. Tolkien
   My Rating: 4
@@ -5318,6 +5431,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die zwei Türme
   author: J.R.R. Tolkien
   My Rating: 4
@@ -5362,6 +5476,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Gefährten
   author: J.R.R. Tolkien
   My Rating: 4
@@ -5402,6 +5517,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Hobbit
   author: J.R.R. Tolkien
   My Rating: 3
@@ -5448,6 +5564,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#F9F9F9'
 - title: Invincible
   author: Jack Campbell
   My Rating: 2
@@ -5494,6 +5611,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#5B463F'
 - title: Victorious
   author: Jack Campbell
   My Rating: 3
@@ -5537,6 +5655,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#89A0AC'
 - title: Relentless
   author: Jack Campbell
   My Rating: 0
@@ -5584,6 +5703,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#4F5150'
 - title: Dreadnaught
   author: Jack Campbell
   My Rating: 2
@@ -5631,6 +5751,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#855C4A'
 - title: Valiant
   author: Jack Campbell
   My Rating: 2
@@ -5680,6 +5801,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#56585D'
 - title: Fearless
   author: Jack Campbell
   My Rating: 3
@@ -5727,6 +5849,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#464242'
 - title: Courageous
   author: Jack Campbell
   My Rating: 3
@@ -5766,6 +5889,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#677666'
 - title: Dauntless
   author: Jack Campbell
   My Rating: 2
@@ -5810,6 +5934,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#474543'
 - title: Das Erbe der Seher
   author: James  Islington
   My Rating: 3
@@ -5853,6 +5978,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Atomic Habits An Easy & Proven Way to Build Good Habits & Break Bad Ones
   author: James Clear
   My Rating: 3
@@ -5912,6 +6038,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#E8E2D3'
 - title: Stolz und Vorurteil
   author: Jane Austen
   My Rating: 0
@@ -5957,6 +6084,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#E4AC83'
 - title: Hüter der Schatten
   author: Janine Hofeditz
   My Rating: 2
@@ -6000,6 +6128,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Obesity Code Unlocking the Secrets of Weight Loss
   author: Jason Fung
   My Rating: 2
@@ -6049,6 +6178,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#E6E0D6'
 - title: Long Way Down
   author: Jason Reynolds
   My Rating: 0
@@ -6120,6 +6250,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#A0A2A0'
 - title: The Eyre Affair
   author: Jasper Fforde
   My Rating: 0
@@ -6158,6 +6289,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#648A5F'
 - title: Das Spiel
   author: Jay Kristoff
   My Rating: 3
@@ -6207,6 +6339,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#927F73'
 - title: Die Rache
   author: Jay Kristoff
   My Rating: 0
@@ -6253,6 +6386,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#585047'
 - title: Die Prüfung
   author: Jay Kristoff
   My Rating: 4
@@ -6306,6 +6440,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#998E7B'
 - title: Der Untergang der Könige
   author: Jenn Lyons
   My Rating: 0
@@ -6361,6 +6496,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#626163'
 - title: Skin Game
   author: Jim Butcher
   My Rating: 3
@@ -6412,6 +6548,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Changes
   author: Jim Butcher
   My Rating: 3
@@ -6458,6 +6595,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#53381F'
 - title: Turn Coat
   author: Jim Butcher
   My Rating: 3
@@ -6504,6 +6642,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#4A3A2B'
 - title: Small Favor
   author: Jim Butcher
   My Rating: 3
@@ -6550,6 +6689,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#543619'
 - title: Dead Beat
   author: Jim Butcher
   My Rating: 3
@@ -6597,6 +6737,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Proven Guilty
   author: Jim Butcher
   My Rating: 3
@@ -6644,6 +6785,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#2F462F'
 - title: First Lords Fury
   author: Jim Butcher
   My Rating: 4
@@ -6689,6 +6831,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#612A1C'
 - title: White Night
   author: Jim Butcher
   My Rating: 4
@@ -6729,6 +6872,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#9CA3AA'
 - title: Captains Fury
   author: Jim Butcher
   My Rating: 3
@@ -6775,6 +6919,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#274543'
 - title: Princeps Fury
   author: Jim Butcher
   My Rating: 4
@@ -6819,6 +6964,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#323737'
 - title: Cursors Fury
   author: Jim Butcher
   My Rating: 3
@@ -6859,6 +7005,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Blood Rites
   author: Jim Butcher
   My Rating: 3
@@ -6906,6 +7053,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Death Masks
   author: Jim Butcher
   My Rating: 4
@@ -6950,6 +7098,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Summer Knight
   author: Jim Butcher
   My Rating: 4
@@ -6999,6 +7148,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Academs Fury
   author: Jim Butcher
   My Rating: 3
@@ -7045,6 +7195,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Ghost Story
   author: Jim Butcher
   My Rating: 3
@@ -7086,6 +7237,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Windjäger
   author: Jim Butcher
   My Rating: 0
@@ -7129,6 +7281,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#7B7977'
 - title: Grave Peril
   author: Jim Butcher
   My Rating: 3
@@ -7177,6 +7330,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Furies of Calderon
   author: Jim Butcher
   My Rating: 3
@@ -7230,6 +7384,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#6F4731'
 - title: Welcome to the Jungle
   author: Jim Butcher
   My Rating: 3
@@ -7279,6 +7434,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Fool Moon
   author: Jim Butcher
   My Rating: 3
@@ -7324,6 +7480,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#503030'
 - title: Sturmnacht
   author: Jim Butcher
   My Rating: 4
@@ -7364,6 +7521,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Shadowed Souls
   author: Jim Butcher
   My Rating: 2
@@ -7418,6 +7576,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Dragonharper A Crossroads Adventure in the world of Anne McCaffreys Pern
   author: Jody Lynn Nye
   My Rating: 4
@@ -7455,6 +7614,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Crown of Shadows
   author: Joe Hill
   My Rating: 0
@@ -7496,6 +7656,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#394153'
 - title: NOS4A2
   author: Joe Hill
   My Rating: 0
@@ -7551,6 +7712,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#CBB2A8'
 - title: Die Mutter aller Stürme
   author: John Barnes
   My Rating: 0
@@ -7591,6 +7753,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Magus
   author: John Fowles
   My Rating: 0
@@ -7638,6 +7801,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#DECCB6'
 - title: Die Zeit der Schatten
   author: John Gwynne
   My Rating: 0
@@ -7684,6 +7848,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#55413B'
 - title: A Prayer for Owen Meany
   author: John Irving
   My Rating: 4
@@ -7733,6 +7898,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#A79991'
 - title: The World According to Garp
   author: John Irving
   My Rating: 3
@@ -7777,6 +7943,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das Hotel New Hampshire
   author: John Irving
   My Rating: 2
@@ -7817,6 +7984,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Life of the Mind
   author: John Scalzi
   My Rating: 0
@@ -7859,6 +8027,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#616473'
 - title: Krieg der Klone
   author: John Scalzi
   My Rating: 4
@@ -7901,6 +8070,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Kollaps Das Imperium der Ströme
   author: John Scalzi
   My Rating: 1
@@ -7951,6 +8121,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The B-Team
   author: John Scalzi
   My Rating: 3
@@ -7996,6 +8167,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#546063'
 - title: Die letzte Kolonie
   author: John Scalzi
   My Rating: 3
@@ -8038,6 +8210,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die letzte Einheit
   author: John Scalzi
   My Rating: 3
@@ -8079,6 +8252,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Frontal
   author: John Scalzi
   My Rating: 0
@@ -8127,6 +8301,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#3F3929'
 - title: Galaktische Mission
   author: John Scalzi
   My Rating: 3
@@ -8170,6 +8345,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Youre Not Fooling Anyone When You Take Your Laptop to a Coffee Shop Scalzi
     on Writing
   author: John Scalzi
@@ -8217,6 +8393,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#EAD099'
 - title: Under My Hat Tales from the Cauldron
   author: Jonathan Strahan
   My Rating: 0
@@ -8269,6 +8446,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Lockwood & Co. - Das Grauenvolle Grab
   author: Jonathan Stroud
   My Rating: 4
@@ -8314,6 +8492,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#6A7A45'
 - title: Das Flammende Phantom
   author: Jonathan Stroud
   My Rating: 3
@@ -8358,6 +8537,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die raunende Maske
   author: Jonathan Stroud
   My Rating: 3
@@ -8405,6 +8585,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#4E6A64'
 - title: Die seufzende Wendeltreppe
   author: Jonathan Stroud
   My Rating: 3
@@ -8457,6 +8638,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#2A4643'
 - title: The Dagger in the Desk
   author: Jonathan Stroud
   My Rating: 0
@@ -8499,6 +8681,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Initiate
   author: Joshua Anderle
   My Rating: 0
@@ -8549,6 +8732,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Unterleuten
   author: Juli Zeh
   My Rating: 0
@@ -8603,6 +8787,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#F1F0EF'
 - title: Galdäa - Der Ungeschlagene Krieg
   author: Karsten Kruschel
   My Rating: 0
@@ -8654,6 +8839,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Bear and the Nightingale
   author: Katherine Arden
   My Rating: 0
@@ -8704,6 +8890,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#282A36'
 - title: Die Säulen der Erde
   author: Ken Follett
   My Rating: 3
@@ -8756,6 +8943,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#AEC4CE'
 - title: Replay - Das zweite Spiel
   author: Ken Grimwood
   My Rating: 0
@@ -8799,6 +8987,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#533221'
 - title: Der Schwarze Thron Die Schwestern / Die Königin Zwei Romane in einem Band
   author: Kendare Blake
   My Rating: 0
@@ -8854,6 +9043,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#7AB6B8'
 - title: Trapped
   author: Kevin Hearne
   My Rating: 0
@@ -8900,6 +9090,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#5A59A5'
 - title: Tricked
   author: Kevin Hearne
   My Rating: 3
@@ -8946,6 +9137,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#B86D13'
 - title: Hexed
   author: Kevin Hearne
   My Rating: 3
@@ -8985,6 +9177,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#585C32'
 - title: Gehämmert
   author: Kevin Hearne
   My Rating: 4
@@ -9035,6 +9228,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#606259'
 - title: Hounded
   author: Kevin Hearne
   My Rating: 3
@@ -9089,6 +9283,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#BE441A'
 - title: Das Spiel des Barden
   author: Kevin Hearne
   My Rating: 4
@@ -9137,6 +9332,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#3A515C'
 - title: Aurora
   author: Kim Stanley Robinson
   My Rating: 0
@@ -9177,6 +9373,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#36393D'
 - title: Von Lust und Last literarischen Schreibens. Ein Blick in die Werkstatt deutscher
     Schriftsteller.
   author: Klaus Modick
@@ -9215,6 +9412,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Ukulele Strums
   author: Kurt Thomas
   My Rating: 0
@@ -9252,6 +9450,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Slaughterhouse-Five
   author: Kurt Vonnegut Jr.
   My Rating: 0
@@ -9289,6 +9488,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#775B5E'
 - title: Monster Hunter Nemesis
   author: Larry Correia
   My Rating: 3
@@ -9342,6 +9542,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Monster Hunter Legion
   author: Larry Correia
   My Rating: 3
@@ -9386,6 +9587,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Monster Hunter Alpha
   author: Larry Correia
   My Rating: 3
@@ -9437,6 +9639,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Monster Hunter Vendetta
   author: Larry Correia
   My Rating: 2
@@ -9484,6 +9687,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#302F42'
 - title: Hard Magic
   author: Larry Correia
   My Rating: 0
@@ -9546,6 +9750,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#4E393B'
 - title: Monster Hunter International
   author: Larry Correia
   My Rating: 3
@@ -9595,6 +9800,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Killing Floor
   author: Lee Child
   My Rating: 3
@@ -9640,6 +9846,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das neunte Haus
   author: Leigh Bardugo
   My Rating: 0
@@ -9695,6 +9902,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#33545B'
 - title: Your Story
   author: Leonard Balsera
   My Rating: 3
@@ -9742,6 +9950,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Giver
   author: Lois Lowry
   My Rating: 0
@@ -9781,6 +9990,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#515354'
 - title: Barrayar Der Botschafter
   author: Lois McMaster Bujold
   My Rating: 2
@@ -9819,6 +10029,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#322634'
 - title: Cordelias Ehre
   author: Lois McMaster Bujold
   My Rating: 2
@@ -9855,6 +10066,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#383B26'
 - title: Barrayar
   author: Lois McMaster Bujold
   My Rating: 2
@@ -9895,6 +10107,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der Kadett
   author: Lois McMaster Bujold
   My Rating: 4
@@ -9931,6 +10144,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Scherben der Ehre
   author: Lois McMaster Bujold
   My Rating: 1
@@ -9972,6 +10186,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Holes
   author: Louis Sachar
   My Rating: 0
@@ -10022,6 +10237,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Circe
   author: Madeline Miller
   My Rating: 0
@@ -10082,6 +10298,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#5F3E23'
 - title: QualityLand
   author: Marc-Uwe Kling
   My Rating: 3
@@ -10129,6 +10346,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Handmaids Tale
   author: Margaret Atwood
   My Rating: 0
@@ -10177,6 +10395,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#43211D'
 - title: Renegades
   author: Marissa Meyer
   My Rating: 0
@@ -10223,6 +10442,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#B8C6D3'
 - title: The Curious Incident of the Dog in the Night-Time
   author: Mark Haddon
   My Rating: 3
@@ -10268,6 +10488,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#1F5060'
 - title: Die verborgene Hand
   author: Mark Henwick
   My Rating: 0
@@ -10316,6 +10537,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Vernichtender Hass
   author: Markus Heitz
   My Rating: 3
@@ -10360,6 +10582,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#C4C5C3'
 - title: Home Habitat, Range, Niche, Territory
   author: Martha Wells
   My Rating: 0
@@ -10400,6 +10623,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Göttertod
   author: Michael J. Sullivan
   My Rating: 3
@@ -10451,6 +10675,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#736E61'
 - title: The Rose and the Thorn
   author: Michael J. Sullivan
   My Rating: 2
@@ -10499,6 +10724,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#53524C'
 - title: The Death of Dulgath
   author: Michael J. Sullivan
   My Rating: 3
@@ -10545,6 +10771,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Age of Legend
   author: Michael J. Sullivan
   My Rating: 3
@@ -10589,6 +10816,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Crown Tower
   author: Michael J. Sullivan
   My Rating: 3
@@ -10634,6 +10862,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Zeitenfeuer
   author: Michael J. Sullivan
   My Rating: 3
@@ -10677,6 +10906,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#5E6551'
 - title: Rebellion
   author: Michael J. Sullivan
   My Rating: 3
@@ -10733,6 +10963,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#656862'
 - title: Pile of Bones
   author: Michael J. Sullivan
   My Rating: 0
@@ -10773,6 +11004,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Kings Property
   author: Morgan Howell
   My Rating: 0
@@ -10817,6 +11049,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The City We Became
   author: N.K. Jemisin
   My Rating: 0
@@ -10869,6 +11102,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#4D2422'
 - title: Fettlogik überwinden
   author: Nadja  Hermann
   My Rating: 4
@@ -10920,6 +11154,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#393D1B'
 - title: Das kalte Reich des Silbers
   author: Naomi Novik
   My Rating: 2
@@ -10964,6 +11199,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Victory of Eagles
   author: Naomi Novik
   My Rating: 3
@@ -11017,6 +11253,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: His Majestys Dragon
   author: Naomi Novik
   My Rating: 3
@@ -11071,6 +11308,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#BDC4C9'
 - title: A Deadly Education
   author: Naomi Novik
   My Rating: 0
@@ -11123,6 +11361,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Blood of Tyrants
   author: Naomi Novik
   My Rating: 2
@@ -11171,6 +11410,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Empire of Ivory
   author: Naomi Novik
   My Rating: 3
@@ -11218,6 +11458,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Crucible of Gold
   author: Naomi Novik
   My Rating: 3
@@ -11275,6 +11516,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Black Powder War
   author: Naomi Novik
   My Rating: 2
@@ -11312,6 +11554,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#8A8B8D'
 - title: Throne of Jade
   author: Naomi Novik
   My Rating: 3
@@ -11367,6 +11610,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#D4C5BF'
 - title: Tongues of Serpents
   author: Naomi Novik
   My Rating: 2
@@ -11430,6 +11674,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Thunderhead
   author: Neal Shusterman
   My Rating: 3
@@ -11481,6 +11726,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#697E6B'
 - title: Die Hüter des Todes
   author: Neal Shusterman
   My Rating: 3
@@ -11531,6 +11777,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#B37F68'
 - title: The Toll
   author: Neal Shusterman
   My Rating: 3
@@ -11571,6 +11818,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: American Gods
   author: Neil Gaiman
   My Rating: 2
@@ -11621,6 +11869,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#962B40'
 - title: Nordische Mythen und Sagen
   author: Neil Gaiman
   My Rating: 0
@@ -11664,6 +11913,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Phantastische Tierwesen und wo sie zu finden sind Harry Potter Hogwarts Schulbücher
   author: Newt Scamander
   My Rating: 0
@@ -11717,6 +11967,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Dear Martin
   author: Nic Stone
   My Rating: 0
@@ -11773,6 +12024,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#AF4041'
 - title: Die gelöschte Welt
   author: Nick Harkaway
   My Rating: 0
@@ -11812,6 +12064,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#3B4654'
 - title: Year One
   author: Nora Roberts
   My Rating: 0
@@ -11854,6 +12107,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Unrast
   author: Olga Tokarczuk
   My Rating: 0
@@ -11903,6 +12157,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#F0D2B7'
 - title: Enders Game - Das große Spiel
   author: Orson Scott Card
   My Rating: 3
@@ -11957,6 +12212,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Lost and Found
   author: Orson Scott Card
   My Rating: 0
@@ -12003,6 +12259,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#87916D'
 - title: Krabat. Schulausgabe.
   author: Otfried Preußler
   My Rating: 3
@@ -12045,6 +12302,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der Spieler
   author: Paolo Bacigalupi
   My Rating: 0
@@ -12098,6 +12356,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#524536'
 - title: Schiffsdiebe
   author: Paolo Bacigalupi
   My Rating: 0
@@ -12145,6 +12404,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#BA825C'
 - title: Fire Touched
   author: Patricia Briggs
   My Rating: 0
@@ -12199,6 +12459,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#474039'
 - title: Ruf des Mondes
   author: Patricia Briggs
   My Rating: 0
@@ -12240,6 +12501,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#494B51'
 - title: The Wise Mans Fear
   author: Patrick Rothfuss
   My Rating: 3
@@ -12287,6 +12549,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#2D2521'
 - title: Die Furcht des Weisen
   author: Patrick Rothfuss
   My Rating: 4
@@ -12332,6 +12595,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Name of the Wind
   author: Patrick Rothfuss
   My Rating: 4
@@ -12375,6 +12639,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Furcht des Weisen
   author: Patrick Rothfuss
   My Rating: 4
@@ -12419,6 +12684,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Doors of Stone
   author: Patrick Rothfuss
   My Rating: 0
@@ -12455,6 +12721,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Perfume The Story of a Murderer
   author: Patrick Süskind
   My Rating: 3
@@ -12506,6 +12773,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#423F3D'
 - title: The Alchemist
   author: Paulo Coelho
   My Rating: 3
@@ -12552,6 +12820,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#DC6825'
 - title: Die Angst des Tormanns beim Elfmeter
   author: Peter Handke
   My Rating: 2
@@ -12596,6 +12865,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Desert Prince
   author: Peter V. Brett
   My Rating: 0
@@ -12634,6 +12904,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#40281C'
 - title: Das Lied der Dunkelheit
   author: Peter V. Brett
   My Rating: 4
@@ -12681,6 +12952,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Desert Spear
   author: Peter V. Brett
   My Rating: 3
@@ -12728,6 +13000,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Flammen der Dämmerung
   author: Peter V. Brett
   My Rating: 3
@@ -12771,6 +13044,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#CBB2A3'
 - title: Das Feuer der Dämonen
   author: Peter V. Brett
   My Rating: 4
@@ -12819,6 +13093,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der Thron der Finsternis
   author: Peter V. Brett
   My Rating: 3
@@ -12863,6 +13138,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das Erbe des Kuriers
   author: Peter V. Brett
   My Rating: 4
@@ -12905,6 +13181,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#A3B3BD'
 - title: Das Leuchten der Magie
   author: Peter V. Brett
   My Rating: 3
@@ -12951,6 +13228,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Agatha H. and the Siege of Mechanicsburg
   author: Phil Foglio
   My Rating: 0
@@ -12998,6 +13276,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#6A5550'
 - title: La Belle Sauvage
   author: Philip Pullman
   My Rating: 0
@@ -13043,6 +13322,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#4D6874'
 - title: Red Rising
   author: Pierce Brown
   My Rating: 0
@@ -13090,6 +13370,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#49271F'
 - title: Die Schamanin
   author: R.F. Kuang
   My Rating: 0
@@ -13139,6 +13420,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#CABBBC'
 - title: Die Insel der besonderen Kinder
   author: Ransom Riggs
   My Rating: 2
@@ -13193,6 +13475,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#29411E'
 - title: Magician Apprentice
   author: Raymond E. Feist
   My Rating: 4
@@ -13231,6 +13514,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#171717'
 - title: Der König der purpurnen Stadt
   author: Rebecca Gable
   My Rating: 2
@@ -13273,6 +13557,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Immortal Life of Henrietta Lacks
   author: Rebecca Skloot
   My Rating: 0
@@ -13324,6 +13609,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der kleine Nick achtzehn prima Geschichten
   author: Rene Goscinny
   My Rating: 4
@@ -13361,6 +13647,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der Wanderer
   author: Richard Schwartz
   My Rating: 3
@@ -13403,6 +13690,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#678175'
 - title: Der Inquisitor von Askir
   author: Richard Schwartz
   My Rating: 2
@@ -13445,6 +13733,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#566477'
 - title: Monsterjäger
   author: Richard Schwartz
   My Rating: 3
@@ -13488,6 +13777,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das blutige Land
   author: Richard Schwartz
   My Rating: 1
@@ -13533,6 +13823,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#755141'
 - title: Die Starfarer-Verschwörung
   author: Richard Schwartz
   My Rating: 0
@@ -13577,6 +13868,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#645453'
 - title: Der Kronrat
   author: Richard Schwartz
   My Rating: 3
@@ -13626,6 +13918,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Eule von Askir
   author: Richard Schwartz
   My Rating: 3
@@ -13671,6 +13964,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#3F797E'
 - title: Die Eule von Askir
   author: Richard Schwartz
   My Rating: 1
@@ -13714,6 +14008,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Festung der Titanen
   author: Richard Schwartz
   My Rating: 3
@@ -13760,6 +14055,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Macht der Alten
   author: Richard Schwartz
   My Rating: 2
@@ -13804,6 +14100,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das Erbe des Greifens
   author: Richard Schwartz
   My Rating: 3
@@ -13851,6 +14148,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#766255'
 - title: Der Herr der Puppen
   author: Richard Schwartz
   My Rating: 3
@@ -13893,6 +14191,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die weiße Flamme
   author: Richard Schwartz
   My Rating: 3
@@ -13937,6 +14236,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#536987'
 - title: Die Feuerinseln
   author: Richard Schwartz
   My Rating: 2
@@ -13979,6 +14279,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das Auge der Wüste
   author: Richard Schwartz
   My Rating: 3
@@ -14022,6 +14323,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#935D30'
 - title: Die Rose von Illian
   author: Richard Schwartz
   My Rating: 1
@@ -14065,6 +14367,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Zweite Legion
   author: Richard Schwartz
   My Rating: 3
@@ -14106,6 +14409,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das Erste Horn
   author: Richard Schwartz
   My Rating: 4
@@ -14149,6 +14453,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Krone von Lytar
   author: Richard Schwartz
   My Rating: 3
@@ -14198,6 +14503,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Drohende Schatten
   author: Robert Jordan
   My Rating: 3
@@ -14243,6 +14549,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#5B8281'
 - title: Die Suche nach dem Auge der Welt
   author: Robert Jordan
   My Rating: 3
@@ -14287,6 +14594,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#4D605E'
 - title: Anne McCaffrey A Life with Dragons
   author: Robin  Roberts
   My Rating: 4
@@ -14340,6 +14648,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#6F8998'
 - title: Die Herrscher der drei Reiche
   author: Robin Hobb
   My Rating: 4
@@ -14387,6 +14696,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#B1BDCA'
 - title: Die vergessene Stadt
   author: Robin Hobb
   My Rating: 4
@@ -14424,6 +14734,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Stunde des Piraten
   author: Robin Hobb
   My Rating: 3
@@ -14468,6 +14779,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der blinde Krieger
   author: Robin Hobb
   My Rating: 4
@@ -14504,6 +14816,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Viviaces Erwachen
   author: Robin Hobb
   My Rating: 4
@@ -14548,6 +14861,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der Ring der Händler. Viviaces Erwachen
   author: Robin Hobb
   My Rating: 4
@@ -14588,6 +14902,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Gabe der Könige
   author: Robin Hobb
   My Rating: 3
@@ -14630,6 +14945,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die sonderbare Buchhandlung des Mr. Penumbra
   author: Robin Sloan
   My Rating: 3
@@ -14680,6 +14996,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der tägliche Stoiker 366 nachdenkliche Betrachtungen über Weisheit, Beharrlichkeit
     und Lebensstil
   author: Ryan Holiday
@@ -14728,6 +15045,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#DCD6C9'
 - title: Das Hindernis ist der Weg Mit der Philosophie der Stoiker zum Triumph
   author: Ryan Holiday
   My Rating: 0
@@ -14766,6 +15084,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Phoenix
   author: S.F. Said
   My Rating: 0
@@ -14809,6 +15128,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#6E372A'
 - title: Herkunft
   author: SaÅ¡a StaniÅ¡iÄ‡
   My Rating: 0
@@ -14848,6 +15168,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#EAE9E5'
 - title: Der Totengräbersohn
   author: Sam Feuerbach
   My Rating: 3
@@ -14893,6 +15214,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der Totengräbersohn
   author: Sam Feuerbach
   My Rating: 3
@@ -14957,6 +15279,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Sanduhr
   author: Sam Feuerbach
   My Rating: 3
@@ -15000,6 +15323,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Myrnengöttin
   author: Sam Feuerbach
   My Rating: 3
@@ -15059,6 +15383,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der Schwertmeister
   author: Sam Feuerbach
   My Rating: 3
@@ -15105,6 +15430,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Auftragsmörderin
   author: Sam Feuerbach
   My Rating: 4
@@ -15149,6 +15475,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der Totengräbersohn
   author: Sam Feuerbach
   My Rating: 4
@@ -15210,6 +15537,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Magic for Liars
   author: Sarah Gailey
   My Rating: 0
@@ -15258,6 +15586,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#C33D45'
 - title: House of Earth and Blood
   author: Sarah J. Maas
   My Rating: 0
@@ -15311,6 +15640,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#69312D'
 - title: Eat & Run My Unlikely Journey to Ultramarathon Greatness
   author: Scott Jurek
   My Rating: 3
@@ -15348,6 +15678,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#C1AF9B'
 - title: Die Lügen des Locke Lamora
   author: Scott Lynch
   My Rating: 4
@@ -15403,6 +15734,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#404929'
 - title: Sturm über roten Wassern
   author: Scott Lynch
   My Rating: 3
@@ -15445,6 +15777,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#847E5E'
 - title: Die Republik der Diebe
   author: Scott Lynch
   My Rating: 3
@@ -15486,6 +15819,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#736D52'
 - title: The Broken Vow
   author: Scott Westerfeld
   My Rating: 0
@@ -15530,6 +15864,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Vom glücklichen Leben Eine Auswahl aus seinen Schriften
   author: Seneca
   My Rating: 2
@@ -15572,6 +15907,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#E0C2BD'
 - title: Zauberlehrling voller Fehl und Adel
   author: Sergei Lukyanenko
   My Rating: 0
@@ -15615,6 +15951,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Verräterin
   author: Seth Dickinson
   My Rating: 0
@@ -15666,6 +16003,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#B1B0A4'
 - title: Serpent & Dove
   author: Shelby Mahurin
   My Rating: 0
@@ -15715,6 +16053,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#342D26'
 - title: Kalte Asche
   author: Simon Beckett
   My Rating: 0
@@ -15762,6 +16101,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Chemistry of Death
   author: Simon Beckett
   My Rating: 3
@@ -15813,6 +16153,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Mythos The Greek Myths Retold
   author: Stephen Fry
   My Rating: 0
@@ -15860,6 +16201,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Es
   author: Stephen King
   My Rating: 4
@@ -15903,6 +16245,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Das Institut
   author: Stephen King
   My Rating: 0
@@ -15949,6 +16292,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#979495'
 - title: Mr. Mercedes
   author: Stephen King
   My Rating: 0
@@ -16000,6 +16344,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#D4C2C2'
 - title: Cujo
   author: Stephen King
   My Rating: 3
@@ -16043,6 +16388,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Buddhism Plain and Simple The Practice of Being Aware, Right Now, Every Day
   author: Steve Hagen
   My Rating: 4
@@ -16088,6 +16434,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Die Gärten des Mondes
   author: Steven Erikson
   My Rating: 0
@@ -16128,6 +16475,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#B4BFC7'
 - title: Blood Follows
   author: Steven Erikson
   My Rating: 0
@@ -16185,6 +16533,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Girl with the Dragon Tattoo
   author: Stieg Larsson
   My Rating: 4
@@ -16231,6 +16580,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#C8B44D'
 - title: Jonathan Strange & Mr Norrell
   author: Susanna Clarke
   My Rating: 2
@@ -16277,6 +16627,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Hunger Games
   author: Suzanne Collins
   My Rating: 3
@@ -16314,6 +16665,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Der Erwählte
   author: Taran Matharu
   My Rating: 0
@@ -16353,6 +16705,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Empire of Sand
   author: Tasha Suri
   My Rating: 0
@@ -16399,6 +16752,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Gevatter Tod / Wachen! Wachen!
   author: Terry Pratchett
   My Rating: 3
@@ -16444,6 +16798,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#5F3650'
 - title: Das Licht der Phantasie
   author: Terry Pratchett
   My Rating: 3
@@ -16485,6 +16840,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#3D5256'
 - title: Die Farben der Magie
   author: Terry Pratchett
   My Rating: 3
@@ -16526,6 +16882,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#39354A'
 - title: Der Zauberhut
   author: Terry Pratchett
   My Rating: 3
@@ -16567,6 +16924,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#4B5F66'
 - title: Going Postal
   author: Terry Pratchett
   My Rating: 0
@@ -16612,6 +16970,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Guards! Guards!
   author: Terry Pratchett
   My Rating: 0
@@ -16652,6 +17011,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Iron and Magic
   author: Terry Pratchett
   My Rating: 0
@@ -16705,6 +17065,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Night Watch
   author: Terry Pratchett
   My Rating: 0
@@ -16750,6 +17111,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Red Dragon
   author: Thomas  Harris
   My Rating: 3
@@ -16791,6 +17153,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Rubikon Triumph und Tragödie der Römischen Republik
   author: Tom Holland
   My Rating: 0
@@ -16835,6 +17198,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#C45845'
 - title: Children of Blood and Bone
   author: Tomi Adeyemi
   My Rating: 0
@@ -16899,6 +17263,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#948E8F'
 - title: Ahren
   author: Torsten Weitze
   My Rating: 3
@@ -16949,6 +17314,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#535325'
 - title: Die Heilerin
   author: Trudi Canavan
   My Rating: 3
@@ -16996,6 +17362,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#BDC7CC'
 - title: Die Königin
   author: Trudi Canavan
   My Rating: 3
@@ -17040,6 +17407,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#D0C4BF'
 - title: Die Hüterin
   author: Trudi Canavan
   My Rating: 3
@@ -17090,6 +17458,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#CFBCBB'
 - title: The Name of the Rose
   author: Umberto Eco
   My Rating: 4
@@ -17128,6 +17497,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#3B2D2C'
 - title: Worlds of Exile and Illusion Rocannon”™s World, Planet of Exile, City of
     Illusions
   author: Ursula K. Le Guin
@@ -17195,6 +17565,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Steering the Craft Exercises and Discussions on Story Writing for the Lone
     Navigator or the Mutinous Crew
   author: Ursula K. Le Guin
@@ -17234,6 +17605,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#D1D7DE'
 - title: A Wizard of Earthsea
   author: Ursula K. Le Guin
   My Rating: 4
@@ -17272,6 +17644,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#443E51'
 - title: Rocannons Welt
   author: Ursula K. Le Guin
   My Rating: 2
@@ -17318,6 +17691,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Erebos
   author: Ursula Poznanski
   My Rating: 3
@@ -17375,6 +17749,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#9A3B3D'
 - title: A Gathering of Shadows
   author: V.E. Schwab
   My Rating: 0
@@ -17424,6 +17799,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: The Invisible Life of Addie LaRue
   author: V.E. Schwab
   My Rating: 0
@@ -17481,6 +17857,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#312D29'
 - title: Gallant
   author: V.E. Schwab
   My Rating: 0
@@ -17531,6 +17908,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#C4BEBA'
 - title: Divergent
   author: Veronica Roth
   My Rating: 0
@@ -17583,6 +17961,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#8F6449'
 - title: Realm Breaker
   author: Victoria Aveyard
   My Rating: 0
@@ -17642,6 +18021,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#9E8450'
 - title: Der nasse Fisch
   author: Volker Kutscher
   My Rating: 0
@@ -17686,6 +18066,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#7A736F'
 - title: Rumo & Die Wunder im Dunkeln
   author: Walter Moers
   My Rating: 2
@@ -17730,6 +18111,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Lord of the Flies
   author: William Golding
   My Rating: 3
@@ -17770,6 +18152,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: null
 - title: Arbeit und Struktur
   author: Wolfgang Herrndorf
   My Rating: 0
@@ -17819,6 +18202,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#B9BAB7'
 - title: Tschick
   author: Wolfgang Herrndorf
   My Rating: 3
@@ -17865,6 +18249,7 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#B4C5BF'
 - title: Life of Pi
   author: Yann Martel
   My Rating: 0
@@ -17919,3 +18304,4 @@ books:
   myFav: false
   first_name: 'False'
   last_name: 'False'
+  book_color: '#D7C6C2'

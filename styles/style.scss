@@ -309,6 +309,15 @@ body {
     stroke: $nonfiction;
     stroke-width: 12px;
   }
+  .book-rect {
+    /* keine fill-Vorgabe, damit JS-Farbe wirkt */
+    stroke-width: 1;
+    stroke: $w-grey-7;
+  }
+  .genre-Fiction, .genre-Nonfiction, .book-male, .book-female {
+    /* Entfernt: fill, damit nur JS-Farbe wirkt */
+    fill: none !important;
+  }
   .book-female.genre-Fiction {
     fill: url(#female-Fiction);
   }

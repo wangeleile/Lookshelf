@@ -388,7 +388,9 @@ function startApp(data) {
       .attr('rx', 1)
       .attr('ry', 1)
       .attr('id', (d) => `book-rect-${d.id}`)
-      .attr('class', (d) => `genre-${d.genre} book-${d.gender}`);
+      .attr('class', (d) => `book-rect`)
+      // Farbe aus book_color, sonst Standardfarbe
+      .attr('fill', (d) => d.book_color ? d.book_color : '#cccccc');
   //draw age overlay (optional, falls Feld vorhanden)
   // Bestseller und Sprache korrekt behandeln
   _.each(_.filter(books, (d) => d.bestseller), (d) => {

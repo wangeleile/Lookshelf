@@ -931,12 +931,6 @@ a.box:active {
 .button.is-primary.is-outlined.is-loading:after {
   border-color: transparent transparent #00d1b2 #00d1b2 !important; }
 
-.button.is-primary.is-outlined[disabled] {
-  background-color: transparent;
-  border-color: #00d1b2;
-  box-shadow: none;
-  color: #00d1b2; }
-
 .button.is-primary.is-inverted.is-outlined {
   background-color: transparent;
   border-color: #fff;
@@ -1007,12 +1001,6 @@ a.box:active {
 .button.is-info.is-outlined.is-loading:after {
   border-color: transparent transparent #3273dc #3273dc !important; }
 
-.button.is-info.is-outlined[disabled] {
-  background-color: transparent;
-  border-color: #3273dc;
-  box-shadow: none;
-  color: #3273dc; }
-
 .button.is-info.is-inverted.is-outlined {
   background-color: transparent;
   border-color: #fff;
@@ -1082,12 +1070,6 @@ a.box:active {
 
 .button.is-success.is-outlined.is-loading:after {
   border-color: transparent transparent #23d160 #23d160 !important; }
-
-.button.is-success.is-outlined[disabled] {
-  background-color: transparent;
-  border-color: #23d160;
-  box-shadow: none;
-  color: #23d160; }
 
 .button.is-success.is-inverted.is-outlined {
   background-color: transparent;
@@ -1234,12 +1216,6 @@ a.box:active {
 
 .button.is-danger.is-outlined.is-loading:after {
   border-color: transparent transparent #ff3860 #ff3860 !important; }
-
-.button.is-danger.is-outlined[disabled] {
-  background-color: transparent;
-  border-color: #ff3860;
-  box-shadow: none;
-  color: #ff3860; }
 
 .button.is-danger.is-inverted.is-outlined {
   background-color: transparent;
@@ -5393,9 +5369,23 @@ body {
 .shelf-wrapper .book-female.genre-Nonfiction {
   fill: url(#female-Nonfiction); }
 
-.shelf-wrapper .book-male, .shelf-wrapper .book-female {
+.shelf-wrapper .book-male,
+.shelf-wrapper .book-female {
   stroke-width: 1;
   stroke: #53504D; }
+
+.shelf-wrapper .book-rect {
+  /* keine fill-Vorgabe, damit JS-Farbe wirkt */
+  stroke-width: 1;
+  stroke: #918E8B;
+}
+
+.shelf-wrapper .genre-Fiction,
+.shelf-wrapper .genre-Nonfiction,
+.shelf-wrapper .book-male,
+.shelf-wrapper .book-female {
+  fill: none !important;
+}
 
 .shelf-wrapper .genre-Fiction {
   fill: #91d8b6; }
