@@ -459,7 +459,7 @@ function startApp(data) {
       });
       //show only books exists by the typed letters
       if (filtered.length > 0) {
-        const bookIds = filtered.map((d) => d.book.id);
+        const bookIds = filtered.map((d) => d.id);
         const searched = filtered.map((d, i) => {
           let titleFormatted = d.title;
           const splitted = d.title.split(':')
