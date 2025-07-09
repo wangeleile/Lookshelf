@@ -455,11 +455,11 @@ function startApp(data) {
       const filtered = _.filter(books, (d) => {
         return d.title.toLowerCase().indexOf(entered) > -1 ||
           d.author.toLowerCase().indexOf(entered) > -1 ||
-          d.publisher.toLowerCase().indexOf(entered) > -1;
+          (d.publisher && d.publisher.toLowerCase().indexOf(entered) > -1);
       });
       //show only books exists by the typed letters
       if (filtered.length > 0) {
-        const bookIds = filtered.map((d) => d.book.id);
+        const bookIds = filtered.map((d) => d.id);
         const searched = filtered.map((d, i) => {
           let titleFormatted = d.title;
           const splitted = d.title.split(':')
