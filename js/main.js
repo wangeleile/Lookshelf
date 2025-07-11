@@ -72,6 +72,8 @@ function starPoints(cX, cY, arms, oR, iR) {
    return results;
 }
 
+
+
 //search
 function getSearchedText(str, entered) {
   let result = str;
@@ -399,37 +401,140 @@ function startApp(data) {
         d3.select('#modal').classed('is-active', true);
         showModal(d, i, books.length, books);
       })
-    .append('rect')
-      .attr('x', 0)
-      .attr('y', 0)
-      .attr('width', (d) => bookW(d.pages))
-      .attr('height', (d) => bookH(d.rating))
-      .attr('rx', 1)
-      .attr('ry', 1)
-      .attr('id', (d) => `book-rect-${d.id}`)
-      .attr('class', (d) => `book-rect`)
-      // Farbe aus book_color, sonst Standardfarbe
-      .attr('fill', (d) => d.book_color ? d.book_color : '#cccccc');
+    .append('g')
+      .attr('class', (d) => {
+        // Zufällige spine-Stilauswahl (ca. 20% spine-ribbed)
+        const randomStyle = Math.random();
+        let spineStyle = '';
+        if (randomStyle < 0.2) {
+          spineStyle = 'spine-ribbed';
+        }
+        return `book-spine genre-${d.genre || 'Unknown'} ${spineStyle}`;
+      })
+      .each(function(d) {
+        const spine = d3.select(this);
+        const width = bookW(d.pages);
+        const height = bookH(d.rating);
+        const spineColor = d.book_color ? d.book_color : (d.genre === 'Fiction' ? '#4a6741' : '#8B4513');
+        const hasRibbedEffect = spine.classed('spine-ribbed');
+        
+        // Hauptbuchrücken
+        spine.append('rect')
+          .attr('x', 0)
+          .attr('y', 0)
+          .attr('width', width)
+          .attr('height', height)
+          .attr('rx', 2)
+          .attr('ry', 2)
+          .attr('id', `book-rect-${d.id}`)
+          .attr('class', 'book-rect')
+          .attr('fill', spineColor)
+          .attr('stroke', '#2c1810')
+          .attr('stroke-width', 0.5);
+        
+        // Schatten auf der rechten Seite
+        spine.append('rect')
+          .attr('x', width - 2)
+          .attr('y', 1)
+          .attr('width', 2)
+          .attr('height', height - 1)
+          .attr('fill', 'rgba(0,0,0,0.3)')
+          .attr('rx', 1);
+        
+        // Lichtreflex auf der linken Seite
+        spine.append('rect')
+          .attr('x', 1)
+          .attr('y', 1)
+          .attr('width', 2)
+          .attr('height', height - 2)
+          .attr('fill', 'rgba(255,255,255,0.2)')
+          .attr('rx', 1);
+        
+        // Ribbed-Effekt (horizontale Linien)
+        if (hasRibbedEffect && height > 20) {
+          const numberOfRibs = Math.floor(height / 15);
+          const ribSpacing = height / (numberOfRibs + 1);
+          
+          for (let i = 1; i <= numberOfRibs; i++) {
+            const ribY = ribSpacing * i;
+            
+            // Schatten-Linie (dunkler)
+            spine.append('line')
+              .attr('x1', 2)
+              .attr('y1', ribY)
+              .attr('x2', width - 2)
+              .attr('y2', ribY)
+              .attr('stroke', 'rgba(0,0,0,0.3)')
+              .attr('stroke-width', 1)
+              .attr('class', 'spine-separator');
+            
+            // Highlight-Linie (heller)
+            spine.append('line')
+              .attr('x1', 2)
+              .attr('y1', ribY + 1)
+              .attr('x2', width - 2)
+              .attr('y2', ribY + 1)
+              .attr('stroke', 'rgba(255,255,255,0.2)')
+              .attr('stroke-width', 1)
+              .attr('class', 'spine-separator-highlight');
+          }
+        }
+        
+        // Normale Textur-Linien für nicht-ribbed Bücher
+        if (!hasRibbedEffect && width > 8) {
+          // Vertikale Texturlinien für Buchrücken-Effekt
+          for (let i = 3; i < width - 3; i += 3) {
+            spine.append('line')
+              .attr('x1', i)
+              .attr('y1', 2)
+              .attr('x2', i)
+              .attr('y2', height - 2)
+              .attr('stroke', 'rgba(255,255,255,0.1)')
+              .attr('stroke-width', 0.5);
+          }
+        }
+        
+        // Horizontale Dekorationslinien (nur für nicht-ribbed Bücher)
+        if (!hasRibbedEffect && height > 30) {
+          spine.append('rect')
+            .attr('x', 2)
+            .attr('y', 8)
+            .attr('width', width - 4)
+            .attr('height', 1)
+            .attr('fill', 'rgba(255,255,255,0.15)');
+            
+          spine.append('rect')
+            .attr('x', 2)
+            .attr('y', height - 10)
+            .attr('width', width - 4)
+            .attr('height', 1)
+            .attr('fill', 'rgba(255,255,255,0.15)');
+        }
+      });
   //draw age overlay (optional, falls Feld vorhanden)
   // Bestseller und Sprache korrekt behandeln
   _.each(_.filter(books, (d) => d.bestseller), (d) => {
-    d3.select(`#book-${d.id}`)
-      .append('polygon')
-      .attr('points', starPoints(
-        bookW(d.pages) / 2,
-        bookH(d.rating) - bookWRange[0] * 1.2,
-        9,
-        bookWRange[0] * 0.50,
-        bookWRange[0] * 0.66
-      ))
-      .attr('class', 'bestseller')
+    // Füge Bestseller-Stern direkt in die book-spine group hinzu
+    d3.select(`#book-${d.id} .book-spine`)
+      .append('text')
+      .attr('x', bookW(d.pages) - 3)
+      .attr('y', 10)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#FFD700')
+      .attr('font-size', '8')
+      .attr('stroke', '#B8860B')
+      .attr('stroke-width', '0.3')
+      .style('text-shadow', '1px 1px 1px rgba(0,0,0,0.7)')
+      .text('★');
   });
+  
   // Markiere NUR Bücher im Bookshelf 'to-read' mit schwarzem Winkel
   _.each(_.filter(books, (d) => typeof d.bookshelves === 'string' && d.bookshelves.trim().toLowerCase() === 'to-read'), (d) => {
-    d3.select(`#book-${d.id}`)
+    d3.select(`#book-${d.id} .book-spine`)
       .append('path')
       .attr('d', `M 0 0 h ${bookWRange[0]} l -${bookWRange[0]} ${bookWRange[0]} z`)
       .attr('class', 'translated')
+      .attr('fill', '#3B3A38');
   });
   //modal close
   d3.select('#modal-close').on('click', () => {
@@ -459,7 +564,7 @@ function startApp(data) {
       });
       //show only books exists by the typed letters
       if (filtered.length > 0) {
-        const bookIds = filtered.map((d) => d.id);
+        const bookIds = filtered.map((d) => d.book.id);
         const searched = filtered.map((d, i) => {
           let titleFormatted = d.title;
           const splitted = d.title.split(':')
