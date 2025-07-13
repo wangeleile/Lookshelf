@@ -1,0 +1,797 @@
+2025-07-13 23:18:22,552 - INFO - Starte Schnelltest der Farbextraktion...
+2025-07-13 23:18:24,113 - INFO - Gefunden: 386 Bücher in Meine_Buchliste_updated.yaml
+2025-07-13 23:18:24,137 - INFO - Gefunden: 171 Bücher ohne book_color
+2025-07-13 23:18:24,137 - INFO - 
+Erste Bücher ohne book_color:
+2025-07-13 23:18:24,137 - INFO - 1. 'Tränen sind immer das Ende' von Akif Pirincci
+2025-07-13 23:18:24,137 - INFO -    Image URL: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1363885869i/17...
+2025-07-13 23:18:24,137 - INFO - 2. 'Schattenwanderer' von Alexey Pehov
+2025-07-13 23:18:24,137 - INFO -    Image URL: http://books.google.com/books/content?id=_gvLPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_ap...
+2025-07-13 23:18:24,137 - INFO - 3. 'Der Fluch des Wüstenfeuers' von Andrea Bottlinger
+2025-07-13 23:18:24,137 - INFO -    Image URL: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1481016591i/31...
+2025-07-13 23:18:24,137 - INFO - 4. 'Eine Billion Dollar' von Andreas Eschbach
+2025-07-13 23:18:24,137 - INFO -    Image URL: http://books.google.com/books/content?id=MVMrHQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_ap...
+2025-07-13 23:18:24,137 - INFO - 5. 'The Martian' von Andy Weir
+2025-07-13 23:18:24,137 - INFO -    Image URL: http://books.google.com/books/content?id=oGGMDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_ap...
+2025-07-13 23:18:24,137 - INFO - 
+Teste Farbextraktion mit 1 Buch...
+2025-07-13 23:18:24,137 - INFO - Starte automatische Farbextraktion...
+2025-07-13 23:18:25,625 - INFO - Gefunden: 1 Bücher ohne book_color
+2025-07-13 23:18:25,625 - INFO - 
+--- Fortschritt: 1/1 ---
+2025-07-13 23:18:25,625 - INFO - [2] Verarbeite: 'Tränen sind immer das Ende' von Akif Pirincci
+2025-07-13 23:18:26,600 - INFO - [2] Farbe extrahiert: #1a1315
+2025-07-13 23:18:26,600 - INFO - 
+Finale Speicherung...
+2025-07-13 23:18:27,052 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:18:28,222 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:18:28,225 - INFO - 
+==================================================
+2025-07-13 23:18:28,226 - INFO - VERARBEITUNGSSTATISTIKEN
+2025-07-13 23:18:28,226 - INFO - ==================================================
+2025-07-13 23:18:28,226 - INFO - Verarbeitete Bücher: 1
+2025-07-13 23:18:28,226 - INFO - Erfolgreich aktualisiert: 1
+2025-07-13 23:18:28,226 - INFO - Fehler: 0
+2025-07-13 23:18:28,226 - INFO - Erfolgsrate: 100.0%
+2025-07-13 23:18:28,226 - INFO - ==================================================
+2025-07-13 23:18:54,625 - INFO - Starte automatische Farbextraktion...
+2025-07-13 23:18:56,147 - INFO - Gefunden: 10 Bücher ohne book_color
+2025-07-13 23:18:56,147 - INFO - 
+--- Fortschritt: 1/10 ---
+2025-07-13 23:18:56,147 - INFO - [7] Verarbeite: 'Schattenwanderer' von Alexey Pehov
+2025-07-13 23:18:56,962 - INFO - [7] Farbe extrahiert: #2f4553
+2025-07-13 23:18:57,968 - INFO - 
+--- Fortschritt: 2/10 ---
+2025-07-13 23:18:57,968 - INFO - [9] Verarbeite: 'Der Fluch des Wüstenfeuers' von Andrea Bottlinger
+2025-07-13 23:18:58,456 - INFO - [9] Farbe extrahiert: #271a14
+2025-07-13 23:18:59,461 - INFO - 
+--- Fortschritt: 3/10 ---
+2025-07-13 23:18:59,462 - INFO - [11] Verarbeite: 'Eine Billion Dollar' von Andreas Eschbach
+2025-07-13 23:18:59,727 - INFO - [11] Farbe extrahiert: #c2ddd5
+2025-07-13 23:19:00,732 - INFO - 
+--- Fortschritt: 4/10 ---
+2025-07-13 23:19:00,733 - INFO - [14] Verarbeite: 'The Martian' von Andy Weir
+2025-07-13 23:19:00,931 - INFO - [14] Farbe extrahiert: #de8e41
+2025-07-13 23:19:01,936 - INFO - 
+--- Fortschritt: 5/10 ---
+2025-07-13 23:19:01,936 - INFO - [15] Verarbeite: 'Age of Iron' von Angus Watson
+2025-07-13 23:19:02,187 - INFO - [15] Farbe extrahiert: #1a1a16
+2025-07-13 23:19:03,193 - INFO - 
+--- Fortschritt: 6/10 ---
+2025-07-13 23:19:03,193 - INFO - [16] Verarbeite: 'Das Imperium' von Ann Leckie
+2025-07-13 23:19:03,430 - INFO - [16] Farbe extrahiert: #3b3a3f
+2025-07-13 23:19:04,436 - INFO - 
+--- Fortschritt: 7/10 ---
+2025-07-13 23:19:04,436 - INFO - [17] Verarbeite: 'The Masterharper of Pern' von Anne McCaffrey
+2025-07-13 23:19:04,651 - INFO - [17] Farbe extrahiert: #7a4f3f
+2025-07-13 23:19:05,656 - INFO - 
+--- Fortschritt: 8/10 ---
+2025-07-13 23:19:05,657 - INFO - [21] Verarbeite: 'Die Welt der Drachen' von Anne McCaffrey
+2025-07-13 23:19:05,907 - INFO - [21] Farbe extrahiert: #031204
+2025-07-13 23:19:06,912 - INFO - 
+--- Fortschritt: 9/10 ---
+2025-07-13 23:19:06,912 - INFO - [24] Verarbeite: 'Der Herr des Turmes' von Anthony Ryan
+2025-07-13 23:19:07,140 - INFO - [24] Farbe extrahiert: #150d11
+2025-07-13 23:19:08,145 - INFO - 
+--- Fortschritt: 10/10 ---
+2025-07-13 23:19:08,146 - INFO - [25] Verarbeite: 'The Waking Fire' von Anthony Ryan
+2025-07-13 23:19:08,400 - INFO - [25] Farbe extrahiert: #3d3c3c
+2025-07-13 23:19:08,400 - INFO - Zwischenspeicherung nach 10 Büchern...
+2025-07-13 23:19:08,967 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:19:09,975 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:19:09,976 - INFO - 
+Finale Speicherung...
+2025-07-13 23:19:11,491 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:19:12,782 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:19:12,782 - INFO - 
+==================================================
+2025-07-13 23:19:12,783 - INFO - VERARBEITUNGSSTATISTIKEN
+2025-07-13 23:19:12,783 - INFO - ==================================================
+2025-07-13 23:19:12,783 - INFO - Verarbeitete Bücher: 10
+2025-07-13 23:19:12,783 - INFO - Erfolgreich aktualisiert: 10
+2025-07-13 23:19:12,783 - INFO - Fehler: 0
+2025-07-13 23:19:12,783 - INFO - Erfolgsrate: 100.0%
+2025-07-13 23:19:12,784 - INFO - ==================================================
+2025-07-13 23:19:23,609 - INFO - Starte automatische Farbextraktion...
+2025-07-13 23:19:25,120 - INFO - Gefunden: 160 Bücher ohne book_color
+2025-07-13 23:19:25,120 - INFO - 
+--- Fortschritt: 1/160 ---
+2025-07-13 23:19:25,120 - INFO - [26] Verarbeite: 'Die Königin der Flammen' von Anthony Ryan
+2025-07-13 23:19:25,758 - INFO - [26] Farbe extrahiert: #1a0f0c
+2025-07-13 23:19:26,063 - INFO - 
+--- Fortschritt: 2/160 ---
+2025-07-13 23:19:26,063 - INFO - [30] Verarbeite: 'Tiny Habits The Small Changes That Change Everything' von B.J.  Fogg
+2025-07-13 23:19:26,425 - INFO - [30] Farbe extrahiert: #fcfdfc
+2025-07-13 23:19:26,730 - INFO - 
+--- Fortschritt: 3/160 ---
+2025-07-13 23:19:26,730 - INFO - [33] Verarbeite: 'Der Galgen von Tyburn' von Ben Aaronovitch
+2025-07-13 23:19:27,056 - INFO - [33] Farbe extrahiert: #4c3776
+2025-07-13 23:19:27,361 - INFO - 
+--- Fortschritt: 4/160 ---
+2025-07-13 23:19:27,361 - INFO - [34] Verarbeite: 'Fingerhut-Sommer Roman' von Ben Aaronovitch
+2025-07-13 23:19:27,653 - INFO - [34] Farbe extrahiert: #138a40
+2025-07-13 23:19:27,959 - INFO - 
+--- Fortschritt: 5/160 ---
+2025-07-13 23:19:27,959 - INFO - [35] Verarbeite: 'Der böse Ort' von Ben Aaronovitch
+2025-07-13 23:19:28,230 - INFO - [35] Farbe extrahiert: #edaa1c
+2025-07-13 23:19:28,532 - INFO - 
+--- Fortschritt: 6/160 ---
+2025-07-13 23:19:28,532 - INFO - [36] Verarbeite: 'Ein Wispern unter Baker Street Roman' von Ben Aaronovitch
+2025-07-13 23:19:28,764 - INFO - [36] Farbe extrahiert: #c3312a
+2025-07-13 23:19:29,069 - INFO - 
+--- Fortschritt: 7/160 ---
+2025-07-13 23:19:29,070 - INFO - [37] Verarbeite: 'Schwarzer Mond über Soho' von Ben Aaronovitch
+2025-07-13 23:19:29,332 - INFO - [37] Farbe extrahiert: #223a55
+2025-07-13 23:19:29,637 - INFO - 
+--- Fortschritt: 8/160 ---
+2025-07-13 23:19:29,637 - INFO - [39] Verarbeite: 'Die Flüsse von London' von Ben Aaronovitch
+2025-07-13 23:19:29,859 - INFO - [39] Farbe extrahiert: #e9d8bc
+2025-07-13 23:19:30,164 - INFO - 
+--- Fortschritt: 9/160 ---
+2025-07-13 23:19:30,164 - INFO - [41] Verarbeite: 'Der Drachenjäger Die erste Reise ins Wolkenmeer' von Bernd Perplies
+2025-07-13 23:19:30,382 - INFO - [41] Farbe extrahiert: #191715
+2025-07-13 23:19:30,687 - INFO - 
+--- Fortschritt: 10/160 ---
+2025-07-13 23:19:30,687 - INFO - [42] Verarbeite: 'Für die Krone' von Bernd Perplies
+2025-07-13 23:19:30,947 - INFO - [42] Farbe extrahiert: #857d66
+2025-07-13 23:19:31,252 - INFO - Zwischenspeicherung nach 10 Büchern...
+2025-07-13 23:19:31,727 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:19:32,786 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:19:32,786 - INFO - 
+--- Fortschritt: 11/160 ---
+2025-07-13 23:19:32,786 - INFO - [43] Verarbeite: 'Der deutsche Science-Fiction-Film - Annäherungen an ein vernachlässigtes Genre' von Bernd Perplies
+2025-07-13 23:19:32,997 - INFO - [43] Farbe extrahiert: #fefefe
+2025-07-13 23:19:33,302 - INFO - 
+--- Fortschritt: 12/160 ---
+2025-07-13 23:19:33,303 - INFO - [44] Verarbeite: 'Eine kurze Geschichte von fast allem' von Bill Bryson
+2025-07-13 23:19:33,489 - INFO - [44] Farbe extrahiert: #cb445d
+2025-07-13 23:19:33,789 - INFO - 
+--- Fortschritt: 13/160 ---
+2025-07-13 23:19:33,789 - INFO - [45] Verarbeite: 'Die Stürme des Zorns' von Brandon Sanderson
+2025-07-13 23:19:34,000 - INFO - [45] Farbe extrahiert: #e7e5da
+2025-07-13 23:19:34,305 - INFO - 
+--- Fortschritt: 14/160 ---
+2025-07-13 23:19:34,305 - INFO - [51] Verarbeite: 'The Rithmatist' von Brandon Sanderson
+2025-07-13 23:19:34,522 - INFO - [51] Farbe extrahiert: #654e4b
+2025-07-13 23:19:34,827 - INFO - 
+--- Fortschritt: 15/160 ---
+2025-07-13 23:19:34,828 - INFO - [54] Verarbeite: 'The Way of Shadows' von Brent Weeks
+2025-07-13 23:19:35,049 - INFO - [54] Farbe extrahiert: #f9f5fb
+2025-07-13 23:19:35,354 - INFO - 
+--- Fortschritt: 16/160 ---
+2025-07-13 23:19:35,354 - INFO - [56] Verarbeite: 'Der weiße Drache' von Anne McCaffrey
+2025-07-13 23:19:35,600 - INFO - [56] Farbe extrahiert: #9d2612
+2025-07-13 23:19:35,905 - INFO - 
+--- Fortschritt: 17/160 ---
+2025-07-13 23:19:35,905 - INFO - [57] Verarbeite: 'Drachentrommeln' von Anne McCaffrey
+2025-07-13 23:19:36,130 - INFO - [57] Farbe extrahiert: #342123
+2025-07-13 23:19:36,435 - INFO - 
+--- Fortschritt: 18/160 ---
+2025-07-13 23:19:36,435 - INFO - [60] Verarbeite: 'Die Unsterblichen' von Chloe  Benjamin
+2025-07-13 23:19:36,673 - INFO - [60] Farbe extrahiert: #090707
+2025-07-13 23:19:36,974 - INFO - 
+--- Fortschritt: 19/160 ---
+2025-07-13 23:19:36,974 - INFO - [63] Verarbeite: 'Frostflamme' von Christopher Husberg
+2025-07-13 23:19:37,211 - INFO - [63] Farbe extrahiert: #f1f3f6
+2025-07-13 23:19:37,517 - INFO - 
+--- Fortschritt: 20/160 ---
+2025-07-13 23:19:37,517 - INFO - [64] Verarbeite: 'Das Erbe der Macht' von Christopher Paolini
+2025-07-13 23:19:37,732 - INFO - [64] Farbe extrahiert: #055d55
+2025-07-13 23:19:38,033 - INFO - Zwischenspeicherung nach 20 Büchern...
+2025-07-13 23:19:38,575 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:19:39,538 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:19:39,538 - INFO - 
+--- Fortschritt: 21/160 ---
+2025-07-13 23:19:39,538 - INFO - [68] Verarbeite: 'Die vielen Leben des Harry August' von Claire North
+2025-07-13 23:19:39,782 - INFO - [68] Farbe extrahiert: #060507
+2025-07-13 23:19:40,087 - INFO - 
+--- Fortschritt: 22/160 ---
+2025-07-13 23:19:40,087 - INFO - [70] Verarbeite: 'Die Dynastie der Maschinen Roman' von Daniel H. Wilson
+2025-07-13 23:19:40,440 - INFO - [70] Farbe extrahiert: #111215
+2025-07-13 23:19:40,745 - INFO - 
+--- Fortschritt: 23/160 ---
+2025-07-13 23:19:40,745 - INFO - [73] Verarbeite: 'The Curse of Tenth Grave' von Darynda Jones
+2025-07-13 23:19:40,977 - INFO - [73] Farbe extrahiert: #efd95a
+2025-07-13 23:19:41,282 - INFO - 
+--- Fortschritt: 24/160 ---
+2025-07-13 23:19:41,283 - INFO - [76] Verarbeite: 'A Matter for Men' von David Gerrold
+2025-07-13 23:19:41,517 - INFO - [76] Farbe extrahiert: #221104
+2025-07-13 23:19:41,822 - INFO - 
+--- Fortschritt: 25/160 ---
+2025-07-13 23:19:41,822 - INFO - [78] Verarbeite: 'Fauler Zauber' von Diana Wynne Jones
+2025-07-13 23:19:42,026 - INFO - [78] Farbe extrahiert: #080b0d
+2025-07-13 23:19:42,331 - INFO - 
+--- Fortschritt: 26/160 ---
+2025-07-13 23:19:42,331 - INFO - [81] Verarbeite: 'Metro 2034' von Dmitry Glukhovsky
+2025-07-13 23:19:42,560 - INFO - [81] Farbe extrahiert: #0d0a0e
+2025-07-13 23:19:42,862 - INFO - 
+--- Fortschritt: 27/160 ---
+2025-07-13 23:19:42,862 - INFO - [85] Verarbeite: 'The Night Circus' von Erin Morgenstern
+2025-07-13 23:19:43,070 - INFO - [85] Farbe extrahiert: #060205
+2025-07-13 23:19:43,375 - INFO - 
+--- Fortschritt: 28/160 ---
+2025-07-13 23:19:43,375 - INFO - [93] Verarbeite: 'A Game of Thrones' von George R.R. Martin
+2025-07-13 23:19:43,642 - INFO - [93] Farbe extrahiert: #975314
+2025-07-13 23:19:43,944 - INFO - 
+--- Fortschritt: 29/160 ---
+2025-07-13 23:19:43,944 - INFO - [97] Verarbeite: 'We Hunt the Flame' von Hafsah Faizal
+2025-07-13 23:19:44,237 - INFO - [97] Farbe extrahiert: #131321
+2025-07-13 23:19:44,539 - INFO - 
+--- Fortschritt: 30/160 ---
+2025-07-13 23:19:44,539 - INFO - [98] Verarbeite: 'Factfulness Ten Reasons Were Wrong About the World – and Why Things Are Better Than You Think' von Hans Rosling
+2025-07-13 23:19:44,739 - INFO - [98] Farbe extrahiert: #f55248
+2025-07-13 23:19:45,040 - INFO - Zwischenspeicherung nach 30 Büchern...
+2025-07-13 23:19:45,594 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:19:46,531 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:19:46,531 - INFO - 
+--- Fortschritt: 31/160 ---
+2025-07-13 23:19:46,531 - INFO - [102] Verarbeite: 'Der Weg ins Labyrinth' von Holly Black
+2025-07-13 23:19:46,767 - INFO - [102] Farbe extrahiert: #07080a
+2025-07-13 23:19:47,072 - INFO - 
+--- Fortschritt: 32/160 ---
+2025-07-13 23:19:47,072 - INFO - [104] Verarbeite: 'S.- Das Schiff des Theseus' von J.J. Abrams
+2025-07-13 23:19:47,282 - INFO - [104] Farbe extrahiert: #8e897b
+2025-07-13 23:19:47,588 - INFO - 
+--- Fortschritt: 33/160 ---
+2025-07-13 23:19:47,588 - INFO - [106] Verarbeite: 'Harry Potter and the Half-Blood Prince' von J.K. Rowling
+2025-07-13 23:19:47,798 - INFO - [106] Farbe extrahiert: #52654b
+2025-07-13 23:19:48,103 - INFO - 
+--- Fortschritt: 34/160 ---
+2025-07-13 23:19:48,104 - INFO - [112] Verarbeite: 'Phantastische Tierwesen und wo sie zu finden sind Das Originaldrehbuch' von J.K. Rowling
+2025-07-13 23:19:48,325 - INFO - [112] Farbe extrahiert: #121728
+2025-07-13 23:19:48,630 - INFO - 
+--- Fortschritt: 35/160 ---
+2025-07-13 23:19:48,630 - INFO - [114] Verarbeite: 'Die Rückkehr des Königs' von J.R.R. Tolkien
+2025-07-13 23:19:48,842 - INFO - [114] Farbe extrahiert: #a7f107
+2025-07-13 23:19:49,147 - INFO - 
+--- Fortschritt: 36/160 ---
+2025-07-13 23:19:49,147 - INFO - [115] Verarbeite: 'Die zwei Türme' von J.R.R. Tolkien
+2025-07-13 23:19:49,460 - INFO - [115] Farbe extrahiert: #b7f54a
+2025-07-13 23:19:49,765 - INFO - 
+--- Fortschritt: 37/160 ---
+2025-07-13 23:19:49,766 - INFO - [116] Verarbeite: 'Die Gefährten' von J.R.R. Tolkien
+2025-07-13 23:19:50,049 - INFO - [116] Farbe extrahiert: #b3ee47
+2025-07-13 23:19:50,355 - INFO - 
+--- Fortschritt: 38/160 ---
+2025-07-13 23:19:50,355 - INFO - [126] Verarbeite: 'Das Erbe der Seher' von James  Islington
+2025-07-13 23:19:50,635 - INFO - [126] Farbe extrahiert: #eff1f0
+2025-07-13 23:19:50,939 - INFO - 
+--- Fortschritt: 39/160 ---
+2025-07-13 23:19:50,939 - INFO - [129] Verarbeite: 'Hüter der Schatten' von Janine Hofeditz
+2025-07-13 23:19:51,219 - INFO - [129] Farbe extrahiert: #082233
+2025-07-13 23:19:51,522 - INFO - 
+--- Fortschritt: 40/160 ---
+2025-07-13 23:19:51,522 - INFO - [137] Verarbeite: 'Skin Game' von Jim Butcher
+2025-07-13 23:19:51,749 - INFO - [137] Farbe extrahiert: #301b13
+2025-07-13 23:19:52,055 - INFO - Zwischenspeicherung nach 40 Büchern...
+2025-07-13 23:19:52,788 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:19:53,985 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:19:53,986 - INFO - 
+--- Fortschritt: 41/160 ---
+2025-07-13 23:19:53,986 - INFO - [141] Verarbeite: 'Dead Beat' von Jim Butcher
+2025-07-13 23:19:54,207 - INFO - [141] Farbe extrahiert: #060a07
+2025-07-13 23:19:54,507 - INFO - 
+--- Fortschritt: 42/160 ---
+2025-07-13 23:19:54,507 - INFO - [147] Verarbeite: 'Cursors Fury' von Jim Butcher
+2025-07-13 23:19:54,821 - INFO - [147] Farbe extrahiert: #859daa
+2025-07-13 23:19:55,122 - INFO - 
+--- Fortschritt: 43/160 ---
+2025-07-13 23:19:55,122 - INFO - [148] Verarbeite: 'Blood Rites' von Jim Butcher
+2025-07-13 23:19:55,354 - INFO - [148] Farbe extrahiert: #070b04
+2025-07-13 23:19:55,654 - INFO - 
+--- Fortschritt: 44/160 ---
+2025-07-13 23:19:55,654 - INFO - [149] Verarbeite: 'Death Masks' von Jim Butcher
+2025-07-13 23:19:55,861 - INFO - [149] Farbe extrahiert: #0d1213
+2025-07-13 23:19:56,166 - INFO - 
+--- Fortschritt: 45/160 ---
+2025-07-13 23:19:56,166 - INFO - [150] Verarbeite: 'Summer Knight' von Jim Butcher
+2025-07-13 23:19:56,360 - INFO - [150] Farbe extrahiert: #3e4424
+2025-07-13 23:19:56,665 - INFO - 
+--- Fortschritt: 46/160 ---
+2025-07-13 23:19:56,665 - INFO - [151] Verarbeite: 'Academs Fury' von Jim Butcher
+2025-07-13 23:19:56,877 - INFO - [151] Farbe extrahiert: #3a1f1b
+2025-07-13 23:19:57,182 - INFO - 
+--- Fortschritt: 47/160 ---
+2025-07-13 23:19:57,182 - INFO - [152] Verarbeite: 'Ghost Story' von Jim Butcher
+2025-07-13 23:19:57,424 - INFO - [152] Farbe extrahiert: #d6c8c4
+2025-07-13 23:19:57,729 - INFO - 
+--- Fortschritt: 48/160 ---
+2025-07-13 23:19:57,729 - INFO - [154] Verarbeite: 'Grave Peril' von Jim Butcher
+2025-07-13 23:19:57,974 - INFO - [154] Farbe extrahiert: #352f21
+2025-07-13 23:19:58,279 - INFO - 
+--- Fortschritt: 49/160 ---
+2025-07-13 23:19:58,279 - INFO - [156] Verarbeite: 'Welcome to the Jungle' von Jim Butcher
+2025-07-13 23:19:58,506 - INFO - [156] Farbe extrahiert: #0f1a11
+2025-07-13 23:19:58,811 - INFO - 
+--- Fortschritt: 50/160 ---
+2025-07-13 23:19:58,811 - INFO - [158] Verarbeite: 'Sturmnacht' von Jim Butcher
+2025-07-13 23:19:59,023 - INFO - [158] Farbe extrahiert: #260d11
+2025-07-13 23:19:59,328 - INFO - Zwischenspeicherung nach 50 Büchern...
+2025-07-13 23:19:59,799 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:20:00,821 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:20:00,821 - INFO - 
+--- Fortschritt: 51/160 ---
+2025-07-13 23:20:00,821 - INFO - [159] Verarbeite: 'Shadowed Souls' von Jim Butcher
+2025-07-13 23:20:01,048 - INFO - [159] Farbe extrahiert: #161622
+2025-07-13 23:20:01,353 - INFO - 
+--- Fortschritt: 52/160 ---
+2025-07-13 23:20:01,353 - INFO - [160] Verarbeite: 'Dragonharper A Crossroads Adventure in the world of Anne McCaffreys Pern' von Jody Lynn Nye
+2025-07-13 23:20:01,568 - INFO - [160] Farbe extrahiert: #130f1a
+2025-07-13 23:20:01,871 - INFO - 
+--- Fortschritt: 53/160 ---
+2025-07-13 23:20:01,871 - INFO - [163] Verarbeite: 'Die Mutter aller Stürme' von John Barnes
+2025-07-13 23:20:02,280 - INFO - [163] Farbe extrahiert: #0b130f
+2025-07-13 23:20:02,583 - INFO - 
+--- Fortschritt: 54/160 ---
+2025-07-13 23:20:02,584 - INFO - [167] Verarbeite: 'The World According to Garp' von John Irving
+2025-07-13 23:20:02,737 - INFO - [167] Farbe extrahiert: #f7d17c
+2025-07-13 23:20:03,038 - INFO - 
+--- Fortschritt: 55/160 ---
+2025-07-13 23:20:03,039 - INFO - [168] Verarbeite: 'Das Hotel New Hampshire' von John Irving
+2025-07-13 23:20:03,223 - INFO - [168] Farbe extrahiert: #fafde6
+2025-07-13 23:20:03,528 - INFO - 
+--- Fortschritt: 56/160 ---
+2025-07-13 23:20:03,528 - INFO - [170] Verarbeite: 'Krieg der Klone' von John Scalzi
+2025-07-13 23:20:03,718 - INFO - [170] Farbe extrahiert: #010102
+2025-07-13 23:20:04,024 - INFO - 
+--- Fortschritt: 57/160 ---
+2025-07-13 23:20:04,024 - INFO - [171] Verarbeite: 'Kollaps Das Imperium der Ströme' von John Scalzi
+2025-07-13 23:20:04,222 - INFO - [171] Farbe extrahiert: #080f16
+2025-07-13 23:20:04,527 - INFO - 
+--- Fortschritt: 58/160 ---
+2025-07-13 23:20:04,527 - INFO - [173] Verarbeite: 'Die letzte Kolonie' von John Scalzi
+2025-07-13 23:20:04,805 - INFO - [173] Farbe extrahiert: #c42229
+2025-07-13 23:20:05,107 - INFO - 
+--- Fortschritt: 59/160 ---
+2025-07-13 23:20:05,107 - INFO - [174] Verarbeite: 'Die letzte Einheit' von John Scalzi
+2025-07-13 23:20:05,347 - INFO - [174] Farbe extrahiert: #d3d5da
+2025-07-13 23:20:05,652 - INFO - 
+--- Fortschritt: 60/160 ---
+2025-07-13 23:20:05,652 - INFO - [176] Verarbeite: 'Galaktische Mission' von John Scalzi
+2025-07-13 23:20:05,941 - INFO - [176] Farbe extrahiert: #0f161e
+2025-07-13 23:20:06,246 - INFO - Zwischenspeicherung nach 60 Büchern...
+2025-07-13 23:20:06,609 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:20:07,610 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:20:07,610 - INFO - 
+--- Fortschritt: 61/160 ---
+2025-07-13 23:20:07,610 - INFO - [178] Verarbeite: 'Under My Hat Tales from the Cauldron' von Jonathan Strahan
+2025-07-13 23:20:07,840 - INFO - [178] Farbe extrahiert: #1d1820
+2025-07-13 23:20:08,146 - INFO - 
+--- Fortschritt: 62/160 ---
+2025-07-13 23:20:08,146 - INFO - [180] Verarbeite: 'Das Flammende Phantom' von Jonathan Stroud
+2025-07-13 23:20:08,287 - INFO - [180] Farbe extrahiert: #331a0e
+2025-07-13 23:20:08,588 - INFO - 
+--- Fortschritt: 63/160 ---
+2025-07-13 23:20:08,588 - INFO - [183] Verarbeite: 'The Dagger in the Desk' von Jonathan Stroud
+2025-07-13 23:20:08,812 - INFO - [183] Farbe extrahiert: #1a1515
+2025-07-13 23:20:09,117 - INFO - 
+--- Fortschritt: 64/160 ---
+2025-07-13 23:20:09,117 - INFO - [184] Verarbeite: 'Initiate' von Joshua Anderle
+2025-07-13 23:20:09,425 - INFO - [184] Farbe extrahiert: #221e1e
+2025-07-13 23:20:09,728 - INFO - 
+--- Fortschritt: 65/160 ---
+2025-07-13 23:20:09,728 - INFO - [186] Verarbeite: 'Galdäa - Der Ungeschlagene Krieg' von Karsten Kruschel
+2025-07-13 23:20:10,188 - INFO - [186] Farbe extrahiert: #efe0c6
+2025-07-13 23:20:10,493 - INFO - 
+--- Fortschritt: 66/160 ---
+2025-07-13 23:20:10,493 - INFO - [198] Verarbeite: 'Von Lust und Last literarischen Schreibens. Ein Blick in die Werkstatt deutscher Schriftsteller.' von Klaus Modick
+2025-07-13 23:20:10,768 - INFO - [198] Farbe extrahiert: #fefefe
+2025-07-13 23:20:11,073 - INFO - 
+--- Fortschritt: 67/160 ---
+2025-07-13 23:20:11,074 - INFO - [199] Verarbeite: 'Ukulele Strums' von Kurt Thomas
+2025-07-13 23:20:11,467 - INFO - [199] Farbe extrahiert: #030202
+2025-07-13 23:20:11,772 - INFO - 
+--- Fortschritt: 68/160 ---
+2025-07-13 23:20:11,772 - INFO - [201] Verarbeite: 'Monster Hunter Nemesis' von Larry Correia
+2025-07-13 23:20:12,011 - INFO - [201] Farbe extrahiert: #27221d
+2025-07-13 23:20:12,313 - INFO - 
+--- Fortschritt: 69/160 ---
+2025-07-13 23:20:12,313 - INFO - [202] Verarbeite: 'Monster Hunter Legion' von Larry Correia
+2025-07-13 23:20:12,592 - INFO - [202] Farbe extrahiert: #261715
+2025-07-13 23:20:12,897 - INFO - 
+--- Fortschritt: 70/160 ---
+2025-07-13 23:20:12,897 - INFO - [203] Verarbeite: 'Monster Hunter Alpha' von Larry Correia
+2025-07-13 23:20:13,103 - INFO - [203] Farbe extrahiert: #4a5d64
+2025-07-13 23:20:13,409 - INFO - Zwischenspeicherung nach 70 Büchern...
+2025-07-13 23:20:13,814 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:20:14,969 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:20:14,970 - INFO - 
+--- Fortschritt: 71/160 ---
+2025-07-13 23:20:14,970 - INFO - [206] Verarbeite: 'Monster Hunter International' von Larry Correia
+2025-07-13 23:20:15,179 - INFO - [206] Farbe extrahiert: #261a1b
+2025-07-13 23:20:15,483 - INFO - 
+--- Fortschritt: 72/160 ---
+2025-07-13 23:20:15,483 - INFO - [207] Verarbeite: 'Killing Floor' von Lee Child
+2025-07-13 23:20:15,678 - INFO - [207] Farbe extrahiert: #fbfbfa
+2025-07-13 23:20:15,983 - INFO - 
+--- Fortschritt: 73/160 ---
+2025-07-13 23:20:15,984 - INFO - [209] Verarbeite: 'Your Story' von Leonard Balsera
+2025-07-13 23:20:16,238 - INFO - [209] Farbe extrahiert: #182a36
+2025-07-13 23:20:16,538 - INFO - 
+--- Fortschritt: 74/160 ---
+2025-07-13 23:20:16,538 - INFO - [213] Verarbeite: 'Barrayar' von Lois McMaster Bujold
+2025-07-13 23:20:16,733 - INFO - [213] Farbe extrahiert: #d14e16
+2025-07-13 23:20:17,035 - INFO - 
+--- Fortschritt: 75/160 ---
+2025-07-13 23:20:17,035 - INFO - [214] Verarbeite: 'Der Kadett' von Lois McMaster Bujold
+2025-07-13 23:20:17,425 - INFO - [214] Farbe extrahiert: #101217
+2025-07-13 23:20:17,730 - INFO - 
+--- Fortschritt: 76/160 ---
+2025-07-13 23:20:17,730 - INFO - [215] Verarbeite: 'Scherben der Ehre' von Lois McMaster Bujold
+2025-07-13 23:20:18,123 - INFO - [215] Farbe extrahiert: #29379e
+2025-07-13 23:20:18,429 - INFO - 
+--- Fortschritt: 77/160 ---
+2025-07-13 23:20:18,429 - INFO - [216] Verarbeite: 'Holes' von Louis Sachar
+2025-07-13 23:20:18,620 - INFO - [216] Farbe extrahiert: #3d1b11
+2025-07-13 23:20:18,922 - INFO - 
+--- Fortschritt: 78/160 ---
+2025-07-13 23:20:18,922 - INFO - [218] Verarbeite: 'QualityLand' von Marc-Uwe Kling
+2025-07-13 23:20:19,146 - INFO - [218] Farbe extrahiert: #c3c2c2
+2025-07-13 23:20:19,449 - INFO - 
+--- Fortschritt: 79/160 ---
+2025-07-13 23:20:19,449 - INFO - [222] Verarbeite: 'Die verborgene Hand' von Mark Henwick
+2025-07-13 23:20:19,753 - INFO - [222] Farbe extrahiert: #090914
+2025-07-13 23:20:20,055 - INFO - 
+--- Fortschritt: 80/160 ---
+2025-07-13 23:20:20,055 - INFO - [224] Verarbeite: 'Home Habitat, Range, Niche, Territory' von Martha Wells
+2025-07-13 23:20:20,247 - INFO - [224] Farbe extrahiert: #0e0c0c
+2025-07-13 23:20:20,552 - INFO - Zwischenspeicherung nach 80 Büchern...
+2025-07-13 23:20:20,943 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:20:21,930 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:20:21,930 - INFO - 
+--- Fortschritt: 81/160 ---
+2025-07-13 23:20:21,930 - INFO - [227] Verarbeite: 'The Death of Dulgath' von Michael J. Sullivan
+2025-07-13 23:20:22,147 - INFO - [227] Farbe extrahiert: #406d45
+2025-07-13 23:20:22,453 - INFO - 
+--- Fortschritt: 82/160 ---
+2025-07-13 23:20:22,453 - INFO - [228] Verarbeite: 'Age of Legend' von Michael J. Sullivan
+2025-07-13 23:20:22,688 - INFO - [228] Farbe extrahiert: #223328
+2025-07-13 23:20:22,988 - INFO - 
+--- Fortschritt: 83/160 ---
+2025-07-13 23:20:22,988 - INFO - [229] Verarbeite: 'The Crown Tower' von Michael J. Sullivan
+2025-07-13 23:20:23,266 - INFO - [229] Farbe extrahiert: #776a4a
+2025-07-13 23:20:23,571 - INFO - 
+--- Fortschritt: 84/160 ---
+2025-07-13 23:20:23,571 - INFO - [232] Verarbeite: 'Pile of Bones' von Michael J. Sullivan
+2025-07-13 23:20:23,792 - INFO - [232] Farbe extrahiert: #39140e
+2025-07-13 23:20:24,096 - INFO - 
+--- Fortschritt: 85/160 ---
+2025-07-13 23:20:24,096 - INFO - [233] Verarbeite: 'Kings Property' von Morgan Howell
+2025-07-13 23:20:24,313 - INFO - [233] Farbe extrahiert: #284959
+2025-07-13 23:20:24,618 - INFO - 
+--- Fortschritt: 86/160 ---
+2025-07-13 23:20:24,618 - INFO - [236] Verarbeite: 'Das kalte Reich des Silbers' von Naomi Novik
+2025-07-13 23:20:24,848 - INFO - [236] Farbe extrahiert: #faf9f8
+2025-07-13 23:20:25,154 - INFO - 
+--- Fortschritt: 87/160 ---
+2025-07-13 23:20:25,154 - INFO - [237] Verarbeite: 'Victory of Eagles' von Naomi Novik
+2025-07-13 23:20:25,372 - INFO - [237] Farbe extrahiert: #f1ead8
+2025-07-13 23:20:25,677 - INFO - 
+--- Fortschritt: 88/160 ---
+2025-07-13 23:20:25,677 - INFO - [239] Verarbeite: 'A Deadly Education' von Naomi Novik
+2025-07-13 23:20:25,874 - INFO - [239] Farbe extrahiert: #2a2925
+2025-07-13 23:20:26,180 - INFO - 
+--- Fortschritt: 89/160 ---
+2025-07-13 23:20:26,180 - INFO - [240] Verarbeite: 'Blood of Tyrants' von Naomi Novik
+2025-07-13 23:20:26,395 - INFO - [240] Farbe extrahiert: #100e0e
+2025-07-13 23:20:26,700 - INFO - 
+--- Fortschritt: 90/160 ---
+2025-07-13 23:20:26,700 - INFO - [241] Verarbeite: 'Empire of Ivory' von Naomi Novik
+2025-07-13 23:20:26,905 - INFO - [241] Farbe extrahiert: #2c5f99
+2025-07-13 23:20:27,211 - INFO - Zwischenspeicherung nach 90 Büchern...
+2025-07-13 23:20:30,000 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:20:31,193 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:20:31,193 - INFO - 
+--- Fortschritt: 91/160 ---
+2025-07-13 23:20:31,193 - INFO - [242] Verarbeite: 'Crucible of Gold' von Naomi Novik
+2025-07-13 23:20:31,421 - INFO - [242] Farbe extrahiert: #c4b9ab
+2025-07-13 23:20:31,727 - INFO - 
+--- Fortschritt: 92/160 ---
+2025-07-13 23:20:31,727 - INFO - [245] Verarbeite: 'Tongues of Serpents' von Naomi Novik
+2025-07-13 23:20:31,953 - INFO - [245] Farbe extrahiert: #eaeaeb
+2025-07-13 23:20:32,258 - INFO - 
+--- Fortschritt: 93/160 ---
+2025-07-13 23:20:32,258 - INFO - [248] Verarbeite: 'The Toll' von Neal Shusterman
+2025-07-13 23:20:32,495 - INFO - [248] Farbe extrahiert: #ebe6c5
+2025-07-13 23:20:32,800 - INFO - 
+--- Fortschritt: 94/160 ---
+2025-07-13 23:20:32,800 - INFO - [250] Verarbeite: 'Nordische Mythen und Sagen' von Neil Gaiman
+2025-07-13 23:20:32,906 - INFO - [250] Farbe extrahiert: #050f1e
+2025-07-13 23:20:33,211 - INFO - 
+--- Fortschritt: 95/160 ---
+2025-07-13 23:20:33,211 - INFO - [251] Verarbeite: 'Phantastische Tierwesen und wo sie zu finden sind Harry Potter Hogwarts Schulbücher' von Newt Scamander
+2025-07-13 23:20:33,492 - INFO - [251] Farbe extrahiert: #0a2017
+2025-07-13 23:20:33,797 - INFO - 
+--- Fortschritt: 96/160 ---
+2025-07-13 23:20:33,797 - INFO - [254] Verarbeite: 'Year One' von Nora Roberts
+2025-07-13 23:20:34,001 - INFO - [254] Farbe extrahiert: #dadfe6
+2025-07-13 23:20:34,306 - INFO - 
+--- Fortschritt: 97/160 ---
+2025-07-13 23:20:34,306 - INFO - [256] Verarbeite: 'Enders Game - Das große Spiel' von Orson Scott Card
+2025-07-13 23:20:34,528 - INFO - [256] Farbe extrahiert: #1f1f22
+2025-07-13 23:20:34,833 - INFO - 
+--- Fortschritt: 98/160 ---
+2025-07-13 23:20:34,833 - INFO - [258] Verarbeite: 'Krabat. Schulausgabe.' von Otfried Preußler
+2025-07-13 23:20:35,026 - INFO - [258] Farbe extrahiert: #6681af
+2025-07-13 23:20:35,331 - INFO - 
+--- Fortschritt: 99/160 ---
+2025-07-13 23:20:35,331 - INFO - [264] Verarbeite: 'Die Furcht des Weisen' von Patrick Rothfuss
+2025-07-13 23:20:35,527 - INFO - [264] Farbe extrahiert: #e7eecb
+2025-07-13 23:20:35,833 - INFO - 
+--- Fortschritt: 100/160 ---
+2025-07-13 23:20:35,833 - INFO - [265] Verarbeite: 'The Name of the Wind' von Patrick Rothfuss
+2025-07-13 23:20:36,045 - INFO - [265] Farbe extrahiert: #0b1818
+2025-07-13 23:20:36,351 - INFO - Zwischenspeicherung nach 100 Büchern...
+2025-07-13 23:20:36,754 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:20:37,907 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:20:37,907 - INFO - 
+--- Fortschritt: 101/160 ---
+2025-07-13 23:20:37,907 - INFO - [266] Verarbeite: 'Die Furcht des Weisen' von Patrick Rothfuss
+2025-07-13 23:20:38,103 - INFO - [266] Farbe extrahiert: #cbe4e1
+2025-07-13 23:20:38,405 - INFO - 
+--- Fortschritt: 102/160 ---
+2025-07-13 23:20:38,405 - INFO - [267] Verarbeite: 'The Doors of Stone' von Patrick Rothfuss
+2025-07-13 23:20:38,477 - INFO - [267] Farbe extrahiert: #fefefe
+2025-07-13 23:20:38,783 - INFO - 
+--- Fortschritt: 103/160 ---
+2025-07-13 23:20:38,783 - INFO - [270] Verarbeite: 'Die Angst des Tormanns beim Elfmeter' von Peter Handke
+2025-07-13 23:20:39,002 - INFO - [270] Farbe extrahiert: #457a30
+2025-07-13 23:20:39,307 - INFO - 
+--- Fortschritt: 104/160 ---
+2025-07-13 23:20:39,308 - INFO - [272] Verarbeite: 'Das Lied der Dunkelheit' von Peter V. Brett
+2025-07-13 23:20:39,518 - INFO - [272] Farbe extrahiert: #efe2cf
+2025-07-13 23:20:39,821 - INFO - 
+--- Fortschritt: 105/160 ---
+2025-07-13 23:20:39,822 - INFO - [273] Verarbeite: 'The Desert Spear' von Peter V. Brett
+2025-07-13 23:20:40,042 - INFO - [273] Farbe extrahiert: #151615
+2025-07-13 23:20:40,346 - INFO - 
+--- Fortschritt: 106/160 ---
+2025-07-13 23:20:40,346 - INFO - [275] Verarbeite: 'Das Feuer der Dämonen' von Peter V. Brett
+2025-07-13 23:20:40,640 - INFO - [275] Farbe extrahiert: #eae4df
+2025-07-13 23:20:40,946 - INFO - 
+--- Fortschritt: 107/160 ---
+2025-07-13 23:20:40,946 - INFO - [276] Verarbeite: 'Der Thron der Finsternis' von Peter V. Brett
+2025-07-13 23:20:41,219 - INFO - [276] Farbe extrahiert: #e6e8c3
+2025-07-13 23:20:41,523 - INFO - 
+--- Fortschritt: 108/160 ---
+2025-07-13 23:20:41,523 - INFO - [278] Verarbeite: 'Das Leuchten der Magie' von Peter V. Brett
+2025-07-13 23:20:41,763 - INFO - [278] Farbe extrahiert: #dde4dd
+2025-07-13 23:20:42,068 - INFO - 
+--- Fortschritt: 109/160 ---
+2025-07-13 23:20:42,068 - INFO - [285] Verarbeite: 'Der König der purpurnen Stadt' von Rebecca Gable
+2025-07-13 23:20:42,373 - INFO - [285] Farbe extrahiert: #ece09b
+2025-07-13 23:20:42,675 - INFO - 
+--- Fortschritt: 110/160 ---
+2025-07-13 23:20:42,675 - INFO - [286] Verarbeite: 'The Immortal Life of Henrietta Lacks' von Rebecca Skloot
+2025-07-13 23:20:42,934 - INFO - [286] Farbe extrahiert: #e34d2e
+2025-07-13 23:20:43,238 - INFO - Zwischenspeicherung nach 110 Büchern...
+2025-07-13 23:20:43,800 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:20:44,882 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:20:44,882 - INFO - 
+--- Fortschritt: 111/160 ---
+2025-07-13 23:20:44,882 - INFO - [287] Verarbeite: 'Der kleine Nick achtzehn prima Geschichten' von Rene Goscinny
+2025-07-13 23:20:45,083 - INFO - [287] Farbe extrahiert: #b4ae93
+2025-07-13 23:20:45,388 - INFO - 
+--- Fortschritt: 112/160 ---
+2025-07-13 23:20:45,388 - INFO - [290] Verarbeite: 'Monsterjäger' von Richard Schwartz
+2025-07-13 23:20:46,305 - INFO - [290] Farbe extrahiert: #ebecef
+2025-07-13 23:20:46,610 - INFO - 
+--- Fortschritt: 113/160 ---
+2025-07-13 23:20:46,610 - INFO - [293] Verarbeite: 'Der Kronrat' von Richard Schwartz
+2025-07-13 23:20:46,824 - INFO - [293] Farbe extrahiert: #1c0c09
+2025-07-13 23:20:47,129 - INFO - 
+--- Fortschritt: 114/160 ---
+2025-07-13 23:20:47,129 - INFO - [295] Verarbeite: 'Die Eule von Askir' von Richard Schwartz
+2025-07-13 23:20:47,351 - INFO - [295] Farbe extrahiert: #151b20
+2025-07-13 23:20:47,656 - INFO - 
+--- Fortschritt: 115/160 ---
+2025-07-13 23:20:47,656 - INFO - [296] Verarbeite: 'Die Festung der Titanen' von Richard Schwartz
+2025-07-13 23:20:47,871 - INFO - [296] Farbe extrahiert: #07160c
+2025-07-13 23:20:48,176 - INFO - 
+--- Fortschritt: 116/160 ---
+2025-07-13 23:20:48,177 - INFO - [297] Verarbeite: 'Die Macht der Alten' von Richard Schwartz
+2025-07-13 23:20:48,384 - INFO - [297] Farbe extrahiert: #12272c
+2025-07-13 23:20:48,688 - INFO - 
+--- Fortschritt: 117/160 ---
+2025-07-13 23:20:48,688 - INFO - [299] Verarbeite: 'Der Herr der Puppen' von Richard Schwartz
+2025-07-13 23:20:48,799 - INFO - [299] Farbe extrahiert: #532613
+2025-07-13 23:20:49,104 - INFO - 
+--- Fortschritt: 118/160 ---
+2025-07-13 23:20:49,104 - INFO - [301] Verarbeite: 'Die Feuerinseln' von Richard Schwartz
+2025-07-13 23:20:49,298 - INFO - [301] Farbe extrahiert: #120504
+2025-07-13 23:20:49,603 - INFO - 
+--- Fortschritt: 119/160 ---
+2025-07-13 23:20:49,604 - INFO - [303] Verarbeite: 'Die Rose von Illian' von Richard Schwartz
+2025-07-13 23:20:49,843 - INFO - [303] Farbe extrahiert: #0f2241
+2025-07-13 23:20:50,148 - INFO - 
+--- Fortschritt: 120/160 ---
+2025-07-13 23:20:50,148 - INFO - [304] Verarbeite: 'Die Zweite Legion' von Richard Schwartz
+2025-07-13 23:20:50,363 - INFO - [304] Farbe extrahiert: #3f3c2e
+2025-07-13 23:20:50,663 - INFO - Zwischenspeicherung nach 120 Büchern...
+2025-07-13 23:20:51,069 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:20:52,077 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:20:52,077 - INFO - 
+--- Fortschritt: 121/160 ---
+2025-07-13 23:20:52,077 - INFO - [305] Verarbeite: 'Das Erste Horn' von Richard Schwartz
+2025-07-13 23:20:52,296 - INFO - [305] Farbe extrahiert: #5b6f7d
+2025-07-13 23:20:52,602 - INFO - 
+--- Fortschritt: 122/160 ---
+2025-07-13 23:20:52,602 - INFO - [306] Verarbeite: 'Die Krone von Lytar' von Richard Schwartz
+2025-07-13 23:20:52,817 - INFO - [306] Farbe extrahiert: #080c0e
+2025-07-13 23:20:53,121 - INFO - 
+--- Fortschritt: 123/160 ---
+2025-07-13 23:20:53,121 - INFO - [311] Verarbeite: 'Die vergessene Stadt' von Robin Hobb
+2025-07-13 23:20:53,377 - INFO - [311] Farbe extrahiert: #fcfcfc
+2025-07-13 23:20:53,682 - INFO - 
+--- Fortschritt: 124/160 ---
+2025-07-13 23:20:53,683 - INFO - [312] Verarbeite: 'Die Stunde des Piraten' von Robin Hobb
+2025-07-13 23:20:54,019 - INFO - [312] Farbe extrahiert: #f9f9f9
+2025-07-13 23:20:54,324 - INFO - 
+--- Fortschritt: 125/160 ---
+2025-07-13 23:20:54,324 - INFO - [313] Verarbeite: 'Der blinde Krieger' von Robin Hobb
+2025-07-13 23:20:54,584 - INFO - [313] Farbe extrahiert: #fbfbfb
+2025-07-13 23:20:54,885 - INFO - 
+--- Fortschritt: 126/160 ---
+2025-07-13 23:20:54,885 - INFO - [314] Verarbeite: 'Viviaces Erwachen' von Robin Hobb
+2025-07-13 23:20:55,767 - INFO - [314] Farbe extrahiert: #faf9f7
+2025-07-13 23:20:56,069 - INFO - 
+--- Fortschritt: 127/160 ---
+2025-07-13 23:20:56,069 - INFO - [315] Verarbeite: 'Der Ring der Händler. Viviaces Erwachen' von Robin Hobb
+2025-07-13 23:20:56,302 - INFO - [315] Farbe extrahiert: #0f0706
+2025-07-13 23:20:56,607 - INFO - 
+--- Fortschritt: 128/160 ---
+2025-07-13 23:20:56,607 - INFO - [316] Verarbeite: 'Die Gabe der Könige' von Robin Hobb
+2025-07-13 23:20:57,005 - INFO - [316] Farbe extrahiert: #f5f0e3
+2025-07-13 23:20:57,306 - INFO - 
+--- Fortschritt: 129/160 ---
+2025-07-13 23:20:57,306 - INFO - [317] Verarbeite: 'Die sonderbare Buchhandlung des Mr. Penumbra' von Robin Sloan
+2025-07-13 23:20:57,547 - INFO - [317] Farbe extrahiert: #171112
+2025-07-13 23:20:57,852 - INFO - 
+--- Fortschritt: 130/160 ---
+2025-07-13 23:20:57,852 - INFO - [319] Verarbeite: 'Das Hindernis ist der Weg Mit der Philosophie der Stoiker zum Triumph' von Ryan Holiday
+2025-07-13 23:20:58,116 - INFO - [319] Farbe extrahiert: #063a50
+2025-07-13 23:20:58,416 - INFO - Zwischenspeicherung nach 130 Büchern...
+2025-07-13 23:20:58,815 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:20:59,847 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:20:59,847 - INFO - 
+--- Fortschritt: 131/160 ---
+2025-07-13 23:20:59,848 - INFO - [322] Verarbeite: 'Der Totengräbersohn' von Sam Feuerbach
+2025-07-13 23:20:59,981 - INFO - [322] Farbe extrahiert: #13220d
+2025-07-13 23:21:00,286 - INFO - 
+--- Fortschritt: 132/160 ---
+2025-07-13 23:21:00,286 - INFO - [323] Verarbeite: 'Der Totengräbersohn' von Sam Feuerbach
+2025-07-13 23:21:00,526 - INFO - [323] Farbe extrahiert: #244656
+2025-07-13 23:21:00,831 - INFO - 
+--- Fortschritt: 133/160 ---
+2025-07-13 23:21:00,831 - INFO - [324] Verarbeite: 'Die Sanduhr' von Sam Feuerbach
+2025-07-13 23:21:01,229 - INFO - [324] Farbe extrahiert: #d4c5b0
+2025-07-13 23:21:01,534 - INFO - 
+--- Fortschritt: 134/160 ---
+2025-07-13 23:21:01,534 - INFO - [325] Verarbeite: 'Die Myrnengöttin' von Sam Feuerbach
+2025-07-13 23:21:01,900 - INFO - [325] Farbe extrahiert: #0b0d0a
+2025-07-13 23:21:02,204 - INFO - 
+--- Fortschritt: 135/160 ---
+2025-07-13 23:21:02,205 - INFO - [326] Verarbeite: 'Der Schwertmeister' von Sam Feuerbach
+2025-07-13 23:21:02,408 - INFO - [326] Farbe extrahiert: #ebe4d0
+2025-07-13 23:21:02,709 - INFO - 
+--- Fortschritt: 136/160 ---
+2025-07-13 23:21:02,709 - INFO - [327] Verarbeite: 'Die Auftragsmörderin' von Sam Feuerbach
+2025-07-13 23:21:02,806 - INFO - [327] Farbe extrahiert: #baad96
+2025-07-13 23:21:03,111 - INFO - 
+--- Fortschritt: 137/160 ---
+2025-07-13 23:21:03,112 - INFO - [328] Verarbeite: 'Der Totengräbersohn' von Sam Feuerbach
+2025-07-13 23:21:03,226 - INFO - [328] Farbe extrahiert: #6c0e0e
+2025-07-13 23:21:03,531 - INFO - 
+--- Fortschritt: 138/160 ---
+2025-07-13 23:21:03,531 - INFO - [335] Verarbeite: 'The Broken Vow' von Scott Westerfeld
+2025-07-13 23:21:03,745 - INFO - [335] Farbe extrahiert: #110709
+2025-07-13 23:21:04,050 - INFO - 
+--- Fortschritt: 139/160 ---
+2025-07-13 23:21:04,050 - INFO - [337] Verarbeite: 'Zauberlehrling voller Fehl und Adel' von Sergei Lukyanenko
+2025-07-13 23:21:04,245 - INFO - [337] Farbe extrahiert: #cebfb0
+2025-07-13 23:21:04,549 - INFO - 
+--- Fortschritt: 140/160 ---
+2025-07-13 23:21:04,549 - INFO - [340] Verarbeite: 'Kalte Asche' von Simon Beckett
+2025-07-13 23:21:04,714 - INFO - [340] Farbe extrahiert: #010101
+2025-07-13 23:21:05,019 - INFO - Zwischenspeicherung nach 140 Büchern...
+2025-07-13 23:21:05,370 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:21:06,469 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:21:06,469 - INFO - 
+--- Fortschritt: 141/160 ---
+2025-07-13 23:21:06,469 - INFO - [341] Verarbeite: 'The Chemistry of Death' von Simon Beckett
+2025-07-13 23:21:06,676 - INFO - [341] Farbe extrahiert: #a60221
+2025-07-13 23:21:06,981 - INFO - 
+--- Fortschritt: 142/160 ---
+2025-07-13 23:21:06,981 - INFO - [342] Verarbeite: 'Mythos The Greek Myths Retold' von Stephen Fry
+2025-07-13 23:21:07,352 - INFO - [342] Farbe extrahiert: #eeede9
+2025-07-13 23:21:07,656 - INFO - 
+--- Fortschritt: 143/160 ---
+2025-07-13 23:21:07,656 - INFO - [343] Verarbeite: 'Es' von Stephen King
+2025-07-13 23:21:07,856 - INFO - [343] Farbe extrahiert: #d70f1d
+2025-07-13 23:21:08,161 - INFO - 
+--- Fortschritt: 144/160 ---
+2025-07-13 23:21:08,161 - INFO - [346] Verarbeite: 'Cujo' von Stephen King
+2025-07-13 23:21:08,404 - INFO - [346] Farbe extrahiert: #70564d
+2025-07-13 23:21:08,704 - INFO - 
+--- Fortschritt: 145/160 ---
+2025-07-13 23:21:08,704 - INFO - [347] Verarbeite: 'Buddhism Plain and Simple The Practice of Being Aware, Right Now, Every Day' von Steve Hagen
+2025-07-13 23:21:08,918 - INFO - [347] Farbe extrahiert: #fefefd
+2025-07-13 23:21:09,223 - INFO - 
+--- Fortschritt: 146/160 ---
+2025-07-13 23:21:09,223 - INFO - [349] Verarbeite: 'Blood Follows' von Steven Erikson
+2025-07-13 23:21:09,442 - INFO - [349] Farbe extrahiert: #0f0a0b
+2025-07-13 23:21:09,747 - INFO - 
+--- Fortschritt: 147/160 ---
+2025-07-13 23:21:09,748 - INFO - [351] Verarbeite: 'Jonathan Strange & Mr Norrell' von Susanna Clarke
+2025-07-13 23:21:09,938 - INFO - [351] Farbe extrahiert: #010101
+2025-07-13 23:21:10,244 - INFO - 
+--- Fortschritt: 148/160 ---
+2025-07-13 23:21:10,244 - INFO - [352] Verarbeite: 'The Hunger Games' von Suzanne Collins
+2025-07-13 23:21:10,450 - INFO - [352] Farbe extrahiert: #020101
+2025-07-13 23:21:10,752 - INFO - 
+--- Fortschritt: 149/160 ---
+2025-07-13 23:21:10,752 - INFO - [353] Verarbeite: 'Der Erwählte' von Taran Matharu
+2025-07-13 23:21:10,972 - INFO - [353] Farbe extrahiert: #131b1c
+2025-07-13 23:21:11,273 - INFO - 
+--- Fortschritt: 150/160 ---
+2025-07-13 23:21:11,274 - INFO - [354] Verarbeite: 'Empire of Sand' von Tasha Suri
+2025-07-13 23:21:11,386 - INFO - [354] Farbe extrahiert: #090302
+2025-07-13 23:21:11,688 - INFO - Zwischenspeicherung nach 150 Büchern...
+2025-07-13 23:21:12,162 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:21:13,201 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:21:13,201 - INFO - 
+--- Fortschritt: 151/160 ---
+2025-07-13 23:21:13,202 - INFO - [359] Verarbeite: 'Going Postal' von Terry Pratchett
+2025-07-13 23:21:13,290 - INFO - [359] Farbe extrahiert: #e61e25
+2025-07-13 23:21:13,595 - INFO - 
+--- Fortschritt: 152/160 ---
+2025-07-13 23:21:13,595 - INFO - [360] Verarbeite: 'Guards! Guards!' von Terry Pratchett
+2025-07-13 23:21:13,817 - INFO - [360] Farbe extrahiert: #0aa16e
+2025-07-13 23:21:14,121 - INFO - 
+--- Fortschritt: 153/160 ---
+2025-07-13 23:21:14,121 - INFO - [361] Verarbeite: 'Iron and Magic' von Terry Pratchett
+2025-07-13 23:21:14,290 - INFO - [361] Farbe extrahiert: #141414
+2025-07-13 23:21:14,595 - INFO - 
+--- Fortschritt: 154/160 ---
+2025-07-13 23:21:14,595 - INFO - [362] Verarbeite: 'Night Watch' von Terry Pratchett
+2025-07-13 23:21:14,699 - INFO - [362] Farbe extrahiert: #070511
+2025-07-13 23:21:15,004 - INFO - 
+--- Fortschritt: 155/160 ---
+2025-07-13 23:21:15,004 - INFO - [363] Verarbeite: 'Red Dragon' von Thomas  Harris
+2025-07-13 23:21:15,099 - INFO - [363] Farbe extrahiert: #e30d05
+2025-07-13 23:21:15,399 - INFO - 
+--- Fortschritt: 156/160 ---
+2025-07-13 23:21:15,399 - INFO - [371] Verarbeite: 'Worlds of Exile and Illusion Rocannon”™s World, Planet of Exile, City of Illusions' von Ursula K. Le Guin
+2025-07-13 23:21:15,592 - INFO - [371] Farbe extrahiert: #c1c0bf
+2025-07-13 23:21:15,897 - INFO - 
+--- Fortschritt: 157/160 ---
+2025-07-13 23:21:15,897 - INFO - [374] Verarbeite: 'Rocannons Welt' von Ursula K. Le Guin
+2025-07-13 23:21:16,184 - INFO - [374] Farbe extrahiert: #588f9c
+2025-07-13 23:21:16,488 - INFO - 
+--- Fortschritt: 158/160 ---
+2025-07-13 23:21:16,488 - INFO - [376] Verarbeite: 'A Gathering of Shadows' von V.E. Schwab
+2025-07-13 23:21:16,708 - INFO - [376] Farbe extrahiert: #f7f2e9
+2025-07-13 23:21:17,013 - INFO - 
+--- Fortschritt: 159/160 ---
+2025-07-13 23:21:17,013 - INFO - [382] Verarbeite: 'Rumo & Die Wunder im Dunkeln' von Walter Moers
+2025-07-13 23:21:17,207 - INFO - [382] Farbe extrahiert: #5d2726
+2025-07-13 23:21:17,512 - INFO - 
+--- Fortschritt: 160/160 ---
+2025-07-13 23:21:17,512 - INFO - [383] Verarbeite: 'Lord of the Flies' von William Golding
+2025-07-13 23:21:17,730 - INFO - [383] Farbe extrahiert: #489697
+2025-07-13 23:21:17,731 - INFO - Zwischenspeicherung nach 160 Büchern...
+2025-07-13 23:21:18,193 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:21:19,149 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:21:19,149 - INFO - 
+Finale Speicherung...
+2025-07-13 23:21:19,517 - INFO - Backup erstellt: Meine_Buchliste_updated.yaml.backup
+2025-07-13 23:21:20,665 - INFO - Daten gespeichert: Meine_Buchliste_updated.yaml
+2025-07-13 23:21:20,666 - INFO - 
+==================================================
+2025-07-13 23:21:20,666 - INFO - VERARBEITUNGSSTATISTIKEN
+2025-07-13 23:21:20,667 - INFO - ==================================================
+2025-07-13 23:21:20,667 - INFO - Verarbeitete Bücher: 160
+2025-07-13 23:21:20,667 - INFO - Erfolgreich aktualisiert: 160
+2025-07-13 23:21:20,667 - INFO - Fehler: 0
+2025-07-13 23:21:20,667 - INFO - Erfolgsrate: 100.0%
+2025-07-13 23:21:20,667 - INFO - ==================================================
