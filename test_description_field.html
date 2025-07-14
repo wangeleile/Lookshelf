@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beschreibungsfeld Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: 0 auto; }
+        .log { background: #f5f5f5; padding: 10px; margin: 5px 0; border-radius: 4px; border-left: 4px solid #007bff; }
+        .error { border-left-color: #dc3545; background: #f8d7da; }
+        .success { border-left-color: #28a745; background: #d4edda; }
+        .warning { border-left-color: #ffc107; background: #fff3cd; }
+        button { background: #007bff; color: white; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer; margin: 5px; }
+        button:hover { background: #0056b3; }
+        .test-section { border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin: 20px 0; }
+        input, textarea { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; margin: 5px 0; }
+        pre { background: #f8f9fa; padding: 10px; border-radius: 4px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>🔧 Beschreibungsfeld Import Test</h1>
+    
+    <div class="test-section">
+        <h2>🧪 Test 1: Direkte Formular-Befüllung</h2>
+        <p>Testet die direkte Befüllung des Beschreibungsfeldes mit verschiedenen Werten.</p>
+        
+        <form id="testForm">
+            <label>Titel:</label>
+            <input type="text" name="title" placeholder="Buchtitel">
+            
+            <label>Beschreibung (name="Description"):</label>
+            <textarea name="Description" rows="4" placeholder="Buchbeschreibung"></textarea>
+            
+            <label>Jahr (name="Year Published"):</label>
+            <input type="text" name="Year Published" placeholder="Jahr">
+        </form>
+        
+        <button onclick="testDirectFill()">📝 Direktes Befüllen testen</button>
+        <button onclick="clearForm()">🗑️ Formular leeren</button>
+    </div>
+    
+    <div class="test-section">
+        <h2>🔍 Test 2: Audible API + Import Simulation</h2>
+        <p>Simuliert den kompletten Audible-Import-Prozess.</p>
+        
+        <input type="text" id="searchTerm" value="Harry Potter" placeholder="Suchbegriff">
+        <button onclick="testAudibleImport()">🔍 Audible Import simulieren</button>
+    </div>
+    
+    <div class="test-section">
+        <h2>📋 Test 3: Feldsuche im HTML</h2>
+        <p>Überprüft, ob alle benötigten Formularfelder im HTML vorhanden sind.</p>
+        
+        <button onclick="testFieldExistence()">🔍 Felder überprüfen</button>
+    </div>
+    
+    <div id="logs"></div>
+    
+    <script>
+        const logs = document.getElementById('logs');
+        
+        function log(message, type = 'info') {
+            const div = document.createElement('div');
+            div.className = `log ${type}`;
+            div.innerHTML = `<strong>${new Date().toLocaleTimeString()}:</strong> ${message}`;
+            logs.appendChild(div);
+            logs.scrollTop = logs.scrollHeight;
+            console.log(`[${type}] ${message}`);
+        }
+        
+        function clearLogs() {
+            logs.innerHTML = '';
+        }
+        
+        function clearForm() {
+            document.getElementById('testForm').reset();
+            log('📝 Formular geleert', 'info');
+        }
+        
+        function testDirectFill() {
+            clearLogs();
+            log('🧪 Starte direkten Befüllungstest...', 'info');
+            
+            const testData = {
+                title: 'Harry Potter Test Buch',
+                Description: 'Das ist eine sehr ausführliche Testbeschreibung für das Harry Potter Buch. Sie sollte vollständig im Beschreibungsfeld erscheinen und nicht leer sein.',
+                'Year Published': '2023'
+            };
+            
+            log('📝 Test-Daten erstellt:', 'info');
+            log(`<pre>${JSON.stringify(testData, null, 2)}</pre>`, 'info');
+            
+            // Simuliere fillFormWithBookData Funktion
+            const form = document.getElementById('testForm');
+            form.reset();
+            
+            Object.keys(testData).forEach(key => {
+                const input = form.querySelector(`[name="${key}"]`);
+                if (input) {
+                    input.value = testData[key] || '';
+                    log(`✅ Feld "${key}" gefunden und gesetzt auf: "${testData[key]}"`, 'success');
+                } else {
+                    log(`❌ Feld "${key}" nicht gefunden im Formular!`, 'error');
+                }
+            });
+            
+            // Spezielle Überprüfung des Beschreibungsfeldes
+            const descField = form.querySelector('[name="Description"]');
+            if (descField) {
+                if (descField.value) {
+                    log(`✅ Beschreibungsfeld erfolgreich befüllt: "${descField.value}"`, 'success');
+                } else {
+                    log(`❌ Beschreibungsfeld ist leer obwohl Wert gesetzt wurde!`, 'error');
+                }
+            } else {
+                log(`❌ Beschreibungsfeld mit name="Description" nicht gefunden!`, 'error');
+            }
+        }
+        
+        async function testAudibleImport() {
+            clearLogs();
+            const searchTerm = document.getElementById('searchTerm').value;
+            log(`🔍 Starte Audible Import Simulation für: "${searchTerm}"`, 'info');
+            
+            try {
+                // Schritt 1: API-Anfrage
+                log('📡 Sende API-Anfrage...', 'info');
+                const response = await fetch(`http://localhost:5001/api/audible/search?q=${encodeURIComponent(searchTerm)}&limit=1`);
+                
+                if (!response.ok) {
+                    throw new Error(`API nicht erreichbar: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                if (!data.success || !data.results.length) {
+                    throw new Error('Keine Ergebnisse erhalten');
+                }
+                
+                const book = data.results[0];
+                log(`✅ API-Daten erhalten für: "${book.title}"`, 'success');
+                log(`📖 Original Beschreibung: "${book.description || 'LEER'}"`, 'info');
+                
+                // Schritt 2: Datenkonvertierung (wie in searchAudible)
+                const volumeInfo = {
+                    title: book.title || 'Unbekannter Titel',
+                    authors: book.authors || ['Unbekannter Autor'],
+                    description: book.description || 'Keine Beschreibung verfügbar',
+                    year_published: book.year_published || '',
+                    duration: book.duration || '',
+                    booktype: book.booktype || 'Audiobook',
+                    image_url: book.image_url || ''
+                };
+                
+                log('🔄 VolumeInfo erstellt:', 'info');
+                log(`<pre>${JSON.stringify(volumeInfo, null, 2)}</pre>`, 'info');
+                
+                // Schritt 3: newBook-Objekt erstellen (wie in importExternalBook)
+                const newBook = {
+                    title: volumeInfo.title || '',
+                    author: volumeInfo.authors ? volumeInfo.authors.join(', ') : '',
+                    Description: volumeInfo.description || '', // Großgeschrieben!
+                    'Year Published': volumeInfo.year_published || '',
+                    duration: volumeInfo.duration || '',
+                    bookType: volumeInfo.booktype || '',
+                    image_url: volumeInfo.image_url || ''
+                };
+                
+                log('📦 newBook-Objekt erstellt:', 'info');
+                log(`<pre>${JSON.stringify(newBook, null, 2)}</pre>`, 'info');
+                log(`📝 Beschreibung in newBook: "${newBook.Description}"`, 'info');
+                
+                // Schritt 4: Formular befüllen
+                log('📝 Befülle Formular...', 'info');
+                const form = document.getElementById('testForm');
+                form.reset();
+                
+                Object.keys(newBook).forEach(key => {
+                    const input = form.querySelector(`[name="${key}"]`);
+                    if (input) {
+                        input.value = newBook[key] || '';
+                        log(`✅ Feld "${key}" gesetzt auf: "${newBook[key]}"`, 'success');
+                    } else {
+                        log(`⚠️ Feld "${key}" nicht gefunden (evtl. nicht im Test-Formular)`, 'warning');
+                    }
+                });
+                
+                // Finale Überprüfung
+                const descField = form.querySelector('[name="Description"]');
+                if (descField && descField.value) {
+                    log(`🎉 Import erfolgreich! Beschreibung: "${descField.value}"`, 'success');
+                } else {
+                    log(`❌ Import fehlgeschlagen - Beschreibungsfeld leer!`, 'error');
+                }
+                
+            } catch (error) {
+                log(`❌ Fehler beim Audible Import: ${error.message}`, 'error');
+            }
+        }
+        
+        function testFieldExistence() {
+            clearLogs();
+            log('🔍 Überprüfe Formularfelder...', 'info');
+            
+            const requiredFields = [
+                'title',
+                'author', 
+                'Description',
+                'Year Published',
+                'duration',
+                'bookType',
+                'image_url'
+            ];
+            
+            const form = document.getElementById('testForm');
+            let foundFields = 0;
+            
+            requiredFields.forEach(fieldName => {
+                const field = form.querySelector(`[name="${fieldName}"]`);
+                if (field) {
+                    foundFields++;
+                    log(`✅ Feld "${fieldName}" gefunden (${field.tagName})`, 'success');
+                } else {
+                    log(`❌ Feld "${fieldName}" nicht gefunden`, 'error');
+                }
+            });
+            
+            log(`📊 Zusammenfassung: ${foundFields}/${requiredFields.length} Felder gefunden`, foundFields === requiredFields.length ? 'success' : 'warning');
+            
+            // Zusätzliche Checks
+            const allInputs = form.querySelectorAll('input, textarea, select');
+            log(`📋 Alle verfügbaren Formularfelder in diesem Test (${allInputs.length}):`, 'info');
+            allInputs.forEach(input => {
+                log(`  - ${input.tagName} name="${input.name}" type="${input.type || 'text'}"`, 'info');
+            });
+        }
+        
+        // Initialisierung
+        document.addEventListener('DOMContentLoaded', () => {
+            log('🚀 Beschreibungsfeld-Test geladen und bereit!', 'success');
+            log('💡 Tipp: Öffnen Sie die Browser-Konsole für zusätzliche Details.', 'info');
+        });
+    </script>
+</body>
+</html>

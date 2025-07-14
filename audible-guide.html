@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audible Integration - Anleitung</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .notification.is-success { background-color: #d4edda; color: #155724; }
+        .notification.is-info { background-color: #d1ecf1; color: #0c5460; }
+        .notification.is-warning { background-color: #fff3cd; color: #856404; }
+        .box { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .step { margin-bottom: 2rem; }
+        .step-number { 
+            background: #667eea; 
+            color: white; 
+            border-radius: 50%; 
+            width: 30px; 
+            height: 30px; 
+            display: inline-flex; 
+            align-items: center; 
+            justify-content: center; 
+            margin-right: 10px; 
+        }
+        pre { background: #f8f9fa; padding: 1rem; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is-2">🎧 Audible Integration</h1>
+                <h2 class="subtitle">Audiobooks suchen und importieren</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8 is-offset-2">
+
+                    <div class="notification is-success">
+                        <h4 class="title is-4">✅ Audible-Funktionalität erfolgreich implementiert!</h4>
+                        <p>Sie können jetzt Audiobooks direkt von Audible.de suchen und in Ihren Buch-Editor importieren.</p>
+                    </div>
+
+                    <div class="box">
+                        <h3 class="title is-3">🚀 Schnellstart</h3>
+                        
+                        <div class="step">
+                            <div class="content">
+                                <h4><span class="step-number">1</span>Server starten</h4>
+                                <p>Öffnen Sie ein Terminal und führen Sie aus:</p>
+                                <pre><code>./start_audible_server.sh</code></pre>
+                                <p><small>Windows: <code>start_audible_server.bat</code></small></p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="content">
+                                <h4><span class="step-number">2</span>Editor öffnen</h4>
+                                <p>Öffnen Sie <a href="book-editor.html" target="_blank"><strong>book-editor.html</strong></a> in Ihrem Browser.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="content">
+                                <h4><span class="step-number">3</span>Audible-Suche verwenden</h4>
+                                <ul>
+                                    <li>Klicken Sie auf <strong>"Externe Suche"</strong></li>
+                                    <li>Wählen Sie <strong>"Audible (Audiobooks)"</strong> als Quelle</li>
+                                    <li>Geben Sie einen Suchbegriff ein (z.B. "Harry Potter")</li>
+                                    <li>Klicken Sie auf <strong>"Suchen"</strong></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="content">
+                                <h4><span class="step-number">4</span>Buch importieren</h4>
+                                <p>Klicken Sie bei einem gefundenen Audiobook auf <strong>"Importieren"</strong> und speichern Sie das Buch.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <h3 class="title is-3">🔍 Suchfunktionen</h3>
+                        
+                        <div class="notification is-info">
+                            <h4 class="title is-5">Auto-Erkennung</h4>
+                            <p>Die Suche erkennt automatisch Audiobook-Begriffe:</p>
+                            <ul>
+                                <li><strong>audiobook</strong>, <strong>hörbuch</strong></li>
+                                <li><strong>narrator</strong>, <strong>sprecher</strong></li>
+                                <li><strong>audible</strong></li>
+                            </ul>
+                        </div>
+
+                        <div class="content">
+                            <h4>Beispiel-Suchen:</h4>
+                            <ul>
+                                <li><strong>"Harry Potter"</strong> - Findet alle Harry Potter Audiobooks</li>
+                                <li><strong>"Krimi Hörbuch"</strong> - Automatisch zu Audible weitergeleitet</li>
+                                <li><strong>"Tolkien"</strong> - Findet Werke von J.R.R. Tolkien</li>
+                                <li><strong>"Fantasy Sprecher"</strong> - Sucht nach Fantasy-Audiobooks</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <h3 class="title is-3">📚 Importierte Daten</h3>
+                        <div class="columns">
+                            <div class="column">
+                                <ul>
+                                    <li>✅ Titel</li>
+                                    <li>✅ Autor(en)</li>
+                                    <li>✅ Sprecher/Narrator</li>
+                                    <li>✅ Laufzeit</li>
+                                </ul>
+                            </div>
+                            <div class="column">
+                                <ul>
+                                    <li>✅ Beschreibung</li>
+                                    <li>✅ Buchcover</li>
+                                    <li>✅ Bewertung</li>
+                                    <li>✅ Veröffentlichungsjahr</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <h3 class="title is-3">🛠️ Problembehandlung</h3>
+                        
+                        <div class="notification is-warning">
+                            <h4 class="title is-5">Server nicht erreichbar?</h4>
+                            <ol>
+                                <li>Stellen Sie sicher, dass Python 3 installiert ist</li>
+                                <li>Führen Sie <code>./start_audible_server.sh</code> aus</li>
+                                <li>Warten Sie, bis "Server will be available" erscheint</li>
+                                <li>Testen Sie: <a href="http://localhost:5001/api/health" target="_blank">http://localhost:5001/api/health</a></li>
+                            </ol>
+                        </div>
+
+                        <div class="content">
+                            <h4>Häufige Probleme:</h4>
+                            <ul>
+                                <li><strong>Port belegt:</strong> Ändern Sie den Port in <code>audible_api_server.py</code></li>
+                                <li><strong>Keine Ergebnisse:</strong> Prüfen Sie Ihre Internetverbindung</li>
+                                <li><strong>CORS-Fehler:</strong> Verwenden Sie einen lokalen Server (nicht file://)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <h3 class="title is-3">🧪 API Testen</h3>
+                        <div class="content">
+                            <p>Sie können die API auch direkt testen:</p>
+                            <pre><code># Suche
+curl "http://localhost:5001/api/audible/search?q=Harry%20Potter&limit=3"
+
+# Health Check
+curl "http://localhost:5001/api/health"</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="level">
+                        <div class="level-left">
+                            <a href="index.html" class="button is-primary">
+                                📚 Zur Hauptseite
+                            </a>
+                        </div>
+                        <div class="level-right">
+                            <a href="book-editor.html" class="button is-success">
+                                ✏️ Buch-Editor öffnen
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p><strong>Audible Integration</strong> für Lookshelf Bücherregal</p>
+            <p>Web-Scraping für persönliche, nicht-kommerzielle Nutzung</p>
+        </div>
+    </footer>
+</body>
+</html>

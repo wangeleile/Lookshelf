@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buch Editor - Meine Buchliste</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+        .editor-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .book-form {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #e1e1e1;
+        }
+        .navigation-controls {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .field-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        .field-full {
+            grid-column: 1 / -1;
+        }
+        .book-counter {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #363636;
+        }
+        .save-indicator {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .book-image-preview {
+            max-width: 100px;
+            max-height: 150px;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .json-output {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 1rem;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .external-book-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            background: white;
+            transition: box-shadow 0.3s ease;
+        }
+        .external-book-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .external-book-image {
+            max-width: 80px;
+            max-height: 120px;
+            border-radius: 4px;
+        }
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 2s linear infinite;
+            margin: 0 auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="editor-container">
+        <div class="save-indicator" id="saveIndicator"></div>
+        
+        <div class="hero is-primary is-small">
+            <div class="hero-body">
+                <h1 class="title">Buch Editor</h1>
+                <h2 class="subtitle">Bearbeiten Sie Ihre Buchliste</h2>
+            </div>
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="navigation-controls">
+            <div class="level">
+                <div class="level-left">
+                    <div class="level-item">
+                        <span class="book-counter" id="bookCounter">Buch 1 von 0</span>
+                    </div>
+                </div>
+                <div class="level-item">
+                    <div class="field has-addons">
+                        <div class="control">
+                            <button class="button" id="firstBtn">
+                                <span>❮❮</span>
+                            </button>
+                        </div>
+                        <div class="control">
+                            <button class="button" id="prevBtn">
+                                <span>❮ Zurück</span>
+                            </button>
+                        </div>
+                        <div class="control">
+                            <input class="input" type="number" id="jumpToIndex" placeholder="Springe zu #" style="width: 120px;">
+                        </div>
+                        <div class="control">
+                            <button class="button" id="jumpBtn">Gehe zu</button>
+                        </div>
+                        <div class="control">
+                            <button class="button" id="nextBtn">
+                                <span>Weiter ❯</span>
+                            </button>
+                        </div>
+                        <div class="control">
+                            <button class="button" id="lastBtn">
+                                <span>❯❯</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="level-right">
+                    <div class="level-item">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <button class="button is-success" id="newBookBtn">
+                                    <span>+ Neues Buch</span>
+                                </button>
+                            </div>
+                            <div class="control">
+                                <button class="button is-danger" id="deleteBtn">
+                                    <span>🗑 Löschen</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search -->
+        <div class="box">
+            <div class="field">
+                <label class="label">Suche in bestehenden Büchern</label>
+                <div class="control">
+                    <input class="input" type="text" id="searchInput" placeholder="Suche nach Titel, Autor, ISBN...">
+                </div>
+            </div>
+            <div id="searchResults" class="content" style="display: none;">
+                <ul id="searchResultsList"></ul>
+            </div>
+        </div>
+
+        <!-- External Book Import -->
+        <div class="box">
+            <h3 class="title is-5">📚 Buch aus externen Quellen importieren</h3>
+            <div class="field">
+                <label class="label">Nach Büchern suchen</label>
+                <div class="field has-addons">
+                    <div class="control is-expanded">
+                        <input class="input" type="text" id="externalSearchInput" placeholder="Buchtitel, Autor, ISBN oder Amazon ASIN eingeben...">
+                    </div>
+                    <div class="control">
+                        <div class="select">
+                            <select id="searchSourceSelect">
+                                <option value="auto">Auto-Erkennung</option>
+                                <option value="googlebooks">Google Books</option>
+                                <option value="openlibrary">Open Library</option>
+                                <option value="amazon">Amazon (ASIN)</option>
+                                <option value="audible">Audible (Audiobooks)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <button class="button is-primary" id="externalSearchBtn">
+                            <span>🔍 Suchen</span>
+                        </button>
+                    </div>
+                </div>
+                <p class="help">
+                    <strong>Auto-Erkennung:</strong> ISBN → Google Books, ASIN (B0...) → Amazon, Rest → Google Books<br>
+                    <strong>Amazon ASIN:</strong> 10-stellige Kennungen wie B08K123456 oder 1234567890<br>
+                    <strong>Audible:</strong> Speziell für Audiobooks - findet Sprecher, Laufzeit, etc.<br>
+                    <strong>ISBN:</strong> 13-stellige Nummern wie 9783426123456
+                </p>
+            </div>
+            
+            <div id="externalSearchResults" style="display: none;">
+                <h4 class="title is-6">Suchergebnisse:</h4>
+                <div id="externalResultsList" class="columns is-multiline"></div>
+            </div>
+            
+            <div id="externalSearchLoading" class="has-text-centered" style="display: none;">
+                <div class="loader"></div>
+                <p>Suche nach Büchern...</p>
+            </div>
+        </div>
+
+        <!-- Book Form -->
+        <div class="book-form">
+            <form id="bookForm">
+                <div class="field-grid">
+                    <!-- Grunddaten -->
+                    <div class="field">
+                        <label class="label">Titel *</label>
+                        <div class="control">
+                            <input class="input" type="text" name="title" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Autor *</label>
+                        <div class="control">
+                            <input class="input" type="text" name="author" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">ISBN</label>
+                        <div class="control">
+                            <input class="input" type="text" name="isbn">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">ASIN (Amazon)</label>
+                        <div class="control">
+                            <input class="input" type="text" name="asin" placeholder="B01234567 oder 1234567890">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">ID</label>
+                        <div class="control">
+                            <input class="input" type="number" name="id">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Jahr</label>
+                        <div class="control">
+                            <input class="input" type="number" name="year">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Veröffentlichungsjahr</label>
+                        <div class="control">
+                            <input class="input" type="number" name="Year Published" placeholder="Jahr der ersten Veröffentlichung">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Seiten</label>
+                        <div class="control">
+                            <input class="input" type="number" name="pages">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Bewertung (1-5)</label>
+                        <div class="control">
+                            <input class="input" type="number" name="rating" min="1" max="5" step="0.1">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Meine Bewertung (0-5)</label>
+                        <div class="control">
+                            <input class="input" type="number" name="My Rating" min="0" max="5">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Genre</label>
+                        <div class="control">
+                            <div class="select is-fullwidth">
+                                <select name="genre">
+                                    <option value="">Bitte wählen</option>
+                                    <option value="Fiction">Fiction</option>
+                                    <option value="Nonfiction">Nonfiction</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Buchtyp</label>
+                        <div class="control">
+                            <div class="select is-fullwidth">
+                                <select name="bookType">
+                                    <option value="">Bitte wählen</option>
+                                    <option value="Book">Book</option>
+                                    <option value="Audiobook">Audiobook</option>
+                                    <option value="eBook">eBook</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Bücherregal</label>
+                        <div class="control">
+                            <input class="input" type="text" name="bookshelves">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Serie</label>
+                        <div class="control">
+                            <input class="input" type="text" name="Serie">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Serien Nr.</label>
+                        <div class="control">
+                            <input class="input" type="number" name="Serien Nr.">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Verlag</label>
+                        <div class="control">
+                            <input class="input" type="text" name="publisher">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Sprache</label>
+                        <div class="control">
+                            <input class="input" type="text" name="language">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Bestseller</label>
+                        <div class="control">
+                            <label class="checkbox">
+                                <input type="checkbox" name="bestseller">
+                                Bestseller
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Dauer (für Audiobooks)</label>
+                        <div class="control">
+                            <input class="input" type="text" name="duration" placeholder="z.B. 12h 30m">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Sprecher/Narrator</label>
+                        <div class="control">
+                            <input class="input" type="text" name="narrator" placeholder="Name des Sprechers">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Bewertungsanzahl</label>
+                        <div class="control">
+                            <input class="input" type="text" name="rating_count">
+                        </div>
+                    </div>
+
+                    <div class="field field-full">
+                        <label class="label">Bild URL</label>
+                        <div class="control">
+                            <input class="input" type="url" name="image_url">
+                        </div>
+                        <div class="mt-2" id="imagePreview"></div>
+                    </div>
+
+                    <div class="field field-full">
+                        <label class="label">Beschreibung</label>
+                        <div class="control">
+                            <textarea class="textarea" name="Description" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="field field-full">
+                        <label class="label">Meine Rezension</label>
+                        <div class="control">
+                            <textarea class="textarea" name="My_Review" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Buchfarbe</label>
+                        <div class="control">
+                            <input class="input" type="text" name="book_color" placeholder="#RRGGBB">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Gelesen am</label>
+                        <div class="control">
+                            <input class="input" type="date" name="Date Read">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Hinzugefügt am</label>
+                        <div class="control">
+                            <input class="input" type="date" name="Date Added">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Veröffentlichungsdatum</label>
+                        <div class="control">
+                            <input class="input" type="date" name="publication_date">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field is-grouped mt-4">
+                    <div class="control">
+                        <button type="submit" class="button is-primary is-large">
+                            <span>💾 Speichern</span>
+                        </button>
+                    </div>
+                    <div class="control">
+                        <button type="button" class="button" id="resetBtn">
+                            <span>↺ Zurücksetzen</span>
+                        </button>
+                    </div>
+                    <div class="control">
+                        <button type="button" class="button is-info" id="exportBtn">
+                            <span>📥 YAML Exportieren</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Export Area -->
+        <div class="box mt-4" id="exportArea" style="display: none;">
+            <h3 class="title is-5">YAML Export</h3>
+            <div class="json-output" id="yamlOutput"></div>
+            <div class="field is-grouped mt-3">
+                <div class="control">
+                    <button class="button is-success" id="downloadBtn">
+                        <span>📥 Als Datei herunterladen</span>
+                    </button>
+                </div>
+                <div class="control">
+                    <button class="button" id="copyBtn">
+                        <span>📋 In Zwischenablage kopieren</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <script src="js/book-editor.js"></script>
+</body>
+</html>

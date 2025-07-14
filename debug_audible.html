@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audible Debug</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .result { background: #f5f5f5; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .error { background: #ffe6e6; color: #d8000c; }
+        .success { background: #e6ffe6; color: #4caf50; }
+        button { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        textarea { width: 100%; height: 150px; margin: 10px 0; }
+        .form-field { margin: 10px 0; }
+        label { font-weight: bold; display: block; margin-bottom: 5px; }
+        input, textarea { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>🐛 Audible Import Debug</h1>
+    
+    <div class="form-field">
+        <label for="searchTerm">Suchbegriff:</label>
+        <input type="text" id="searchTerm" value="Harry Potter" />
+    </div>
+    
+    <button onclick="testAudibleSearch()">🔍 Audible Suche testen</button>
+    <button onclick="testFormFill()">📝 Formular-Befüllung testen</button>
+    
+    <div id="results"></div>
+    
+    <h2>📝 Test-Formular</h2>
+    <form id="testForm">
+        <div class="form-field">
+            <label>Titel:</label>
+            <input type="text" name="title" />
+        </div>
+        <div class="form-field">
+            <label>Autor:</label>
+            <input type="text" name="author" />
+        </div>
+        <div class="form-field">
+            <label>Beschreibung:</label>
+            <textarea name="Description" rows="3"></textarea>
+        </div>
+        <div class="form-field">
+            <label>Jahr:</label>
+            <input type="text" name="Year Published" />
+        </div>
+        <div class="form-field">
+            <label>Dauer:</label>
+            <input type="text" name="duration" />
+        </div>
+        <div class="form-field">
+            <label>Buchtyp:</label>
+            <input type="text" name="bookType" />
+        </div>
+        <div class="form-field">
+            <label>Bild URL:</label>
+            <input type="text" name="image_url" />
+        </div>
+    </form>
+    
+    <script>
+        function log(message, type = 'info') {
+            const results = document.getElementById('results');
+            const div = document.createElement('div');
+            div.className = `result ${type}`;
+            div.innerHTML = message;
+            results.appendChild(div);
+            console.log(message);
+        }
+        
+        async function testAudibleSearch() {
+            const searchTerm = document.getElementById('searchTerm').value;
+            document.getElementById('results').innerHTML = '';
+            
+            try {
+                log(`🔍 Suche nach: "${searchTerm}"`);
+                
+                const response = await fetch(`http://localhost:5001/api/audible/search?q=${encodeURIComponent(searchTerm)}&limit=3`);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                
+                if (!data.success) {
+                    throw new Error(data.error || 'Unbekannter Fehler');
+                }
+                
+                log(`✅ ${data.results.length} Ergebnisse erhalten`, 'success');
+                
+                for (let i = 0; i < data.results.length; i++) {
+                    const book = data.results[i];
+                    
+                    // Prüfe Detail-API für vollständige Beschreibung
+                    let fullDescription = book.description || '';
+                    if (!fullDescription && book.audible_url) {
+                        try {
+                            log(`🔍 Hole Details für: ${book.title}`);
+                            const detailResponse = await fetch(`http://localhost:5001/api/audible/details?url=${encodeURIComponent(book.audible_url)}`);
+                            if (detailResponse.ok) {
+                                const detailData = await detailResponse.json();
+                                if (detailData.success && detailData.details.description) {
+                                    fullDescription = detailData.details.description;
+                                    log(`📝 Detail-Beschreibung erhalten: ${fullDescription.substring(0, 100)}...`);
+                                }
+                            }
+                        } catch (error) {
+                            log(`⚠️ Detail-Fetch fehlgeschlagen: ${error.message}`, 'error');
+                        }
+                    }
+                    
+                    log(`
+                        <strong>📖 Buch ${i + 1}:</strong><br>
+                        <strong>Titel:</strong> ${book.title || 'N/A'}<br>
+                        <strong>Autor:</strong> ${(book.authors || []).join(', ') || 'N/A'}<br>
+                        <strong>Beschreibung:</strong> "${fullDescription || 'LEER!'}"<br>
+                        <strong>Jahr:</strong> ${book.year_published || 'N/A'}<br>
+                        <strong>Dauer:</strong> ${book.duration || 'N/A'}<br>
+                        <strong>Buchtyp:</strong> ${book.booktype || 'N/A'}<br>
+                        <strong>Bild URL:</strong> ${book.image_url || 'N/A'}<br>
+                        <hr>
+                    `);
+                    
+                    // Teste nur das erste Buch für Formular-Befüllung
+                    if (i === 0) {
+                        window.testBook = {
+                            title: book.title || '',
+                            author: (book.authors || []).join(', ') || '',
+                            Description: fullDescription || '',
+                            'Year Published': book.year_published || '',
+                            duration: book.duration || '',
+                            bookType: book.booktype || '',
+                            image_url: book.image_url || ''
+                        };
+                        log(`💾 Test-Daten für Formular gespeichert`, 'success');
+                    }
+                }
+                
+            } catch (error) {
+                log(`❌ Fehler bei Audible-Suche: ${error.message}`, 'error');
+            }
+        }
+        
+        function testFormFill() {
+            if (!window.testBook) {
+                log(`⚠️ Keine Test-Daten verfügbar. Bitte zuerst Suche ausführen.`, 'error');
+                return;
+            }
+            
+            log(`📝 Befülle Formular mit Test-Daten...`);
+            
+            const form = document.getElementById('testForm');
+            form.reset();
+            
+            Object.keys(window.testBook).forEach(key => {
+                const input = form.querySelector(`[name="${key}"]`);
+                if (input) {
+                    input.value = window.testBook[key] || '';
+                    log(`✅ Feld "${key}" gesetzt: "${window.testBook[key]}"`, 'success');
+                } else {
+                    log(`❌ Feld "${key}" nicht gefunden im Formular`, 'error');
+                }
+            });
+            
+            // Prüfe ob Beschreibung befüllt wurde
+            const descField = form.querySelector('[name="Description"]');
+            if (descField && descField.value) {
+                log(`✅ Beschreibungsfeld erfolgreich befüllt: "${descField.value.substring(0, 100)}..."`, 'success');
+            } else {
+                log(`❌ Beschreibungsfeld ist leer!`, 'error');
+            }
+        }
+        
+        // Auto-test beim Laden
+        document.addEventListener('DOMContentLoaded', () => {
+            log('🚀 Debug-Seite geladen. Bereit für Tests.');
+        });
+    </script>
+</body>
+</html>

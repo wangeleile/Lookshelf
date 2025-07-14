@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audible Import Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        button { background: #007bff; color: white; border: none; padding: 10px 20px; margin: 10px; border-radius: 4px; cursor: pointer; }
+        .result { background: #f5f5f5; padding: 10px; margin: 10px 0; border-radius: 4px; }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        textarea { width: 100%; min-height: 100px; margin: 10px 0; padding: 8px; }
+        input { width: 100%; margin: 5px 0; padding: 8px; }
+    </style>
+</head>
+<body>
+    <h1>🔧 Audible Import Test</h1>
+    
+    <button onclick="testFullImport()">🔍 Vollständigen Import testen</button>
+    
+    <div id="results"></div>
+    
+    <h2>📝 Formulardaten</h2>
+    <form id="bookForm">
+        <label>Titel:</label>
+        <input type="text" name="title">
+        
+        <label>Autor:</label>
+        <input type="text" name="author">
+        
+        <label>Beschreibung:</label>
+        <textarea name="Description"></textarea>
+        
+        <label>Jahr Published:</label>
+        <input type="text" name="Year Published">
+        
+        <label>Dauer:</label>
+        <input type="text" name="duration">
+        
+        <label>Buchtyp:</label>
+        <input type="text" name="bookType">
+        
+        <label>Bild URL:</label>
+        <input type="text" name="image_url">
+    </form>
+    
+    <script>
+        function log(message, type = 'info') {
+            const results = document.getElementById('results');
+            const div = document.createElement('div');
+            div.className = `result ${type}`;
+            div.innerHTML = `<strong>${new Date().toLocaleTimeString()}:</strong> ${message}`;
+            results.appendChild(div);
+        }
+        
+        async function testFullImport() {
+            log('🚀 Starte vollständigen Audible-Import-Test...', 'info');
+            
+            try {
+                // Schritt 1: Audible Suche
+                log('📡 Schritt 1: Audible API Suche...', 'info');
+                const searchResponse = await fetch('http://localhost:5001/api/audible/search?q=Harry%20Potter&limit=1');
+                
+                if (!searchResponse.ok) {
+                    throw new Error(`API nicht erreichbar: ${searchResponse.status}`);
+                }
+                
+                const searchData = await searchResponse.json();
+                if (!searchData.success || !searchData.results.length) {
+                    throw new Error('Keine Suchergebnisse erhalten');
+                }
+                
+                const book = searchData.results[0];
+                log(`✅ Buch gefunden: "${book.title}"`, 'success');
+                
+                // Schritt 2: Detail-Fetch (falls nötig)
+                let description = book.description || '';
+                log(`📝 Beschreibung aus Suche: "${description.substring(0, 50)}..."`, 'info');
+                
+                if (!description && book.audible_url) {
+                    log('🔍 Hole Details von Audible-URL...', 'info');
+                    try {
+                        const detailResponse = await fetch(`http://localhost:5001/api/audible/details?url=${encodeURIComponent(book.audible_url)}`);
+                        if (detailResponse.ok) {
+                            const detailData = await detailResponse.json();
+                            if (detailData.success && detailData.details.description) {
+                                description = detailData.details.description;
+                                log(`📝 Beschreibung aus Details: "${description.substring(0, 50)}..."`, 'info');
+                            }
+                        }
+                    } catch (error) {
+                        log(`⚠️ Detail-Fetch fehlgeschlagen: ${error.message}`, 'error');
+                    }
+                }
+                
+                // Schritt 3: Erzeuge volumeInfo (wie im echten Code)
+                const volumeInfo = {
+                    title: book.title || 'Unbekannter Titel',
+                    authors: book.authors || ['Unbekannter Autor'],
+                    description: description || 'Keine Beschreibung verfügbar',
+                    year_published: book.year_published || '',
+                    duration: book.duration || book.runtime || '',
+                    booktype: book.booktype || 'Audiobook',
+                    image_url: book.image_url || book.cover_url || ''
+                };
+                
+                log('🔄 VolumeInfo erstellt', 'info');
+                
+                // Schritt 4: Erzeuge newBook (wie in importExternalBook)
+                const newBook = {
+                    title: volumeInfo.title || '',
+                    author: volumeInfo.authors ? volumeInfo.authors.join(', ') : '',
+                    Description: volumeInfo.description || '', // Großgeschrieben!
+                    'Year Published': volumeInfo.year_published || '',
+                    duration: volumeInfo.duration || '',
+                    bookType: volumeInfo.booktype || '',
+                    image_url: volumeInfo.image_url || ''
+                };
+                
+                log('📦 newBook-Objekt erstellt', 'info');
+                log(`📝 Beschreibung im newBook: "${newBook.Description}"`, 'info');
+                
+                // Schritt 5: Befülle Formular (wie in fillFormWithBookData)
+                log('📝 Befülle Formular...', 'info');
+                const form = document.getElementById('bookForm');
+                form.reset();
+                
+                let fieldsSet = 0;
+                let descriptionSet = false;
+                
+                Object.keys(newBook).forEach(key => {
+                    const input = form.querySelector(`[name="${key}"]`);
+                    if (input) {
+                        if (input.type === 'checkbox') {
+                            input.checked = newBook[key] === true;
+                        } else {
+                            input.value = newBook[key] || '';
+                        }
+                        fieldsSet++;
+                        
+                        if (key === 'Description') {
+                            descriptionSet = true;
+                            log(`✅ Beschreibungsfeld gesetzt: "${newBook[key]}"`, 'success');
+                        } else {
+                            log(`✅ Feld "${key}" gesetzt: "${newBook[key]}"`, 'success');
+                        }
+                    } else {
+                        log(`⚠️ Feld "${key}" nicht gefunden im Formular`, 'error');
+                    }
+                });
+                
+                // Finale Überprüfung
+                const descField = form.querySelector('[name="Description"]');
+                if (descField && descField.value) {
+                    log(`🎉 SUCCESS! Beschreibungsfeld wurde erfolgreich befüllt!`, 'success');
+                    log(`📝 Inhalt: "${descField.value}"`, 'success');
+                } else {
+                    log(`❌ FEHLER! Beschreibungsfeld ist leer!`, 'error');
+                }
+                
+                log(`📊 Zusammenfassung: ${fieldsSet} Felder befüllt, Beschreibung: ${descriptionSet ? 'JA' : 'NEIN'}`, fieldsSet > 0 ? 'success' : 'error');
+                
+            } catch (error) {
+                log(`❌ Test fehlgeschlagen: ${error.message}`, 'error');
+            }
+        }
+        
+        // Auto-Test beim Laden
+        document.addEventListener('DOMContentLoaded', () => {
+            log('🚀 Audible Import Test bereit', 'info');
+        });
+    </script>
+</body>
+</html>
