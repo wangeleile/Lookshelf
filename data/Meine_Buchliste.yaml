@@ -32,7 +32,7 @@ books:
   duration: null
   genre: Fiction
   gender: male
-  bestseller: false
+  bestseller: true
   language: Deutsch
   tags: null
   narrator: ''

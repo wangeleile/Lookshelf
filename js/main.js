@@ -370,7 +370,8 @@ function startApp(data) {
         if (colon > -1) {
           title = `<strong>${d.title.slice(0, colon).toUpperCase()}</strong><br/>${d.title.slice(colon + 2, d.title.length)}`
         }
-        return `${title}<div><div class="author">by <strong>${d.author}</strong></div></div>`;
+        const imageHtml = d.image_url ? `<div style="text-align: center; margin-top: 10px;"><img src="${d.image_url}" alt="${d.title}" style="max-width: 120px; max-height: 180px; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.3);"/></div>` : '';
+        return `${title}<div><div class="author">by <strong>${d.author}</strong></div></div>${imageHtml}`;
       })
       .attr('class', 'js-books')
       .attr('id', (d) => `book-${d.id}`)
@@ -517,8 +518,8 @@ function startApp(data) {
     // Füge Bestseller-Stern direkt in die book-spine group hinzu
     d3.select(`#book-${d.id} .book-spine`)
       .append('text')
-      .attr('x', bookW(d.pages) - 3)
-      .attr('y', 10)
+      .attr('x', bookW(d.pages) / 2) // Mittig horizontal
+      .attr('y', 20) // 20px Abstand zur oberen Kante
       .attr('text-anchor', 'middle')
       .attr('fill', '#FFD700')
       .attr('font-size', '8')
@@ -526,6 +527,84 @@ function startApp(data) {
       .attr('stroke-width', '0.3')
       .style('text-shadow', '1px 1px 1px rgba(0,0,0,0.7)')
       .text('★');
+  });
+  
+  // Audiobook Symbol für Bücher mit bookType="Audiobook"
+  _.each(_.filter(books, (d) => d.bookType === 'Audiobook'), (d) => {
+    const spine = d3.select(`#book-${d.id} .book-spine`);
+    const width = bookW(d.pages);
+    const height = bookH(d.rating);
+    const iconSize = 16; // Doppelt so groß (war 8)
+    const iconX = (width - iconSize) / 2; // Mittig horizontal
+    const iconY = height - 25 - iconSize; // 25px Abstand zur unteren Kante
+    
+    // Erstelle SVG-Gruppe für das Lautsprecher-Icon
+    const iconGroup = spine.append('g')
+      .attr('transform', `translate(${iconX}, ${iconY})`);
+    
+    // Schatten-Element (leicht versetzt nach unten rechts)
+    iconGroup.append('g')
+      .attr('transform', 'translate(1, 1)')
+      .attr('opacity', '0.3')
+      .append('path')
+      .attr('d', `M 2 4 L 6 4 L 10 2 L 10 14 L 6 12 L 2 12 Z`)
+      .attr('fill', 'black')
+      .attr('stroke', 'none');
+    
+    // Schatten für Schallwellen
+    const shadowGroup = iconGroup.append('g')
+      .attr('transform', 'translate(1, 1)')
+      .attr('opacity', '0.3');
+      
+    shadowGroup.append('path')
+      .attr('d', 'M 12 6 Q 14 8 12 10')
+      .attr('fill', 'none')
+      .attr('stroke', 'black')
+      .attr('stroke-width', '1')
+      .attr('stroke-linecap', 'round');
+      
+    shadowGroup.append('path')
+      .attr('d', 'M 13 4 Q 16 8 13 12')
+      .attr('fill', 'none')
+      .attr('stroke', 'black')
+      .attr('stroke-width', '0.8')
+      .attr('stroke-linecap', 'round');
+      
+    shadowGroup.append('path')
+      .attr('d', 'M 14 2 Q 18 8 14 14')
+      .attr('fill', 'none')
+      .attr('stroke', 'black')
+      .attr('stroke-width', '0.6')
+      .attr('stroke-linecap', 'round');
+    
+    // Hauptsymbol (komplett weiß)
+    iconGroup.append('path')
+      .attr('d', `M 2 4 L 6 4 L 10 2 L 10 14 L 6 12 L 2 12 Z`)
+      .attr('fill', 'white')
+      .attr('stroke', 'white')
+      .attr('stroke-width', '0.5');
+    
+    // Schallwellen (komplett weiß)
+    iconGroup.append('path')
+      .attr('d', 'M 12 6 Q 14 8 12 10')
+      .attr('fill', 'none')
+      .attr('stroke', 'white')
+      .attr('stroke-width', '1')
+      .attr('stroke-linecap', 'round');
+      
+    iconGroup.append('path')
+      .attr('d', 'M 13 4 Q 16 8 13 12')
+      .attr('fill', 'none')
+      .attr('stroke', 'white')
+      .attr('stroke-width', '0.8')
+      .attr('stroke-linecap', 'round');
+      
+    iconGroup.append('path')
+      .attr('d', 'M 14 2 Q 18 8 14 14')
+      .attr('fill', 'none')
+      .attr('stroke', 'white')
+      .attr('stroke-width', '0.6')
+      .attr('stroke-linecap', 'round');
   });
   
   // Markiere NUR Bücher im Bookshelf 'to-read' mit schwarzem Winkel
