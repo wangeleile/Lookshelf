@@ -1,0 +1,70 @@
+/* ================================
+   COMMON NAVIGATION STYLES
+   ================================ */
+
+/* Navigation für alle Seiten */
+.lookshelf-navbar {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+.lookshelf-navbar .navbar-brand .navbar-item {
+  color: white !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.lookshelf-navbar .navbar-item {
+  color: rgba(255,255,255,0.9) !important;
+  transition: all 0.3s ease;
+}
+
+.lookshelf-navbar .navbar-item:hover {
+  color: white !important;
+  background: rgba(255,255,255,0.1) !important;
+}
+
+.lookshelf-navbar .navbar-item.is-active {
+  color: white !important;
+  background: rgba(255,255,255,0.2) !important;
+  font-weight: 600;
+}
+
+/* Responsive Navigation */
+@media screen and (max-width: 1023px) {
+  .lookshelf-navbar .navbar-menu {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+}
+
+/* Editor-spezifische Navigation */
+.editor-navbar {
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.editor-navbar .navbar-item {
+  color: #495057;
+}
+
+.editor-navbar .navbar-item:hover {
+  color: #212529;
+  background: #e9ecef;
+}
+
+.editor-navbar .navbar-item.is-active {
+  color: #007bff;
+  background: rgba(0,123,255,0.1);
+}
+
+/* Edit Book Button in Modal */
+.js-edit-book-link {
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.js-edit-book-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

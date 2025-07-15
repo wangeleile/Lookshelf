@@ -132,6 +132,11 @@ function showModal(d, i, count, list, entered) {
       d3.select(`.js-d-${k}`).html(v);
     }
   });
+  
+  // Set edit link with book ID parameter
+  const editUrl = `book-editor.html?bookId=${d.id}`;
+  d3.select('.js-edit-book-link').attr('href', editUrl);
+  
   d3.select('#modal-authors').html('');
 }
 

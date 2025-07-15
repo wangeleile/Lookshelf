@@ -38,6 +38,7 @@
     <meta name="author" content="Wangeleile">
     <link rel="stylesheet" type="text/css" href="styles/tippy.css" />
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/navigation.css" />
     <title>Best Bookshelf</title>
   </head>
   <body>
@@ -62,6 +63,10 @@
           <span class="year" id="headline-year-start"></span> to <span class="year" id="headline-year-end"></span>
         </div>
         <div class="links is-hidden-touch">
+          <a href="index.html">Lookshelf</a>
+          <a href="book-editor.html">Book Editor</a>
+          <a href="book-table-editor.html">Tabellen-Editor</a>
+          <a href="audible-guide.html">Audible Guide</a>
           <a href="#Visualization">Visualization</a>
           <a href="#datasets">Datasets</a>
         </div>
@@ -71,6 +76,10 @@
           <span class="links-line"></span>
         </div>
         <div class="links-mobile-expanded is-hidden js-mobile-menu">
+          <a href="index.html">Lookshelf</a>
+          <a href="book-editor.html">Book Editor</a>
+          <a href="book-table-editor.html">Tabellen-Editor</a>
+          <a href="audible-guide.html">Audible Guide</a>
           <a href="#Visualization">Visualization</a>
           <a href="#datasets">Datasets</a>
           <span class="links-close" id="links-close"><a href="#" class="close-thin"></a></span>
@@ -260,6 +269,21 @@
                 </div>
               </div>
             </div>
+            
+            <!-- Edit Button -->
+            <div class="media">
+              <div class="media-content">
+                <div class="buttons">
+                  <a class="button is-primary is-small js-edit-book-link" target="_blank">
+                    <span class="icon">
+                      <i>✏️</i>
+                    </span>
+                    <span>Im Book Editor bearbeiten</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
             <div id="modal-authors" class="media media-authors"></div>
             <div class="media js-d-bestseller-wrapper is-hidden">
               <div class="media-content">

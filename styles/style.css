@@ -627,10 +627,10 @@ a.box:active {
 .button.is-white.is-outlined.is-loading:after {
   border-color: transparent transparent white white !important; }
 
-.button.is-white.is-outlined[disabled] {
+.button.is-white.is-inverted.is-outlined {
   background-color: transparent;
-  border-color: white;
-  box-shadow: none;
+  border-color: #0a0a0a;
+  color: #0
   color: white; }
 
 .button.is-white.is-inverted.is-outlined {

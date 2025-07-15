@@ -9,20 +9,59 @@ class BookEditor {
     async init() {
         await this.loadBooks();
         this.setupEventListeners();
-        this.showBook(0);
+        
+        // Check for URL parameters (e.g., bookId)
+        const urlParams = new URLSearchParams(window.location.search);
+        const bookId = urlParams.get('bookId');
+        
+        if (bookId) {
+            // Find book by ID and navigate to it
+            const bookIndex = this.books.findIndex(book => book.id == bookId);
+            if (bookIndex !== -1) {
+                this.currentIndex = bookIndex;
+                this.showBook(bookIndex);
+                this.showNotification(`Buch "${this.books[bookIndex].title}" geladen`, 'is-success');
+            } else {
+                this.showNotification(`Buch mit ID ${bookId} nicht gefunden`, 'is-warning');
+                this.showBook(0);
+            }
+        } else {
+            this.showBook(0);
+        }
+        
         this.updateCounter();
     }
 
     async loadBooks() {
         try {
-            const response = await fetch('data/Meine_Buchliste.yaml');
+            // Zuerst versuchen, vom API-Server zu laden
+            let response;
+            let data;
+            
+            try {
+                response = await fetch('http://localhost:5002/api/books');
+                if (response.ok) {
+                    data = await response.json();
+                    this.books = data.books || [];
+                    console.log(`${this.books.length} Bücher vom API-Server geladen`);
+                    this.showNotification(`📡 ${this.books.length} Bücher vom Server geladen`, 'is-info');
+                    return;
+                }
+            } catch (serverError) {
+                console.log('API-Server nicht erreichbar, lade von lokaler Datei');
+            }
+            
+            // Fallback: Von lokaler YAML-Datei laden
+            response = await fetch('data/Meine_Buchliste.yaml');
             const yamlText = await response.text();
-            const data = jsyaml.load(yamlText);
+            data = jsyaml.load(yamlText);
             this.books = data.books || [];
-            console.log(`${this.books.length} Bücher geladen`);
+            console.log(`${this.books.length} Bücher von lokaler Datei geladen`);
+            this.showNotification(`📁 ${this.books.length} Bücher von lokaler Datei geladen`, 'is-info');
+            
         } catch (error) {
-            console.error('Fehler beim Laden der YAML-Datei:', error);
-            this.showNotification('Fehler beim Laden der Buchdaten', 'is-danger');
+            console.error('Fehler beim Laden der Buchdaten:', error);
+            this.showNotification('❌ Fehler beim Laden der Buchdaten', 'is-danger');
             this.books = [];
         }
     }
@@ -56,6 +95,7 @@ class BookEditor {
         document.getElementById('exportBtn').addEventListener('click', () => this.exportYAML());
         document.getElementById('downloadBtn').addEventListener('click', () => this.downloadYAML());
         document.getElementById('copyBtn').addEventListener('click', () => this.copyYAML());
+        document.getElementById('saveToServerBtn').addEventListener('click', () => this.saveBooksToServer());
         
         // Image preview
         document.querySelector('input[name="image_url"]').addEventListener('input', (e) => this.updateImagePreview(e.target.value));
@@ -150,6 +190,9 @@ class BookEditor {
             }
             
             this.showNotification('Buch gelöscht', 'is-success');
+            
+            // Speichere Änderungen an Server
+            this.saveBooksToServer();
         }
     }
 
@@ -236,6 +279,45 @@ class BookEditor {
         }
         
         this.updateCounter();
+        
+        // Speichere Änderungen an Server
+        this.saveBooksToServer();
+    }
+
+    async saveBooksToServer() {
+        try {
+            const data = {
+                books: this.books,
+                generation_date: new Date().toLocaleDateString('de-DE')
+            };
+
+            const response = await fetch('http://localhost:5002/api/books', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            });
+
+            if (response.ok) {
+                const result = await response.json();
+                this.showNotification(`✅ ${result.message} (${result.book_count} Bücher)`, 'is-success');
+                
+                if (result.backup_file) {
+                    console.log(`Backup erstellt: ${result.backup_file}`);
+                }
+            } else {
+                const error = await response.json();
+                throw new Error(error.error || 'Unbekannter Server-Fehler');
+            }
+        } catch (error) {
+            console.error('Fehler beim Speichern an Server:', error);
+            this.showNotification(`❌ Speichern fehlgeschlagen: ${error.message}`, 'is-danger');
+            
+            // Fallback: Zeige Export-Bereich für manuelles Speichern
+            this.exportYAML();
+            this.showNotification('💡 Bitte YAML manuell herunterladen und speichern', 'is-warning');
+        }
     }
 
     search(query) {

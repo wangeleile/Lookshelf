@@ -16,13 +16,13 @@ books:
   Year Published: 2018
   author: Adrienne Young
   bestseller: true
-  bookType: Book
+  bookType: Audiobook
   book_color: '#1C170F'
   bookshelves: to-read
   duration: null
   first_name: 'False'
   gender: male
-  genre: Nonfiction
+  genre: Fiction
   id: 34726469
   image_url: https://books.google.com/books/content?id=ncBODwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api
   isbn: 9781250168450
@@ -18360,4 +18360,4 @@ books:
   tags: null
   title: Life of Pi
   year: 2001
-generation_date: '2025-07-15'
+generation_date: '2025-07-14'

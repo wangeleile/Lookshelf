@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audible Integration - Anleitung</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/navigation.css" />
     <style>
         .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
         .notification.is-success { background-color: #d4edda; color: #155724; }
@@ -27,6 +28,36 @@
     </style>
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar lookshelf-navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <strong>Wangeleiles Lookshelf</strong>
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasic" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                    📚 Lookshelf
+                </a>
+                <a class="navbar-item" href="book-editor.html">
+                    ✏️ Book Editor
+                </a>
+                <a class="navbar-item" href="book-table-editor.html">
+                    📋 Tabellen-Editor
+                </a>
+                <a class="navbar-item is-active" href="audible-guide.html">
+                    🎧 Audible Guide
+                </a>
+            </div>
+        </div>
+    </nav>
+
     <section class="hero is-primary">
         <div class="hero-body">
             <div class="container">
@@ -190,5 +221,7 @@ curl "http://localhost:5001/api/health"</code></pre>
             <p>Web-Scraping für persönliche, nicht-kommerzielle Nutzung</p>
         </div>
     </footer>
+    
+    <script src="js/navigation.js"></script>
 </body>
 </html>
