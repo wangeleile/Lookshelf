@@ -351,7 +351,7 @@ function startApp(data) {
     resizeShelf();
   });
   // Blende die zweite Sortieroption aus
-  d3.select('#option-1').classed('is-hidden', false);
+  d3.select('#option-1').classed('is-hidden', true);
 
   /**********
   //draw book
