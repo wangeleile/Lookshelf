@@ -274,10 +274,17 @@ function startApp(data) {
       count++;
       //put the first level label
       if (isNewLabel) {
-        // Für Serie: Wenn mehr als 2 Bände, zeige Seriennamen und Anzahl
-        if (sortOption === 'serie' && d.Serie && d.Serie !== 'null' && seriesCount[d.Serie] > 2 && isNewLabel) {
-          putLegend(`${d.Serie} (${seriesCount[d.Serie]})`, labelCount, accW, accS, isInitial, gap);
-        } else if (isNewLabel) {
+        // Für Serie: Spezielle Behandlung
+        if (sortOption === 'serie') {
+          if (d.Serie && d.Serie !== 'null' && seriesCount[d.Serie] > 2) {
+            // Serien mit mehr als 2 Bänden: Serienname + Anzahl
+            putLegend(`${d.Serie} (${seriesCount[d.Serie]})`, labelCount, accW, accS, isInitial, gap);
+          } else {
+            // Alle anderen: Verwende den normalen divider (Serie-Name oder "No Series")
+            putLegend(divider, labelCount, accW, accS, isInitial, gap);
+          }
+        } else {
+          // Alle anderen Sortieroptionen: Verwende den normalen divider
           putLegend(divider, labelCount, accW, accS, isInitial, gap);
         }
         //update count for the previous values
@@ -761,6 +768,8 @@ function startApp(data) {
 fetch('data/Meine_Buchliste.yaml')
   .then(response => response.text())
   .then(yamlText => {
-    const data = jsyaml.load(yamlText);
+    const data = (typeof jsyaml !== 'undefined' ? jsyaml : YAML).load(yamlText);
+    console.log('Loaded YAML data:', data);
+    console.log('First book Serie field:', data.books[0].Serie);
     startApp(data);
   });
