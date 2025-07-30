@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Lookshelf Search</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <script src="libs/lodash.min.js"></script>
+</head>
+<body>
+    <h1>Debug Lookshelf Search</h1>
+    <div id="debug-output"></div>
+    <input type="text" id="test-search" placeholder="Teste Suche hier...">
+    <div id="search-results"></div>
+
+    <script>
+        let books = [];
+        
+        // YAML laden und parsen
+        fetch('data/Meine_Buchliste.yaml')
+        .then(response => response.text())
+        .then(yamlText => {
+            const data = (typeof jsyaml !== 'undefined' ? jsyaml : YAML).load(yamlText);
+            books = data.books;
+            
+            console.log('Loaded books:', books.length);
+            console.log('First book:', books[0]);
+            console.log('First book title:', books[0].title);
+            console.log('First book author:', books[0].author);
+            console.log('First book publisher:', books[0].publisher);
+            
+            document.getElementById('debug-output').innerHTML = `
+                <p>Geladene Bücher: ${books.length}</p>
+                <p>Erstes Buch:</p>
+                <ul>
+                    <li>Titel: ${books[0].title || 'N/A'}</li>
+                    <li>Autor: ${books[0].author || 'N/A'}</li>
+                    <li>Verlag: ${books[0].publisher || 'N/A'}</li>
+                </ul>
+            `;
+            
+            // Test-Suchfunktion
+            document.getElementById('test-search').addEventListener('input', function() {
+                const entered = this.value.trim().toLowerCase();
+                if (entered.length > 2) {
+                    const filtered = books.filter(d => {
+                        const title = (d.title || '').toLowerCase();
+                        const author = (d.author || '').toLowerCase();
+                        const publisher = (d.publisher || '').toLowerCase();
+                        return title.includes(entered) || 
+                               author.includes(entered) || 
+                               publisher.includes(entered);
+                    });
+                    
+                    const results = filtered.slice(0, 10).map(d => 
+                        `<li>${d.title} by ${d.author} (${d.publisher})</li>`
+                    ).join('');
+                    
+                    document.getElementById('search-results').innerHTML = 
+                        `<h3>Gefunden: ${filtered.length}</h3><ul>${results}</ul>`;
+                } else {
+                    document.getElementById('search-results').innerHTML = '';
+                }
+            });
+        })
+        .catch(error => {
+            console.error('Error loading YAML:', error);
+            document.getElementById('debug-output').innerHTML = `Error: ${error.message}`;
+        });
+    </script>
+</body>
+</html>

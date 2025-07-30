@@ -7,10 +7,19 @@ function getRange(arr, by) {
 
 //calculate when to divide books
 function getDivider(datum, option) {
-  let val = datum[option];
+  let val;
+  if (option === 'year_published_desc' || option === 'year_published_asc') {
+    val = datum['Year Published'];
+  } else {
+    val = datum[option];
+  }
   //get divider labels
   let label = val;
-  if (option === 'year_desc') {
+  if (option === 'year_published_desc') {
+    label = -val;
+  } else if (option === 'year_published_asc') {
+    label = val;
+  } else if (option === 'year_desc') {
     label = -val;
   } else if (option === 'first_name' || option === 'last_name') {
     label = val.charAt(0);
@@ -147,6 +156,8 @@ function getShelfWidth() {
 // Hilfsfunktion für Sortierung
 function getSortParams(option) {
   switch(option) {
+    case 'year_published_desc': return ['Year Published', 'desc'];
+    case 'year_published_asc': return ['Year Published', 'asc'];
     case 'year_desc': return ['year', 'desc'];
     case 'year_asc': return ['year', 'asc'];
     case 'rating_desc': return ['rating', 'desc'];
@@ -158,15 +169,15 @@ function getSortParams(option) {
 }
 
 function startApp(data) {
-  // Nur eine Sortieroption (Standard: Jahr absteigend)
-  let sortOption = 'year_desc';
+  // Nur eine Sortieroption (Standard: Publikationsjahr absteigend)
+  let sortOption = 'year_published_desc';
   let [sortField, sortDir] = getSortParams(sortOption);
   let books = _.orderBy(data.books, [sortField], [sortDir]);
 
   //add text in headline
   d3.select('#headline-count').text(books.length);
-  d3.select('#headline-year-start').text(_.minBy(books, 'year')?.year || '');
-  d3.select('#headline-year-end').text(_.maxBy(books, 'year')?.year || '');
+  d3.select('#headline-year-start').text(_.minBy(books, 'Year Published')?.['Year Published'] || '');
+  d3.select('#headline-year-end').text(_.maxBy(books, 'Year Published')?.['Year Published'] || '');
   d3.select('#generation-date').text(data.generation_date || '');
 
   //get wrapper width
@@ -228,7 +239,7 @@ function startApp(data) {
   };
 
   //sort options
-  let sortOptions = ['year_desc', 'rating_desc', 'rating_asc', 'year_asc'];
+  let sortOptions = ['year_published_desc', 'rating_desc', 'rating_asc', 'year_published_asc'];
 
   //get new positions for the books when option is changed & put legends
   function getDimensions(sortedBooks, isInitial) {
@@ -649,22 +660,25 @@ function startApp(data) {
     if (this.value.length > 2) {
       const entered = this.value.trim().toLowerCase();
       const filtered = _.filter(books, (d) => {
-        return d.title.toLowerCase().indexOf(entered) > -1 ||
-          d.author.toLowerCase().indexOf(entered) > -1 ||
-          d.publisher.toLowerCase().indexOf(entered) > -1;
+        const title = (d.title || '').toLowerCase();
+        const author = (d.author || '').toLowerCase();
+        const publisher = (d.publisher || '').toLowerCase();
+        return title.indexOf(entered) > -1 ||
+          author.indexOf(entered) > -1 ||
+          publisher.indexOf(entered) > -1;
       });
       //show only books exists by the typed letters
       if (filtered.length > 0) {
-        const bookIds = filtered.map((d) => d.book.id);
+        const bookIds = filtered.map((d) => d.id);
         const searched = filtered.map((d, i) => {
-          let titleFormatted = d.title;
-          const splitted = d.title.split(':')
+          let titleFormatted = d.title || '';
+          const splitted = titleFormatted.split(':')
           if (splitted.length > 1) {
             titleFormatted = `${splitted[0].toUpperCase()}:${splitted[1]}`;
           }
           let title = getSearchedText(titleFormatted, entered);
-          let name = getSearchedText(d.author, entered);
-          let publisher = getSearchedText(d.publisher, entered);
+          let name = getSearchedText(d.author || '', entered);
+          let publisher = getSearchedText(d.publisher || '', entered);
           return `<li class="item js-search-list js-search-${i}" search-id="${i}" id="search-${i}">${title}<br/>by ${name}, ${publisher}</li>`
         });
         //add list to <ul>

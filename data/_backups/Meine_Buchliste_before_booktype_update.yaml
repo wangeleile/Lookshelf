@@ -16,7 +16,7 @@ books:
   Year Published: 2018
   author: Adrienne Young
   bestseller: true
-  bookType: book
+  bookType: Book
   book_color: '#1C170F'
   bookshelves: to-read
   duration: null
@@ -64,7 +64,7 @@ books:
   Year Published: 1980
   author: Akif Pirincci
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#1a1315'
   bookshelves: to-read
   duration: null
@@ -109,7 +109,7 @@ books:
   Year Published: 2014
   author: Alex Bradbury
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#768F9D'
   bookshelves: read
   duration: null
@@ -147,7 +147,7 @@ books:
   Year Published: 2018
   author: Alexandra Christo
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#1B2F39'
   bookshelves: to-read
   duration: null
@@ -190,7 +190,7 @@ books:
   Year Published: 2021
   author: Alexey Pehov
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#565B5E'
   bookshelves: read
   duration: null
@@ -235,7 +235,7 @@ books:
   Year Published: 2021
   author: Alexey Pehov
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#6D4C45'
   bookshelves: read
   duration: null
@@ -276,7 +276,7 @@ books:
   Year Published: 2010
   author: Alexey Pehov
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#2f4553'
   bookshelves: read
   duration: null
@@ -314,7 +314,7 @@ books:
   Year Published: 2016
   author: Amy Harmon
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#421612'
   bookshelves: to-read
   duration: null
@@ -362,7 +362,7 @@ books:
   Year Published: 2016
   author: Andrea Bottlinger
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#271a14'
   bookshelves: to-read
   duration: null
@@ -410,7 +410,7 @@ books:
   Year Published: 2011
   author: Andreas Eschbach
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#A1A0A1'
   bookshelves: to-read
   duration: null
@@ -459,7 +459,7 @@ books:
   Year Published: 2001
   author: Andreas Eschbach
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#c2ddd5'
   bookshelves: read
   duration: null
@@ -502,7 +502,7 @@ books:
   Year Published: 2018
   author: Andreas Eschbach
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#B16D5A'
   bookshelves: to-read
   duration: null
@@ -561,7 +561,7 @@ books:
   Year Published: 2021
   author: Andy Weir
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4E4734'
   bookshelves: read
   duration: null
@@ -609,7 +609,7 @@ books:
   Year Published: 2014
   author: Andy Weir
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#de8e41'
   bookshelves: read
   duration: null
@@ -654,7 +654,7 @@ books:
   Year Published: 2014
   author: Angus Watson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#1a1a16'
   bookshelves: read
   duration: null
@@ -697,7 +697,7 @@ books:
   Year Published: 2017
   author: Ann Leckie
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3b3a3f'
   bookshelves: to-read
   duration: null
@@ -747,7 +747,7 @@ books:
   Year Published: 1999
   author: Anne McCaffrey
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#7a4f3f'
   bookshelves: read
   duration: null
@@ -786,7 +786,7 @@ books:
   Year Published: 2003
   author: Anne McCaffrey
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#768A9C'
   bookshelves: read
   duration: null
@@ -846,7 +846,7 @@ books:
   Year Published: 1988
   author: Anne McCaffrey
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#5B3646'
   bookshelves: read
   duration: null
@@ -895,7 +895,7 @@ books:
   Year Published: 1994
   author: Anne McCaffrey
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3F3631'
   bookshelves: read
   duration: null
@@ -943,7 +943,7 @@ books:
   Year Published: 2005
   author: Anne McCaffrey
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#031204'
   bookshelves: read
   duration: null
@@ -986,7 +986,7 @@ books:
   Year Published: 2014
   author: Anthony Ryan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#686D64'
   bookshelves: read
   duration: null
@@ -1040,7 +1040,7 @@ books:
   Year Published: 2019
   author: Anthony Ryan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#606761'
   bookshelves: read
   duration: null
@@ -1141,7 +1141,7 @@ books:
   Year Published: 2016
   author: Anthony Ryan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3d3c3c'
   bookshelves: read
   duration: null
@@ -1190,7 +1190,7 @@ books:
   Year Published: 2016
   author: Anthony Ryan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#1a0f0c'
   bookshelves: read
   duration: null
@@ -1229,7 +1229,7 @@ books:
   Year Published: 2000
   author: Antoine de Saint-Exupery
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#7C7480'
   bookshelves: read
   duration: null
@@ -1271,7 +1271,7 @@ books:
   Year Published: 1973
   author: Arkady Strugatsky
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#5F3F22'
   bookshelves: to-read
   duration: null
@@ -1315,7 +1315,7 @@ books:
   Year Published: 2019
   author: Axel Hollmann
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#828B61'
   bookshelves: to-read
   duration: null
@@ -1365,7 +1365,7 @@ books:
   Year Published: 2020
   author: B.J.  Fogg
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#fcfdfc'
   bookshelves: to-read
   duration: null
@@ -1414,7 +1414,7 @@ books:
   Year Published: 2018
   author: Bas Kast
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#C8B56A'
   bookshelves: read
   duration: null
@@ -1473,7 +1473,7 @@ books:
   Year Published: 2018
   author: Becky Albertalli
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#81BBC3'
   bookshelves: to-read
   duration: null
@@ -1518,7 +1518,7 @@ books:
   Year Published: 2017
   author: Ben Aaronovitch
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4c3776'
   bookshelves: to-read
   duration: null
@@ -1563,7 +1563,7 @@ books:
   Year Published: 2015
   author: Ben Aaronovitch
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#138a40'
   bookshelves: to-read
   duration: null
@@ -1611,7 +1611,7 @@ books:
   Year Published: 2014
   author: Ben Aaronovitch
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#edaa1c'
   bookshelves: to-read
   duration: null
@@ -1659,7 +1659,7 @@ books:
   Year Published: 2013
   author: Ben Aaronovitch
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#c3312a'
   bookshelves: read
   duration: null
@@ -1706,7 +1706,7 @@ books:
   Year Published: 2012
   author: Ben Aaronovitch
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#223a55'
   bookshelves: read
   duration: null
@@ -1749,7 +1749,7 @@ books:
   Year Published: 2019
   author: Ben Aaronovitch
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#C08F6A'
   bookshelves: to-read
   duration: null
@@ -1791,7 +1791,7 @@ books:
   Year Published: 2012
   author: Ben Aaronovitch
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#e9d8bc'
   bookshelves: read
   duration: null
@@ -1844,7 +1844,7 @@ books:
   Year Published: 2018
   author: Benedict Jacka
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#6E547C'
   bookshelves: to-read
   duration: null
@@ -1891,7 +1891,7 @@ books:
   Year Published: 2017
   author: Bernd Perplies
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#191715'
   bookshelves: to-read
   duration: null
@@ -1928,7 +1928,7 @@ books:
   Year Published: 2010
   author: Bernd Perplies
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#857d66'
   bookshelves: read
   duration: null
@@ -2030,7 +2030,7 @@ books:
   Year Published: 2005
   author: Bill Bryson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#cb445d'
   bookshelves: read
   duration: null
@@ -2084,7 +2084,7 @@ books:
   Year Published: 2015
   author: Brandon Sanderson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#e7e5da'
   bookshelves: read
   duration: null
@@ -2135,7 +2135,7 @@ books:
   Year Published: 2014
   author: Brandon Sanderson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#79887E'
   bookshelves: read
   duration: null
@@ -2207,7 +2207,7 @@ books:
   Year Published: 2011
   author: Brandon Sanderson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#8E737A'
   bookshelves: read
   duration: null
@@ -2271,7 +2271,7 @@ books:
   Year Published: 2017
   author: Brandon Sanderson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#7C6F5B'
   bookshelves: read
   duration: null
@@ -2324,7 +2324,7 @@ books:
   Year Published: 2018
   author: Brandon Sanderson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4F6265'
   bookshelves: to-read
   duration: null
@@ -2390,7 +2390,7 @@ books:
   Year Published: 2006
   author: Brandon Sanderson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#855B58'
   bookshelves: read
   duration: null
@@ -2436,7 +2436,7 @@ books:
   Year Published: 2013
   author: Brandon Sanderson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#654e4b'
   bookshelves: read
   duration: null
@@ -2490,7 +2490,7 @@ books:
   Year Published: 2019
   author: Brent Weeks
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#462F31'
   bookshelves: to-read
   duration: null
@@ -2534,7 +2534,7 @@ books:
   Year Published: 2010
   author: Brent Weeks
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#B59FA2'
   bookshelves: read
   duration: null
@@ -2578,7 +2578,7 @@ books:
   Year Published: 2008
   author: Brent Weeks
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#f9f5fb'
   bookshelves: read
   duration: null
@@ -2624,7 +2624,7 @@ books:
   Year Published: 2012
   author: Brian K. Vaughan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#8D8579'
   bookshelves: to-read
   duration: null
@@ -2767,7 +2767,7 @@ books:
   Year Published: 2019
   author: Cal Newport
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#DAEAF4'
   bookshelves: to-read
   duration: null
@@ -2812,7 +2812,7 @@ books:
   Year Published: 2020
   author: Cassandra Clare
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#6F6661'
   bookshelves: to-read
   duration: null
@@ -2859,7 +2859,7 @@ books:
   Year Published: 2018
   author: Chloe  Benjamin
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#090707'
   bookshelves: to-read
   duration: null
@@ -2905,7 +2905,7 @@ books:
   Year Published: 2019
   author: Christelle Dabos
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#709BC0'
   bookshelves: read
   duration: null
@@ -2950,7 +2950,7 @@ books:
   Year Published: 2016
   author: Christoph Keese
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#EDD9D5'
   bookshelves: read
   duration: null
@@ -2997,7 +2997,7 @@ books:
   Year Published: 2016
   author: Christopher Husberg
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#f1f3f6'
   bookshelves: read
   duration: null
@@ -3046,7 +3046,7 @@ books:
   Year Published: 2011
   author: Christopher Paolini
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#055d55'
   bookshelves: read
   duration: null
@@ -3085,7 +3085,7 @@ books:
   Year Published: 2005
   author: Christopher Paolini
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#686762'
   bookshelves: read
   duration: null
@@ -3128,7 +3128,7 @@ books:
   Year Published: 2018
   author: Chuck Palahniuk
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#755C56'
   bookshelves: to-read
   duration: null
@@ -3189,7 +3189,7 @@ books:
   Year Published: 2018
   author: Claire Legrand
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#28211C'
   bookshelves: to-read
   duration: null
@@ -3235,7 +3235,7 @@ books:
   Year Published: 2015
   author: Claire North
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#060507'
   bookshelves: read
   duration: null
@@ -3282,7 +3282,7 @@ books:
   Year Published: 2006
   author: Dan Brown
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#937B68'
   bookshelves: read
   duration: null
@@ -3333,7 +3333,7 @@ books:
   Year Published: 2019
   author: Daniel H. Wilson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#111215'
   bookshelves: to-read
   duration: null
@@ -3381,7 +3381,7 @@ books:
   Year Published: 2011
   author: Daniel Suarez
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#2C4940'
   bookshelves: to-read
   duration: null
@@ -3445,7 +3445,7 @@ books:
   Year Published: 2011
   author: Daniel Suarez
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#58361F'
   bookshelves: to-read
   duration: null
@@ -3495,7 +3495,7 @@ books:
   Year Published: 2016
   author: Darynda Jones
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#efd95a'
   bookshelves: to-read
   duration: null
@@ -3542,7 +3542,7 @@ books:
   Year Published: 2018
   author: David Eddings
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#979FA5'
   bookshelves: read
   duration: null
@@ -3579,7 +3579,7 @@ books:
   Year Published: 1984
   author: David Gerrold
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#F5F5F5'
   bookshelves: read
   duration: null
@@ -3619,7 +3619,7 @@ books:
   Year Published: 1989
   author: David Gerrold
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#221104'
   bookshelves: read
   duration: null
@@ -3667,7 +3667,7 @@ books:
   Year Published: 2005
   author: Diana Gabaldon
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#297F99'
   bookshelves: to-read
   duration: null
@@ -3715,7 +3715,7 @@ books:
   Year Published: 2019
   author: Diana Wynne Jones
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#080b0d'
   bookshelves: to-read
   duration: null
@@ -3758,7 +3758,7 @@ books:
   Year Published: 2012
   author: Dietmar Dath
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4D5169'
   bookshelves: to-read
   duration: null
@@ -3807,7 +3807,7 @@ books:
   Year Published: 2013
   author: Dmitry Glukhovsky
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#382016'
   bookshelves: read
   duration: null
@@ -3884,7 +3884,7 @@ books:
   Year Published: 2009
   author: Dmitry Glukhovsky
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#0d0a0e'
   bookshelves: read
   duration: null
@@ -3936,7 +3936,7 @@ books:
   Year Published: 2007
   author: Douglas Adams
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#AF2C38'
   bookshelves: read
   duration: null
@@ -3983,7 +3983,7 @@ books:
   Year Published: 1985
   author: Dr. Seuss
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#C8C8C8'
   bookshelves: to-read
   duration: null
@@ -4025,7 +4025,7 @@ books:
   Year Published: 2004
   author: Eoin Colfer
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#90A7B8'
   bookshelves: read
   duration: null
@@ -4076,7 +4076,7 @@ books:
   Year Published: 2011
   author: Erin Morgenstern
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#060205'
   bookshelves: to-read
   duration: null
@@ -4118,7 +4118,7 @@ books:
   Year Published: 1996
   author: Ernest Hemingway
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#8D8E78'
   bookshelves: read
   duration: null
@@ -4164,7 +4164,7 @@ books:
   Year Published: 1925
   author: F. Scott Fitzgerald
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#555F7B'
   bookshelves: read
   duration: null
@@ -4206,7 +4206,7 @@ books:
   Year Published: 2012
   author: Faith Hunter
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3E261E'
   bookshelves: to-read
   duration: null
@@ -4260,7 +4260,7 @@ books:
   Year Published: 2021
   author: 'Faridah Ã€bÃ­ké-Ãx8DyÃ­mÃ­dé    '
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#A57070'
   bookshelves: to-read
   duration: null
@@ -4330,7 +4330,7 @@ books:
   Year Published: 2006
   author: Frank Herbert
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#6D491C'
   bookshelves: read
   duration: null
@@ -4376,7 +4376,7 @@ books:
   Year Published: 2006
   author: Frank Schätzing
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3E858F'
   bookshelves: read
   duration: null
@@ -4424,7 +4424,7 @@ books:
   Year Published: 2018
   author: Frank Schätzing
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#513C38'
   bookshelves: to-read
   duration: null
@@ -4465,7 +4465,7 @@ books:
   Year Published: 2005
   author: George R.R. Martin
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#975314'
   bookshelves: read
   duration: null
@@ -4506,7 +4506,7 @@ books:
   Year Published: 2011
   author: George R.R. Martin
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#37342D'
   bookshelves: read
   duration: null
@@ -4552,7 +4552,7 @@ books:
   Year Published: 2013
   author: George R.R. Martin
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#763731'
   bookshelves: to-read
   duration: null
@@ -4630,7 +4630,7 @@ books:
   Year Published: 2018
   author: Guillermo del Toro
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#2F5456'
   bookshelves: to-read
   duration: null
@@ -4681,7 +4681,7 @@ books:
   Year Published: 2019
   author: Hafsah Faizal
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#131321'
   bookshelves: to-read
   duration: null
@@ -4728,7 +4728,7 @@ books:
   Year Published: 2018
   author: Hans Rosling
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#f55248'
   bookshelves: to-read
   duration: null
@@ -4773,7 +4773,7 @@ books:
   Year Published: 1998
   author: Harper Lee
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#7E7B6E'
   bookshelves: to-read
   duration: null
@@ -4812,7 +4812,7 @@ books:
   Year Published: 1981
   author: Hermann Hesse
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#857664'
   bookshelves: to-read
   duration: null
@@ -4864,7 +4864,7 @@ books:
   Year Published: 2018
   author: Holly Black
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#D3CDC2'
   bookshelves: to-read
   duration: null
@@ -4907,7 +4907,7 @@ books:
   Year Published: 2014
   author: Holly Black
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#07080a'
   bookshelves: read
   duration: null
@@ -4950,7 +4950,7 @@ books:
   Year Published: 2019
   author: Ian McDonald
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#404A51'
   bookshelves: to-read
   duration: null
@@ -5002,7 +5002,7 @@ books:
   Year Published: 2015
   author: J.J. Abrams
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#8e897b'
   bookshelves: read
   duration: null
@@ -5050,7 +5050,7 @@ books:
   Year Published: 2007
   author: J.K. Rowling
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#515555'
   bookshelves: read
   duration: null
@@ -5087,7 +5087,7 @@ books:
   Year Published: 2006
   author: J.K. Rowling
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#52654b'
   bookshelves: read
   duration: null
@@ -5131,7 +5131,7 @@ books:
   Year Published: 2004
   author: J.K. Rowling
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#917978'
   bookshelves: read
   duration: null
@@ -5169,7 +5169,7 @@ books:
   Year Published: 2002
   author: J.K. Rowling
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#786446'
   bookshelves: read
   duration: null
@@ -5210,7 +5210,7 @@ books:
   Year Published: 2004
   author: J.K. Rowling
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#786D56'
   bookshelves: read
   duration: null
@@ -5254,7 +5254,7 @@ books:
   Year Published: 2003
   author: J.K. Rowling
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#A9656C'
   bookshelves: read
   duration: null
@@ -5301,7 +5301,7 @@ books:
   Year Published: 1999
   author: J.K. Rowling
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#59778C'
   bookshelves: read
   duration: null
@@ -5349,7 +5349,7 @@ books:
   Year Published: 2017
   author: J.K. Rowling
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#121728'
   bookshelves: to-read
   duration: null
@@ -5389,7 +5389,7 @@ books:
   Year Published: 2016
   author: J.K. Rowling
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#C0A256'
   bookshelves: read
   duration: null
@@ -5433,7 +5433,7 @@ books:
   Year Published: 1979
   author: J.R.R. Tolkien
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#a7f107'
   bookshelves: read
   duration: null
@@ -5478,7 +5478,7 @@ books:
   Year Published: 1979
   author: J.R.R. Tolkien
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#b7f54a'
   bookshelves: read
   duration: null
@@ -5519,7 +5519,7 @@ books:
   Year Published: 1979
   author: J.R.R. Tolkien
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#b3ee47'
   bookshelves: read
   duration: null
@@ -5566,7 +5566,7 @@ books:
   Year Published: 2002
   author: J.R.R. Tolkien
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#F9F9F9'
   bookshelves: read
   duration: null
@@ -5614,7 +5614,7 @@ books:
   Year Published: 2012
   author: Jack Campbell
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#5B463F'
   bookshelves: read
   duration: null
@@ -5658,7 +5658,7 @@ books:
   Year Published: 2010
   author: Jack Campbell
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#89A0AC'
   bookshelves: read
   duration: null
@@ -5707,7 +5707,7 @@ books:
   Year Published: 2009
   author: Jack Campbell
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4F5150'
   bookshelves: to-read
   duration: null
@@ -5755,7 +5755,7 @@ books:
   Year Published: 2011
   author: Jack Campbell
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#855C4A'
   bookshelves: read
   duration: null
@@ -5806,7 +5806,7 @@ books:
   Year Published: 2008
   author: Jack Campbell
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#56585D'
   bookshelves: read
   duration: null
@@ -5854,7 +5854,7 @@ books:
   Year Published: 2007
   author: Jack Campbell
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#464242'
   bookshelves: read
   duration: null
@@ -5894,7 +5894,7 @@ books:
   Year Published: 2007
   author: Jack Campbell
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#677666'
   bookshelves: read
   duration: null
@@ -5939,7 +5939,7 @@ books:
   Year Published: 2006
   author: Jack Campbell
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#474543'
   bookshelves: read
   duration: null
@@ -5983,7 +5983,7 @@ books:
   Year Published: 2017
   author: James  Islington
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#eff1f0'
   bookshelves: read
   duration: null
@@ -6043,7 +6043,7 @@ books:
   Year Published: 2018
   author: James Clear
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#E8E2D3'
   bookshelves: read
   duration: null
@@ -6089,7 +6089,7 @@ books:
   Year Published: 2013
   author: Jane Austen
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#E4AC83'
   bookshelves: to-read
   duration: null
@@ -6133,7 +6133,7 @@ books:
   Year Published: 2016
   author: Janine Hofeditz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#082233'
   bookshelves: read
   duration: null
@@ -6183,7 +6183,7 @@ books:
   Year Published: 2016
   author: Jason Fung
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#E6E0D6'
   bookshelves: read
   duration: null
@@ -6256,7 +6256,7 @@ books:
   Year Published: 2017
   author: Jason Reynolds
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#A0A2A0'
   bookshelves: to-read
   duration: null
@@ -6295,7 +6295,7 @@ books:
   Year Published: 2003
   author: Jasper Fforde
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#648A5F'
   bookshelves: to-read
   duration: null
@@ -6345,7 +6345,7 @@ books:
   Year Published: 2018
   author: Jay Kristoff
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#927F73'
   bookshelves: read
   duration: null
@@ -6392,7 +6392,7 @@ books:
   Year Published: 2020
   author: Jay Kristoff
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#585047'
   bookshelves: to-read
   duration: null
@@ -6503,7 +6503,7 @@ books:
   Year Published: 2019
   author: Jenn Lyons
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#626163'
   bookshelves: to-read
   duration: null
@@ -6555,7 +6555,7 @@ books:
   Year Published: 2014
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#301b13'
   bookshelves: read
   duration: null
@@ -6602,7 +6602,7 @@ books:
   Year Published: 2010
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#53381F'
   bookshelves: read
   duration: null
@@ -6649,7 +6649,7 @@ books:
   Year Published: 2009
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4A3A2B'
   bookshelves: read
   duration: null
@@ -6696,7 +6696,7 @@ books:
   Year Published: 2008
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#543619'
   bookshelves: read
   duration: null
@@ -6744,7 +6744,7 @@ books:
   Year Published: 2006
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#060a07'
   bookshelves: read
   duration: null
@@ -6792,7 +6792,7 @@ books:
   Year Published: 2007
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#2F462F'
   bookshelves: read
   duration: null
@@ -6838,7 +6838,7 @@ books:
   Year Published: 2009
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#612A1C'
   bookshelves: read
   duration: null
@@ -6879,7 +6879,7 @@ books:
   Year Published: 2007
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#9CA3AA'
   bookshelves: read
   duration: null
@@ -6926,7 +6926,7 @@ books:
   Year Published: 2007
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#274543'
   bookshelves: read
   duration: null
@@ -6971,7 +6971,7 @@ books:
   Year Published: 2008
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#323737'
   bookshelves: read
   duration: null
@@ -7012,7 +7012,7 @@ books:
   Year Published: 2006
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#859daa'
   bookshelves: read
   duration: null
@@ -7060,7 +7060,7 @@ books:
   Year Published: 2004
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#070b04'
   bookshelves: read
   duration: null
@@ -7105,7 +7105,7 @@ books:
   Year Published: 2003
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#0d1213'
   bookshelves: read
   duration: null
@@ -7155,7 +7155,7 @@ books:
   Year Published: 2003
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3e4424'
   bookshelves: read
   duration: null
@@ -7202,7 +7202,7 @@ books:
   Year Published: 2010
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3a1f1b'
   bookshelves: read
   duration: null
@@ -7244,7 +7244,7 @@ books:
   Year Published: 2011
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#d6c8c4'
   bookshelves: read
   duration: null
@@ -7288,7 +7288,7 @@ books:
   Year Published: 2016
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#7B7977'
   bookshelves: to-read
   duration: null
@@ -7337,7 +7337,7 @@ books:
   Year Published: 2001
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#352f21'
   bookshelves: read
   duration: null
@@ -7391,7 +7391,7 @@ books:
   Year Published: 2005
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#6F4731'
   bookshelves: read
   duration: null
@@ -7441,7 +7441,7 @@ books:
   Year Published: 2008
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#0f1a11'
   bookshelves: read
   duration: null
@@ -7487,7 +7487,7 @@ books:
   Year Published: 2001
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#503030'
   bookshelves: read
   duration: null
@@ -7528,7 +7528,7 @@ books:
   Year Published: 2006
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#260d11'
   bookshelves: read
   duration: null
@@ -7583,7 +7583,7 @@ books:
   Year Published: 2016
   author: Jim Butcher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#161622'
   bookshelves: read
   duration: null
@@ -7621,7 +7621,7 @@ books:
   Year Published: 1987
   author: Jody Lynn Nye
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#130f1a'
   bookshelves: read
   duration: null
@@ -7663,7 +7663,7 @@ books:
   Year Published: 2013
   author: Joe Hill
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#394153'
   bookshelves: to-read
   duration: null
@@ -7719,7 +7719,7 @@ books:
   Year Published: 2013
   author: Joe Hill
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#CBB2A8'
   bookshelves: to-read
   duration: null
@@ -7760,7 +7760,7 @@ books:
   Year Published: 1996
   author: John Barnes
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#0b130f'
   bookshelves: to-read
   duration: null
@@ -7808,7 +7808,7 @@ books:
   Year Published: 2001
   author: John Fowles
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#DECCB6'
   bookshelves: to-read
   duration: null
@@ -7855,7 +7855,7 @@ books:
   Year Published: 2019
   author: John Gwynne
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#55413B'
   bookshelves: to-read
   duration: null
@@ -7905,7 +7905,7 @@ books:
   Year Published: 1990
   author: John Irving
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#A79991'
   bookshelves: read
   duration: null
@@ -7950,7 +7950,7 @@ books:
   Year Published: 1999
   author: John Irving
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#f7d17c'
   bookshelves: read
   duration: null
@@ -7991,7 +7991,7 @@ books:
   Year Published: 1984
   author: John Irving
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#fafde6'
   bookshelves: read
   duration: null
@@ -8034,7 +8034,7 @@ books:
   Year Published: 2015
   author: John Scalzi
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#616473'
   bookshelves: to-read
   duration: null
@@ -8077,7 +8077,7 @@ books:
   Year Published: 2007
   author: John Scalzi
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#010102'
   bookshelves: read
   duration: null
@@ -8128,7 +8128,7 @@ books:
   Year Published: 2017
   author: John Scalzi
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#080f16'
   bookshelves: read
   duration: null
@@ -8217,7 +8217,7 @@ books:
   Year Published: 2009
   author: John Scalzi
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#c42229'
   bookshelves: read
   duration: null
@@ -8259,7 +8259,7 @@ books:
   Year Published: 2013
   author: John Scalzi
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#d3d5da'
   bookshelves: read
   duration: null
@@ -8308,7 +8308,7 @@ books:
   Year Published: 2018
   author: John Scalzi
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3F3929'
   bookshelves: to-read
   duration: null
@@ -8352,7 +8352,7 @@ books:
   Year Published: 2016
   author: John Scalzi
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#0f161e'
   bookshelves: read
   duration: null
@@ -8399,7 +8399,7 @@ books:
   Year Published: 2007
   author: John Scalzi
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#EAD099'
   bookshelves: to-read
   duration: null
@@ -8454,7 +8454,7 @@ books:
   Year Published: 2012
   author: Jonathan Strahan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#1d1820'
   bookshelves: to-read
   duration: null
@@ -8500,7 +8500,7 @@ books:
   Year Published: 2019
   author: Jonathan Stroud
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#6A7A45'
   bookshelves: read
   duration: null
@@ -8545,7 +8545,7 @@ books:
   Year Published: 2016
   author: Jonathan Stroud
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#331a0e'
   bookshelves: read
   duration: null
@@ -8593,7 +8593,7 @@ books:
   Year Published: 2015
   author: Jonathan Stroud
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4E6A64'
   bookshelves: read
   duration: null
@@ -8646,7 +8646,7 @@ books:
   Year Published: 2013
   author: Jonathan Stroud
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#2A4643'
   bookshelves: read
   duration: null
@@ -8740,7 +8740,7 @@ books:
   Year Published: 2018
   author: Joshua Anderle
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#221e1e'
   bookshelves: to-read
   duration: null
@@ -8795,7 +8795,7 @@ books:
   Year Published: 2016
   author: Juli Zeh
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#F1F0EF'
   bookshelves: to-read
   duration: null
@@ -8847,7 +8847,7 @@ books:
   Year Published: 2011
   author: Karsten Kruschel
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#efe0c6'
   bookshelves: to-read
   duration: null
@@ -8898,7 +8898,7 @@ books:
   Year Published: 2017
   author: Katherine Arden
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#282A36'
   bookshelves: to-read
   duration: null
@@ -8951,7 +8951,7 @@ books:
   Year Published: 2002
   author: Ken Follett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#AEC4CE'
   bookshelves: read
   duration: null
@@ -8995,7 +8995,7 @@ books:
   Year Published: 2004
   author: Ken Grimwood
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#533221'
   bookshelves: to-read
   duration: null
@@ -9052,7 +9052,7 @@ books:
   Year Published: 2019
   author: Kendare Blake
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#7AB6B8'
   bookshelves: to-read
   duration: null
@@ -9099,7 +9099,7 @@ books:
   Year Published: 2012
   author: Kevin Hearne
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#5A59A5'
   bookshelves: to-read
   duration: null
@@ -9146,7 +9146,7 @@ books:
   Year Published: 2012
   author: Kevin Hearne
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#B86D13'
   bookshelves: read
   duration: null
@@ -9186,7 +9186,7 @@ books:
   Year Published: 2011
   author: Kevin Hearne
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#585C32'
   bookshelves: read
   duration: null
@@ -9237,7 +9237,7 @@ books:
   Year Published: 2015
   author: Kevin Hearne
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#606259'
   bookshelves: read
   duration: null
@@ -9293,7 +9293,7 @@ books:
   Year Published: 2011
   author: Kevin Hearne
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#BE441A'
   bookshelves: read
   duration: null
@@ -9342,7 +9342,7 @@ books:
   Year Published: 2019
   author: Kevin Hearne
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3A515C'
   bookshelves: read
   duration: null
@@ -9383,7 +9383,7 @@ books:
   Year Published: 2016
   author: Kim Stanley Robinson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#36393D'
   bookshelves: to-read
   duration: null
@@ -9421,7 +9421,7 @@ books:
   Year Published: 2001
   author: Klaus Modick
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#fefefe'
   bookshelves: read
   duration: null
@@ -9460,7 +9460,7 @@ books:
   Year Published: 2015
   author: Kurt Thomas
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#030202'
   bookshelves: to-read
   duration: null
@@ -9498,7 +9498,7 @@ books:
   Year Published: 1999
   author: Kurt Vonnegut Jr.
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#775B5E'
   bookshelves: to-read
   duration: null
@@ -9553,7 +9553,7 @@ books:
   Year Published: 2014
   author: Larry Correia
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#27221d'
   bookshelves: read
   duration: null
@@ -9598,7 +9598,7 @@ books:
   Year Published: 2012
   author: Larry Correia
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#261715'
   bookshelves: read
   duration: null
@@ -9650,7 +9650,7 @@ books:
   Year Published: 2011
   author: Larry Correia
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4a5d64'
   bookshelves: read
   duration: null
@@ -9699,7 +9699,7 @@ books:
   Year Published: 2010
   author: Larry Correia
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#302F42'
   bookshelves: read
   duration: null
@@ -9763,7 +9763,7 @@ books:
   Year Published: 2011
   author: Larry Correia
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4E393B'
   bookshelves: to-read
   duration: null
@@ -9813,7 +9813,7 @@ books:
   Year Published: 2009
   author: Larry Correia
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#261a1b'
   bookshelves: read
   duration: null
@@ -9859,7 +9859,7 @@ books:
   Year Published: 2006
   author: Lee Child
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#fbfbfa'
   bookshelves: read
   duration: null
@@ -9915,7 +9915,7 @@ books:
   Year Published: 2020
   author: Leigh Bardugo
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#33545B'
   bookshelves: to-read
   duration: null
@@ -9963,7 +9963,7 @@ books:
   Year Published: 2010
   author: Leonard Balsera
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#182a36'
   bookshelves: read
   duration: null
@@ -10003,7 +10003,7 @@ books:
   Year Published: 2006
   author: Lois Lowry
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#515354'
   bookshelves: to-read
   duration: null
@@ -10042,7 +10042,7 @@ books:
   Year Published: 2006
   author: Lois McMaster Bujold
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#322634'
   bookshelves: read
   duration: null
@@ -10079,7 +10079,7 @@ books:
   Year Published: 2004
   author: Lois McMaster Bujold
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#383B26'
   bookshelves: read
   duration: null
@@ -10120,7 +10120,7 @@ books:
   Year Published: 2003
   author: Lois McMaster Bujold
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#d14e16'
   bookshelves: read
   duration: null
@@ -10157,7 +10157,7 @@ books:
   Year Published: 1999
   author: Lois McMaster Bujold
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#101217'
   bookshelves: read
   duration: null
@@ -10199,7 +10199,7 @@ books:
   Year Published: 1997
   author: Lois McMaster Bujold
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#29379e'
   bookshelves: read
   duration: null
@@ -10250,7 +10250,7 @@ books:
   Year Published: 2000
   author: Louis Sachar
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3d1b11'
   bookshelves: to-read
   duration: null
@@ -10312,7 +10312,7 @@ books:
   Year Published: 2018
   author: Madeline Miller
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#5F3E23'
   bookshelves: to-read
   duration: null
@@ -10360,7 +10360,7 @@ books:
   Year Published: 2018
   author: Marc-Uwe Kling
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#c3c2c2'
   bookshelves: read
   duration: null
@@ -10410,7 +10410,7 @@ books:
   Year Published: 1998
   author: Margaret Atwood
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#43211D'
   bookshelves: to-read
   duration: null
@@ -10457,7 +10457,7 @@ books:
   Year Published: 2017
   author: Marissa Meyer
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#B8C6D3'
   bookshelves: to-read
   duration: null
@@ -10503,7 +10503,7 @@ books:
   Year Published: 2004
   author: Mark Haddon
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#1F5060'
   bookshelves: read
   duration: null
@@ -10598,7 +10598,7 @@ books:
   Year Published: 2011
   author: Markus Heitz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#C4C5C3'
   bookshelves: read
   duration: null
@@ -10692,7 +10692,7 @@ books:
   Year Published: 2019
   author: Michael J. Sullivan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#736E61'
   bookshelves: read
   duration: null
@@ -10741,7 +10741,7 @@ books:
   Year Published: 2013
   author: Michael J. Sullivan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#53524C'
   bookshelves: read
   duration: null
@@ -10788,7 +10788,7 @@ books:
   Year Published: 2015
   author: Michael J. Sullivan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#406d45'
   bookshelves: read
   duration: null
@@ -10833,7 +10833,7 @@ books:
   Year Published: 2019
   author: Michael J. Sullivan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#223328'
   bookshelves: read
   duration: null
@@ -10879,7 +10879,7 @@ books:
   Year Published: 2013
   author: Michael J. Sullivan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#776a4a'
   bookshelves: read
   duration: null
@@ -10923,7 +10923,7 @@ books:
   Year Published: 2018
   author: Michael J. Sullivan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#5E6551'
   bookshelves: read
   duration: null
@@ -11067,7 +11067,7 @@ books:
   Year Published: 2007
   author: Morgan Howell
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#284959'
   bookshelves: to-read
   duration: null
@@ -11120,7 +11120,7 @@ books:
   Year Published: 2020
   author: N.K. Jemisin
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4D2422'
   bookshelves: to-read
   duration: null
@@ -11172,7 +11172,7 @@ books:
   Year Published: 2015
   author: Nadja  Hermann
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#393D1B'
   bookshelves: read
   duration: null
@@ -11217,7 +11217,7 @@ books:
   Year Published: 2019
   author: Naomi Novik
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#faf9f8'
   bookshelves: read
   duration: null
@@ -11273,7 +11273,7 @@ books:
   Year Published: 2008
   author: Naomi Novik
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#f1ead8'
   bookshelves: read
   duration: null
@@ -11328,7 +11328,7 @@ books:
   Year Published: 2006
   author: Naomi Novik
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#BDC4C9'
   bookshelves: read
   duration: null
@@ -11381,7 +11381,7 @@ books:
   Year Published: 2020
   author: Naomi Novik
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#2a2925'
   bookshelves: to-read
   duration: null
@@ -11430,7 +11430,7 @@ books:
   Year Published: 2013
   author: Naomi Novik
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#100e0e'
   bookshelves: read
   duration: null
@@ -11478,7 +11478,7 @@ books:
   Year Published: 2007
   author: Naomi Novik
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#2c5f99'
   bookshelves: read
   duration: null
@@ -11536,7 +11536,7 @@ books:
   Year Published: 2012
   author: Naomi Novik
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#c4b9ab'
   bookshelves: read
   duration: null
@@ -11574,7 +11574,7 @@ books:
   Year Published: 2006
   author: Naomi Novik
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#8A8B8D'
   bookshelves: read
   duration: null
@@ -11631,7 +11631,7 @@ books:
   Year Published: 2006
   author: Naomi Novik
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#D4C5BF'
   bookshelves: read
   duration: null
@@ -11695,7 +11695,7 @@ books:
   Year Published: 2010
   author: Naomi Novik
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#eaeaeb'
   bookshelves: read
   duration: null
@@ -11747,7 +11747,7 @@ books:
   Year Published: 2018
   author: Neal Shusterman
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#697E6B'
   bookshelves: read
   duration: null
@@ -11798,7 +11798,7 @@ books:
   Year Published: 2017
   author: Neal Shusterman
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#B37F68'
   bookshelves: read
   duration: null
@@ -11839,7 +11839,7 @@ books:
   Year Published: 2019
   author: Neal Shusterman
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#ebe6c5'
   bookshelves: read
   duration: null
@@ -11890,7 +11890,7 @@ books:
   Year Published: 2005
   author: Neil Gaiman
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#962B40'
   bookshelves: read
   duration: null
@@ -11934,7 +11934,7 @@ books:
   Year Published: 2017
   author: Neil Gaiman
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#050f1e'
   bookshelves: to-read
   duration: null
@@ -11989,7 +11989,7 @@ books:
   Year Published: 2017
   author: Newt Scamander
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#0a2017'
   bookshelves: to-read
   duration: null
@@ -12047,7 +12047,7 @@ books:
   Year Published: 2017
   author: Nic Stone
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#AF4041'
   bookshelves: to-read
   duration: null
@@ -12087,7 +12087,7 @@ books:
   Year Published: 2009
   author: Nick Harkaway
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3B4654'
   bookshelves: to-read
   duration: null
@@ -12130,7 +12130,7 @@ books:
   Year Published: 2017
   author: Nora Roberts
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#dadfe6'
   bookshelves: to-read
   duration: null
@@ -12180,7 +12180,7 @@ books:
   Year Published: 2009
   author: Olga Tokarczuk
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#F0D2B7'
   bookshelves: to-read
   duration: null
@@ -12235,7 +12235,7 @@ books:
   Year Published: 2013
   author: Orson Scott Card
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#1f1f22'
   bookshelves: read
   duration: null
@@ -12282,7 +12282,7 @@ books:
   Year Published: 2019
   author: Orson Scott Card
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#87916D'
   bookshelves: to-read
   duration: null
@@ -12325,7 +12325,7 @@ books:
   Year Published: 1988
   author: Otfried Preußler
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#6681af'
   bookshelves: read
   duration: null
@@ -12379,7 +12379,7 @@ books:
   Year Published: 2012
   author: Paolo Bacigalupi
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#524536'
   bookshelves: to-read
   duration: null
@@ -12482,7 +12482,7 @@ books:
   Year Published: 2016
   author: Patricia Briggs
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#474039'
   bookshelves: to-read
   duration: null
@@ -12524,7 +12524,7 @@ books:
   Year Published: 2007
   author: Patricia Briggs
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#494B51'
   bookshelves: to-read
   duration: null
@@ -12572,7 +12572,7 @@ books:
   Year Published: 2011
   author: Patrick Rothfuss
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#2D2521'
   bookshelves: read
   duration: null
@@ -12618,7 +12618,7 @@ books:
   Year Published: 2011
   author: Patrick Rothfuss
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#e7eecb'
   bookshelves: read
   duration: null
@@ -12662,7 +12662,7 @@ books:
   Year Published: 2007
   author: Patrick Rothfuss
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#0b1818'
   bookshelves: read
   duration: null
@@ -12707,7 +12707,7 @@ books:
   Year Published: 2012
   author: Patrick Rothfuss
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#cbe4e1'
   bookshelves: read
   duration: null
@@ -12744,7 +12744,7 @@ books:
   Year Published: null
   author: Patrick Rothfuss
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#fefefe'
   bookshelves: to-read
   duration: null
@@ -12796,7 +12796,7 @@ books:
   Year Published: 1987
   author: Patrick Süskind
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#423F3D'
   bookshelves: read
   duration: null
@@ -12843,7 +12843,7 @@ books:
   Year Published: 1993
   author: Paulo Coelho
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#DC6825'
   bookshelves: read
   duration: null
@@ -12888,7 +12888,7 @@ books:
   Year Published: 2004
   author: Peter Handke
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#457a30'
   bookshelves: read
   duration: null
@@ -12927,7 +12927,7 @@ books:
   Year Published: 2021
   author: Peter V. Brett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#40281C'
   bookshelves: to-read
   duration: null
@@ -12975,7 +12975,7 @@ books:
   Year Published: 2009
   author: Peter V. Brett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#efe2cf'
   bookshelves: read
   duration: null
@@ -13024,7 +13024,7 @@ books:
   Year Published: 2010
   author: Peter V. Brett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#151615'
   bookshelves: read
   duration: null
@@ -13068,7 +13068,7 @@ books:
   Year Published: 2013
   author: Peter V. Brett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#CBB2A3'
   bookshelves: read
   duration: null
@@ -13117,7 +13117,7 @@ books:
   Year Published: 2019
   author: Peter V. Brett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#eae4df'
   bookshelves: read
   duration: null
@@ -13162,7 +13162,7 @@ books:
   Year Published: 2015
   author: Peter V. Brett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#e6e8c3'
   bookshelves: read
   duration: null
@@ -13205,7 +13205,7 @@ books:
   Year Published: 2015
   author: Peter V. Brett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#A3B3BD'
   bookshelves: read
   duration: null
@@ -13252,7 +13252,7 @@ books:
   Year Published: 2017
   author: Peter V. Brett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#dde4dd'
   bookshelves: read
   duration: null
@@ -13300,7 +13300,7 @@ books:
   Year Published: 2020
   author: Phil Foglio
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#6A5550'
   bookshelves: to-read
   duration: null
@@ -13346,7 +13346,7 @@ books:
   Year Published: 2017
   author: Philip Pullman
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4D6874'
   bookshelves: to-read
   duration: null
@@ -13394,7 +13394,7 @@ books:
   Year Published: 2014
   author: Pierce Brown
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#49271F'
   bookshelves: to-read
   duration: null
@@ -13444,7 +13444,7 @@ books:
   Year Published: 2020
   author: R.F. Kuang
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#CABBBC'
   bookshelves: to-read
   duration: null
@@ -13538,7 +13538,7 @@ books:
   Year Published: 2007
   author: Raymond E. Feist
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#171717'
   bookshelves: read
   duration: null
@@ -13581,7 +13581,7 @@ books:
   Year Published: 2004
   author: Rebecca Gable
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#ece09b'
   bookshelves: read
   duration: null
@@ -13634,7 +13634,7 @@ books:
   Year Published: 2010
   author: Rebecca Skloot
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#e34d2e'
   bookshelves: to-read
   duration: null
@@ -13672,7 +13672,7 @@ books:
   Year Published: 1981
   author: Rene Goscinny
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#b4ae93'
   bookshelves: read
   duration: null
@@ -13715,7 +13715,7 @@ books:
   Year Published: 2015
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#678175'
   bookshelves: read
   duration: null
@@ -13758,7 +13758,7 @@ books:
   Year Published: 2014
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#566477'
   bookshelves: read
   duration: null
@@ -13802,7 +13802,7 @@ books:
   Year Published: 2019
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#ebecef'
   bookshelves: read
   duration: null
@@ -13848,7 +13848,7 @@ books:
   Year Published: 2012
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#755141'
   bookshelves: read
   duration: null
@@ -13893,7 +13893,7 @@ books:
   Year Published: 2019
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#645453'
   bookshelves: to-read
   duration: null
@@ -13943,7 +13943,7 @@ books:
   Year Published: 2010
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#1c0c09'
   bookshelves: read
   duration: null
@@ -13989,7 +13989,7 @@ books:
   Year Published: 2016
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3F797E'
   bookshelves: read
   duration: null
@@ -14033,7 +14033,7 @@ books:
   Year Published: 2009
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#151b20'
   bookshelves: read
   duration: null
@@ -14080,7 +14080,7 @@ books:
   Year Published: 2013
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#07160c'
   bookshelves: read
   duration: null
@@ -14125,7 +14125,7 @@ books:
   Year Published: 2015
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#12272c'
   bookshelves: read
   duration: null
@@ -14173,7 +14173,7 @@ books:
   Year Published: 2016
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#766255'
   bookshelves: read
   duration: null
@@ -14216,7 +14216,7 @@ books:
   Year Published: 2008
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#532613'
   bookshelves: read
   duration: null
@@ -14261,7 +14261,7 @@ books:
   Year Published: 2012
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#536987'
   bookshelves: read
   duration: null
@@ -14304,7 +14304,7 @@ books:
   Year Published: 2009
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#120504'
   bookshelves: read
   duration: null
@@ -14348,7 +14348,7 @@ books:
   Year Published: 2007
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#935D30'
   bookshelves: read
   duration: null
@@ -14392,7 +14392,7 @@ books:
   Year Published: 2011
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#0f2241'
   bookshelves: read
   duration: null
@@ -14434,7 +14434,7 @@ books:
   Year Published: 2008
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3f3c2e'
   bookshelves: read
   duration: null
@@ -14478,7 +14478,7 @@ books:
   Year Published: 2008
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#5b6f7d'
   bookshelves: read
   duration: null
@@ -14528,7 +14528,7 @@ books:
   Year Published: 2016
   author: Richard Schwartz
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#080c0e'
   bookshelves: read
   duration: null
@@ -14574,7 +14574,7 @@ books:
   Year Published: 1997
   author: Robert Jordan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#5B8281'
   bookshelves: read
   duration: null
@@ -14619,7 +14619,7 @@ books:
   Year Published: 2012
   author: Robert Jordan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4D605E'
   bookshelves: read
   duration: null
@@ -14673,7 +14673,7 @@ books:
   Year Published: 2007
   author: Robin  Roberts
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#6F8998'
   bookshelves: read
   duration: null
@@ -14928,7 +14928,7 @@ books:
   Year Published: 2007
   author: Robin Hobb
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#0f0706'
   bookshelves: read
   duration: null
@@ -14971,7 +14971,7 @@ books:
   Year Published: 2017
   author: Robin Hobb
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#f5f0e3'
   bookshelves: read
   duration: null
@@ -15022,7 +15022,7 @@ books:
   Year Published: 2014
   author: Robin Sloan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#171112'
   bookshelves: read
   duration: null
@@ -15070,7 +15070,7 @@ books:
   Year Published: 2017
   author: Ryan Holiday
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#DCD6C9'
   bookshelves: read
   duration: null
@@ -15154,7 +15154,7 @@ books:
   Year Published: 2013
   author: S.F. Said
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#6E372A'
   bookshelves: to-read
   duration: null
@@ -15194,7 +15194,7 @@ books:
   Year Published: 2019
   author: SaÅ¡a StaniÅ¡iÄ‡
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#EAE9E5'
   bookshelves: to-read
   duration: null
@@ -15241,7 +15241,7 @@ books:
   Year Published: 2018
   author: Sam Feuerbach
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#13220d'
   bookshelves: read
   duration: null
@@ -15306,7 +15306,7 @@ books:
   Year Published: 2017
   author: Sam Feuerbach
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#244656'
   bookshelves: read
   duration: null
@@ -15350,7 +15350,7 @@ books:
   Year Published: 2014
   author: Sam Feuerbach
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#d4c5b0'
   bookshelves: read
   duration: null
@@ -15410,7 +15410,7 @@ books:
   Year Published: 2015
   author: Sam Feuerbach
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#0b0d0a'
   bookshelves: read
   duration: null
@@ -15457,7 +15457,7 @@ books:
   Year Published: 2014
   author: Sam Feuerbach
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#ebe4d0'
   bookshelves: read
   duration: null
@@ -15502,7 +15502,7 @@ books:
   Year Published: 2014
   author: Sam Feuerbach
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#baad96'
   bookshelves: read
   duration: null
@@ -15564,7 +15564,7 @@ books:
   Year Published: 2017
   author: Sam Feuerbach
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#6c0e0e'
   bookshelves: read
   duration: null
@@ -15613,7 +15613,7 @@ books:
   Year Published: 2019
   author: Sarah Gailey
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#C33D45'
   bookshelves: to-read
   duration: null
@@ -15667,7 +15667,7 @@ books:
   Year Published: 2020
   author: Sarah J. Maas
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#69312D'
   bookshelves: to-read
   duration: null
@@ -15705,7 +15705,7 @@ books:
   Year Published: 2012
   author: Scott Jurek
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#C1AF9B'
   bookshelves: read
   duration: null
@@ -15761,7 +15761,7 @@ books:
   Year Published: 2007
   author: Scott Lynch
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#404929'
   bookshelves: read
   duration: null
@@ -15804,7 +15804,7 @@ books:
   Year Published: 2008
   author: Scott Lynch
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#847E5E'
   bookshelves: read
   duration: null
@@ -15846,7 +15846,7 @@ books:
   Year Published: 2014
   author: Scott Lynch
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#736D52'
   bookshelves: read
   duration: null
@@ -15891,7 +15891,7 @@ books:
   Year Published: 2018
   author: Scott Westerfeld
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#110709'
   bookshelves: to-read
   duration: null
@@ -15934,7 +15934,7 @@ books:
   Year Published: 2018
   author: Seneca
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#E0C2BD'
   bookshelves: read
   duration: null
@@ -15978,7 +15978,7 @@ books:
   Year Published: 2010
   author: Sergei Lukyanenko
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#cebfb0'
   bookshelves: to-read
   duration: null
@@ -16030,7 +16030,7 @@ books:
   Year Published: 2017
   author: Seth Dickinson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#B1B0A4'
   bookshelves: to-read
   duration: null
@@ -16080,7 +16080,7 @@ books:
   Year Published: 2019
   author: Shelby Mahurin
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#342D26'
   bookshelves: to-read
   duration: null
@@ -16128,7 +16128,7 @@ books:
   Year Published: 2008
   author: Simon Beckett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#010101'
   bookshelves: to-read
   duration: null
@@ -16180,7 +16180,7 @@ books:
   Year Published: 2006
   author: Simon Beckett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#a60221'
   bookshelves: read
   duration: null
@@ -16228,7 +16228,7 @@ books:
   Year Published: 2017
   author: Stephen Fry
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#eeede9'
   bookshelves: to-read
   duration: null
@@ -16272,7 +16272,7 @@ books:
   Year Published: 1996
   author: Stephen King
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#d70f1d'
   bookshelves: read
   duration: null
@@ -16319,7 +16319,7 @@ books:
   Year Published: 2019
   author: Stephen King
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#979495'
   bookshelves: to-read
   duration: null
@@ -16371,7 +16371,7 @@ books:
   Year Published: 2014
   author: Stephen King
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#D4C2C2'
   bookshelves: to-read
   duration: null
@@ -16415,7 +16415,7 @@ books:
   Year Published: 1987
   author: Stephen King
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#70564d'
   bookshelves: read
   duration: null
@@ -16461,7 +16461,7 @@ books:
   Year Published: 1998
   author: Steve Hagen
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#fefefd'
   bookshelves: read
   duration: null
@@ -16502,7 +16502,7 @@ books:
   Year Published: 2000
   author: Steven Erikson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#B4BFC7'
   bookshelves: to-read
   duration: null
@@ -16560,7 +16560,7 @@ books:
   Year Published: 2005
   author: Steven Erikson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#0f0a0b'
   bookshelves: to-read
   duration: null
@@ -16608,7 +16608,7 @@ books:
   Year Published: 2008
   author: Stieg Larsson
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#C8B44D'
   bookshelves: read
   duration: null
@@ -16656,7 +16656,7 @@ books:
   Year Published: 2006
   author: Susanna Clarke
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#010101'
   bookshelves: read
   duration: null
@@ -16694,7 +16694,7 @@ books:
   Year Published: 2008
   author: Suzanne Collins
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#020101'
   bookshelves: read
   duration: null
@@ -16781,7 +16781,7 @@ books:
   Year Published: 2018
   author: Tasha Suri
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#090302'
   bookshelves: to-read
   duration: null
@@ -16827,7 +16827,7 @@ books:
   Year Published: 2000
   author: Terry Pratchett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#5F3650'
   bookshelves: read
   duration: null
@@ -16869,7 +16869,7 @@ books:
   Year Published: 2005
   author: Terry Pratchett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3D5256'
   bookshelves: read
   duration: null
@@ -16911,7 +16911,7 @@ books:
   Year Published: 2004
   author: Terry Pratchett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#39354A'
   bookshelves: read
   duration: null
@@ -16953,7 +16953,7 @@ books:
   Year Published: 2004
   author: Terry Pratchett
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#4B5F66'
   bookshelves: read
   duration: null
@@ -17184,7 +17184,7 @@ books:
   Year Published: 2000
   author: Thomas  Harris
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#e30d05'
   bookshelves: read
   duration: null
@@ -17229,7 +17229,7 @@ books:
   Year Published: 2015
   author: Tom Holland
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#C45845'
   bookshelves: to-read
   duration: null
@@ -17295,7 +17295,7 @@ books:
   Year Published: 2018
   author: Tomi Adeyemi
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#948E8F'
   bookshelves: to-read
   duration: null
@@ -17346,7 +17346,7 @@ books:
   Year Published: 2018
   author: Torsten Weitze
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#535325'
   bookshelves: read
   duration: null
@@ -17394,7 +17394,7 @@ books:
   Year Published: 2011
   author: Trudi Canavan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#BDC7CC'
   bookshelves: read
   duration: null
@@ -17439,7 +17439,7 @@ books:
   Year Published: 2012
   author: Trudi Canavan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#D0C4BF'
   bookshelves: read
   duration: null
@@ -17491,7 +17491,7 @@ books:
   Year Published: 2011
   author: Trudi Canavan
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#CFBCBB'
   bookshelves: read
   duration: null
@@ -17530,7 +17530,7 @@ books:
   Year Published: 1994
   author: Umberto Eco
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#3B2D2C'
   bookshelves: read
   duration: null
@@ -17598,7 +17598,7 @@ books:
   Year Published: 1996
   author: Ursula K. Le Guin
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#c1c0bf'
   bookshelves: to-read
   duration: null
@@ -17638,7 +17638,7 @@ books:
   Year Published: 1998
   author: Ursula K. Le Guin
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#D1D7DE'
   bookshelves: to-read
   duration: null
@@ -17679,7 +17679,7 @@ books:
   Year Published: 2004
   author: Ursula K. Le Guin
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#443E51'
   bookshelves: read
   duration: null
@@ -17726,7 +17726,7 @@ books:
   Year Published: 1978
   author: Ursula K. Le Guin
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#588f9c'
   bookshelves: read
   duration: null
@@ -17784,7 +17784,7 @@ books:
   Year Published: 2010
   author: Ursula Poznanski
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#9A3B3D'
   bookshelves: read
   duration: null
@@ -17834,7 +17834,7 @@ books:
   Year Published: 2016
   author: V.E. Schwab
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#f7f2e9'
   bookshelves: to-read
   duration: null
@@ -17892,7 +17892,7 @@ books:
   Year Published: 2020
   author: V.E. Schwab
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#312D29'
   bookshelves: to-read
   duration: null
@@ -17943,7 +17943,7 @@ books:
   Year Published: 2022
   author: V.E. Schwab
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#C4BEBA'
   bookshelves: to-read
   duration: null
@@ -17996,7 +17996,7 @@ books:
   Year Published: 2012
   author: Veronica Roth
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#8F6449'
   bookshelves: to-read
   duration: null
@@ -18056,7 +18056,7 @@ books:
   Year Published: 2021
   author: Victoria Aveyard
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#9E8450'
   bookshelves: to-read
   duration: null
@@ -18101,7 +18101,7 @@ books:
   Year Published: 2007
   author: Volker Kutscher
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#7A736F'
   bookshelves: to-read
   duration: null
@@ -18146,7 +18146,7 @@ books:
   Year Published: 2004
   author: Walter Moers
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#5d2726'
   bookshelves: read
   duration: null
@@ -18187,7 +18187,7 @@ books:
   Year Published: 1999
   author: William Golding
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#489697'
   bookshelves: read
   duration: null
@@ -18237,7 +18237,7 @@ books:
   Year Published: 2013
   author: Wolfgang Herrndorf
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#B9BAB7'
   bookshelves: to-read
   duration: null
@@ -18284,7 +18284,7 @@ books:
   Year Published: 2010
   author: Wolfgang Herrndorf
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#B4C5BF'
   bookshelves: read
   duration: null
@@ -18339,7 +18339,7 @@ books:
   Year Published: 2006
   author: Yann Martel
   bestseller: false
-  bookType: book
+  bookType: Audiobook
   book_color: '#D7C6C2'
   bookshelves: to-read
   duration: null

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Year Published Filter</title>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+</head>
+<body>
+    <h1>Test Year Published Filter</h1>
+    <div id="output"></div>
+
+    <script>
+        // YAML laden und testen
+        fetch('data/Meine_Buchliste.yaml')
+            .then(response => response.text())
+            .then(yamlText => {
+                const data = jsyaml.load(yamlText);
+                console.log('Loaded YAML data:', data);
+                
+                // Prüfe, ob 'Year Published' Feld existiert
+                const firstBook = data.books[0];
+                console.log('First book:', firstBook);
+                console.log('Year Published field:', firstBook['Year Published']);
+                console.log('year field:', firstBook.year);
+                
+                // Teste Sortierung nach Year Published
+                const sortedByYearPublished = _.orderBy(data.books, ['Year Published'], ['desc']);
+                console.log('Sorted by Year Published (desc):', sortedByYearPublished.slice(0, 5).map(b => ({
+                    title: b.title,
+                    'Year Published': b['Year Published'],
+                    year: b.year
+                })));
+                
+                // Zeige Ergebnis auf der Seite
+                document.getElementById('output').innerHTML = `
+                    <p>Total books: ${data.books.length}</p>
+                    <p>First book: ${firstBook.title}</p>
+                    <p>Year Published: ${firstBook['Year Published']}</p>
+                    <p>year field: ${firstBook.year}</p>
+                    <h3>Top 5 books by Year Published (newest first):</h3>
+                    <ul>
+                        ${sortedByYearPublished.slice(0, 5).map(book => 
+                            `<li>${book.title} - Year Published: ${book['Year Published']}, year: ${book.year}</li>`
+                        ).join('')}
+                    </ul>
+                `;
+            })
+            .catch(error => {
+                console.error('Error loading YAML:', error);
+                document.getElementById('output').innerHTML = `<p>Error: ${error.message}</p>`;
+            });
+    </script>
+</body>
+</html>
